@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaş Hesaplama Aracı | Brütten Nete Maaş Hesaplama</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; }
+        .container { max-width: 600px; background: #fff; margin: auto; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { font-size: 22px; text-align: center; color: #333; }
+        label { font-weight: bold; display: block; margin-top: 15px; }
+        input[type="number"] { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+        button { width: 100%; background: #28a745; color: white; border: none; padding: 12px; font-size: 16px; margin-top: 20px; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #218838; }
+        .result-box { margin-top: 20px; background: #e9ecef; padding: 15px; border-radius: 6px; }
+        .result-item { display: flex; justify-content: space-between; margin-bottom: 8px; }
+        .ad-space { background: #eee; border: 1px dashed #ccc; text-align: center; padding: 15px; margin: 20px 0; color: #777; font-size: 13px; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Brütten Nete Maaş Hesaplama</h1>
+    
+    <!-- Üst AdSense Reklam Alanı -->
+    <div class="ad-space">-- AdSense Üst Reklam Alanı --</div>
+
+    <label for="brutMaas">Aylık Brüt Maaşınız (TL):</label>
+    <input type="number" id="brutMaas" placeholder="Örn: 35000">
+
+    <button onclick="hesapla()">Hesapla</button>
+
+    <div class="result-box" id="sonucAlani" style="display:none;">
+        <div class="result-item"><span>SGK İşçi Payı (%14):</span><strong id="sgk">0 TL</strong></div>
+        <div class="result-item"><span>İşsizlik Sigortası (%1):</span><strong id="issizlik">0 TL</strong></div>
+        <div class="result-item"><span>Gelir Vergisi:</span><strong id="gelirVergisi">0 TL</strong></div>
+        <div class="result-item"><span>Damga Vergisi:</span><strong id="damgaVergisi">0 TL</strong></div>
+        <hr>
+        <div class="result-item" style="font-size: 18px; color: #28a745;">
+            <span>Tahmini Ele Geçen Net Maaş:</span><strong id="netMaas">0 TL</strong>
+        </div>
+    </div>
+
+    <!-- Sonuç Altı AdSense Reklam Alanı (En Çok Tıklanan Yer) -->
+    <div class="ad-space">-- AdSense Sonuç Altı Reklam Alanı --</div>
+
+    <!-- SEO ve Bilgilendirme Metni -->
+    <div style="margin-top: 25px; font-size: 14px; color: #555; line-height: 1.6;">
+        <h3>Maaş Kesintileri Nasıl Hesaplanır?</h3>
+        <p>Brüt maaştan net maaşa ulaşırken kanunen belirlenen SGK prim kesintisi, işsizlik sigortası primi, gelir vergisi ve damga vergisi düşülmektedir. Yıl içerisindeki kümülatif vergi matrahınıza göre gelir vergisi diliminiz değişkenlik gösterebilir.</p>
+    </div>
+</div>
+
+<script>
+function hesapla() {
+    let brut = parseFloat(document.getElementById('brutMaas').value);
+    if (isNaN(brut) || brut <= 0) {
+        alert("Lütfen geçerli bir brüt maaş girin.");
+        return;
+    }
+
+    // Basit Oransal Hesaplama
+    let sgk = brut * 0.14;
+    let issizlik = brut * 0.01;
+    let matrah = brut - (sgk + issizlik);
+    
+    // Tahmini %15 ilk dilim gelir vergisi (Asgari ücret istisnası dikkate alınmadan basitleştirilmiştir)
+    let gelirVergisi = matrah * 0.15;
+    let damgaVergisi = brut * 0.00759;
+    
+    let kesintiler = sgk + issizlik + gelirVergisi + damgaVergisi;
+    let net = brut - kesintiler;
+
+    document.getElementById('sgk').innerText = sgk.toFixed(2) + " TL";
+    document.getElementById('issizlik').innerText = issizlik.toFixed(2) + " TL";
+    document.getElementById('gelirVergisi').innerText = gelirVergisi.toFixed(2) + " TL";
+    document.getElementById('damgaVergisi').innerText = damgaVergisi.toFixed(2) + " TL";
+    document.getElementById('netMaas').innerText = net.toFixed(2) + " TL";
+
+    document.getElementById('sonucAlani').style.display = 'block';
+}
+</script>
+
+</body>
+</html>
