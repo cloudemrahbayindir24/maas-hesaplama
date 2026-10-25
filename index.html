@@ -3,79 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maaş Hesaplama Aracı | Brütten Nete Maaş Hesaplama</title>
+    <title>Maaş Hesaplama Aracı | Brütten Nete ve Netten Brüte</title>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; }
-        .container { max-width: 600px; background: #fff; margin: auto; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .container { max-width: 650px; background: #fff; margin: auto; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
         h1 { font-size: 22px; text-align: center; color: #333; }
-        label { font-weight: bold; display: block; margin-top: 15px; }
+        .tabs { display: flex; margin-bottom: 20px; border-bottom: 2px solid #ddd; }
+        .tab { flex: 1; padding: 12px; text-align: center; cursor: pointer; font-weight: bold; color: #666; background: #f8f9fa; border: none; }
+        .tab.active { background: #28a745; color: white; }
+        label { font-weight: bold; display: block; margin-top: 15px; color: #444; }
         input[type="number"] { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
         button { width: 100%; background: #28a745; color: white; border: none; padding: 12px; font-size: 16px; margin-top: 20px; border-radius: 4px; cursor: pointer; }
         button:hover { background: #218838; }
         .result-box { margin-top: 20px; background: #e9ecef; padding: 15px; border-radius: 6px; }
         .result-item { display: flex; justify-content: space-between; margin-bottom: 8px; }
         .ad-space { background: #eee; border: 1px dashed #ccc; text-align: center; padding: 15px; margin: 20px 0; color: #777; font-size: 13px; }
+        .form-section { display: none; }
+        .form-section.active { display: block; }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h1>Brütten Nete Maaş Hesaplama</h1>
+    <h1>Maaş Hesaplama Motoru</h1>
     
     <!-- Üst AdSense Reklam Alanı -->
     <div class="ad-space">-- AdSense Üst Reklam Alanı --</div>
 
-    <label for="brutMaas">Aylık Brüt Maaşınız (TL):</label>
-    <input type="number" id="brutMaas" placeholder="Örn: 35000">
+    <!-- Sekmeler -->
+    <div class="tabs">
+        <button class="tab active" onclick="sekmeDegistir('brut')">Brütten Nete</button>
+        <button class="tab" onclick="sekmeDegistir('net')">Netten Brüte</button>
+    </div>
 
-    <button onclick="hesapla()">Hesapla</button>
+    <!-- Brütten Nete Bölümü -->
+    <div id="section-brut" class="form-section active">
+        <label for="brutMaas">Aylık Brüt Maaşınız (TL):</label>
+        <input type="number" id="brutMaas" placeholder="Örn: 35000">
+        <button onclick="hesaplaBruttensNete()">Brütten Nete Hesapla</button>
+    </div>
 
+    <!-- Netten Brüte Bölümü -->
+    <div id="section-net" class="form-section">
+        <label for="netMaasInput">Aylık Net Maaşınız (TL):</label>
+        <input type="number" id="netMaasInput" placeholder="Örn: 25000">
+        <button onclick="hesaplaNettensBrute()">Netten Brüte Hesapla</button>
+    </div>
+
+    <!-- Sonuç Alanı -->
     <div class="result-box" id="sonucAlani" style="display:none;">
+        <div class="result-item" id="itemBrut"><span>Brüt Maaş:</span><strong id="resBrut">0 TL</strong></div>
         <div class="result-item"><span>SGK İşçi Payı (%14):</span><strong id="sgk">0 TL</strong></div>
         <div class="result-item"><span>İşsizlik Sigortası (%1):</span><strong id="issizlik">0 TL</strong></div>
-        <div class="result-item"><span>Gelir Vergisi:</span><strong id="gelirVergisi">0 TL</strong></div>
+        <div class="result-item"><span>Gelir Vergisi (%15 Dilim):</span><strong id="gelirVergisi">0 TL</strong></div>
         <div class="result-item"><span>Damga Vergisi:</span><strong id="damgaVergisi">0 TL</strong></div>
         <hr>
-        <div class="result-item" style="font-size: 18px; color: #28a745;">
-            <span>Tahmini Ele Geçen Net Maaş:</span><strong id="netMaas">0 TL</strong>
+        <div class="result-item" style="font-size: 18px; color: #28a745;" id="itemNetBaslik">
+            <span id="resNetLabel">Tahmini Net Maaş:</span><strong id="netMaas">0 TL</strong>
         </div>
     </div>
 
-    <!-- Sonuç Altı AdSense Reklam Alanı (En Çok Tıklanan Yer) -->
+    <!-- Sonuç Altı AdSense Reklam Alanı -->
     <div class="ad-space">-- AdSense Sonuç Altı Reklam Alanı --</div>
 
-    <!-- SEO ve Bilgilendirme Metni -->
+    <!-- SEO ve Bilgilendirme Metni (Vergi Dilimi Detayları) -->
     <div style="margin-top: 25px; font-size: 14px; color: #555; line-height: 1.6;">
-        <h3>Maaş Kesintileri Nasıl Hesaplanır?</h3>
-        <p>Brüt maaştan net maaşa ulaşırken kanunen belirlenen SGK prim kesintisi, işsizlik sigortası primi, gelir vergisi ve damga vergisi düşülmektedir. Yıl içerisindeki kümülatif vergi matrahınıza göre gelir vergisi diliminiz değişkenlik gösterebilir.</p>
+        <h3>Vergi Dilimleri ve Maaş Hesaplama Detayları</h3>
+        <p>Gelir vergisi tarifesi, yıl içinde elde ettiğiniz kümülatif matraha göre artış gösterir (%15, %20, %27, %35, %40). Yılın ilk aylarında %15'lik vergi dilimi uygulanırken, yıl sonuna doğru matrah yükseldikçe üst dilimlere geçiş yapılır ve net maaşta bir miktar azalış görülebilir.</p>
     </div>
 </div>
 
 <script>
-function hesapla() {
+function sekmeDegistir(tur) {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.form-section').forEach(s => s.classList.remove('active'));
+    document.getElementById('sonucAlani').style.display = 'none';
+
+    if(tur === 'brut') {
+        document.querySelectorAll('.tab')[0].classList.add('active');
+        document.getElementById('section-brut').classList.add('active');
+    } else {
+        document.querySelectorAll('.tab')[1].classList.add('active');
+        document.getElementById('section-net').classList.add('active');
+    }
+}
+
+function hesaplaBruttensNete() {
     let brut = parseFloat(document.getElementById('brutMaas').value);
     if (isNaN(brut) || brut <= 0) {
         alert("Lütfen geçerli bir brüt maaş girin.");
         return;
     }
 
-    // Basit Oransal Hesaplama
     let sgk = brut * 0.14;
     let issizlik = brut * 0.01;
     let matrah = brut - (sgk + issizlik);
-    
-    // Tahmini %15 ilk dilim gelir vergisi (Asgari ücret istisnası dikkate alınmadan basitleştirilmiştir)
-    let gelirVergisi = matrah * 0.15;
+    let gelirVergisi = matrah * 0.15; // Standart baz oran
     let damgaVergisi = brut * 0.00759;
     
     let kesintiler = sgk + issizlik + gelirVergisi + damgaVergisi;
     let net = brut - kesintiler;
 
+    document.getElementById('resBrut').innerText = brut.toFixed(2) + " TL";
+    document.getElementById('resNetLabel').innerText = "Tahmini Ele Geçen Net Maaş:";
+    document.getElementById('netMaas').innerText = net.toFixed(2) + " TL";
+    
     document.getElementById('sgk').innerText = sgk.toFixed(2) + " TL";
     document.getElementById('issizlik').innerText = issizlik.toFixed(2) + " TL";
     document.getElementById('gelirVergisi').innerText = gelirVergisi.toFixed(2) + " TL";
     document.getElementById('damgaVergisi').innerText = damgaVergisi.toFixed(2) + " TL";
-    document.getElementById('netMaas').innerText = net.toFixed(2) + " TL";
+
+    document.getElementById('sonucAlani').style.display = 'block';
+}
+
+function hesaplaNettensBrute() {
+    let hedefNet = parseFloat(document.getElementById('netMaasInput').value);
+    if (isNaN(hedefNet) || hedefNet <= 0) {
+        alert("Lütfen geçerli bir net maaş girin.");
+        return;
+    }
+
+    // Yaklaşık tersine mühendislik ile brüt tahmini (Iteratif yaklaşım)
+    let tahminBrut = hedefNet * 1.35; 
+    let sgk = 0, issizlik = 0, matrah = 0, gelirVergisi = 0, damgaVergisi = 0, hesaplananNet = 0;
+
+    for(let i = 0; i < 10; i++) {
+        sgk = tahminBrut * 0.14;
+        issizlik = tahminBrut * 0.01;
+        matrah = tahminBrut - (sgk + issizlik);
+        gelirVergisi = matrah * 0.15;
+        damgaVergisi = tahminBrut * 0.00759;
+        hesaplananNet = tahminBrut - (sgk + issizlik + gelirVergisi + damgaVergisi);
+        
+        let fark = hedefNet - hesaplananNet;
+        tahminBrut += fark * 1.1;
+    }
+
+    document.getElementById('resBrut').innerText = tahminBrut.toFixed(2) + " TL";
+    document.getElementById('resNetLabel').innerText = "Girilen Net Maaş:";
+    document.getElementById('netMaas').innerText = hedefNet.toFixed(2) + " TL";
+
+    document.getElementById('sgk').innerText = sgk.toFixed(2) + " TL";
+    document.getElementById('issizlik').innerText = issizlik.toFixed(2) + " TL";
+    document.getElementById('gelirVergisi').innerText = gelirVergisi.toFixed(2) + " TL";
+    document.getElementById('damgaVergisi').innerText = damgaVergisi.toFixed(2) + " TL";
 
     document.getElementById('sonucAlani').style.display = 'block';
 }
