@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İşveren Maliyeti Hesaplama 2026 | maas-hesaplama.com</title>
+    <meta name="description" content="2026 personel maliyeti hesaplama: brüt maaş, SGK işveren payı (%21,75 / teşvikli %16,75), işsizlik sigortası işveren payı ve işverene toplam maliyet.">
+    <link rel="canonical" href="https://maas-hesaplama.com/isveren-maliyeti-hesaplama/">
+    <meta property="og:title" content="İşveren Maliyeti Hesaplama 2026 | maas-hesaplama.com">
+    <meta property="og:description" content="2026 personel maliyeti hesaplama: brüt maaş, SGK işveren payı (%21,75 / teşvikli %16,75), işsizlik sigortası işveren payı ve işverene toplam maliyet.">
+    <meta property="og:url" content="https://maas-hesaplama.com/isveren-maliyeti-hesaplama/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="maas-hesaplama.com">
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <!-- Google AdSense Doğrulama Kodu -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7621668742531802"
+     crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://maas-hesaplama.com/"},{"@type":"ListItem","position":2,"name":"İşveren Maliyeti","item":"https://maas-hesaplama.com/isveren-maliyeti-hesaplama/"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"SGK işveren payı ne kadar?","acceptedAnswer":{"@type":"Answer","text":"2026 yılında SGK işveren payı %21,75'tir. Primlerini düzenli ödeyen işverenler 5 puanlık teşvikle %16,75 öder. Ayrıca %2 işsizlik sigortası işveren payı vardır."}},{"@type":"Question","name":"5 puanlık teşvikten kimler yararlanır?","acceptedAnswer":{"@type":"Answer","text":"Prim ve vergi borcu bulunmayan, bildirgelerini yasal süresinde veren ve primlerini zamanında ödeyen özel sektör işverenleri yararlanabilir."}},{"@type":"Question","name":"2026 asgari ücret brüt ve net ne kadar?","acceptedAnswer":{"@type":"Answer","text":"2026 yılında brüt asgari ücret 33.030,00 TL, net asgari ücret 28.075,50 TL'dir."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="/">maas-<span>hesaplama</span>.com</a>
+    <nav class="nav"><a href="/">Brütten Nete</a><a href="/netten-brute-maas-hesaplama/">Netten Brüte</a><a href="/kidem-tazminati-hesaplama/">Kıdem Tazminatı</a><a href="/ihbar-tazminati-hesaplama/">İhbar Tazminatı</a><a href="/isveren-maliyeti-hesaplama/" class="active">İşveren Maliyeti</a><a href="/gelir-vergisi-dilimleri-2026/">Vergi Dilimleri</a><a href="/asgari-ucret-2026/">Asgari Ücret</a></nav>
+</header>
+
+<main class="container">
+    <nav class="breadcrumb"><a href="/">Ana Sayfa</a> › İşveren Maliyeti</nav>
+    <h1>İşveren Maliyeti Hesaplama 2026</h1>
+    <p class="subtitle">2026 parametreleri · Son güncelleme: 1 Kasım 2026</p>
+
+<div class="ad-space">-- AdSense Üst Reklam Alanı --</div>
+<p class="lead">Bir çalışanın işverene aylık ve yıllık toplam maliyetini hesaplayın. Brüt maaşa SGK ve işsizlik sigortası işveren payları eklenir; 5 puanlık teşvik seçeneğini açıp kapatarak farkı görebilirsiniz.</p>
+
+<div class="grid-2">
+    <div>
+        <label for="brutMaas">Aylık Brüt Maaşınız (TL):</label>
+        <input type="number" id="brutMaas" placeholder="Örn: 50000" min="0" step="0.01" inputmode="decimal" value="">
+    </div>
+    <div>
+        <label for="brutAy">Hesaplanacak Ay:</label>
+        <select id="brutAy"></select>
+    </div>
+</div>
+<label class="check"><input type="checkbox" id="brutTesvik" checked> İşveren 5 puanlık SGK teşvikinden yararlanıyor</label>
+<button class="btn" id="btnBrut">Brütten Nete Hesapla</button>
+<div class="error" id="hataBrut"></div>
+
+<div class="result-box" id="maasSonuclari" style="display:none;">
+    <div class="result-item"><span>Brüt Maaş:</span><strong id="resBrut"></strong></div>
+    <div class="result-item"><span>SGK İşçi Payı (%14):</span><strong id="resSgk"></strong></div>
+    <div class="result-item"><span>İşsizlik Sigortası İşçi Payı (%1):</span><strong id="resIssizlik"></strong></div>
+    <div class="result-item"><span>Gelir Vergisi Matrahı:</span><strong id="resMatrah"></strong></div>
+    <div class="result-item sub"><span>Kümülatif Matrah (bu ay dahil) · Dilim:</span><span id="resKum"></span></div>
+    <div class="result-item sub"><span>Hesaplanan Gelir Vergisi:</span><span id="resHesGV"></span></div>
+    <div class="result-item sub"><span>Asgari Ücret Gelir Vergisi İstisnası:</span><span id="resIstGV"></span></div>
+    <div class="result-item"><span>Ödenecek Gelir Vergisi:</span><strong id="resGV"></strong></div>
+    <div class="result-item sub"><span>Hesaplanan Damga Vergisi (‰7,59):</span><span id="resHesDV"></span></div>
+    <div class="result-item sub"><span>Asgari Ücret Damga Vergisi İstisnası:</span><span id="resIstDV"></span></div>
+    <div class="result-item"><span>Ödenecek Damga Vergisi:</span><strong id="resDV"></strong></div>
+    <hr>
+    <div class="result-item total"><span id="resNetLabel">Ele Geçen Net Maaş:</span><strong id="resNet"></strong></div>
+    <hr>
+    <div class="result-item"><span>SGK İşveren Payı:</span><strong id="resIsvSgk"></strong></div>
+    <div class="result-item"><span>İşsizlik Sigortası İşveren Payı (%2):</span><strong id="resIsvIss"></strong></div>
+    <div class="result-item cost-big"><span>İşverene Toplam Maliyet:</span><strong id="resMaliyet"></strong></div>
+    <div class="warn" id="resUyari" style="display:none;"></div>
+    <details>
+        <summary>12 aylık bordro tablosu</summary>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Ay</th><th>Brüt</th><th>SGK+İşsizlik</th><th>Kümülatif Matrah</th><th>Gelir V.</th><th>Damga V.</th><th>Net</th><th>İşveren Maliyeti</th></tr></thead>
+                <tbody id="tablo12"></tbody>
+                <tfoot id="tablo12Toplam"></tfoot>
+            </table>
+        </div>
+    </details>
+</div>
+<div class="ad-space">-- AdSense Sonuç Altı Reklam Alanı --</div>
+<section class="info">
+    <h2>2026 İşveren Prim Oranları</h2>
+    <div class="table-wrap"><table>
+        <tr><th>Kalem</th><th>Oran</th></tr>
+        <tr><td>Kısa vadeli sigorta kolları</td><td>%2,25</td></tr>
+        <tr><td>Malullük, yaşlılık ve ölüm sigortası</td><td>%12</td></tr>
+        <tr><td>Genel sağlık sigortası</td><td>%7,5</td></tr>
+        <tr><td><strong>SGK işveren payı toplamı</strong></td><td><strong>%21,75</strong></td></tr>
+        <tr><td>5 puanlık teşvikle</td><td>%16,75</td></tr>
+        <tr><td>İşsizlik sigortası işveren payı</td><td>%2</td></tr>
+    </table></div>
+    <h2>Asgari Ücretli Bir Çalışanın İşverene Maliyeti</h2>
+    <div class="kpi">
+        <div><span>Teşvikli (aylık)</span><strong>39.223,13 TL</strong></div>
+        <div><span>Teşviksiz (aylık)</span><strong>40.874,63 TL</strong></div>
+    </div>
+    <p>Prim hesabında kullanılan kazanç, SGK tavanı olan 297.270,00 TL ile sınırlıdır. Bu tutarın üzerindeki maaşlarda işveren primi tavan üzerinden hesaplanır.</p>
+    <p>5 puanlık teşvik, primlerini zamanında ödeyen ve SGK'ya borcu olmayan işverenlere uygulanır. Asgari ücret desteği ve bölgesel teşvikler gibi diğer destekler bu hesaba dahil değildir.</p>
+    <p class="warn">Bu sitedeki hesaplamalar bilgilendirme amaçlıdır. Bordronuzdaki tutarlar teşvikler, yan haklar, engellilik indirimi, emekli (SGDP) statüsü gibi nedenlerle farklılık gösterebilir. Kesin tutarlar için işvereninizin muhasebe/İK birimine veya bir mali müşavire danışınız.</p>
+</section>
+<section class="info">
+<h2>Sık Sorulan Sorular</h2>
+<h3>SGK işveren payı ne kadar?</h3>
+<p>2026 yılında SGK işveren payı %21,75'tir. Primlerini düzenli ödeyen işverenler 5 puanlık teşvikle %16,75 öder. Ayrıca %2 işsizlik sigortası işveren payı vardır.</p>
+<h3>5 puanlık teşvikten kimler yararlanır?</h3>
+<p>Prim ve vergi borcu bulunmayan, bildirgelerini yasal süresinde veren ve primlerini zamanında ödeyen özel sektör işverenleri yararlanabilir.</p>
+<h3>2026 asgari ücret brüt ve net ne kadar?</h3>
+<p>2026 yılında brüt asgari ücret 33.030,00 TL, net asgari ücret 28.075,50 TL'dir.</p>
+</section>
+    <footer class="footer-links">
+        <a href="/hakkimizda/">Hakkımızda</a> |
+        <a href="/gizlilik-politikasi/">Gizlilik Politikası</a> |
+        <a href="/gelir-vergisi-dilimleri-2026/">2026 Vergi Dilimleri</a>
+        <p>© 2026 maas-hesaplama.com · Hesaplamalar bilgilendirme amaçlıdır.</p>
+    </footer>
+</main>
+
+<script src="/assets/motor.js"></script>
+<script src="/assets/arayuz.js"></script>
+</body>
+</html>

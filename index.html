@@ -3,568 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2026 Maaş Hesaplama: Brütten Nete, Netten Brüte, Kıdem ve İhbar Tazminatı | maas-hesaplama.com</title>
-    <meta name="description" content="2026 güncel parametrelerle brütten nete ve netten brüte maaş hesaplama, 12 aylık bordro, işveren maliyeti, kıdem ve ihbar tazminatı hesaplama. Asgari ücret istisnası ve kümülatif vergi dilimleri dahil.">
+    <title>Brütten Nete Maaş Hesaplama 2026 | maas-hesaplama.com</title>
+    <meta name="description" content="2026 güncel parametrelerle brütten nete maaş hesaplama. Asgari ücret istisnası, kümülatif vergi dilimleri ve SGK tavanı dahil; 12 aylık bordro ve işveren maliyeti.">
     <link rel="canonical" href="https://maas-hesaplama.com/">
-    <meta property="og:title" content="2026 Maaş ve Tazminat Hesaplama">
-    <meta property="og:description" content="Asgari ücret istisnası, kümülatif vergi dilimleri ve SGK tavanı dahil doğru maaş ve tazminat hesabı.">
+    <meta property="og:title" content="Brütten Nete Maaş Hesaplama 2026 | maas-hesaplama.com">
+    <meta property="og:description" content="2026 güncel parametrelerle brütten nete maaş hesaplama. Asgari ücret istisnası, kümülatif vergi dilimleri ve SGK tavanı dahil; 12 aylık bordro ve işveren maliyeti.">
     <meta property="og:url" content="https://maas-hesaplama.com/">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="maas-hesaplama.com">
+    <link rel="stylesheet" href="/assets/style.css">
 
     <!-- Google AdSense Doğrulama Kodu -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7621668742531802"
      crossorigin="anonymous"></script>
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
-        {"@type": "Question", "name": "2026 asgari ücret brüt ve net ne kadar?",
-         "acceptedAnswer": {"@type": "Answer", "text": "2026 yılında brüt asgari ücret 33.030 TL, net asgari ücret 28.075,50 TL'dir."}},
-        {"@type": "Question", "name": "Asgari ücret istisnası nedir?",
-         "acceptedAnswer": {"@type": "Answer", "text": "Tüm ücretlilerin maaşının asgari ücrete isabet eden kısmı gelir vergisi ve damga vergisinden muaftır. Bu nedenle her çalışanın gelir vergisinden asgari ücretin vergisi kadar, damga vergisinden de 250,70 TL indirim yapılır."}},
-        {"@type": "Question", "name": "Net maaşım neden yılın ilerleyen aylarında düşüyor?",
-         "acceptedAnswer": {"@type": "Answer", "text": "Gelir vergisi yıllık kümülatif matraha göre artan oranlı uygulanır. Yıl içinde biriken matrah 190.000 TL, 400.000 TL gibi dilim sınırlarını aştığında o aydan itibaren daha yüksek oranda vergi kesilir ve net maaş düşer."}},
-        {"@type": "Question", "name": "2026 kıdem tazminatı tavanı ne kadar?",
-         "acceptedAnswer": {"@type": "Answer", "text": "1 Ocak - 30 Haziran 2026 için 64.948,77 TL, 1 Temmuz - 31 Aralık 2026 için 73.729,87 TL'dir."}},
-        {"@type": "Question", "name": "Kıdem tazminatı için kaç yıl çalışmak gerekir?",
-         "acceptedAnswer": {"@type": "Answer", "text": "Aynı işverene bağlı olarak en az 1 yıl çalışmış olmak ve iş sözleşmesinin kanunda sayılan hallerden biriyle sona ermesi gerekir."}}
-      ]
-    }
-    </script>
-
-    <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f7f6; margin: 0; padding: 20px; color: #333; }
-        .container { max-width: 760px; background: #fff; margin: auto; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h1 { font-size: 22px; text-align: center; color: #333; margin-bottom: 6px; }
-        .subtitle { text-align: center; font-size: 13px; color: #777; margin: 0 0 20px; }
-        h2 { font-size: 18px; margin-top: 30px; color: #333; }
-        h3 { font-size: 15px; margin-bottom: 6px; color: #333; }
-        .tabs { display: flex; margin-bottom: 20px; border-bottom: 2px solid #ddd; gap: 4px; flex-wrap: wrap; }
-        .tab { flex: 1; min-width: 110px; padding: 12px 5px; text-align: center; cursor: pointer; font-weight: bold; color: #666; background: #f8f9fa; border: 1px solid #ddd; border-bottom: none; border-radius: 6px 6px 0 0; font-size: 13px; margin: 0; width: auto; }
-        .tab:hover { background: #eef7f0; }
-        .tab.active { background: #28a745; color: white; border-color: #28a745; }
-        label { font-weight: bold; display: block; margin-top: 15px; color: #444; font-size: 14px; }
-        input[type="number"], input[type="date"], select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-size: 15px; background: #fff; }
-        .check { display: flex; align-items: center; gap: 8px; font-weight: normal; }
-        .check input { width: auto; margin: 0; }
-        .btn { width: 100%; background: #28a745; color: white; border: none; padding: 12px; font-size: 16px; margin-top: 20px; border-radius: 4px; cursor: pointer; font-weight: bold; }
-        .btn:hover { background: #218838; }
-        .hint { font-size: 12px; color: #777; margin-top: 4px; }
-        .error { color: #b02a37; background: #fbe9eb; padding: 10px; border-radius: 4px; margin-top: 15px; font-size: 14px; display: none; }
-        .warn { color: #7a5b00; background: #fff6d6; padding: 10px; border-radius: 4px; margin-top: 10px; font-size: 13px; }
-        .result-box { margin-top: 20px; background: #e9ecef; padding: 15px; border-radius: 6px; }
-        .result-item { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 8px; font-size: 15px; }
-        .result-item.sub { font-size: 13px; color: #666; padding-left: 12px; }
-        .result-item.total { font-size: 18px; color: #28a745; }
-        .result-item.cost { color: #17a2b8; }
-        .ad-space { background: #eee; border: 1px dashed #ccc; text-align: center; padding: 15px; margin: 20px 0; color: #777; font-size: 13px; }
-        .form-section { display: none; }
-        .form-section.active { display: block; }
-        .grid-2 { display: flex; gap: 10px; flex-wrap: wrap; }
-        .grid-2 > div { flex: 1; min-width: 200px; }
-        .table-wrap { overflow-x: auto; margin-top: 15px; }
-        table { border-collapse: collapse; width: 100%; font-size: 12px; background: #fff; }
-        th, td { border: 1px solid #ddd; padding: 6px; text-align: right; white-space: nowrap; }
-        th { background: #f1f3f5; }
-        td:first-child, th:first-child { text-align: left; }
-        tr.selected td { background: #eaf6ec; font-weight: bold; }
-        details { margin-top: 12px; font-size: 14px; }
-        summary { cursor: pointer; font-weight: bold; color: #28a745; }
-        .info { font-size: 14px; color: #555; line-height: 1.6; }
-        .info table { font-size: 13px; }
-        .footer-links { text-align: center; margin-top: 30px; font-size: 13px; border-top: 1px solid #eee; padding-top: 15px; color: #888; }
-        .footer-links a { color: #666; text-decoration: none; margin: 0 10px; cursor: pointer; }
-        .footer-links a:hover { color: #28a745; text-decoration: underline; }
-    </style>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://maas-hesaplama.com/"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"2026 asgari ücret brüt ve net ne kadar?","acceptedAnswer":{"@type":"Answer","text":"2026 yılında brüt asgari ücret 33.030,00 TL, net asgari ücret 28.075,50 TL'dir."}},{"@type":"Question","name":"Asgari ücret istisnası nedir?","acceptedAnswer":{"@type":"Answer","text":"Tüm ücretlilerin maaşının asgari ücrete isabet eden kısmı gelir vergisi ve damga vergisinden muaftır. Bu nedenle asgari ücretin üzerinde maaş alanlar da bu istisnadan yararlanır; vergi yalnızca asgari ücreti aşan kısım için ödenmiş olur."}},{"@type":"Question","name":"Net maaşım neden yılın ilerleyen aylarında düşüyor?","acceptedAnswer":{"@type":"Answer","text":"Gelir vergisi yıllık kümülatif matraha göre artan oranlı uygulanır. Biriken matrah 190.000 TL, 400.000 TL gibi dilim sınırlarını aştığında o aydan itibaren daha yüksek oranda vergi kesilir. Brüt maaşınız değişmese de net maaşınız düşer."}},{"@type":"Question","name":"Brüt maaş ile net maaş arasındaki fark nedir?","acceptedAnswer":{"@type":"Answer","text":"Brüt maaş, işverenin sizin adınıza bordroya yazdığı toplam ücrettir. Net maaş ise bu tutardan SGK işçi payı, işsizlik sigortası, gelir vergisi ve damga vergisi düşüldükten sonra hesabınıza yatan tutardır."}},{"@type":"Question","name":"İşverene toplam maliyet nasıl hesaplanır?","acceptedAnswer":{"@type":"Answer","text":"Brüt maaşa SGK işveren payı (%21,75; 5 puanlık teşvikle %16,75) ve %2 işsizlik sigortası işveren payı eklenir. Ayrıntılı hesap için İşveren Maliyeti sayfasını kullanabilirsiniz."}}]}</script>
 </head>
 <body>
 
-<div class="container">
-    <h1>Maaş &amp; Tazminat Hesaplama Motoru</h1>
-    <p class="subtitle">2026 parametreleri · Son güncelleme: 31 Ekim 2026</p>
+<header class="site-header">
+    <a class="logo" href="/">maas-<span>hesaplama</span>.com</a>
+    <nav class="nav"><a href="/" class="active">Brütten Nete</a><a href="/netten-brute-maas-hesaplama/">Netten Brüte</a><a href="/kidem-tazminati-hesaplama/">Kıdem Tazminatı</a><a href="/ihbar-tazminati-hesaplama/">İhbar Tazminatı</a><a href="/isveren-maliyeti-hesaplama/">İşveren Maliyeti</a><a href="/gelir-vergisi-dilimleri-2026/">Vergi Dilimleri</a><a href="/asgari-ucret-2026/">Asgari Ücret</a></nav>
+</header>
 
-    <!-- Üst AdSense Reklam Alanı -->
-    <div class="ad-space">-- AdSense Üst Reklam Alanı --</div>
+<main class="container">
+    
+    <h1>Brütten Nete Maaş Hesaplama 2026</h1>
+    <p class="subtitle">2026 parametreleri · Son güncelleme: 1 Kasım 2026</p>
 
-    <!-- Sekmeler -->
-    <div class="tabs">
-        <button class="tab active" data-tab="brut" onclick="sekmeDegistir('brut')">Brütten Nete</button>
-        <button class="tab" data-tab="net" onclick="sekmeDegistir('net')">Netten Brüte</button>
-        <button class="tab" data-tab="tazminat" onclick="sekmeDegistir('tazminat')">Kıdem &amp; İhbar</button>
-        <button class="tab" data-tab="hakkimizda" onclick="sekmeDegistir('hakkimizda')">Hakkımızda</button>
-        <button class="tab" data-tab="gizlilik" onclick="sekmeDegistir('gizlilik')">Gizlilik Politikası</button>
+<div class="ad-space">-- AdSense Üst Reklam Alanı --</div>
+<p class="lead">Brüt maaşınızı ve ayı seçin; SGK, işsizlik sigortası, gelir vergisi ve damga vergisi kesintilerini, asgari ücret istisnasını ve ele geçen net maaşınızı ay ay görün.</p>
+
+<div class="grid-2">
+    <div>
+        <label for="brutMaas">Aylık Brüt Maaşınız (TL):</label>
+        <input type="number" id="brutMaas" placeholder="Örn: 50000" min="0" step="0.01" inputmode="decimal" value="">
     </div>
-
-    <!-- Brütten Nete Bölümü -->
-    <div id="section-brut" class="form-section active">
-        <div class="grid-2">
-            <div>
-                <label for="brutMaas">Aylık Brüt Maaşınız (TL):</label>
-                <input type="number" id="brutMaas" placeholder="Örn: 50000" min="0" step="0.01" inputmode="decimal">
-            </div>
-            <div>
-                <label for="brutAy">Hesaplanacak Ay:</label>
-                <select id="brutAy"></select>
-            </div>
-        </div>
-        <label class="check"><input type="checkbox" id="brutTesvik" checked> İşveren 5 puanlık SGK teşvikinden yararlanıyor</label>
-        <button class="btn" onclick="hesaplaBruttenNete()">Brütten Nete Hesapla</button>
-        <div class="error" id="hataBrut"></div>
-    </div>
-
-    <!-- Netten Brüte Bölümü -->
-    <div id="section-net" class="form-section">
-        <div class="grid-2">
-            <div>
-                <label for="netMaasInput">Aylık Net Maaşınız (TL):</label>
-                <input type="number" id="netMaasInput" placeholder="Örn: 40000" min="0" step="0.01" inputmode="decimal">
-            </div>
-            <div>
-                <label for="netAy">Hesaplanacak Ay:</label>
-                <select id="netAy"></select>
-            </div>
-        </div>
-        <label class="check"><input type="checkbox" id="netTesvik" checked> İşveren 5 puanlık SGK teşvikinden yararlanıyor</label>
-        <p class="hint">Not: Aynı net için gereken brüt, vergi dilimleri nedeniyle aydan aya değişir. Seçtiğiniz ayda bu neti sağlayan sabit brüt maaş hesaplanır.</p>
-        <button class="btn" onclick="hesaplaNettenBrute()">Netten Brüte Hesapla</button>
-        <div class="error" id="hataNet"></div>
-    </div>
-
-    <!-- Kıdem ve İhbar Tazminatı Bölümü -->
-    <div id="section-tazminat" class="form-section">
-        <label for="tazBrutMaas">Son Giydirilmiş Brüt Maaş (TL):</label>
-        <input type="number" id="tazBrutMaas" placeholder="Örn: 45000" min="0" step="0.01" inputmode="decimal">
-        <p class="hint">Brüt maaşa düzenli ödenen yemek, yol, ikramiye gibi yan hakların aylık karşılığı eklenmiş tutar.</p>
-        <div class="grid-2">
-            <div>
-                <label for="iseGiris">İşe Giriş Tarihi:</label>
-                <input type="date" id="iseGiris">
-            </div>
-            <div>
-                <label for="istenCikis">İşten Çıkış Tarihi:</label>
-                <input type="date" id="istenCikis">
-            </div>
-        </div>
-        <label for="kumMatrah">Bu Yıl Şimdiye Kadarki Kümülatif Vergi Matrahı (TL, isteğe bağlı):</label>
-        <input type="number" id="kumMatrah" placeholder="Bilmiyorsanız boş bırakın" min="0" step="0.01" inputmode="decimal">
-        <p class="hint">Bordronuzda yazar. İhbar tazminatının hangi vergi diliminden vergilendirileceğini belirler.</p>
-        <label class="check"><input type="checkbox" id="ihbarDahil" checked> İhbar tazminatını da hesapla (işveren bildirim süresi vermeden sözleşmeyi feshettiyse)</label>
-        <button class="btn" onclick="hesaplaTazminat()">Tazminatı Hesapla</button>
-        <div class="error" id="hataTaz"></div>
-    </div>
-
-    <!-- Hakkımızda Bölümü -->
-    <div id="section-hakkimizda" class="form-section info">
-        <h3>Hakkımızda</h3>
-        <p><strong>maas-hesaplama.com</strong>, çalışanların ve işverenlerin güncel vergi dilimleri, SGK primleri ve yasal kesintiler doğrultusunda maaşlarını ve kıdem/ihbar tazminatlarını en hızlı ve doğru şekilde hesaplayabilmesi amacıyla kurulmuş ücretsiz bir dijital finansal hesaplama platformudur.</p>
-        <p>Amacımız, karmaşık vergi ve bordro hesaplamalarını herkes için anlaşılır kılmak ve pratik araçlar sunmaktır.</p>
-    </div>
-
-    <!-- Gizlilik Politikası Bölümü -->
-    <div id="section-gizlilik" class="form-section info">
-        <h3>Gizlilik Politikası</h3>
-        <p>maas-hesaplama.com olarak ziyaretçilerimizin gizliliğine önem veriyoruz. Sitemizde yapılan tüm maaş ve tazminat hesaplamaları tamamen tarayıcınız (cihazınız) üzerinden gerçekleştirilmekte olup, girdiğiniz kişisel veya finansal veriler asla sunucularımızda saklanmaz veya kaydedilmez.</p>
-        <p><strong>Üçüncü Taraf Reklamlar:</strong> Sitemizde Google AdSense gibi üçüncü taraf reklam sağlayıcıları kullanılabilir. Bu sağlayıcılar, kullanıcıların geçmiş ziyaretlerine dayalı reklamlar sunmak amacıyla çerezlerden (cookies) yararlanabilirler.</p>
-    </div>
-
-    <!-- Maaş Sonuç Alanı -->
-    <div class="result-box" id="maasSonuclari" style="display:none;">
-        <div class="result-item"><span>Brüt Maaş:</span><strong id="resBrut"></strong></div>
-        <div class="result-item"><span>SGK İşçi Payı (%14):</span><strong id="resSgk"></strong></div>
-        <div class="result-item"><span>İşsizlik Sigortası İşçi Payı (%1):</span><strong id="resIssizlik"></strong></div>
-        <div class="result-item"><span>Gelir Vergisi Matrahı:</span><strong id="resMatrah"></strong></div>
-        <div class="result-item sub"><span>Kümülatif Matrah (bu ay dahil) · Dilim:</span><span id="resKum"></span></div>
-        <div class="result-item sub"><span>Hesaplanan Gelir Vergisi:</span><span id="resHesGV"></span></div>
-        <div class="result-item sub"><span>Asgari Ücret Gelir Vergisi İstisnası:</span><span id="resIstGV"></span></div>
-        <div class="result-item"><span>Ödenecek Gelir Vergisi:</span><strong id="resGV"></strong></div>
-        <div class="result-item sub"><span>Hesaplanan Damga Vergisi (‰7,59):</span><span id="resHesDV"></span></div>
-        <div class="result-item sub"><span>Asgari Ücret Damga Vergisi İstisnası:</span><span id="resIstDV"></span></div>
-        <div class="result-item"><span>Ödenecek Damga Vergisi:</span><strong id="resDV"></strong></div>
-        <hr>
-        <div class="result-item total"><span id="resNetLabel">Ele Geçen Net Maaş:</span><strong id="resNet"></strong></div>
-        <div class="result-item cost"><span>İşverene Toplam Maliyet:</span><strong id="resMaliyet"></strong></div>
-        <div class="warn" id="resUyari" style="display:none;"></div>
-
-        <details>
-            <summary>12 aylık bordro tablosu</summary>
-            <div class="table-wrap">
-                <table>
-                    <thead>
-                        <tr><th>Ay</th><th>Brüt</th><th>SGK+İşsizlik</th><th>Kümülatif Matrah</th><th>Gelir V.</th><th>Damga V.</th><th>Net</th><th>İşveren Maliyeti</th></tr>
-                    </thead>
-                    <tbody id="tablo12"></tbody>
-                    <tfoot id="tablo12Toplam"></tfoot>
-                </table>
-            </div>
-        </details>
-    </div>
-
-    <!-- Tazminat Sonuç Alanı -->
-    <div class="result-box" id="tazminatSonuclari" style="display:none;">
-        <div class="result-item sub"><span>Çalışma Süresi:</span><span id="resSure"></span></div>
-        <div class="result-item sub"><span>Kıdeme Esas Ücret (tavan uygulanmış):</span><span id="resKidemEsas"></span></div>
-        <div class="result-item"><span>Brüt Kıdem Tazminatı:</span><strong id="resBrutKidem"></strong></div>
-        <div class="result-item"><span>Damga Vergisi (‰7,59):</span><strong id="resKidemDamga"></strong></div>
-        <div class="result-item" style="color:#28a745;"><span>Net Kıdem Tazminatı:</span><strong id="resNetKidem"></strong></div>
-        <div id="ihbarBlok">
-            <hr>
-            <div class="result-item sub"><span>İhbar Süresi:</span><span id="resIhbarSure"></span></div>
-            <div class="result-item"><span>Brüt İhbar Tazminatı:</span><strong id="resBrutIhbar"></strong></div>
-            <div class="result-item"><span>Gelir Vergisi:</span><strong id="resIhbarGV"></strong></div>
-            <div class="result-item"><span>Damga Vergisi (‰7,59):</span><strong id="resIhbarDV"></strong></div>
-            <div class="result-item" style="color:#28a745;"><span>Net İhbar Tazminatı:</span><strong id="resNetIhbar"></strong></div>
-        </div>
-        <hr>
-        <div class="result-item total" style="color:#17a2b8;"><span>Toplam Ele Geçen Net Tazminat:</span><strong id="resToplamTazminat"></strong></div>
-        <div id="tazUyarilar"></div>
-    </div>
-
-    <!-- Sonuç Altı AdSense Reklam Alanı -->
-    <div class="ad-space">-- AdSense Sonuç Altı Reklam Alanı --</div>
-
-    <!-- Bilgi ve SSS -->
-    <section class="info">
-        <h2>2026 Bordro Parametreleri</h2>
-        <div class="table-wrap">
-            <table>
-                <tr><td>Brüt asgari ücret</td><td>33.030,00 TL</td></tr>
-                <tr><td>Net asgari ücret</td><td>28.075,50 TL</td></tr>
-                <tr><td>SGK işçi payı / işsizlik işçi payı</td><td>%14 / %1</td></tr>
-                <tr><td>SGK işveren payı (teşviksiz / 5 puan teşvikli)</td><td>%21,75 / %16,75</td></tr>
-                <tr><td>İşsizlik işveren payı</td><td>%2</td></tr>
-                <tr><td>SGK prime esas kazanç tavanı (aylık)</td><td>297.270,00 TL</td></tr>
-                <tr><td>Damga vergisi</td><td>‰7,59</td></tr>
-                <tr><td>Kıdem tazminatı tavanı (Ocak–Haziran 2026)</td><td>64.948,77 TL</td></tr>
-                <tr><td>Kıdem tazminatı tavanı (Temmuz–Aralık 2026)</td><td>73.729,87 TL</td></tr>
-            </table>
-        </div>
-
-        <h3>2026 Ücret Gelirleri İçin Gelir Vergisi Dilimleri</h3>
-        <div class="table-wrap">
-            <table>
-                <tr><th>Yıllık kümülatif matrah</th><th>Oran</th></tr>
-                <tr><td>190.000 TL'ye kadar</td><td>%15</td></tr>
-                <tr><td>190.000 – 400.000 TL</td><td>%20</td></tr>
-                <tr><td>400.000 – 1.500.000 TL</td><td>%27</td></tr>
-                <tr><td>1.500.000 – 5.000.000 TL</td><td>%35</td></tr>
-                <tr><td>5.000.000 TL üzeri</td><td>%40</td></tr>
-            </table>
-        </div>
-
-        <h2>Hesaplama Nasıl Yapılıyor?</h2>
-        <p><strong>1.</strong> Brüt maaştan (en fazla SGK tavanı kadarı üzerinden) %14 SGK ve %1 işsizlik sigortası işçi payı düşülür; kalan tutar gelir vergisi matrahıdır.</p>
-        <p><strong>2.</strong> Matrah, yıl başından o aya kadar biriken kümülatif matraha eklenir ve denk geldiği dilimlerin oranlarıyla vergilendirilir.</p>
-        <p><strong>3.</strong> Hesaplanan gelir vergisinden, asgari ücretin o aydaki gelir vergisi kadar istisna düşülür. Damga vergisinden de asgari ücretin damga vergisi (250,70 TL) düşülür.</p>
-        <p><strong>4.</strong> Net maaş = Brüt − SGK − İşsizlik − Ödenecek gelir vergisi − Ödenecek damga vergisi.</p>
-        <p><strong>Kıdem tazminatı:</strong> Giydirilmiş brüt ücret (tavanı aşamaz) × çalışılan süre (yıl + ay/12 + gün/365). Yalnızca damga vergisi kesilir. En az 1 yıl çalışma şartı vardır.</p>
-        <p><strong>İhbar tazminatı:</strong> Çalışma süresine göre 2, 4, 6 veya 8 haftalık giydirilmiş ücrettir. Gelir vergisi ve damga vergisi kesilir.</p>
-
-        <h2>Sık Sorulan Sorular</h2>
-        <h3>2026 asgari ücret brüt ve net ne kadar?</h3>
-        <p>2026 yılında brüt asgari ücret 33.030 TL, net asgari ücret 28.075,50 TL'dir.</p>
-        <h3>Asgari ücret istisnası nedir?</h3>
-        <p>Tüm ücretlilerin maaşının asgari ücrete isabet eden kısmı gelir vergisi ve damga vergisinden muaftır. Bu nedenle asgari ücretin üzerinde maaş alanlar da bu istisnadan yararlanır; vergi yalnızca asgari ücreti aşan kısım için ödenmiş olur.</p>
-        <h3>Net maaşım neden yılın ilerleyen aylarında düşüyor?</h3>
-        <p>Gelir vergisi yıllık kümülatif matraha göre artan oranlı uygulanır. Biriken matrah 190.000 TL, 400.000 TL gibi dilim sınırlarını aştığında o aydan itibaren daha yüksek oranda vergi kesilir. Brüt maaşınız değişmese de net maaşınız düşer. Yukarıdaki 12 aylık tabloda bunu görebilirsiniz.</p>
-        <h3>Kıdem tazminatı için kaç yıl çalışmak gerekir?</h3>
-        <p>Aynı işverene bağlı olarak en az 1 yıl çalışmış olmak ve iş sözleşmesinin kanunda sayılan hallerden biriyle (işveren feshi, emeklilik, askerlik, evlilik nedeniyle kadın çalışanın ayrılması, haklı nedenle fesih vb.) sona ermesi gerekir. Kendi isteğiyle istifa eden çalışan genellikle kıdem tazminatı alamaz.</p>
-        <h3>İhbar süreleri nedir?</h3>
-        <p>6 aydan az çalışmada 2 hafta, 6 ay – 1,5 yıl arası 4 hafta, 1,5 – 3 yıl arası 6 hafta, 3 yıldan fazla çalışmada 8 haftadır.</p>
-
-        <p class="warn">Bu sitedeki hesaplamalar bilgilendirme amaçlıdır. Bordronuzdaki tutarlar teşvikler, yan haklar, engellilik indirimi, emekli (SGDP) statüsü gibi nedenlerle farklılık gösterebilir. Kesin tutarlar için işvereninizin muhasebe/İK birimine veya bir mali müşavire danışınız.</p>
-    </section>
-
-    <!-- Alt Bilgi / Footer Linkleri -->
-    <div class="footer-links">
-        <a onclick="sekmeDegistir('hakkimizda')">Hakkımızda</a> |
-        <a onclick="sekmeDegistir('gizlilik')">Gizlilik Politikası</a>
-        <p>© 2026 maas-hesaplama.com</p>
+    <div>
+        <label for="brutAy">Hesaplanacak Ay:</label>
+        <select id="brutAy"></select>
     </div>
 </div>
+<label class="check"><input type="checkbox" id="brutTesvik" checked> İşveren 5 puanlık SGK teşvikinden yararlanıyor</label>
+<button class="btn" id="btnBrut">Brütten Nete Hesapla</button>
+<div class="error" id="hataBrut"></div>
 
-<script>
-// ===================== 2026 PARAMETRELERİ =====================
-// Yıl değiştiğinde yalnızca bu bloğu güncellemek yeterlidir.
-const P = {
-    yil: 2026,
-    asgariUcret: 33030.00,
-    sgkTavan: 297270.00,          // Aylık prime esas kazanç üst sınırı
-    sgkIsci: 0.14,
-    issizlikIsci: 0.01,
-    sgkIsveren: 0.2175,
-    sgkIsverenTesvikli: 0.1675,   // 5 puanlık teşvik uygulanmış hali
-    issizlikIsveren: 0.02,
-    damga: 0.00759,
-    // Ücret gelirleri için gelir vergisi tarifesi: [üst sınır, oran]
-    dilimler: [
-        [190000, 0.15],
-        [400000, 0.20],
-        [1500000, 0.27],
-        [5000000, 0.35],
-        [Infinity, 0.40]
-    ],
-    // Kıdem tazminatı tavanları: [başlangıç tarihi (dahil), tavan]
-    kidemTavanlari: [
-        ['2026-01-01', 64948.77],
-        ['2026-07-01', 73729.87]
-    ]
-};
+<div class="result-box" id="maasSonuclari" style="display:none;">
+    <div class="result-item"><span>Brüt Maaş:</span><strong id="resBrut"></strong></div>
+    <div class="result-item"><span>SGK İşçi Payı (%14):</span><strong id="resSgk"></strong></div>
+    <div class="result-item"><span>İşsizlik Sigortası İşçi Payı (%1):</span><strong id="resIssizlik"></strong></div>
+    <div class="result-item"><span>Gelir Vergisi Matrahı:</span><strong id="resMatrah"></strong></div>
+    <div class="result-item sub"><span>Kümülatif Matrah (bu ay dahil) · Dilim:</span><span id="resKum"></span></div>
+    <div class="result-item sub"><span>Hesaplanan Gelir Vergisi:</span><span id="resHesGV"></span></div>
+    <div class="result-item sub"><span>Asgari Ücret Gelir Vergisi İstisnası:</span><span id="resIstGV"></span></div>
+    <div class="result-item"><span>Ödenecek Gelir Vergisi:</span><strong id="resGV"></strong></div>
+    <div class="result-item sub"><span>Hesaplanan Damga Vergisi (‰7,59):</span><span id="resHesDV"></span></div>
+    <div class="result-item sub"><span>Asgari Ücret Damga Vergisi İstisnası:</span><span id="resIstDV"></span></div>
+    <div class="result-item"><span>Ödenecek Damga Vergisi:</span><strong id="resDV"></strong></div>
+    <hr>
+    <div class="result-item total"><span id="resNetLabel">Ele Geçen Net Maaş:</span><strong id="resNet"></strong></div>
+    <div class="result-item cost"><span>İşverene Toplam Maliyet:</span><strong id="resMaliyet"></strong></div>
+    <div class="warn" id="resUyari" style="display:none;"></div>
+    <details>
+        <summary>12 aylık bordro tablosu</summary>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Ay</th><th>Brüt</th><th>SGK+İşsizlik</th><th>Kümülatif Matrah</th><th>Gelir V.</th><th>Damga V.</th><th>Net</th><th>İşveren Maliyeti</th></tr></thead>
+                <tbody id="tablo12"></tbody>
+                <tfoot id="tablo12Toplam"></tfoot>
+            </table>
+        </div>
+    </details>
+</div>
+<div class="ad-space">-- AdSense Sonuç Altı Reklam Alanı --</div>
+<section class="info">
+    <h2>2026 Bordro Parametreleri</h2>
+    
+<div class="table-wrap">
+    <table>
+        <tr><td>Brüt asgari ücret</td><td>33.030,00 TL</td></tr>
+        <tr><td>Net asgari ücret</td><td>28.075,50 TL</td></tr>
+        <tr><td>SGK işçi payı / işsizlik işçi payı</td><td>%14 / %1</td></tr>
+        <tr><td>SGK işveren payı (teşviksiz / 5 puan teşvikli)</td><td>%21,75 / %16,75</td></tr>
+        <tr><td>İşsizlik işveren payı</td><td>%2</td></tr>
+        <tr><td>SGK prime esas kazanç tavanı (aylık)</td><td>297.270,00 TL</td></tr>
+        <tr><td>Damga vergisi</td><td>‰7,59</td></tr>
+        <tr><td>Kıdem tazminatı tavanı (Ocak–Haziran 2026)</td><td>64.948,77 TL</td></tr>
+        <tr><td>Kıdem tazminatı tavanı (Temmuz–Aralık 2026)</td><td>73.729,87 TL</td></tr>
+    </table>
+</div>
+    <h2>2026 Ücret Gelirleri İçin Gelir Vergisi Dilimleri</h2>
+    
+<div class="table-wrap">
+    <table>
+        <tr><th>Yıllık kümülatif matrah</th><th>Oran</th></tr>
+        <tr><td>190.000 TL'ye kadar</td><td>%15</td></tr>
+        <tr><td>190.000 – 400.000 TL</td><td>%20</td></tr>
+        <tr><td>400.000 – 1.500.000 TL</td><td>%27</td></tr>
+        <tr><td>1.500.000 – 5.000.000 TL</td><td>%35</td></tr>
+        <tr><td>5.000.000 TL üzeri</td><td>%40</td></tr>
+    </table>
+</div>
+    
+<h2>Maaş Hesabı Nasıl Yapılıyor?</h2>
+<p><strong>1.</strong> Brüt maaştan (en fazla SGK tavanı kadarı üzerinden) %14 SGK ve %1 işsizlik sigortası işçi payı düşülür; kalan tutar gelir vergisi matrahıdır.</p>
+<p><strong>2.</strong> Matrah, yıl başından o aya kadar biriken kümülatif matraha eklenir ve denk geldiği dilimlerin oranlarıyla vergilendirilir.</p>
+<p><strong>3.</strong> Hesaplanan gelir vergisinden, asgari ücretin o aydaki gelir vergisi kadar istisna düşülür. Damga vergisinden de asgari ücretin damga vergisi (250,70 TL) düşülür.</p>
+<p><strong>4.</strong> Net maaş = Brüt − SGK − İşsizlik − Ödenecek gelir vergisi − Ödenecek damga vergisi.</p>
+    
+<h2>2026 Brüt Maaş Örnekleri</h2>
+<div class="links"><a href="/brut-maas/35000-tl-net-kac-tl/">35.000 TL brüt</a><a href="/brut-maas/40000-tl-net-kac-tl/">40.000 TL brüt</a><a href="/brut-maas/45000-tl-net-kac-tl/">45.000 TL brüt</a><a href="/brut-maas/50000-tl-net-kac-tl/">50.000 TL brüt</a><a href="/brut-maas/55000-tl-net-kac-tl/">55.000 TL brüt</a><a href="/brut-maas/60000-tl-net-kac-tl/">60.000 TL brüt</a><a href="/brut-maas/65000-tl-net-kac-tl/">65.000 TL brüt</a><a href="/brut-maas/70000-tl-net-kac-tl/">70.000 TL brüt</a><a href="/brut-maas/75000-tl-net-kac-tl/">75.000 TL brüt</a><a href="/brut-maas/80000-tl-net-kac-tl/">80.000 TL brüt</a><a href="/brut-maas/90000-tl-net-kac-tl/">90.000 TL brüt</a><a href="/brut-maas/100000-tl-net-kac-tl/">100.000 TL brüt</a><a href="/brut-maas/120000-tl-net-kac-tl/">120.000 TL brüt</a><a href="/brut-maas/150000-tl-net-kac-tl/">150.000 TL brüt</a><a href="/brut-maas/200000-tl-net-kac-tl/">200.000 TL brüt</a></div>
+    
+<h2>2026 Net Maaş Örnekleri</h2>
+<div class="links"><a href="/net-maas/30000-tl-brut-kac-tl/">30.000 TL net</a><a href="/net-maas/35000-tl-brut-kac-tl/">35.000 TL net</a><a href="/net-maas/40000-tl-brut-kac-tl/">40.000 TL net</a><a href="/net-maas/45000-tl-brut-kac-tl/">45.000 TL net</a><a href="/net-maas/50000-tl-brut-kac-tl/">50.000 TL net</a><a href="/net-maas/60000-tl-brut-kac-tl/">60.000 TL net</a><a href="/net-maas/75000-tl-brut-kac-tl/">75.000 TL net</a><a href="/net-maas/100000-tl-brut-kac-tl/">100.000 TL net</a></div>
+    <p class="warn">Bu sitedeki hesaplamalar bilgilendirme amaçlıdır. Bordronuzdaki tutarlar teşvikler, yan haklar, engellilik indirimi, emekli (SGDP) statüsü gibi nedenlerle farklılık gösterebilir. Kesin tutarlar için işvereninizin muhasebe/İK birimine veya bir mali müşavire danışınız.</p>
+</section>
+<section class="info">
+<h2>Sık Sorulan Sorular</h2>
+<h3>2026 asgari ücret brüt ve net ne kadar?</h3>
+<p>2026 yılında brüt asgari ücret 33.030,00 TL, net asgari ücret 28.075,50 TL'dir.</p>
+<h3>Asgari ücret istisnası nedir?</h3>
+<p>Tüm ücretlilerin maaşının asgari ücrete isabet eden kısmı gelir vergisi ve damga vergisinden muaftır. Bu nedenle asgari ücretin üzerinde maaş alanlar da bu istisnadan yararlanır; vergi yalnızca asgari ücreti aşan kısım için ödenmiş olur.</p>
+<h3>Net maaşım neden yılın ilerleyen aylarında düşüyor?</h3>
+<p>Gelir vergisi yıllık kümülatif matraha göre artan oranlı uygulanır. Biriken matrah 190.000 TL, 400.000 TL gibi dilim sınırlarını aştığında o aydan itibaren daha yüksek oranda vergi kesilir. Brüt maaşınız değişmese de net maaşınız düşer.</p>
+<h3>Brüt maaş ile net maaş arasındaki fark nedir?</h3>
+<p>Brüt maaş, işverenin sizin adınıza bordroya yazdığı toplam ücrettir. Net maaş ise bu tutardan SGK işçi payı, işsizlik sigortası, gelir vergisi ve damga vergisi düşüldükten sonra hesabınıza yatan tutardır.</p>
+<h3>İşverene toplam maliyet nasıl hesaplanır?</h3>
+<p>Brüt maaşa SGK işveren payı (%21,75; 5 puanlık teşvikle %16,75) ve %2 işsizlik sigortası işveren payı eklenir. Ayrıntılı hesap için İşveren Maliyeti sayfasını kullanabilirsiniz.</p>
+</section>
+    <footer class="footer-links">
+        <a href="/hakkimizda/">Hakkımızda</a> |
+        <a href="/gizlilik-politikasi/">Gizlilik Politikası</a> |
+        <a href="/gelir-vergisi-dilimleri-2026/">2026 Vergi Dilimleri</a>
+        <p>© 2026 maas-hesaplama.com · Hesaplamalar bilgilendirme amaçlıdır.</p>
+    </footer>
+</main>
 
-const AYLAR = ['Ocak','Şubat','Mart','Nisan','Mayıs','Haziran','Temmuz','Ağustos','Eylül','Ekim','Kasım','Aralık'];
-
-// ===================== YARDIMCI FONKSİYONLAR =====================
-const r2 = x => Math.round(Number((x * 100).toFixed(6))) / 100;
-const tl = x => x.toLocaleString('tr-TR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' TL';
-const $ = id => document.getElementById(id);
-
-// Kümülatif matraha göre toplam gelir vergisi
-function tarifeVergisi(matrah) {
-    let vergi = 0, alt = 0;
-    for (const [ust, oran] of P.dilimler) {
-        if (matrah <= ust) return vergi + (matrah - alt) * oran;
-        vergi += (ust - alt) * oran;
-        alt = ust;
-    }
-    return vergi;
-}
-
-// Önceki kümülatif matraha ek olarak bu ayın matrahının vergisi
-function aylikVergi(oncekiKumulatif, matrah) {
-    return tarifeVergisi(oncekiKumulatif + matrah) - tarifeVergisi(oncekiKumulatif);
-}
-
-function dilimOrani(kumulatif) {
-    for (const [ust, oran] of P.dilimler) if (kumulatif <= ust) return oran;
-    return P.dilimler[P.dilimler.length - 1][1];
-}
-
-// Asgari ücret istisnaları (her ay için, asgari ücretin kendi kümülatif matrahına göre)
-const AU_MATRAH = r2(P.asgariUcret * (1 - P.sgkIsci - P.issizlikIsci));
-const AU_GV_ISTISNA = Array.from({ length: 12 }, (_, i) => r2(aylikVergi(AU_MATRAH * i, AU_MATRAH)));
-const AU_DV_ISTISNA = r2(P.asgariUcret * P.damga);
-
-// Sabit brüt maaşla 12 aylık bordro
-function bordro12(brut, tesvikli) {
-    const satirlar = [];
-    let kumulatif = 0;
-    const pek = Math.min(brut, P.sgkTavan);
-    const isverenOrani = tesvikli ? P.sgkIsverenTesvikli : P.sgkIsveren;
-    for (let ay = 0; ay < 12; ay++) {
-        const sgk = r2(pek * P.sgkIsci);
-        const issizlik = r2(pek * P.issizlikIsci);
-        const matrah = r2(brut - sgk - issizlik);
-        const hesGV = r2(aylikVergi(kumulatif, matrah));
-        const istGV = Math.min(hesGV, AU_GV_ISTISNA[ay]);
-        const gv = r2(hesGV - istGV);
-        const hesDV = r2(brut * P.damga);
-        const istDV = Math.min(hesDV, AU_DV_ISTISNA);
-        const dv = r2(hesDV - istDV);
-        kumulatif = r2(kumulatif + matrah);
-        const net = r2(brut - sgk - issizlik - gv - dv);
-        const isverenSgk = r2(pek * isverenOrani);
-        const isverenIssizlik = r2(pek * P.issizlikIsveren);
-        const maliyet = r2(brut + isverenSgk + isverenIssizlik);
-        satirlar.push({ ay, brut, sgk, issizlik, matrah, kumulatif, hesGV, istGV, gv, hesDV, istDV, dv, net, maliyet });
-    }
-    return satirlar;
-}
-
-// Belirli bir ayda hedef neti veren sabit brüt (ikili arama)
-function nettenBrut(hedefNet, ay, tesvikli) {
-    let alt = 0, ust = Math.max(hedefNet * 3, 100000);
-    while (bordro12(ust, tesvikli)[ay].net < hedefNet) ust *= 2;
-    for (let i = 0; i < 80; i++) {
-        const orta = (alt + ust) / 2;
-        if (bordro12(orta, tesvikli)[ay].net < hedefNet) alt = orta; else ust = orta;
-    }
-    let brut = r2(ust);
-    // Kuruş yuvarlamasından kaynaklı farkı kapat
-    while (bordro12(brut, tesvikli)[ay].net < hedefNet) brut = r2(brut + 0.01);
-    return brut;
-}
-
-// ===================== ARAYÜZ =====================
-function ayListesiDoldur() {
-    const buAy = new Date().getFullYear() === P.yil ? new Date().getMonth() : 0;
-    ['brutAy', 'netAy'].forEach(id => {
-        const sel = $(id);
-        AYLAR.forEach((ad, i) => sel.add(new Option(`${ad} ${P.yil}`, i, false, i === buAy)));
-    });
-}
-
-function hata(id, mesaj) {
-    const el = $(id);
-    el.textContent = mesaj;
-    el.style.display = mesaj ? 'block' : 'none';
-}
-
-function sonuclariGizle() {
-    $('maasSonuclari').style.display = 'none';
-    $('tazminatSonuclari').style.display = 'none';
-}
-
-function sekmeDegistir(tur) {
-    document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.tab === tur));
-    document.querySelectorAll('.form-section').forEach(s => s.classList.remove('active'));
-    $('section-' + tur).classList.add('active');
-    sonuclariGizle();
-}
-
-function maasSonucunuGoster(satirlar, ay, netLabel) {
-    const s = satirlar[ay];
-    $('resBrut').textContent = tl(s.brut);
-    $('resSgk').textContent = tl(s.sgk);
-    $('resIssizlik').textContent = tl(s.issizlik);
-    $('resMatrah').textContent = tl(s.matrah);
-    $('resKum').textContent = `${tl(s.kumulatif)} · %${Math.round(dilimOrani(s.kumulatif) * 100)}`;
-    $('resHesGV').textContent = tl(s.hesGV);
-    $('resIstGV').textContent = '− ' + tl(s.istGV);
-    $('resGV').textContent = tl(s.gv);
-    $('resHesDV').textContent = tl(s.hesDV);
-    $('resIstDV').textContent = '− ' + tl(s.istDV);
-    $('resDV').textContent = tl(s.dv);
-    $('resNetLabel').textContent = netLabel;
-    $('resNet').textContent = tl(s.net);
-    $('resMaliyet').textContent = tl(s.maliyet);
-
-    const uyari = $('resUyari');
-    if (s.brut > P.sgkTavan) {
-        uyari.textContent = `Brüt maaşınız SGK tavanını (${tl(P.sgkTavan)}) aştığı için SGK primleri tavan üzerinden hesaplandı.`;
-        uyari.style.display = 'block';
-    } else if (s.brut < P.asgariUcret) {
-        uyari.textContent = 'Girilen tutar brüt asgari ücretin altında. Tam zamanlı çalışmada asgari ücretin altında ödeme yapılamaz.';
-        uyari.style.display = 'block';
-    } else {
-        uyari.style.display = 'none';
-    }
-
-    let toplam = { brut: 0, kesinti: 0, gv: 0, dv: 0, net: 0, maliyet: 0 };
-    $('tablo12').innerHTML = satirlar.map(r => {
-        toplam.brut += r.brut; toplam.kesinti += r.sgk + r.issizlik; toplam.gv += r.gv;
-        toplam.dv += r.dv; toplam.net += r.net; toplam.maliyet += r.maliyet;
-        return `<tr class="${r.ay === ay ? 'selected' : ''}"><td>${AYLAR[r.ay]}</td><td>${tl(r.brut)}</td><td>${tl(r.sgk + r.issizlik)}</td><td>${tl(r.kumulatif)}</td><td>${tl(r.gv)}</td><td>${tl(r.dv)}</td><td>${tl(r.net)}</td><td>${tl(r.maliyet)}</td></tr>`;
-    }).join('');
-    $('tablo12Toplam').innerHTML = `<tr><th>Toplam</th><th>${tl(toplam.brut)}</th><th>${tl(toplam.kesinti)}</th><th></th><th>${tl(toplam.gv)}</th><th>${tl(toplam.dv)}</th><th>${tl(toplam.net)}</th><th>${tl(toplam.maliyet)}</th></tr>`;
-
-    $('tazminatSonuclari').style.display = 'none';
-    $('maasSonuclari').style.display = 'block';
-}
-
-function hesaplaBruttenNete() {
-    const brut = parseFloat($('brutMaas').value);
-    if (isNaN(brut) || brut <= 0) { hata('hataBrut', 'Lütfen geçerli bir brüt maaş girin.'); sonuclariGizle(); return; }
-    hata('hataBrut', '');
-    const ay = parseInt($('brutAy').value, 10);
-    maasSonucunuGoster(bordro12(brut, $('brutTesvik').checked), ay, `${AYLAR[ay]} Ayı Net Maaş:`);
-}
-
-function hesaplaNettenBrute() {
-    const net = parseFloat($('netMaasInput').value);
-    if (isNaN(net) || net <= 0) { hata('hataNet', 'Lütfen geçerli bir net maaş girin.'); sonuclariGizle(); return; }
-    hata('hataNet', '');
-    const ay = parseInt($('netAy').value, 10);
-    const tesvikli = $('netTesvik').checked;
-    const brut = nettenBrut(net, ay, tesvikli);
-    maasSonucunuGoster(bordro12(brut, tesvikli), ay, `${AYLAR[ay]} Ayı Net Maaş:`);
-}
-
-// İki tarih arasındaki süre (yıl, ay, gün). Çıkış günü dahil.
-function sureHesapla(baslangic, bitis) {
-    const b = new Date(bitis.getTime());
-    b.setDate(b.getDate() + 1);
-    let yil = b.getFullYear() - baslangic.getFullYear();
-    let ay = b.getMonth() - baslangic.getMonth();
-    let gun = b.getDate() - baslangic.getDate();
-    if (gun < 0) {
-        ay--;
-        gun += new Date(b.getFullYear(), b.getMonth(), 0).getDate();
-    }
-    if (ay < 0) { yil--; ay += 12; }
-    return { yil, ay, gun };
-}
-
-function kidemTavani(cikisStr) {
-    let tavan = null;
-    for (const [tarih, t] of P.kidemTavanlari) if (cikisStr >= tarih) tavan = t;
-    return tavan;
-}
-
-function hesaplaTazminat() {
-    const brut = parseFloat($('tazBrutMaas').value);
-    const girisStr = $('iseGiris').value, cikisStr = $('istenCikis').value;
-    if (isNaN(brut) || brut <= 0) { hata('hataTaz', 'Lütfen giydirilmiş brüt maaşınızı girin.'); sonuclariGizle(); return; }
-    if (!girisStr || !cikisStr) { hata('hataTaz', 'Lütfen işe giriş ve işten çıkış tarihlerini girin.'); sonuclariGizle(); return; }
-    const giris = new Date(girisStr + 'T00:00:00'), cikis = new Date(cikisStr + 'T00:00:00');
-    if (cikis < giris) { hata('hataTaz', 'İşten çıkış tarihi işe giriş tarihinden önce olamaz.'); sonuclariGizle(); return; }
-    hata('hataTaz', '');
-
-    const uyarilar = [];
-    const sure = sureHesapla(giris, cikis);
-    const toplamYil = sure.yil + sure.ay / 12 + sure.gun / 365;
-    $('resSure').textContent = `${sure.yil} yıl ${sure.ay} ay ${sure.gun} gün`;
-
-    // Kıdem
-    let tavan = kidemTavani(cikisStr);
-    if (tavan === null) {
-        tavan = P.kidemTavanlari[0][1];
-        uyarilar.push(`${P.yil} öncesi çıkışlar için o döneme ait tavan geçerlidir; hesapta ${tl(tavan)} kullanıldı.`);
-    }
-    if (cikisStr > `${P.yil}-12-31`) {
-        uyarilar.push(`${P.yil + 1} yılı kıdem tazminatı tavanı henüz sisteme eklenmedi; hesapta ${tl(tavan)} kullanıldı.`);
-    }
-    let brutKidem = 0, kidemEsas = Math.min(brut, tavan);
-    if (sure.yil >= 1) {
-        brutKidem = r2(kidemEsas * toplamYil);
-        if (brut > tavan) uyarilar.push(`Giydirilmiş ücretiniz kıdem tazminatı tavanını aştığı için hesap tavan (${tl(tavan)}) üzerinden yapıldı.`);
-    } else {
-        uyarilar.push('Kıdem tazminatına hak kazanmak için en az 1 yıl çalışmış olmak gerekir.');
-    }
-    const kidemDamga = r2(brutKidem * P.damga);
-    const netKidem = r2(brutKidem - kidemDamga);
-
-    // İhbar
-    const ihbarDahil = $('ihbarDahil').checked;
-    let netIhbar = 0;
-    if (ihbarDahil) {
-        const toplamAy = sure.yil * 12 + sure.ay + sure.gun / 30;
-        let hafta;
-        if (toplamAy < 6) hafta = 2;
-        else if (toplamAy < 18) hafta = 4;
-        else if (toplamAy < 36) hafta = 6;
-        else hafta = 8;
-        const brutIhbar = r2(brut / 30 * hafta * 7);
-        const kum = parseFloat($('kumMatrah').value) || 0;
-        const ihbarGV = r2(aylikVergi(kum, brutIhbar));
-        const ihbarDV = r2(brutIhbar * P.damga);
-        netIhbar = r2(brutIhbar - ihbarGV - ihbarDV);
-        $('resIhbarSure').textContent = `${hafta} hafta (${hafta * 7} gün)`;
-        $('resBrutIhbar').textContent = tl(brutIhbar);
-        $('resIhbarGV').textContent = tl(ihbarGV);
-        $('resIhbarDV').textContent = tl(ihbarDV);
-        $('resNetIhbar').textContent = tl(netIhbar);
-    }
-    $('ihbarBlok').style.display = ihbarDahil ? 'block' : 'none';
-
-    $('resKidemEsas').textContent = tl(kidemEsas);
-    $('resBrutKidem').textContent = tl(brutKidem);
-    $('resKidemDamga').textContent = tl(kidemDamga);
-    $('resNetKidem').textContent = tl(netKidem);
-    $('resToplamTazminat').textContent = tl(r2(netKidem + netIhbar));
-    $('tazUyarilar').innerHTML = uyarilar.map(u => `<div class="warn">${u}</div>`).join('');
-
-    $('maasSonuclari').style.display = 'none';
-    $('tazminatSonuclari').style.display = 'block';
-}
-
-// Enter tuşu ile hesaplama
-[['brutMaas', hesaplaBruttenNete], ['netMaasInput', hesaplaNettenBrute], ['tazBrutMaas', hesaplaTazminat], ['kumMatrah', hesaplaTazminat]]
-    .forEach(([id, fn]) => $(id).addEventListener('keydown', e => { if (e.key === 'Enter') fn(); }));
-
-ayListesiDoldur();
-</script>
-
+<script src="/assets/motor.js"></script>
+<script src="/assets/arayuz.js"></script>
 </body>
 </html>
