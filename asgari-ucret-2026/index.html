@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Asgari Ücret: Brüt 33.030 TL, Net 28.075,5 TL | maas-hesaplama.com</title>
+    <meta name="description" content="2026 asgari ücret brüt 33.030,00 TL, net 28.075,50 TL. Kesintiler, işverene maliyet, günlük ve saatlik asgari ücret, asgari ücret vergi istisnası.">
+    <link rel="canonical" href="https://maas-hesaplama.com/asgari-ucret-2026/">
+    <meta property="og:title" content="2026 Asgari Ücret: Brüt 33.030 TL, Net 28.075,5 TL | maas-hesaplama.com">
+    <meta property="og:description" content="2026 asgari ücret brüt 33.030,00 TL, net 28.075,50 TL. Kesintiler, işverene maliyet, günlük ve saatlik asgari ücret, asgari ücret vergi istisnası.">
+    <meta property="og:url" content="https://maas-hesaplama.com/asgari-ucret-2026/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="maas-hesaplama.com">
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <!-- Google AdSense Doğrulama Kodu -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7621668742531802"
+     crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://maas-hesaplama.com/"},{"@type":"ListItem","position":2,"name":"Asgari Ücret","item":"https://maas-hesaplama.com/asgari-ucret-2026/"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"2026 asgari ücret brüt ve net ne kadar?","acceptedAnswer":{"@type":"Answer","text":"2026 yılında brüt asgari ücret 33.030,00 TL, net asgari ücret 28.075,50 TL'dir."}},{"@type":"Question","name":"Asgari ücret istisnası nedir?","acceptedAnswer":{"@type":"Answer","text":"Tüm ücretlilerin maaşının asgari ücrete isabet eden kısmı gelir vergisi ve damga vergisinden muaftır. Bu nedenle asgari ücretin üzerinde maaş alanlar da bu istisnadan yararlanır; vergi yalnızca asgari ücreti aşan kısım için ödenmiş olur."}},{"@type":"Question","name":"Asgari ücretin işverene maliyeti ne kadar?","acceptedAnswer":{"@type":"Answer","text":"5 puanlık teşvikle 39.223,13 TL, teşviksiz 40.874,63 TL'dir. Asgari ücret desteği gibi ek destekler bu tutara dahil değildir."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="/">maas-<span>hesaplama</span>.com</a>
+    <nav class="nav"><a href="/">Brütten Nete</a><a href="/netten-brute-maas-hesaplama/">Netten Brüte</a><a href="/kidem-tazminati-hesaplama/">Kıdem Tazminatı</a><a href="/ihbar-tazminati-hesaplama/">İhbar Tazminatı</a><a href="/isveren-maliyeti-hesaplama/">İşveren Maliyeti</a><a href="/gelir-vergisi-dilimleri-2026/">Vergi Dilimleri</a><a href="/asgari-ucret-2026/" class="active">Asgari Ücret</a></nav>
+</header>
+
+<main class="container">
+    <nav class="breadcrumb"><a href="/">Ana Sayfa</a> › Asgari Ücret</nav>
+    <h1>2026 Asgari Ücret</h1>
+    <p class="subtitle">2026 parametreleri · Son güncelleme: 1 Kasım 2026</p>
+
+<div class="ad-space">-- AdSense Üst Reklam Alanı --</div>
+<div class="kpi">
+    <div><span>Brüt asgari ücret</span><strong>33.030,00 TL</strong></div>
+    <div><span>Net asgari ücret</span><strong>28.075,50 TL</strong></div>
+    <div><span>İşverene maliyet (teşvikli)</span><strong>39.223,13 TL</strong></div>
+</div>
+<p class="lead">Asgari ücretli çalışanın brütünden yalnızca %14 SGK ve %1 işsizlik sigortası kesilir; gelir vergisi ve damga vergisi istisna kapsamındadır. Aşağıdaki hesaplayıcı asgari ücretle doldurulmuştur, istediğiniz tutarı girebilirsiniz.</p>
+
+<div class="grid-2">
+    <div>
+        <label for="brutMaas">Aylık Brüt Maaşınız (TL):</label>
+        <input type="number" id="brutMaas" placeholder="Örn: 50000" min="0" step="0.01" inputmode="decimal" value="33030">
+    </div>
+    <div>
+        <label for="brutAy">Hesaplanacak Ay:</label>
+        <select id="brutAy"></select>
+    </div>
+</div>
+<label class="check"><input type="checkbox" id="brutTesvik" checked> İşveren 5 puanlık SGK teşvikinden yararlanıyor</label>
+<button class="btn" id="btnBrut">Brütten Nete Hesapla</button>
+<div class="error" id="hataBrut"></div>
+
+<div class="result-box" id="maasSonuclari" style="display:none;">
+    <div class="result-item"><span>Brüt Maaş:</span><strong id="resBrut"></strong></div>
+    <div class="result-item"><span>SGK İşçi Payı (%14):</span><strong id="resSgk"></strong></div>
+    <div class="result-item"><span>İşsizlik Sigortası İşçi Payı (%1):</span><strong id="resIssizlik"></strong></div>
+    <div class="result-item"><span>Gelir Vergisi Matrahı:</span><strong id="resMatrah"></strong></div>
+    <div class="result-item sub"><span>Kümülatif Matrah (bu ay dahil) · Dilim:</span><span id="resKum"></span></div>
+    <div class="result-item sub"><span>Hesaplanan Gelir Vergisi:</span><span id="resHesGV"></span></div>
+    <div class="result-item sub"><span>Asgari Ücret Gelir Vergisi İstisnası:</span><span id="resIstGV"></span></div>
+    <div class="result-item"><span>Ödenecek Gelir Vergisi:</span><strong id="resGV"></strong></div>
+    <div class="result-item sub"><span>Hesaplanan Damga Vergisi (‰7,59):</span><span id="resHesDV"></span></div>
+    <div class="result-item sub"><span>Asgari Ücret Damga Vergisi İstisnası:</span><span id="resIstDV"></span></div>
+    <div class="result-item"><span>Ödenecek Damga Vergisi:</span><strong id="resDV"></strong></div>
+    <hr>
+    <div class="result-item total"><span id="resNetLabel">Ele Geçen Net Maaş:</span><strong id="resNet"></strong></div>
+    <div class="result-item cost"><span>İşverene Toplam Maliyet:</span><strong id="resMaliyet"></strong></div>
+    <div class="warn" id="resUyari" style="display:none;"></div>
+    <details>
+        <summary>12 aylık bordro tablosu</summary>
+        <div class="table-wrap">
+            <table>
+                <thead><tr><th>Ay</th><th>Brüt</th><th>SGK+İşsizlik</th><th>Kümülatif Matrah</th><th>Gelir V.</th><th>Damga V.</th><th>Net</th><th>İşveren Maliyeti</th></tr></thead>
+                <tbody id="tablo12"></tbody>
+                <tfoot id="tablo12Toplam"></tfoot>
+            </table>
+        </div>
+    </details>
+</div>
+<div class="ad-space">-- AdSense Sonuç Altı Reklam Alanı --</div>
+<section class="info">
+    <h2>2026 Asgari Ücret Detayları</h2>
+    <div class="table-wrap"><table>
+        <tr><td>Aylık brüt</td><td>33.030,00 TL</td></tr>
+        <tr><td>Günlük brüt</td><td>1.101,00 TL</td></tr>
+        <tr><td>Saatlik brüt (225 saat)</td><td>146,80 TL</td></tr>
+        <tr><td>SGK işçi payı (%14)</td><td>4.624,20 TL</td></tr>
+        <tr><td>İşsizlik işçi payı (%1)</td><td>330,30 TL</td></tr>
+        <tr><td>Gelir vergisi / damga vergisi</td><td>0,00 TL (istisna)</td></tr>
+        <tr><td><strong>Net asgari ücret</strong></td><td><strong>28.075,50 TL</strong></td></tr>
+        <tr><td>SGK işveren payı (%16,75 teşvikli)</td><td>5.532,53 TL</td></tr>
+        <tr><td>İşsizlik işveren payı (%2)</td><td>660,60 TL</td></tr>
+        <tr><td><strong>İşverene toplam maliyet (teşvikli)</strong></td><td><strong>39.223,13 TL</strong></td></tr>
+        <tr><td>İşverene toplam maliyet (teşviksiz)</td><td>40.874,63 TL</td></tr>
+    </table></div>
+    <h2>Asgari Ücret Vergi İstisnası</h2>
+    <p>2022'den bu yana tüm ücretlilerin maaşının asgari ücrete isabet eden kısmı gelir vergisi ve damga vergisinden muaftır. Asgari ücretin üzerinde maaş alan çalışanlar da her ay asgari ücretin vergisi kadar indirimden yararlanır. 2026 yılında aylık damga vergisi istisnası 250,70 TL, gelir vergisi istisnası Ocak–Haziran 4.211,33 TL, Ağustos–Aralık 5.615,10 TL'dir.</p>
+    
+<h2>2026 Brüt Maaş Örnekleri</h2>
+<div class="links"><a href="/brut-maas/35000-tl-net-kac-tl/">35.000 TL brüt</a><a href="/brut-maas/40000-tl-net-kac-tl/">40.000 TL brüt</a><a href="/brut-maas/45000-tl-net-kac-tl/">45.000 TL brüt</a><a href="/brut-maas/50000-tl-net-kac-tl/">50.000 TL brüt</a><a href="/brut-maas/55000-tl-net-kac-tl/">55.000 TL brüt</a><a href="/brut-maas/60000-tl-net-kac-tl/">60.000 TL brüt</a><a href="/brut-maas/65000-tl-net-kac-tl/">65.000 TL brüt</a><a href="/brut-maas/70000-tl-net-kac-tl/">70.000 TL brüt</a><a href="/brut-maas/75000-tl-net-kac-tl/">75.000 TL brüt</a><a href="/brut-maas/80000-tl-net-kac-tl/">80.000 TL brüt</a><a href="/brut-maas/90000-tl-net-kac-tl/">90.000 TL brüt</a><a href="/brut-maas/100000-tl-net-kac-tl/">100.000 TL brüt</a><a href="/brut-maas/120000-tl-net-kac-tl/">120.000 TL brüt</a><a href="/brut-maas/150000-tl-net-kac-tl/">150.000 TL brüt</a><a href="/brut-maas/200000-tl-net-kac-tl/">200.000 TL brüt</a></div>
+    <p class="warn">Bu sitedeki hesaplamalar bilgilendirme amaçlıdır. Bordronuzdaki tutarlar teşvikler, yan haklar, engellilik indirimi, emekli (SGDP) statüsü gibi nedenlerle farklılık gösterebilir. Kesin tutarlar için işvereninizin muhasebe/İK birimine veya bir mali müşavire danışınız.</p>
+</section>
+<section class="info">
+<h2>Sık Sorulan Sorular</h2>
+<h3>2026 asgari ücret brüt ve net ne kadar?</h3>
+<p>2026 yılında brüt asgari ücret 33.030,00 TL, net asgari ücret 28.075,50 TL'dir.</p>
+<h3>Asgari ücret istisnası nedir?</h3>
+<p>Tüm ücretlilerin maaşının asgari ücrete isabet eden kısmı gelir vergisi ve damga vergisinden muaftır. Bu nedenle asgari ücretin üzerinde maaş alanlar da bu istisnadan yararlanır; vergi yalnızca asgari ücreti aşan kısım için ödenmiş olur.</p>
+<h3>Asgari ücretin işverene maliyeti ne kadar?</h3>
+<p>5 puanlık teşvikle 39.223,13 TL, teşviksiz 40.874,63 TL'dir. Asgari ücret desteği gibi ek destekler bu tutara dahil değildir.</p>
+</section>
+    <footer class="footer-links">
+        <a href="/hakkimizda/">Hakkımızda</a> |
+        <a href="/gizlilik-politikasi/">Gizlilik Politikası</a> |
+        <a href="/gelir-vergisi-dilimleri-2026/">2026 Vergi Dilimleri</a>
+        <p>© 2026 maas-hesaplama.com · Hesaplamalar bilgilendirme amaçlıdır.</p>
+    </footer>
+</main>
+
+<script src="/assets/motor.js"></script>
+<script src="/assets/arayuz.js"></script>
+</body>
+</html>
