@@ -32,8 +32,9 @@ const NAV = [
 ];
 
 // ===================== PARÇALAR =====================
-const reklamUst = `<div class="ad-space">-- AdSense Üst Reklam Alanı --</div>`;
-const reklamAlt = `<div class="ad-space">-- AdSense Sonuç Altı Reklam Alanı --</div>`;
+// Reklam alanları: AdSense otomatik reklamlar kullanıldığı için boş. Manuel reklam birimi eklenecekse kod buraya yazılır.
+const reklamUst = '';
+const reklamAlt = '';
 const ayKutusu = id => `<select id="${id}"></select>`;
 const tesvikKutusu = id => `<label class="check"><input type="checkbox" id="${id}" checked> İşveren 5 puanlık SGK teşvikinden yararlanıyor</label>`;
 
@@ -669,6 +670,9 @@ yaz('/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${sayfalar.map(s => `  <url><loc>${SITE}${s.yol}</loc><lastmod>${BUGUN}</lastmod><priority>${oncelik(s.yol)}</priority></url>`).join('\n')}
 </urlset>
+`);
+
+yaz('/ads.txt', `google.com, pub-7621668742531802, DIRECT, f08c47fec0942fa0
 `);
 
 yaz('/robots.txt', `User-agent: *
