@@ -224,6 +224,7 @@ function sayfa({ yol, baslik, aciklama, h1, altBaslik, icerik, sss = [], kirinti
     <meta property="og:type" content="website">
     <meta property="og:locale" content="tr_TR">
     <meta property="og:site_name" content="maas-hesaplama.com">
+    <meta name="google-site-verification" content="ia2PrtWkyUlxTagzUlvlxqIn86mNVCnmy7R5dMFhnpw" />
     <link rel="stylesheet" href="/assets/style.css">
 
     <!-- Google AdSense Doğrulama Kodu -->
