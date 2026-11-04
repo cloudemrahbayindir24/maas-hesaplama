@@ -26,7 +26,7 @@
 
 <header class="site-header">
     <a class="logo" href="/">maas-<span>hesaplama</span>.com</a>
-    <nav class="nav"><a href="/">Brütten Nete</a><a href="/netten-brute-maas-hesaplama/">Netten Brüte</a><a href="/kidem-tazminati-hesaplama/">Kıdem Tazminatı</a><a href="/ihbar-tazminati-hesaplama/">İhbar Tazminatı</a><a href="/isveren-maliyeti-hesaplama/" class="active">İşveren Maliyeti</a><a href="/gelir-vergisi-dilimleri-2026/">Vergi Dilimleri</a><a href="/asgari-ucret-2026/">Asgari Ücret</a></nav>
+    <nav class="nav"><a href="/">Brütten Nete</a><a href="/netten-brute-maas-hesaplama/">Netten Brüte</a><a href="/kidem-tazminati-hesaplama/">Kıdem Tazminatı</a><a href="/ihbar-tazminati-hesaplama/">İhbar Tazminatı</a><a href="/isveren-maliyeti-hesaplama/" class="active">İşveren Maliyeti</a><a href="/gelir-vergisi-dilimleri-2026/">Vergi Dilimleri</a><a href="/asgari-ucret-2026/">Asgari Ücret</a><a href="/doviz-kurlari/">Döviz Kurları</a></nav>
 </header>
 
 <main class="container">
@@ -65,6 +65,7 @@
     <div class="result-item"><span>Ödenecek Damga Vergisi:</span><strong id="resDV"></strong></div>
     <hr>
     <div class="result-item total"><span id="resNetLabel">Ele Geçen Net Maaş:</span><strong id="resNet"></strong></div>
+    <div class="result-item sub" id="resDovizSatir" style="display:none;"><span>Net maaşın döviz karşılığı (<a href="/doviz-kurlari/">TCMB kuru</a>):</span><span id="resDoviz"></span></div>
     <hr>
     <div class="result-item"><span>SGK İşveren Payı:</span><strong id="resIsvSgk"></strong></div>
     <div class="result-item"><span>İşsizlik Sigortası İşveren Payı (%2):</span><strong id="resIsvIss"></strong></div>
@@ -119,6 +120,7 @@
     </footer>
 </main>
 
+<script src="/assets/kurlar.js"></script>
 <script src="/assets/motor.js"></script>
 <script src="/assets/arayuz.js"></script>
 </body>

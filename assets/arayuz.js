@@ -34,6 +34,15 @@
         yaz('resDV', tl(s.dv));
         yaz('resNetLabel', `${AYLAR[ay]} Ayı Net Maaş:`);
         yaz('resNet', tl(s.net));
+        const dovizSatir = $('resDovizSatir');
+        if (dovizSatir) {
+            const kurlar = window.KURLAR && window.KURLAR.kurlar;
+            const karsilik = kod => { const k = kurlar && kurlar.find(x => x.kod === kod); return k ? s.net / k.dovizSatis * k.birim : null; };
+            const usd = karsilik('USD'), eur = karsilik('EUR');
+            const bicim = x => x.toLocaleString('tr-TR', { maximumFractionDigits: 0 });
+            if (usd && eur) { yaz('resDoviz', `≈ ${bicim(usd)} $ · ${bicim(eur)} €`); dovizSatir.style.display = 'flex'; }
+            else dovizSatir.style.display = 'none';
+        }
         yaz('resIsvSgk', tl(s.isverenSgk));
         yaz('resIsvIss', tl(s.isverenIssizlik));
         yaz('resMaliyet', tl(s.maliyet));
@@ -161,4 +170,39 @@
         if (v) { $('netMaasInput').value = v; hesaplaNettenBrute(); }
     }
     bagla('btnTaz', ['tazBrutMaas', 'kumMatrah'], hesaplaTazminat);
+
+    // Döviz çevirici
+    const dvKaynak = $('dvKaynak');
+    const veri = window.KURLAR;
+    if (dvKaynak && veri && veri.kurlar) {
+        const dvHedef = $('dvHedef');
+        const secenekler = [{ kod: 'TRY', isim: 'TÜRK LİRASI' }, ...veri.kurlar];
+        secenekler.forEach(k => {
+            dvKaynak.add(new Option(`${k.kod} · ${k.isim}`, k.kod, false, k.kod === 'USD'));
+            dvHedef.add(new Option(`${k.kod} · ${k.isim}`, k.kod, false, k.kod === 'TRY'));
+        });
+        const kurBul = kod => veri.kurlar.find(x => x.kod === kod);
+        const kurYaz = x => x.toLocaleString('tr-TR', { minimumFractionDigits: 4, maximumFractionDigits: 4 });
+        const cevir = () => {
+            const miktar = parseFloat($('dvMiktar').value);
+            const kaynak = dvKaynak.value, hedef = dvHedef.value;
+            if (isNaN(miktar) || miktar < 0) { $('dvSonucKutu').style.display = 'none'; return; }
+            // Dövizden TL'ye: döviz alış; TL'den dövize: döviz satış
+            const kk = kaynak === 'TRY' ? null : kurBul(kaynak);
+            const hk = hedef === 'TRY' ? null : kurBul(hedef);
+            const tlTutar = kk ? miktar * kk.dovizAlis / kk.birim : miktar;
+            const sonuc = hk ? tlTutar / (hk.dovizSatis / hk.birim) : tlTutar;
+            const aciklama = [];
+            if (kk) aciklama.push(`${kk.birim} ${kk.kod} = ${kurYaz(kk.dovizAlis)} TL (alış)`);
+            if (hk) aciklama.push(`${hk.birim} ${hk.kod} = ${kurYaz(hk.dovizSatis)} TL (satış)`);
+            $('dvSonucEtiket').textContent = `${miktar.toLocaleString('tr-TR')} ${kaynak} =`;
+            $('dvSonuc').textContent = `${sonuc.toLocaleString('tr-TR', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} ${hedef}`;
+            $('dvKurAciklama').textContent = aciklama.length ? aciklama.join(' · ') : 'Aynı para birimi';
+            $('dvSonucKutu').style.display = 'block';
+        };
+        ['dvMiktar', 'dvKaynak', 'dvHedef'].forEach(id => $(id).addEventListener('input', cevir));
+        dvKaynak.addEventListener('change', cevir);
+        dvHedef.addEventListener('change', cevir);
+        cevir();
+    }
 })();

@@ -12,6 +12,16 @@ const { P, AYLAR, tl, r2, bordro12, nettenBrut, AU_GV_ISTISNA, AU_DV_ISTISNA, di
 const KOK = path.join(__dirname, '..');
 const SITE = 'https://maas-hesaplama.com';
 const BUGUN = '2026-11-01';
+
+// Döviz kurları (kur-guncelle.js tarafından assets/kurlar.js içine yazılır)
+const KURLAR = (() => {
+    try {
+        const m = fs.readFileSync(path.join(KOK, 'assets', 'kurlar.js'), 'utf8');
+        return JSON.parse(m.slice(m.indexOf('=') + 1).trim().replace(/;\s*$/, ''));
+    } catch { return null; }
+})();
+const DOVIZ_LASTMOD = KURLAR && KURLAR.guncellendi ? KURLAR.guncellendi.slice(0, 10) : BUGUN;
+const kurBicim = x => x.toLocaleString('tr-TR', { minimumFractionDigits: 4, maximumFractionDigits: 4 });
 const YIL = P.yil;
 const sayi = x => x.toLocaleString('tr-TR');
 const yuzde = x => '%' + (Math.round(x * 10000) / 100).toLocaleString('tr-TR');
@@ -28,7 +38,8 @@ const NAV = [
     ['/ihbar-tazminati-hesaplama/', 'İhbar Tazminatı'],
     ['/isveren-maliyeti-hesaplama/', 'İşveren Maliyeti'],
     ['/gelir-vergisi-dilimleri-2026/', 'Vergi Dilimleri'],
-    ['/asgari-ucret-2026/', 'Asgari Ücret']
+    ['/asgari-ucret-2026/', 'Asgari Ücret'],
+    ['/doviz-kurlari/', 'Döviz Kurları']
 ];
 
 // ===================== PARÇALAR =====================
@@ -84,6 +95,7 @@ const maasSonucu = (isverenDetay = false) => `
     <div class="result-item"><span>Ödenecek Damga Vergisi:</span><strong id="resDV"></strong></div>
     <hr>
     <div class="result-item total"><span id="resNetLabel">Ele Geçen Net Maaş:</span><strong id="resNet"></strong></div>
+    <div class="result-item sub" id="resDovizSatir" style="display:none;"><span>Net maaşın döviz karşılığı (<a href="/doviz-kurlari/">TCMB kuru</a>):</span><span id="resDoviz"></span></div>
     ${isverenDetay ? `<hr>
     <div class="result-item"><span>SGK İşveren Payı:</span><strong id="resIsvSgk"></strong></div>
     <div class="result-item"><span>İşsizlik Sigortası İşveren Payı (%2):</span><strong id="resIsvIss"></strong></div>
@@ -255,6 +267,7 @@ ${sssHtml(sss) ? `<section class="info">\n${sssHtml(sss)}\n</section>` : ''}
     </footer>
 </main>
 ${arac ? `
+<script src="/assets/kurlar.js"></script>
 <script src="/assets/motor.js"></script>
 <script src="/assets/arayuz.js"></script>` : ''}
 </body>
@@ -607,6 +620,73 @@ ${reklamUst}
     });
 });
 
+// --- Döviz kurları
+(() => {
+    const k = KURLAR;
+    const bul = kod => k && k.kurlar.find(x => x.kod === kod);
+    const one = ['USD', 'EUR', 'GBP'];
+    const kpi = k ? `<div class="kpi">
+    ${one.map(kod => { const x = bul(kod); return x ? `<div><span>${x.isim} (${kod})</span><strong>${kurBicim(x.dovizSatis / x.birim)} TL</strong></div>` : ''; }).join('')}
+    ${k.altin ? `<div><span>Gram altın (yaklaşık)</span><strong>${tl(k.altin.gramTL)}</strong></div>` : ''}
+</div>` : '';
+    const tablo = k ? `<div class="table-wrap"><table>
+        <thead><tr><th>Döviz</th><th>Birim</th><th>Döviz Alış</th><th>Döviz Satış</th><th>Efektif Alış</th><th>Efektif Satış</th></tr></thead>
+        <tbody>${k.kurlar.map(x => `<tr><td><strong>${x.kod}</strong> · ${x.isim}</td><td>${x.birim}</td><td>${kurBicim(x.dovizAlis)}</td><td>${kurBicim(x.dovizSatis)}</td><td>${x.efektifAlis ? kurBicim(x.efektifAlis) : '—'}</td><td>${x.efektifSatis ? kurBicim(x.efektifSatis) : '—'}</td></tr>`).join('')}</tbody>
+    </table></div>` : '<p class="warn">Kurlar ilk otomatik güncellemeden sonra burada görünecek.</p>';
+    const usd = bul('USD'), eur = bul('EUR');
+    ekle({
+        yol: '/doviz-kurlari/',
+        baslik: `Döviz Kurları Bugün: Dolar, Euro, Sterlin (TCMB) | maas-hesaplama.com`,
+        aciklama: k && usd && eur
+            ? `TCMB ${k.tarih} döviz kurları: Dolar ${kurBicim(usd.dovizSatis)} TL, Euro ${kurBicim(eur.dovizSatis)} TL. Tüm dövizlerin alış-satış kurları, döviz çevirici ve gram altın.`
+            : 'TCMB güncel döviz kurları: dolar, euro, sterlin ve diğer dövizlerin alış-satış kurları, döviz çevirici ve gram altın.',
+        h1: 'Güncel Döviz Kurları (TCMB)',
+        altBaslik: k ? `TCMB ${k.tarih} tarihli gösterge niteliğindeki kurlar${k.bultenNo ? ` · Bülten ${k.bultenNo}` : ''}` : 'TCMB gösterge niteliğindeki kurlar',
+        kirinti: [['/doviz-kurlari/', 'Döviz Kurları']],
+        icerik: `
+${reklamUst}
+${kpi}
+<h2>Döviz Çevirici</h2>
+<div class="grid-2">
+    <div>
+        <label for="dvMiktar">Tutar:</label>
+        <input type="number" id="dvMiktar" value="100" min="0" step="0.01" inputmode="decimal">
+    </div>
+    <div>
+        <label for="dvKaynak">Bu dövizden:</label>
+        <select id="dvKaynak"></select>
+    </div>
+    <div>
+        <label for="dvHedef">Bu dövize:</label>
+        <select id="dvHedef"></select>
+    </div>
+</div>
+<div class="result-box" id="dvSonucKutu" style="display:none;">
+    <div class="result-item total"><span id="dvSonucEtiket"></span><strong id="dvSonuc"></strong></div>
+    <div class="result-item sub"><span>Kullanılan kur:</span><span id="dvKurAciklama"></span></div>
+</div>
+<p class="hint">Dövizden TL'ye çevirmede TCMB döviz alış, TL'den dövize çevirmede döviz satış kuru kullanılır. Bankaların uyguladığı kurlar farklıdır.</p>
+${reklamAlt}
+<section class="info">
+    <h2>TCMB Döviz Kurları Tablosu</h2>
+    ${tablo}
+    ${k && k.altin ? `<h2>Gram Altın</h2>
+    <p>Gram altın yaklaşık <strong>${tl(k.altin.gramTL)}</strong> (ons altın ${tl(k.altin.onsTL)}${k.altin.tarih ? `, ${k.altin.tarih.split('-').reverse().join('.')}` : ''}). Bu değer uluslararası ons fiyatının gram karşılığıdır; kuyumcu ve banka fiyatları işçilik ve makas nedeniyle farklıdır.</p>` : ''}
+    <h2>Döviz Alış, Satış ve Efektif Kur Ne Demek?</h2>
+    <p><strong>Döviz alış/satış</strong> kurları, bankalar arası döviz işlemleri ve hesaplar arası transferler için TCMB'nin ilan ettiği gösterge kurlardır. <strong>Efektif</strong> kurlar ise nakit (banknot) döviz alım satımı içindir. TCMB kurları her iş günü saat 15:30 civarında ilan edilir ve ertesi gün resmî işlemlerde, örneğin dövizle ödenen maaşların TL karşılığının bulunmasında kullanılır.</p>
+    <h2>Maaşınız Kaç Dolar?</h2>
+    <p>${usd ? `Bugünkü kurla ${tl(P.asgariUcret * 0.85)} net asgari ücret yaklaşık <strong>${(P.asgariUcret * 0.85 / usd.dovizSatis * usd.birim).toLocaleString('tr-TR', { maximumFractionDigits: 0 })} dolar</strong>, ${eur ? `<strong>${(P.asgariUcret * 0.85 / eur.dovizSatis * eur.birim).toLocaleString('tr-TR', { maximumFractionDigits: 0 })} euro</strong> eder. ` : ''}` : ''}<a href="/">Brütten nete hesaplayıcıda</a> net maaşınızın dolar ve euro karşılığı da gösterilir.</p>
+    <p class="warn">Kurlar her iş günü TCMB'nin yayınından sonra otomatik güncellenir. Gösterilen değerler bilgilendirme amaçlıdır; alım-satım işlemleri için bankanızın kurlarını esas alınız.</p>
+</section>`,
+        sss: [
+            ['Dolar kuru bugün ne kadar?', k && usd ? `TCMB'nin ${k.tarih} tarihli kurlarına göre 1 ABD doları döviz alış ${kurBicim(usd.dovizAlis)} TL, döviz satış ${kurBicim(usd.dovizSatis)} TL'dir.` : 'Güncel dolar kuru bu sayfadaki tabloda TCMB verisiyle gösterilir.'],
+            ['Euro kuru bugün ne kadar?', k && eur ? `TCMB'nin ${k.tarih} tarihli kurlarına göre 1 euro döviz alış ${kurBicim(eur.dovizAlis)} TL, döviz satış ${kurBicim(eur.dovizSatis)} TL'dir.` : 'Güncel euro kuru bu sayfadaki tabloda TCMB verisiyle gösterilir.'],
+            ['TCMB kurları ne zaman açıklanır?', 'TCMB gösterge niteliğindeki döviz kurlarını her iş günü saat 15:30 civarında ilan eder. Hafta sonu ve resmî tatillerde yeni kur ilan edilmez, son ilan edilen kur geçerlidir.'],
+            ['Bankadaki kur neden farklı?', 'TCMB kurları gösterge niteliğindedir. Bankalar ve döviz büroları kendi alış-satış makaslarını uygular ve kurları gün içinde piyasaya göre anlık günceller.']
+        ]
+    });
+})();
+
 // --- Hakkımızda ve gizlilik
 ekle({
     yol: '/hakkimizda/',
@@ -668,7 +748,7 @@ yaz('/404.html', sayfa({
 const oncelik = y => y === '/' ? '1.0' : (y.startsWith('/brut-maas/') || y.startsWith('/net-maas/')) ? '0.6' : ['/hakkimizda/', '/gizlilik-politikasi/'].includes(y) ? '0.3' : '0.9';
 yaz('/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sayfalar.map(s => `  <url><loc>${SITE}${s.yol}</loc><lastmod>${BUGUN}</lastmod><priority>${oncelik(s.yol)}</priority></url>`).join('\n')}
+${sayfalar.map(s => `  <url><loc>${SITE}${s.yol}</loc><lastmod>${s.yol === '/doviz-kurlari/' ? DOVIZ_LASTMOD : BUGUN}</lastmod><priority>${oncelik(s.yol)}</priority></url>`).join('\n')}
 </urlset>
 `);
 

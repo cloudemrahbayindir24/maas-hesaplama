@@ -1,0 +1,53 @@
+name: Döviz kurlarını güncelle
+
+on:
+  schedule:
+    # TCMB kurları iş günleri ~15:30 (TSİ) ilan edilir. 15:47 ve 17:13 TSİ'de çalışır (UTC+3).
+    - cron: '47 12 * * 1-5'
+    - cron: '13 14 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: kur-guncelle
+  cancel-in-progress: false
+
+jobs:
+  guncelle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Kurları TCMB'den çek
+        run: node _kaynak/kur-guncelle.js
+
+      - name: Sayfaları yeniden üret
+        run: node _kaynak/build.js
+
+      - name: Değişiklikleri kaydet
+        id: commit
+        run: |
+          if git diff --quiet; then
+            echo "Değişiklik yok."
+            echo "degisti=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "kur-guncelleyici"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Döviz kurlarını güncelle ($(TZ=Europe/Istanbul date +%d.%m.%Y))"
+          git push
+          echo "degisti=true" >> "$GITHUB_OUTPUT"
+
+      - name: GitHub Pages yayınını tetikle
+        if: steps.commit.outputs.degisti == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Pages yayını tetiklenemedi; bir sonraki push ile yayınlanacak."
