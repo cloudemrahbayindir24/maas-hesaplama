@@ -21,6 +21,20 @@ const KURLAR = (() => {
     } catch { return null; }
 })();
 const DOVIZ_LASTMOD = KURLAR && KURLAR.guncellendi ? KURLAR.guncellendi.slice(0, 10) : BUGUN;
+// Ekonomi haberleri (haber-guncelle.js tarafından assets/haberler.js içine yazılır)
+const HABERLER = (() => {
+    try {
+        const m = fs.readFileSync(path.join(KOK, 'assets', 'haberler.js'), 'utf8');
+        return JSON.parse(m.slice(m.indexOf('=') + 1).trim().replace(/;\s*$/, ''));
+    } catch { return null; }
+})();
+const kacis = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const haberTarihi = iso => new Date(iso).toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' });
+const haberListesi = (haberler, ozetli) => `<ul class="haberler">${haberler.map(h => `
+    <li><a href="${kacis(h.link)}" target="_blank" rel="nofollow noopener">${kacis(h.baslik)}</a>
+        <span class="haber-meta">${kacis(h.kaynak)} · ${haberTarihi(h.tarih)}</span>${ozetli && h.ozet ? `
+        <p>${kacis(h.ozet)}</p>` : ''}</li>`).join('')}
+</ul>`;
 const kurBicim = x => x.toLocaleString('tr-TR', { minimumFractionDigits: 4, maximumFractionDigits: 4 });
 const YIL = P.yil;
 const sayi = x => x.toLocaleString('tr-TR');
@@ -39,7 +53,8 @@ const NAV = [
     ['/isveren-maliyeti-hesaplama/', 'İşveren Maliyeti'],
     ['/gelir-vergisi-dilimleri-2026/', 'Vergi Dilimleri'],
     ['/asgari-ucret-2026/', 'Asgari Ücret'],
-    ['/doviz-kurlari/', 'Döviz Kurları']
+    ['/doviz-kurlari/', 'Döviz Kurları'],
+    ['/ekonomi-haberleri/', 'Ekonomi Haberleri']
 ];
 
 // ===================== PARÇALAR =====================
@@ -208,7 +223,7 @@ const SSS_ORTAK = {
 };
 
 // ===================== SAYFA ŞABLONU =====================
-function sayfa({ yol, baslik, aciklama, h1, altBaslik, icerik, sss = [], kirinti = [], arac = true }) {
+function sayfa({ yol, baslik, aciklama, h1, altBaslik, icerik, sss = [], kirinti = [], arac = true, robots = '' }) {
     const url = SITE + yol;
     const kirintilar = [['/', 'Ana Sayfa'], ...kirinti];
     const ldKirinti = {
@@ -230,7 +245,7 @@ function sayfa({ yol, baslik, aciklama, h1, altBaslik, icerik, sss = [], kirinti
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${baslik}</title>
     <meta name="description" content="${aciklama}">
-    <link rel="canonical" href="${url}">
+${robots ? `    <meta name="robots" content="${robots}">\n` : ''}    <link rel="canonical" href="${url}">
     <meta property="og:title" content="${baslik}">
     <meta property="og:description" content="${aciklama}">
     <meta property="og:url" content="${url}">
@@ -291,6 +306,11 @@ ${reklamUst}
 ${brutFormu()}
 ${maasSonucu()}
 ${reklamAlt}
+${HABERLER && HABERLER.haberler.length ? `<section class="info haber-kutu">
+    <h2>Ekonomi Gündemi</h2>
+    ${haberListesi(HABERLER.haberler.slice(0, 5), false)}
+    <p><a href="/ekonomi-haberleri/">Tüm ekonomi haberleri →</a></p>
+</section>` : ''}
 <section class="info">
     <h2>${YIL} Bordro Parametreleri</h2>
     ${parametreTablosu()}
@@ -687,6 +707,28 @@ ${reklamAlt}
     });
 })();
 
+// --- Ekonomi haberleri (dış kaynak başlıkları; arama motorlarında dizine eklenmez)
+ekle({
+    yol: '/ekonomi-haberleri/',
+    baslik: 'Ekonomi Haberleri: Son Dakika Ekonomi Gündemi | maas-hesaplama.com',
+    aciklama: 'Güncel ekonomi haberleri: maaş, vergi, enflasyon, faiz ve piyasalarla ilgili son gelişmeler. Başlıklar kaynak sitelere bağlantı verir.',
+    h1: 'Ekonomi Haberleri',
+    altBaslik: HABERLER ? `Son güncelleme: ${haberTarihi(HABERLER.guncellendi)} · Kaynak: ${HABERLER.kaynaklar.join(', ')}` : 'Güncel ekonomi başlıkları',
+    kirinti: [['/ekonomi-haberleri/', 'Ekonomi Haberleri']],
+    arac: false,
+    robots: 'noindex, follow',
+    icerik: `
+${reklamUst}
+<section class="info">
+    ${HABERLER && HABERLER.haberler.length ? haberListesi(HABERLER.haberler, true) : '<p class="warn">Haberler ilk otomatik güncellemeden sonra burada görünecek.</p>'}
+    <p class="hint">Haber başlıkları ve özetleri ${HABERLER ? HABERLER.kaynaklar.join(', ') : 'kaynak yayıncıların'} RSS yayınından otomatik alınır ve gün içinde birkaç kez güncellenir. Haberlerin tamamı ve tüm hakları kaynak yayıncıya aittir; başlığa tıkladığınızda haber kaynağında açılır.</p>
+    <h2>Haberleri Hesaplayın</h2>
+    <div class="links">
+        <a href="/">Brütten nete maaş</a><a href="/netten-brute-maas-hesaplama/">Netten brüte maaş</a><a href="/kidem-tazminati-hesaplama/">Kıdem tazminatı</a><a href="/doviz-kurlari/">Döviz kurları</a><a href="/gelir-vergisi-dilimleri-2026/">Vergi dilimleri</a>
+    </div>
+</section>`
+});
+
 // --- Hakkımızda ve gizlilik
 ekle({
     yol: '/hakkimizda/',
@@ -748,7 +790,7 @@ yaz('/404.html', sayfa({
 const oncelik = y => y === '/' ? '1.0' : (y.startsWith('/brut-maas/') || y.startsWith('/net-maas/')) ? '0.6' : ['/hakkimizda/', '/gizlilik-politikasi/'].includes(y) ? '0.3' : '0.9';
 yaz('/sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sayfalar.map(s => `  <url><loc>${SITE}${s.yol}</loc><lastmod>${s.yol === '/doviz-kurlari/' ? DOVIZ_LASTMOD : BUGUN}</lastmod><priority>${oncelik(s.yol)}</priority></url>`).join('\n')}
+${sayfalar.filter(s => !s.robots).map(s => `  <url><loc>${SITE}${s.yol}</loc><lastmod>${s.yol === '/doviz-kurlari/' ? DOVIZ_LASTMOD : BUGUN}</lastmod><priority>${oncelik(s.yol)}</priority></url>`).join('\n')}
 </urlset>
 `);
 
