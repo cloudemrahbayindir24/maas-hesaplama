@@ -1,10 +1,17 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-04T15:28:41.715Z",
+ "guncellendi": "2026-11-04T21:55:38.740Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Fonların tasfiyesinde yapılan ödeme 62,2 milyar TL oldu",
+   "link": "https://www.trthaber.com/haber/ekonomi/fonlarin-tasfiyesinde-yapilan-odeme-622-milyar-tl-oldu-962270.html",
+   "tarih": "2026-11-04T19:52:00.000Z",
+   "ozet": "Fonların tasfiye sürecinde olağanüstü tasfiye kapsamında 390 bin 219 yatırımcıya 62,2 milyar lira ödeme yapıldı.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "TOKİ, 61 ildeki 725 arsayı açık artırmayla satışa sunacak",
    "link": "https://www.trthaber.com/haber/ekonomi/toki-61-ildeki-725-arsayi-acik-artirmayla-satisa-sunacak-962220.html",
@@ -206,13 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/yapay-zeka-harcamalari-piyasalari-baskiliyor-962038.html",
    "tarih": "2026-11-03T06:39:00.000Z",
    "ozet": "Küresel piyasalar, ABD'deki seçim sürecinin beraberinde getirdiği siyasi belirsizlikler ve yapay zeka yatırımlarının finansmanına ilişkin endişelerin, Orta Doğu'daki diplomatik…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "TİGEM 15 safkan Arap kısrağı satacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/tigem-15-safkan-arap-kisragi-satacak-962036.html",
-   "tarih": "2026-11-03T06:30:00.000Z",
-   "ozet": "Tarım ve Orman Bakanlığı Tarım İşletmeleri Genel Müdürlüğü (TİGEM) Karacabey Tarım İşletmesi Müdürlüğü, 15 safkan Arap kısrağının satışını yapacak.",
    "kaynak": "TRT Haber"
   }
  ]
