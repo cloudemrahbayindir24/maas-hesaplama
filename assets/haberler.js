@@ -1,10 +1,101 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-04T21:55:38.740Z",
+ "guncellendi": "2026-11-05T12:27:21.491Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Merkez bankası rezervleri 158,1 milyar dolar oldu",
+   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-rezervleri-1581-milyar-dolar-oldu-962351.html",
+   "tarih": "2026-11-05T12:06:00.000Z",
+   "ozet": "Türkiye Cumhuriyet Merkez Bankasının (TCMB) toplam rezervleri, 30 Ekim haftasında bir önceki haftaya göre 4 milyar 84 milyon dolar azalarak 158 milyar 107 milyon dolar oldu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Girişimcilik ekosistemine 604 milyon lira hibe verilecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/girisimcilik-ekosistemine-604-milyon-lira-hibe-verilecek-962349.html",
+   "tarih": "2026-11-05T11:49:00.000Z",
+   "ozet": "ENHANCER PRO Ortak Kullanım Tesisleri Hibe Programı ile 17 ildeki 58 kuruma yaklaşık 604 milyon lira destek sağlanacak.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ankara'nın ihracatı 10 ayda 15,7 milyar dolara yükseldi",
+   "link": "https://www.trthaber.com/haber/ekonomi/ankaranin-ihracati-10-ayda-157-milyar-dolara-yukseldi-962348.html",
+   "tarih": "2026-11-05T11:40:00.000Z",
+   "ozet": "Ankara'dan bu yılın 10 aylık döneminde yapılan ihracat, geçen yılın aynı dönemine göre yüzde 21,2 artarak, 15 milyar 727 milyon 188 bin dolara yükseldi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bölgesel kalkınma için 18,6 milyar lira kaynak aktarılacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/bolgesel-kalkinma-icin-186-milyar-lira-kaynak-aktarilacak-962347.html",
+   "tarih": "2026-11-05T11:32:00.000Z",
+   "ozet": "Sanayi ve Teknoloji Bakanlığı'nın, 2027-2029 döneminde Bölgesel Kalkınma Programı için toplam 18 milyar 627 milyon 204 bin lira ödenek ayırması planlanıyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Samsun'da tüketiciyi mağdur eden işletmeye idari yaptırım",
+   "link": "https://www.trthaber.com/haber/ekonomi/samsunda-tuketiciyi-magdur-eden-isletmeye-idari-yaptirim-962332.html",
+   "tarih": "2026-11-05T10:03:00.000Z",
+   "ozet": "Ticaret Bakanlığı Basın Müşaviri Bekir Kaplan, Samsun'da bir tüketicinin ürün iadesi talebini reddeden ve mevzuata aykırı davrandığı belirlenen işletmeye idari para cezası…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bakan Şimşek: 179 bin 449 kişi net yatırım tutarının tamamını aldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-179-bin-449-kisi-net-yatirim-tutarinin-tamamini-aldi-962324.html",
+   "tarih": "2026-11-05T09:08:00.000Z",
+   "ozet": "Hazine ve Maliye Bakanı Şimşek, \"Tasfiyedeki fonlarda 614 bin 874 hesaba 130,2 milyar lira ödeme yapıldı, 179 bin 449 kişi net yatırım tutarının tamamını aldı\" dedi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Rüzgar ve güneşte 2040 hedefi 175 bin megavat kurulu güç",
+   "link": "https://www.trthaber.com/haber/ekonomi/ruzgar-ve-guneste-2040-hedefi-175-bin-megavat-kurulu-guc-962317.html",
+   "tarih": "2026-11-05T08:28:00.000Z",
+   "ozet": "Enerji Bakanı Alparslan Bayraktar, \"Türkiye 2040 itibarıyla 175 bin megavatlık rüzgar ve güneş kurulu gücüne ulaşacak. Yatırım tutarı yaklaşık 100 milyar dolar dedi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kimya sektöründen tüm zamanların 10 aylık ihracat rekoru",
+   "link": "https://www.trthaber.com/haber/ekonomi/kimya-sektorunden-tum-zamanlarin-10-aylik-ihracat-rekoru-962314.html",
+   "tarih": "2026-11-05T08:08:00.000Z",
+   "ozet": "Kimya sektörü ihracatta başarılı bir süreç ilerletiyor. Ekim ayında 3 milyar doları geçen kimya sektörü, yılın ilk 10 ayında da 28,8 milyar dolarla tarihi zirveye ulaştı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "90 yaş ve üzeri her 10 kişiden 7'si kadın",
+   "link": "https://www.trthaber.com/haber/ekonomi/90-yas-ve-uzeri-her-10-kisiden-7si-kadin-962308.html",
+   "tarih": "2026-11-05T07:29:00.000Z",
+   "ozet": "Türkiye'de 90 yaş ve üzerindeki nüfus, geçen yılın aynı dönemine kıyasla artış göstererek 253 bin 54 kişiye ulaştı. Söz konusu yaş grubunda kadın nüfusu, erkek nüfusunun 2,3 katı…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "BIST 100 endeksi güne 11.546,61 puandan başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/bist-100-endeksi-gune-1154661-puandan-basladi-962304.html",
+   "tarih": "2026-11-05T07:01:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,60 yükselişle 11.546,61 puandan başladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Yaşlı ve engellilere 9,6 milyar liralık kasım ödemesi",
+   "link": "https://www.trthaber.com/haber/ekonomi/yasli-ve-engellilere-96-milyar-liralik-kasim-odemesi-962302.html",
+   "tarih": "2026-11-05T06:40:00.000Z",
+   "ozet": "Kasım ayında 1 milyon 293 bin 534 vatandaşın hesabına toplam 9,6 milyar lira yaşlı ve engelli aylığı ödemesi yatırılmaya başlandı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türk futbolunda yayın ihale süreci başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/turk-futbolunda-yayin-ihale-sureci-basladi-962300.html",
+   "tarih": "2026-11-05T06:29:00.000Z",
+   "ozet": "Türkiye Futbol Federasyonunun (TFF), Süper Lig ve 1. Lig'in 2027-28 sezonundan itibaren 5 sezonluk yayın hakları için düzenleyeceği ihalenin şartnameleri satışa sunuldu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye Şeker Fabrikaları AŞ 42 personel alacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-seker-fabrikalari-as-42-personel-alacak-962293.html",
+   "tarih": "2026-11-05T05:49:00.000Z",
+   "ozet": "Türkiye Şeker Fabrikaları AŞ Genel Müdürlüğü (Türkşeker), taşra teşkilatında istihdam etmek üzere 42 sözleşmeli mühendis ve tekniker alımı yapacak.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Fonların tasfiyesinde yapılan ödeme 62,2 milyar TL oldu",
    "link": "https://www.trthaber.com/haber/ekonomi/fonlarin-tasfiyesinde-yapilan-odeme-622-milyar-tl-oldu-962270.html",
@@ -122,97 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/otomotiv-ihracatinda-4-milyar-dolar-esigi-asildi-962099.html",
    "tarih": "2026-11-03T12:58:00.000Z",
    "ozet": "Türkiye otomotiv endüstrisi, ekim ayında gerçekleştirdiği 4 milyar doları aşan ihracatla aylık bazda tüm zamanların en yüksek seviyesine ulaştı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Avukatlık asgari ücret tarifesi belirlendi",
-   "link": "https://www.trthaber.com/haber/ekonomi/avukatlik-asgari-ucret-tarifesi-belirlendi-962085.html",
-   "tarih": "2026-11-03T10:41:00.000Z",
-   "ozet": "Türkiye Barolar Birliğince (TBB) hazırlanan yeni avukatlık asgari ücret tarifesi, Resmi Gazete'de yayımlanarak yürürlüğe girdi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye, AB'de tescilli coğrafi işaretli ürün sayısını 80'e çıkaracak",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-abde-tescilli-cografi-isaretli-urun-sayisini-80e-cikaracak-962084.html",
-   "tarih": "2026-11-03T10:38:00.000Z",
-   "ozet": "Türkiye'nin Avrupa Birliği (AB) nezdinde tescillenen coğrafi işaretli ürünlerinin artırılması için çalışmalar sürerken, 46 olan sayının 2027'de 80'e yükseltilmesi amaçlanıyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye dış ticarette rekabetini yeni STA'larla artırılacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-dis-ticarette-rekabetini-yeni-stalarla-artirilacak-962083.html",
-   "tarih": "2026-11-03T10:24:00.000Z",
-   "ozet": "Türkiye'nin dış ticarette pazar çeşitliliğini artırma hedefleri doğrultusunda gelecek yıl Suriye ile serbest ticaret anlaşmasının (STA) yeniden aktif edilmesi ve çok sayıda…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Işıkhan'dan emekli maaşı açıklaması",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-isikhandan-emekli-maasi-aciklamasi-962081.html",
-   "tarih": "2026-11-03T10:21:00.000Z",
-   "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, \"Emeklilerimizin yaşadığı ekonomik koşulların farkındayız ve refah seviyelerini yükseltmeye yönelik çalışmalarımızı, kararlılıkla…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Gümrük işlemlerinde yenilikçi teknolojiler yaygınlaştırılacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/gumruk-islemlerinde-yenilikci-teknolojiler-yayginlastirilacak-962065.html",
-   "tarih": "2026-11-03T08:34:00.000Z",
-   "ozet": "Türkiye'de gümrük süreçlerini dijitalleştirerek kontrolleri daha etkin hale getirmek amacıyla blokzincir ve optik karakter tanıma (OCR) gibi yenilikçi teknolojilerin kullanılması…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Enerji verimliliğiyle 4,8 milyon ton petrol eşdeğeri tasarruf sağlanacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/enerji-verimliligiyle-48-milyon-ton-petrol-esdegeri-tasarruf-saglanacak-962060.html",
-   "tarih": "2026-11-03T08:12:00.000Z",
-   "ozet": "Türkiye'de enerji verimliliği çalışmalarıyla sağlanan enerji tasarrufunun 2027'de bu yıla göre yaklaşık yüzde 23 artarak 4 milyon 840 bin ton petrol eşdeğerine ulaşacağı…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Orman köylüsüne odun satış gelirinin yüzde 10'una kadar destek verilecek",
-   "link": "https://www.trthaber.com/haber/ekonomi/orman-koylusune-odun-satis-gelirinin-yuzde-10una-kadar-destek-verilecek-962056.html",
-   "tarih": "2026-11-03T07:57:00.000Z",
-   "ozet": "Orman Genel Müdürlüğü, ormancılık faaliyetlerinde birim fiyatla çalışan orman köylülerine, kendi köylerindeki odun satış gelirlerinden giderler düşüldükten sonra kalan tutarın…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ekimde fiyatı en çok artan ve düşen ürünler",
-   "link": "https://www.trthaber.com/haber/ekonomi/ekimde-fiyati-en-cok-artan-ve-dusen-urunler-962053.html",
-   "tarih": "2026-11-03T07:45:00.000Z",
-   "ozet": "Tüketici fiyatları bazında ekimde en yüksek fiyat artışı yüzde 71,79 ile taze veya soğutulmuş yeşil yapraklı veya saplı sebzelerde görülürken, en çok ucuzlayan ürün yüzde 20,9 ile…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "TÜİK'in ALO 124 hattı, vatandaşlara doğrudan iletişim imkanı sunuyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/tuikin-alo-124-hatti-vatandaslara-dogrudan-iletisim-imkani-sunuyor-962051.html",
-   "tarih": "2026-11-03T07:27:00.000Z",
-   "ozet": "Türkiye İstatistik Kurumunun (TÜİK) ALO 124 Çağrı Merkezi, vatandaşların kuruma doğrudan ulaşmasını, bilgi ve veri taleplerini iletmesini sağlıyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ekim ayında ihracatta çifte rekor",
-   "link": "https://www.trthaber.com/haber/ekonomi/ekim-ayinda-ihracatta-cifte-rekor-962050.html",
-   "tarih": "2026-11-03T07:23:00.000Z",
-   "ozet": "Ticaret Bakanı Ömer Bolat, \"Türkiye’nin ekim ayı ihracatı 25,9 milyar dolarla Cumhuriyet tarihinin en yüksek ekim ayı rakamı olurken; mal ve hizmet ihracatı toplamında 410 milyar…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye Varlık Fonu, TOGG'un en büyük hissedarı oluyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-varlik-fonu-toggun-en-buyuk-hissedari-oluyor-962049.html",
-   "tarih": "2026-11-03T07:18:00.000Z",
-   "ozet": "Türkiye Varlık Fonu (TVF), Türkiye'nin Otomobili Girişim Grubu'nun (TOGG) en büyük paya sahip hissedarı oluyor. Ortaklık, şirketin büyümesine katkı sağlamanın yanı sıra…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ekim enflasyonu açıklandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/ekim-enflasyonu-aciklandi-962043.html",
-   "tarih": "2026-11-03T07:01:00.000Z",
-   "ozet": "Tüketici Fiyat Endeksi (TÜFE), ekimde aylık bazda yüzde 2,58 olurken, yıllık bazda yüzde 29,77 oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Yapay zeka harcamaları piyasaları baskılıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/yapay-zeka-harcamalari-piyasalari-baskiliyor-962038.html",
-   "tarih": "2026-11-03T06:39:00.000Z",
-   "ozet": "Küresel piyasalar, ABD'deki seçim sürecinin beraberinde getirdiği siyasi belirsizlikler ve yapay zeka yatırımlarının finansmanına ilişkin endişelerin, Orta Doğu'daki diplomatik…",
    "kaynak": "TRT Haber"
   }
  ]
