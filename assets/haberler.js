@@ -1,10 +1,24 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-05T12:27:21.491Z",
+ "guncellendi": "2026-11-05T20:41:43.840Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Bakan Şimşek: Düzenleme tüm emeklilerimizi kapsayacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-duzenleme-tum-emeklilerimizi-kapsayacak-962369.html",
+   "tarih": "2026-11-05T18:54:00.000Z",
+   "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, \"Emeklilerimizin alım güçlerini desteklemesi amacıyla yürüttüğümüz teknik çalışma henüz tamamlanmadı. Düzenleme tüm emeklilerimizi…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın fiyatlarında son durum",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962361.html",
+   "tarih": "2026-11-05T15:29:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 642 bin liraya çıktı.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Merkez bankası rezervleri 158,1 milyar dolar oldu",
    "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-rezervleri-1581-milyar-dolar-oldu-962351.html",
@@ -195,24 +209,10 @@ window.HABERLER = {
    "kaynak": "TRT Haber"
   },
   {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962107.html",
-   "tarih": "2026-11-03T13:42:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP), standart altının kilogram fiyatı, günün sonunda 6 milyon 305 bin liraya çıktı.",
-   "kaynak": "TRT Haber"
-  },
-  {
    "baslik": "Savunma ve havacılık ihracatı ekimde 1,1 milyar doları aştı",
    "link": "https://www.trthaber.com/haber/ekonomi/savunma-ve-havacilik-ihracati-ekimde-11-milyar-dolari-asti-962102.html",
    "tarih": "2026-11-03T13:18:00.000Z",
    "ozet": "Türkiye'nin savunma ve havacılık sanayisi ihracatı, ekim ayında geçen yılın aynı dönemine göre yüzde 61 artarak 1 milyar 140 milyon dolara ulaştı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Otomotiv ihracatında 4 milyar dolar eşiği aşıldı",
-   "link": "https://www.trthaber.com/haber/ekonomi/otomotiv-ihracatinda-4-milyar-dolar-esigi-asildi-962099.html",
-   "tarih": "2026-11-03T12:58:00.000Z",
-   "ozet": "Türkiye otomotiv endüstrisi, ekim ayında gerçekleştirdiği 4 milyar doları aşan ihracatla aylık bazda tüm zamanların en yüksek seviyesine ulaştı.",
    "kaynak": "TRT Haber"
   }
  ]
