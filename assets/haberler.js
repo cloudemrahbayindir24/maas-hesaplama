@@ -1,10 +1,31 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-06T12:11:08.116Z",
+ "guncellendi": "2026-11-06T19:58:26.230Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Cumhurbaşkanı Yardımcısı Yılmaz'dan fon tasfiye süreciyle ilgili açıklama",
+   "link": "https://www.trthaber.com/haber/ekonomi/cumhurbaskani-yardimcisi-yilmazdan-fon-tasfiye-sureciyle-ilgili-aciklama-962464.html",
+   "tarih": "2026-11-06T17:30:00.000Z",
+   "ozet": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, \"13 Kasım'da önemli miktarda ödeme yapma konusunda hazırlık içindeyiz. En düşük yatırımcıdan en yükseğe doğru ödemeleri yaptırıyoruz\"…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altının kilogram fiyatı 6 milyon 563 bin liraya geriledi",
+   "link": "https://www.trthaber.com/haber/ekonomi/altinin-kilogram-fiyati-6-milyon-563-bin-liraya-geriledi-962452.html",
+   "tarih": "2026-11-06T13:51:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 563 bin liraya geriledi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'nin zengin gastronomi kültürü COP31'de tanıtılacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-zengin-gastronomi-kulturu-cop31de-tanitilacak-962447.html",
+   "tarih": "2026-11-06T12:14:00.000Z",
+   "ozet": "Birleşmiş Milletler (BM) İklim Değişikliği Çerçeve Sözleşmesi 31. Taraflar Konferansı'na (COP31) ev sahipliği yapmaya hazırlanan Antalya'da yerli ve yabancı ziyaretçiler, \"7 Bölge…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "TMO, ÇKS kaydını başkasına kullandıran üreticiden fındık almayacak",
    "link": "https://www.trthaber.com/haber/ekonomi/tmo-cks-kaydini-baskasina-kullandiran-ureticiden-findik-almayacak-962445.html",
@@ -192,27 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/turkiye-seker-fabrikalari-as-42-personel-alacak-962293.html",
    "tarih": "2026-11-05T05:49:00.000Z",
    "ozet": "Türkiye Şeker Fabrikaları AŞ Genel Müdürlüğü (Türkşeker), taşra teşkilatında istihdam etmek üzere 42 sözleşmeli mühendis ve tekniker alımı yapacak.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Fonların tasfiyesinde yapılan ödeme 62,2 milyar TL oldu",
-   "link": "https://www.trthaber.com/haber/ekonomi/fonlarin-tasfiyesinde-yapilan-odeme-622-milyar-tl-oldu-962270.html",
-   "tarih": "2026-11-04T19:52:00.000Z",
-   "ozet": "Fonların tasfiye sürecinde olağanüstü tasfiye kapsamında 390 bin 219 yatırımcıya 62,2 milyar lira ödeme yapıldı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "TOKİ, 61 ildeki 725 arsayı açık artırmayla satışa sunacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/toki-61-ildeki-725-arsayi-acik-artirmayla-satisa-sunacak-962220.html",
-   "tarih": "2026-11-04T10:23:00.000Z",
-   "ozet": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığı Toplu Konut İdaresi Başkanlığı (TOKİ), 61 ilde 725 arsayı 5-6 Kasım'da açık artırma yöntemiyle satışa çıkaracak.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Zorunlu kış lastiği uygulaması 15 Kasım'da başlıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/zorunlu-kis-lastigi-uygulamasi-15-kasimda-basliyor-962217.html",
-   "tarih": "2026-11-04T10:16:00.000Z",
-   "ozet": "Şehirler arası yollarda yolcu ve eşya taşıyan tüm ticari araçlar için kış lastiği kullanım zorunluluğu 15 Kasım'dan itibaren başlayacak.",
    "kaynak": "TRT Haber"
   }
  ]
