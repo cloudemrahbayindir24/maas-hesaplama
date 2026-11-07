@@ -1,10 +1,52 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-06T19:58:26.230Z",
+ "guncellendi": "2026-11-07T11:07:51.600Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Çevresel Etki Değerlendirmesi Yönetmeliği'nde değişikliğe gidildi",
+   "link": "https://www.trthaber.com/haber/ekonomi/cevresel-etki-degerlendirmesi-yonetmeliginde-degisiklige-gidildi-962527.html",
+   "tarih": "2026-11-07T10:36:00.000Z",
+   "ozet": "Çevresel Etki Değerlendirmesi (ÇED) Yönetmeliği'nde Değişiklik Yapılmasına Dair Yönetmelik, Resmi Gazete'de yayımlanarak yürürlüğe girdi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Hava yolunda yılın 10 ayında 216,8 milyon yolcuya hizmet verildi",
+   "link": "https://www.trthaber.com/haber/ekonomi/hava-yolunda-yilin-10-ayinda-2168-milyon-yolcuya-hizmet-verildi-962517.html",
+   "tarih": "2026-11-07T08:44:00.000Z",
+   "ozet": "Türkiye'de bu yılın 10 ayında direkt transit yolcularla birlikte hava yolunda toplam 216 milyon 803 bin 230 yolcuya hizmet verildi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalar haftayı karışık seyirle tamamladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-haftayi-karisik-seyirle-tamamladi-962511.html",
+   "tarih": "2026-11-07T08:28:00.000Z",
+   "ozet": "Küresel pay piyasaları, bu hafta ABD'de gerçekleştirilen Kongre ara seçimleri, Orta Doğu'daki gelişmeler ve makroekonomik verilerin takip edildiği yoğun haftayı karışık seyirle…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Sığır karkasının Pazar fiyatı sıcak ağırlığına göre belirlenecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/sigir-karkasinin-pazar-fiyati-sicak-agirligina-gore-belirlenecek-962497.html",
+   "tarih": "2026-11-07T06:45:00.000Z",
+   "ozet": "Karkas sığır etinin fiyatının belirlenmesinde \"sıcak karkas ağırlığı\" esas alınacak.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ticaret Bakanlığına DTÖ'den uluslararası ödül",
+   "link": "https://www.trthaber.com/haber/ekonomi/ticaret-bakanligina-dtoden-uluslararasi-odul-962495.html",
+   "tarih": "2026-11-07T06:31:00.000Z",
+   "ozet": "Ticaret Bakanlığına, kadınların Türkiye'nin ihracatına sağladığı katkıyı analiz etmek amacıyla hazırladığı çalışma nedeniyle Dünya Ticaret Örgütü (DTÖ) tarafından \"Ticarette…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "SPK'dan 3 şirketin pay piyasasındaki işlemlere ilişkin suç duyurusu kararı",
+   "link": "https://www.trthaber.com/haber/ekonomi/spkdan-3-sirketin-pay-piyasasindaki-islemlere-iliskin-suc-duyurusu-karari-962492.html",
+   "tarih": "2026-11-07T05:27:00.000Z",
+   "ozet": "Sermaye Piyasası Kurulu (SPK), pay piyasalarında gerçekleştirilen işlemler nedeniyle Temapol Polimer Plastik ve İnşaat Sanayi Ticaret AŞ (TMPOL) için 24, İsvea Seramik ve Banyo…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Cumhurbaşkanı Yardımcısı Yılmaz'dan fon tasfiye süreciyle ilgili açıklama",
    "link": "https://www.trthaber.com/haber/ekonomi/cumhurbaskani-yardimcisi-yilmazdan-fon-tasfiye-sureciyle-ilgili-aciklama-962464.html",
@@ -171,48 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/ruzgar-ve-guneste-2040-hedefi-175-bin-megavat-kurulu-guc-962317.html",
    "tarih": "2026-11-05T08:28:00.000Z",
    "ozet": "Enerji Bakanı Alparslan Bayraktar, \"Türkiye 2040 itibarıyla 175 bin megavatlık rüzgar ve güneş kurulu gücüne ulaşacak. Yatırım tutarı yaklaşık 100 milyar dolar dedi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Kimya sektöründen tüm zamanların 10 aylık ihracat rekoru",
-   "link": "https://www.trthaber.com/haber/ekonomi/kimya-sektorunden-tum-zamanlarin-10-aylik-ihracat-rekoru-962314.html",
-   "tarih": "2026-11-05T08:08:00.000Z",
-   "ozet": "Kimya sektörü ihracatta başarılı bir süreç ilerletiyor. Ekim ayında 3 milyar doları geçen kimya sektörü, yılın ilk 10 ayında da 28,8 milyar dolarla tarihi zirveye ulaştı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "90 yaş ve üzeri her 10 kişiden 7'si kadın",
-   "link": "https://www.trthaber.com/haber/ekonomi/90-yas-ve-uzeri-her-10-kisiden-7si-kadin-962308.html",
-   "tarih": "2026-11-05T07:29:00.000Z",
-   "ozet": "Türkiye'de 90 yaş ve üzerindeki nüfus, geçen yılın aynı dönemine kıyasla artış göstererek 253 bin 54 kişiye ulaştı. Söz konusu yaş grubunda kadın nüfusu, erkek nüfusunun 2,3 katı…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "BIST 100 endeksi güne 11.546,61 puandan başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/bist-100-endeksi-gune-1154661-puandan-basladi-962304.html",
-   "tarih": "2026-11-05T07:01:00.000Z",
-   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,60 yükselişle 11.546,61 puandan başladı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Yaşlı ve engellilere 9,6 milyar liralık kasım ödemesi",
-   "link": "https://www.trthaber.com/haber/ekonomi/yasli-ve-engellilere-96-milyar-liralik-kasim-odemesi-962302.html",
-   "tarih": "2026-11-05T06:40:00.000Z",
-   "ozet": "Kasım ayında 1 milyon 293 bin 534 vatandaşın hesabına toplam 9,6 milyar lira yaşlı ve engelli aylığı ödemesi yatırılmaya başlandı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türk futbolunda yayın ihale süreci başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/turk-futbolunda-yayin-ihale-sureci-basladi-962300.html",
-   "tarih": "2026-11-05T06:29:00.000Z",
-   "ozet": "Türkiye Futbol Federasyonunun (TFF), Süper Lig ve 1. Lig'in 2027-28 sezonundan itibaren 5 sezonluk yayın hakları için düzenleyeceği ihalenin şartnameleri satışa sunuldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye Şeker Fabrikaları AŞ 42 personel alacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-seker-fabrikalari-as-42-personel-alacak-962293.html",
-   "tarih": "2026-11-05T05:49:00.000Z",
-   "ozet": "Türkiye Şeker Fabrikaları AŞ Genel Müdürlüğü (Türkşeker), taşra teşkilatında istihdam etmek üzere 42 sözleşmeli mühendis ve tekniker alımı yapacak.",
    "kaynak": "TRT Haber"
   }
  ]
