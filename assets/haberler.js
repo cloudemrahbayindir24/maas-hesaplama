@@ -1,10 +1,24 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-07T11:07:51.600Z",
+ "guncellendi": "2026-11-07T18:04:15.735Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Bakan Şimşek: Bölgesel aktörler arasında rekabet azalacak, iş birliği artacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-bolgesel-aktorler-arasinda-rekabet-azalacak-is-birligi-artacak-962549.html",
+   "tarih": "2026-11-07T15:45:00.000Z",
+   "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, Körfez'deki savaşın bölgeyi temelden değiştireceğini, bölgesel aktörler arasında rekabetin azalacağı ve iş birliğinin artacağını belirterek…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "SGK'dan lösemili çocukların tedavisine 7,4 milyar liralık destek",
+   "link": "https://www.trthaber.com/haber/ekonomi/sgkdan-losemili-cocuklarin-tedavisine-74-milyar-liralik-destek-962541.html",
+   "tarih": "2026-11-07T12:54:00.000Z",
+   "ozet": "Sosyal Güvenlik Kurumu (SGK), lösemili çocukların sağlık harcamaları için bu yılın 7 ayında 7 milyar 431 milyon lira ödeme yaptı.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Çevresel Etki Değerlendirmesi Yönetmeliği'nde değişikliğe gidildi",
    "link": "https://www.trthaber.com/haber/ekonomi/cevresel-etki-degerlendirmesi-yonetmeliginde-degisiklige-gidildi-962527.html",
@@ -199,20 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/samsunda-tuketiciyi-magdur-eden-isletmeye-idari-yaptirim-962332.html",
    "tarih": "2026-11-05T10:03:00.000Z",
    "ozet": "Ticaret Bakanlığı Basın Müşaviri Bekir Kaplan, Samsun'da bir tüketicinin ürün iadesi talebini reddeden ve mevzuata aykırı davrandığı belirlenen işletmeye idari para cezası…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Şimşek: 179 bin 449 kişi net yatırım tutarının tamamını aldı",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-179-bin-449-kisi-net-yatirim-tutarinin-tamamini-aldi-962324.html",
-   "tarih": "2026-11-05T09:08:00.000Z",
-   "ozet": "Hazine ve Maliye Bakanı Şimşek, \"Tasfiyedeki fonlarda 614 bin 874 hesaba 130,2 milyar lira ödeme yapıldı, 179 bin 449 kişi net yatırım tutarının tamamını aldı\" dedi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Rüzgar ve güneşte 2040 hedefi 175 bin megavat kurulu güç",
-   "link": "https://www.trthaber.com/haber/ekonomi/ruzgar-ve-guneste-2040-hedefi-175-bin-megavat-kurulu-guc-962317.html",
-   "tarih": "2026-11-05T08:28:00.000Z",
-   "ozet": "Enerji Bakanı Alparslan Bayraktar, \"Türkiye 2040 itibarıyla 175 bin megavatlık rüzgar ve güneş kurulu gücüne ulaşacak. Yatırım tutarı yaklaşık 100 milyar dolar dedi.",
    "kaynak": "TRT Haber"
   }
  ]
