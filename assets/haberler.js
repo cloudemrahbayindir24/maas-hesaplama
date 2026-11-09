@@ -1,10 +1,80 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-07T18:04:15.735Z",
+ "guncellendi": "2026-11-09T12:57:34.879Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Otübüs firmalarında ara tatil hareketliliği",
+   "link": "https://www.trthaber.com/haber/ekonomi/otubus-firmalarinda-ara-tatil-hareketliligi-962696.html",
+   "tarih": "2026-11-09T12:43:00.000Z",
+   "ozet": "Yaklaşan ara tatil öncesi otobüs biletlerinin yarısı tükendi, kalanların ise birkaç gün içinde bitmesi bekleniyor. Sefer sayılarının 27 bine kadar çıkacağı tatil dönemi için…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Cevdet Yılmaz: Çin ile işbirliğini ilerletmek istiyoruz",
+   "link": "https://www.trthaber.com/haber/ekonomi/cevdet-yilmaz-cin-ile-isbirligini-ilerletmek-istiyoruz-962695.html",
+   "tarih": "2026-11-09T12:39:00.000Z",
+   "ozet": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, \"Özellikle yenilenebilir enerji, enerji depolama sistemleri, elektrikli araçlar ve batarya teknolojileri, akıllı üretim, çevre…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "THY'den öğrencilere indirimli bilet kampanyası",
+   "link": "https://www.trthaber.com/haber/ekonomi/thyden-ogrencilere-indirimli-bilet-kampanyasi-962691.html",
+   "tarih": "2026-11-09T12:05:00.000Z",
+   "ozet": "Türk Hava Yolları (THY), öğrencilerin yurt dışı seyahatlerinde geçerli yüzde 15 indirimli biletleri satışa çıkardı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'nin mobilite hamlesinde 33 projeye 64 milyar liralık destek",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-mobilite-hamlesinde-33-projeye-64-milyar-liralik-destek-962666.html",
+   "tarih": "2026-11-09T08:52:00.000Z",
+   "ozet": "Türkiye'de yerli ve milli mobilite teknolojilerinin geliştirilmesi ve katma değeri yüksek ürünlerin üretiminin artırılması amacıyla bugüne kadar 33 projeye 64 milyar lira destek…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ekimde en yüksek reel getiri mevduat faizinde gerçekleşti",
+   "link": "https://www.trthaber.com/haber/ekonomi/ekimde-en-yuksek-reel-getiri-mevduat-faizinde-gerceklesti-962651.html",
+   "tarih": "2026-11-09T07:39:00.000Z",
+   "ozet": "Tüketici fiyat endeksi (TÜFE) ile indirgendiğinde ekimde en yüksek aylık reel getiri, yüzde 0,39 ile mevduat faizinde (brüt) gerçekleşti.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "İŞKUR, 10 ayda yaklaşık 1,2 milyon işe yerleştirmeye aracılık etti",
+   "link": "https://www.trthaber.com/haber/ekonomi/iskur-10-ayda-yaklasik-12-milyon-ise-yerlestirmeye-aracilik-etti-962647.html",
+   "tarih": "2026-11-09T07:12:00.000Z",
+   "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, Türkiye İş Kurumunun (İŞKUR) yılın 10 ayında 1 milyon 258 bin 507 işe yerleştirmeye aracılık ettiğini bildirdi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Borsa İstanbul haftaya yükselişle başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/borsa-istanbul-haftaya-yukselisle-basladi-962645.html",
+   "tarih": "2026-11-09T07:05:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,67 yükselişle 11.559,31 puandan başladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Esnaf ve sanatkarlara sağlanan destek 907,8 milyar TLye ulaştı",
+   "link": "https://www.trthaber.com/haber/ekonomi/esnaf-ve-sanatkarlara-saglanan-destek-9078-milyar-tlye-ulasti-962642.html",
+   "tarih": "2026-11-09T06:29:00.000Z",
+   "ozet": "Ticaret Bakanlığı, Türkiye Esnaf ve Sanatkarlar Kredi ve Kefalet Kooperatifleri Birlikleri Merkez Birliği (TESKOMB) kefaletiyle, Halkbank kaynaklı ve Hazine'nin yüzde 50 maliyet…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın fiyatlarında son durum",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962641.html",
+   "tarih": "2026-11-09T06:28:00.000Z",
+   "ozet": "Gram altın haftanın ilk işlem gününe yükselişle başlamasının ardından 6 bin 643 liradan işlem görüyor. Çeyrek altın 10 bin 950 liradan, Cumhuriyet altını 43 bin 552 liradan…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalar haftaya pozitif başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-haftaya-pozitif-basladi-962640.html",
+   "tarih": "2026-11-09T06:20:00.000Z",
+   "ozet": "Küresel piyasalar, petrol fiyatlarındaki gerileme ve teknoloji hisselerinde görülen yükselişlerin etkisiyle pozitif seyrediyor.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Bakan Şimşek: Bölgesel aktörler arasında rekabet azalacak, iş birliği artacak",
    "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-bolgesel-aktorler-arasinda-rekabet-azalacak-is-birligi-artacak-962549.html",
@@ -143,76 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/altin-gune-dususle-basladi-6-kasim-2026-altin-fiyatlari-962409.html",
    "tarih": "2026-11-06T06:32:00.000Z",
    "ozet": "Gram altın güne düşüşle başlamasının ardından 6 bin 521 liradan işlem görüyor. Çeyrek altın 10 bin 741 liradan, cumhuriyet altını 43 bin 796 liradan satılıyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Şimşek: Gelir, kurumlar ve katma değer vergisi oranlarında bir artış gündemde yok",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-gelir-kurumlar-ve-katma-deger-vergisi-oranlarinda-bir-artis-gundemde-yok-962382.html",
-   "tarih": "2026-11-05T23:36:00.000Z",
-   "ozet": "Hazine ve Maliye Bakanı Şimşek, \"2027 yılında gelir vergisi, kurumlar vergisi ve katma değer vergisi genel oranlarında bir artış gündemimizde yoktur\" açıklamasını yaptı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "SGK'ya 100 denetmen yardımcısı alınacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/sgkya-100-denetmen-yardimcisi-alinacak-962381.html",
-   "tarih": "2026-11-05T22:38:00.000Z",
-   "ozet": "Sosyal Güvenlik Kurumu (SGK), 100 sosyal güvenlik denetmen yardımcısı alacak.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Golden Global Yatırım Bankası'nın faaliyet izni kaldırıldı",
-   "link": "https://www.trthaber.com/haber/ekonomi/golden-global-yatirim-bankasinin-faaliyet-izni-kaldirildi-962379.html",
-   "tarih": "2026-11-05T22:05:00.000Z",
-   "ozet": "Bankacılık Düzenleme ve Denetleme Kurumu (BDDK), Golden Global Yatırım Bankası AŞ'nin faaliyet izninin kaldırılmasına karar verdi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Şimşek: Düzenleme tüm emeklilerimizi kapsayacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-duzenleme-tum-emeklilerimizi-kapsayacak-962369.html",
-   "tarih": "2026-11-05T18:54:00.000Z",
-   "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, \"Emeklilerimizin alım güçlerini desteklemesi amacıyla yürüttüğümüz teknik çalışma henüz tamamlanmadı. Düzenleme tüm emeklilerimizi…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962361.html",
-   "tarih": "2026-11-05T15:29:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 642 bin liraya çıktı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Merkez bankası rezervleri 158,1 milyar dolar oldu",
-   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-rezervleri-1581-milyar-dolar-oldu-962351.html",
-   "tarih": "2026-11-05T12:06:00.000Z",
-   "ozet": "Türkiye Cumhuriyet Merkez Bankasının (TCMB) toplam rezervleri, 30 Ekim haftasında bir önceki haftaya göre 4 milyar 84 milyon dolar azalarak 158 milyar 107 milyon dolar oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Girişimcilik ekosistemine 604 milyon lira hibe verilecek",
-   "link": "https://www.trthaber.com/haber/ekonomi/girisimcilik-ekosistemine-604-milyon-lira-hibe-verilecek-962349.html",
-   "tarih": "2026-11-05T11:49:00.000Z",
-   "ozet": "ENHANCER PRO Ortak Kullanım Tesisleri Hibe Programı ile 17 ildeki 58 kuruma yaklaşık 604 milyon lira destek sağlanacak.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ankara'nın ihracatı 10 ayda 15,7 milyar dolara yükseldi",
-   "link": "https://www.trthaber.com/haber/ekonomi/ankaranin-ihracati-10-ayda-157-milyar-dolara-yukseldi-962348.html",
-   "tarih": "2026-11-05T11:40:00.000Z",
-   "ozet": "Ankara'dan bu yılın 10 aylık döneminde yapılan ihracat, geçen yılın aynı dönemine göre yüzde 21,2 artarak, 15 milyar 727 milyon 188 bin dolara yükseldi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bölgesel kalkınma için 18,6 milyar lira kaynak aktarılacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/bolgesel-kalkinma-icin-186-milyar-lira-kaynak-aktarilacak-962347.html",
-   "tarih": "2026-11-05T11:32:00.000Z",
-   "ozet": "Sanayi ve Teknoloji Bakanlığı'nın, 2027-2029 döneminde Bölgesel Kalkınma Programı için toplam 18 milyar 627 milyon 204 bin lira ödenek ayırması planlanıyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Samsun'da tüketiciyi mağdur eden işletmeye idari yaptırım",
-   "link": "https://www.trthaber.com/haber/ekonomi/samsunda-tuketiciyi-magdur-eden-isletmeye-idari-yaptirim-962332.html",
-   "tarih": "2026-11-05T10:03:00.000Z",
-   "ozet": "Ticaret Bakanlığı Basın Müşaviri Bekir Kaplan, Samsun'da bir tüketicinin ürün iadesi talebini reddeden ve mevzuata aykırı davrandığı belirlenen işletmeye idari para cezası…",
    "kaynak": "TRT Haber"
   }
  ]
