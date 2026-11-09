@@ -1,13 +1,41 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-09T12:57:34.879Z",
+ "guncellendi": "2026-11-09T23:00:25.687Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
   {
-   "baslik": "Otübüs firmalarında ara tatil hareketliliği",
-   "link": "https://www.trthaber.com/haber/ekonomi/otubus-firmalarinda-ara-tatil-hareketliligi-962696.html",
+   "baslik": "SPK'dan dolandırıcılık uyarısı",
+   "link": "https://www.trthaber.com/haber/ekonomi/spkdan-dolandiricilik-uyarisi-962711.html",
+   "tarih": "2026-11-09T17:42:00.000Z",
+   "ozet": "Fon yatırımcılarına yönelik ödemeler sürerken Sermaye Piyasası Kurulu'ndan önemli açıklama geldi. Dolandırıcılık girişimlerine karşı fon yatırımcıları \"Fonlara ilişkin ödeme…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "THY, 2026'nın ilk 10 ayında 81,5 milyon yolcu taşıdı",
+   "link": "https://www.trthaber.com/haber/ekonomi/thy-2026nin-ilk-10-ayinda-815-milyon-yolcu-tasidi-962709.html",
+   "tarih": "2026-11-09T16:45:00.000Z",
+   "ozet": "Dünyanın en çok ülkesine uçan havayolu şirketi Türk Hava Yolları (THY) 2026 yılının ilk 10 ayında 81,5 milyon yolcu taşırken, filodaki uçak sayısı 571 oldu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın fiyatlarında son durum",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962702.html",
+   "tarih": "2026-11-09T13:42:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 640 bin liraya çıktı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Gümrüklerde kaçakçılıkla mücadeleye 10,2 milyar lira kaynak",
+   "link": "https://www.trthaber.com/haber/ekonomi/gumruklerde-kacakcilikla-mucadeleye-102-milyar-lira-kaynak-962697.html",
+   "tarih": "2026-11-09T12:47:00.000Z",
+   "ozet": "Ticaret Bakanlığının 2027 yılı bütçesinde, kayıt dışı ekonomiyle mücadele kapsamında gümrüklü sahalardaki denetimin artırılması amacıyla 10,2 milyar lira ödenek ayrıldı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Otobüs firmalarında ara tatil hareketliliği",
+   "link": "https://www.trthaber.com/haber/ekonomi/otobus-firmalarinda-ara-tatil-hareketliligi-962696.html",
    "tarih": "2026-11-09T12:43:00.000Z",
    "ozet": "Yaklaşan ara tatil öncesi otobüs biletlerinin yarısı tükendi, kalanların ise birkaç gün içinde bitmesi bekleniyor. Sefer sayılarının 27 bine kadar çıkacağı tatil dönemi için…",
    "kaynak": "TRT Haber"
@@ -59,13 +87,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/esnaf-ve-sanatkarlara-saglanan-destek-9078-milyar-tlye-ulasti-962642.html",
    "tarih": "2026-11-09T06:29:00.000Z",
    "ozet": "Ticaret Bakanlığı, Türkiye Esnaf ve Sanatkarlar Kredi ve Kefalet Kooperatifleri Birlikleri Merkez Birliği (TESKOMB) kefaletiyle, Halkbank kaynaklı ve Hazine'nin yüzde 50 maliyet…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962641.html",
-   "tarih": "2026-11-09T06:28:00.000Z",
-   "ozet": "Gram altın haftanın ilk işlem gününe yükselişle başlamasının ardından 6 bin 643 liradan işlem görüyor. Çeyrek altın 10 bin 950 liradan, Cumhuriyet altını 43 bin 552 liradan…",
    "kaynak": "TRT Haber"
   },
   {
@@ -192,27 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/meslek-lisesi-mezunlarinin-cep-harcligi-artiriliyor-962422.html",
    "tarih": "2026-11-06T07:52:00.000Z",
    "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, kendi alanlarında istihdama katılan meslek lisesi mezunlarının cep harçlığının yüzde 50 artacağını bildirdi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Su ürünleri ihracatının lideri Türk Somonu oldu",
-   "link": "https://www.trthaber.com/haber/ekonomi/su-urunleri-ihracatinin-lideri-turk-somonu-oldu-962419.html",
-   "tarih": "2026-11-06T07:40:00.000Z",
-   "ozet": "Türkiye'nin ekim ayı su ürünleri ihracatında zirve el değiştirdi; levrek ve çipurayı geride bırakan Türk somonu ayın lideri oldu. İhracatı geçen yılın aynı dönemine göre yüzde 54…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Yılın son Enflasyon Raporu 12 Kasım'da açıklanacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/yilin-son-enflasyon-raporu-12-kasimda-aciklanacak-962412.html",
-   "tarih": "2026-11-06T06:45:00.000Z",
-   "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB) Başkanı Fatih Karahan yılın son Enflasyon Raporu'nu 12 Kasım'da İstanbul'da açıklayacak.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın güne düşüşle başladı... 6 Kasım 2026 altın fiyatları",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-gune-dususle-basladi-6-kasim-2026-altin-fiyatlari-962409.html",
-   "tarih": "2026-11-06T06:32:00.000Z",
-   "ozet": "Gram altın güne düşüşle başlamasının ardından 6 bin 521 liradan işlem görüyor. Çeyrek altın 10 bin 741 liradan, cumhuriyet altını 43 bin 796 liradan satılıyor.",
    "kaynak": "TRT Haber"
   }
  ]
