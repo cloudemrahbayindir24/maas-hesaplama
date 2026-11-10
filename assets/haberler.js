@@ -1,10 +1,31 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-10T12:43:56.721Z",
+ "guncellendi": "2026-11-10T20:29:33.114Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Ziraat ve Halk katılım bankalarının Türkiye Varlık Fonuna devri tamamlandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/ziraat-ve-halk-katilim-bankalarinin-turkiye-varlik-fonuna-devri-tamamlandi-962850.html",
+   "tarih": "2026-11-10T17:22:00.000Z",
+   "ozet": "Türkiye Varlık Fonu'nun (TVF) yüzde 100 iştiraki TVF Katılım Finans Yatırımları AŞ, Ziraat Katılım ve Halk Katılım'ın paylarının tamamını devraldı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Standart altının kilogram fiyatı günü 6 milyon 578 bin liradan tamamladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/standart-altinin-kilogram-fiyati-gunu-6-milyon-578-bin-liradan-tamamladi-962834.html",
+   "tarih": "2026-11-10T14:14:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası’nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 578 bin lira oldu. Fiyat bir önceki günün…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Almanyada yapay zekanın 15 yılda 800 bin işi değiştirmesi bekleniyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/almanyada-yapay-zekanin-15-yilda-800-bin-isi-degistirmesi-bekleniyor-962821.html",
+   "tarih": "2026-11-10T12:38:00.000Z",
+   "ozet": "Almanya Federal İş Ajansı (BA) Başkanı Andrea Nahles, yapay zekanın gelecek 15 yıl içinde ülkede yaklaşık 800 bin iş kaybına yol açacağını ancak benzer sayıda yeni istihdam…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Katılımevim, Birevim ve İktisat Katılım'ın devri için gerekli izinler alındı",
    "link": "https://www.trthaber.com/haber/ekonomi/katilimevim-birevim-ve-iktisat-katilimin-devri-icin-gerekli-izinler-alindi-962812.html",
@@ -80,6 +101,13 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/vergi-borcu-5-milyon-lira-ve-uzeri-olan-mukelleflerin-isimleri-aciklanacak-962760.html",
    "tarih": "2026-11-10T06:15:00.000Z",
    "ozet": "Kesinleşen vergi ve ceza borçları ile vadesi geçtiği halde ödenmemiş borçları 5 milyon lira ve üzeri olan mükelleflerin isimleri aralık ayında kamuoyuyla paylaşılacak.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Emlakçı ev gösterme ücreti alabilir mi?",
+   "link": "https://www.trthaber.com/haber/ekonomi/emlakci-ev-gosterme-ucreti-alabilir-mi-962755.html",
+   "tarih": "2026-11-10T05:48:00.000Z",
+   "ozet": "Kiralık ya da satılık ev göstermek için bazı emlakçıların ücret talep ettiği iddia ediliyor. Peki, yalnızca evi göstermek için para istenmesi yasal mı? Böyle bir ücret ödeyenler…",
    "kaynak": "TRT Haber"
   },
   {
@@ -185,34 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/sgkdan-losemili-cocuklarin-tedavisine-74-milyar-liralik-destek-962541.html",
    "tarih": "2026-11-07T12:54:00.000Z",
    "ozet": "Sosyal Güvenlik Kurumu (SGK), lösemili çocukların sağlık harcamaları için bu yılın 7 ayında 7 milyar 431 milyon lira ödeme yaptı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Çevresel Etki Değerlendirmesi Yönetmeliği'nde değişikliğe gidildi",
-   "link": "https://www.trthaber.com/haber/ekonomi/cevresel-etki-degerlendirmesi-yonetmeliginde-degisiklige-gidildi-962527.html",
-   "tarih": "2026-11-07T10:36:00.000Z",
-   "ozet": "Çevresel Etki Değerlendirmesi (ÇED) Yönetmeliği'nde Değişiklik Yapılmasına Dair Yönetmelik, Resmi Gazete'de yayımlanarak yürürlüğe girdi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Hava yolunda yılın 10 ayında 216,8 milyon yolcuya hizmet verildi",
-   "link": "https://www.trthaber.com/haber/ekonomi/hava-yolunda-yilin-10-ayinda-2168-milyon-yolcuya-hizmet-verildi-962517.html",
-   "tarih": "2026-11-07T08:44:00.000Z",
-   "ozet": "Türkiye'de bu yılın 10 ayında direkt transit yolcularla birlikte hava yolunda toplam 216 milyon 803 bin 230 yolcuya hizmet verildi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalar haftayı karışık seyirle tamamladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-haftayi-karisik-seyirle-tamamladi-962511.html",
-   "tarih": "2026-11-07T08:28:00.000Z",
-   "ozet": "Küresel pay piyasaları, bu hafta ABD'de gerçekleştirilen Kongre ara seçimleri, Orta Doğu'daki gelişmeler ve makroekonomik verilerin takip edildiği yoğun haftayı karışık seyirle…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Sığır karkasının Pazar fiyatı sıcak ağırlığına göre belirlenecek",
-   "link": "https://www.trthaber.com/haber/ekonomi/sigir-karkasinin-pazar-fiyati-sicak-agirligina-gore-belirlenecek-962497.html",
-   "tarih": "2026-11-07T06:45:00.000Z",
-   "ozet": "Karkas sığır etinin fiyatının belirlenmesinde \"sıcak karkas ağırlığı\" esas alınacak.",
    "kaynak": "TRT Haber"
   }
  ]
