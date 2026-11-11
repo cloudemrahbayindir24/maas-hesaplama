@@ -1,10 +1,31 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-11T11:55:13.553Z",
+ "guncellendi": "2026-11-11T20:14:15.608Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Merkez Bankası kredi büyüme sınırlarını yükseltti",
+   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-kredi-buyume-sinirlarini-yukseltti-962975.html",
+   "tarih": "2026-11-11T20:02:00.000Z",
+   "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB), bankaların ve finansman şirketlerinin 1 yıldan uzun vadeli Türk lirası ve yabancı para cinsinden mevduat dışı yükümlülükleri için tesis…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Mesleki Yeterlilik Kurumu, 5 uzman yardımcısı alacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/mesleki-yeterlilik-kurumu-5-uzman-yardimcisi-alacak-962956.html",
+   "tarih": "2026-11-11T14:24:00.000Z",
+   "ozet": "Mesleki Yeterlilik Kurumu (MYK), 5 uzman yardımcısı istihdam edecek.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın günü düşüşle kapattı",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-962954.html",
+   "tarih": "2026-11-11T13:49:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 525 bin liraya geriledi.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Tren biletleriyle 12 milyondan fazla fidan toprakla buluşacak",
    "link": "https://www.trthaber.com/haber/ekonomi/tren-biletleriyle-12-milyondan-fazla-fidan-toprakla-bulusacak-962933.html",
@@ -192,27 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/emlakci-ev-gosterme-ucreti-alabilir-mi-962755.html",
    "tarih": "2026-11-10T05:48:00.000Z",
    "ozet": "Kiralık ya da satılık ev göstermek için bazı emlakçıların ücret talep ettiği iddia ediliyor. Peki, yalnızca evi göstermek için para istenmesi yasal mı? Böyle bir ücret ödeyenler…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "SPK'dan dolandırıcılık uyarısı",
-   "link": "https://www.trthaber.com/haber/ekonomi/spkdan-dolandiricilik-uyarisi-962711.html",
-   "tarih": "2026-11-09T17:42:00.000Z",
-   "ozet": "Fon yatırımcılarına yönelik ödemeler sürerken Sermaye Piyasası Kurulu'ndan önemli açıklama geldi. Dolandırıcılık girişimlerine karşı fon yatırımcıları \"Fonlara ilişkin ödeme…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "THY, 2026'nın ilk 10 ayında 81,5 milyon yolcu taşıdı",
-   "link": "https://www.trthaber.com/haber/ekonomi/thy-2026nin-ilk-10-ayinda-815-milyon-yolcu-tasidi-962709.html",
-   "tarih": "2026-11-09T16:45:00.000Z",
-   "ozet": "Dünyanın en çok ülkesine uçan havayolu şirketi Türk Hava Yolları (THY) 2026 yılının ilk 10 ayında 81,5 milyon yolcu taşırken, filodaki uçak sayısı 571 oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-962702.html",
-   "tarih": "2026-11-09T13:42:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 640 bin liraya çıktı.",
    "kaynak": "TRT Haber"
   }
  ]
