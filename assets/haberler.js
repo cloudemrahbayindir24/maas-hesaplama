@@ -1,10 +1,24 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-12T12:49:26.692Z",
+ "guncellendi": "2026-11-12T20:52:37.400Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Bakan Şimşek: Yeşil dönüşüm ekonomi programımızın merkezinde yer alıyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-yesil-donusum-ekonomi-programimizin-merkezinde-yer-aliyor-963104.html",
+   "tarih": "2026-11-12T17:26:00.000Z",
+   "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, \"Karbon salımınızı azaltmazsanız, bazı ürünlerinizi uluslararası pazarlarda rekabetçi şekilde satamazsınız. Bu nedenle yeşil dönüşüm…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın günü yüzde 2,2 düşüşle kapattı",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-gunu-yuzde-22-dususle-kapatti-963082.html",
+   "tarih": "2026-11-12T13:30:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 379 bin liraya geriledi.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Akkuyu NGS birinci ünitede mukavemet testleri tamamlandı",
    "link": "https://www.trthaber.com/haber/ekonomi/akkuyu-ngs-birinci-unitede-mukavemet-testleri-tamamlandi-963068.html",
@@ -199,20 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/zorunlu-kis-lastigi-uygulamasi-pazar-gunu-basliyor-962902.html",
    "tarih": "2026-11-11T07:28:00.000Z",
    "ozet": "Ulaştırma ve Altyapı Bakanlığı tarafından yapılan düzenlemeler kapsamında 15 Kasım ile 15 Nisan arasında tüm ticari araçlarda kış lastiği kullanımı zorunluluğu bulunuyor. Özel…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türk ihracatçısına ABde dijital kolaylık: Eimzalar karşılıklı tanınacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/turk-ihracatcisina-abde-dijital-kolaylik-e-imzalar-karsilikli-taninacak-962901.html",
-   "tarih": "2026-11-11T07:20:00.000Z",
-   "ozet": "Ticaret Bakanlığı, Türkiye ile Avrupa Birliği (AB) arasında ekonomik ve ticari ilişkilerin dijital altyapısının güçlendirilmesi amacıyla elektronik imza ve mühürlerin karşılıklı…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Borsa güne yükselişle başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gune-yukselisle-basladi-962898.html",
-   "tarih": "2026-11-11T07:02:00.000Z",
-   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,35 yükselişle 11.702,38 puandan başladı.",
    "kaynak": "TRT Haber"
   }
  ]
