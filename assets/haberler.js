@@ -1,10 +1,73 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-12T20:52:37.400Z",
+ "guncellendi": "2026-11-13T12:18:27.532Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Süreç başladı: eimzalar AB ile karşılıklı tanınacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/surec-basladi-e-imzalar-ab-ile-karsilikli-taninacak-963193.html",
+   "tarih": "2026-11-13T12:10:00.000Z",
+   "ozet": "Türkiye ile Avrupa Birliği (AB) arasında elektronik imzaların (e-imza) karşılıklı tanınmasına yönelik süreç başladı. Sürecin tamamlanmasıyla Türkiye'de kullanılan nitelikli…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bakan Bolat: Cari işlemler dengesinde 4 ay art arda fazla verilmesi öngörülüyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-bolat-cari-islemler-dengesinde-4-ay-art-arda-fazla-verilmesi-ongoruluyor-963185.html",
+   "tarih": "2026-11-13T10:59:00.000Z",
+   "ozet": "Ticaret Bakanı Ömer Bolat, temmuz, ağustos ve eylül aylarının ardından ekimde de cari işlemler hesabında fazla verilmesinin beklendiğine işaret ederek, \"Böylece cari işlemler…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Alışveriş sırasında doğrudan sigorta yaptırılabilecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/alisveris-sirasinda-dogrudan-sigorta-yaptirilabilecek-963182.html",
+   "tarih": "2026-11-13T10:41:00.000Z",
+   "ozet": "Sigortacılık ve Özel Emeklilik Düzenleme ve Denetleme Kurumu (SEDDK) tarafından hazırlanan Bütünleşik Sigortalar Hakkında Yönetmelik ile vatandaşların alışveriş sırasında doğrudan…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bakan Şimşek: Cari açığın OVP tahminlerinin altında olacağını öngörüyoruz",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-cari-acigin-ovp-tahminlerinin-altinda-olacagini-ongoruyoruz-963179.html",
+   "tarih": "2026-11-13T10:34:00.000Z",
+   "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, \"2025 yılında yüzde 1,9 olan cari işlemler açığının milli gelire oranının, bu yıl savaşa rağmen, sınırlı artışla OVP tahminimizin altında ve…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel petrol arzı ekimde arttı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-petrol-arzi-ekimde-artti-963171.html",
+   "tarih": "2026-11-13T09:09:00.000Z",
+   "ozet": "Uluslararası Enerji Ajansı (IEA), Körfez ülkelerinin yüksek ihracatının etkisiyle küresel petrol arzının ekimde önceki aya göre günlük 2 milyon 300 bin varil artarak 105 milyon…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Tüketici hakem heyetlerine 10 ayda 842 bin başvuru",
+   "link": "https://www.trthaber.com/haber/ekonomi/tuketici-hakem-heyetlerine-10-ayda-842-bin-basvuru-963170.html",
+   "tarih": "2026-11-13T08:57:00.000Z",
+   "ozet": "Tüketici hakem heyetlerine, yılın 10 ayında 15,6 milyar lira değerinde, 842 bin 695 başvuru gerçekleştirildi. Söz konusu sürede 776 bin 822 uyuşmazlık, tüketici hakem heyetleri…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalarda gözler bugünkü verilerde",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-gozler-bugunku-verilerde-963169.html",
+   "tarih": "2026-11-13T08:43:00.000Z",
+   "ozet": "Küresel piyasalar, Nvidia Üst Yöneticisi (CEO) Jensen Huang'ın istifası, ABD Merkez Bankasının (Fed) faiz artıracağına yönelik beklentiler ve devam eden jeopolitik risklerin…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ödemeler dengesi verileri açıklandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/odemeler-dengesi-verileri-aciklandi-963160.html",
+   "tarih": "2026-11-13T07:32:00.000Z",
+   "ozet": "Türkiye'nin cari işlemler hesabında eylül ayında 2 milyar 720 milyon dolarlık, altın ve enerji hariç cari işlemler hesabında da 7 milyar 342 milyon dolarlık fazla verildi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın güne artışla başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-gune-artisla-basladi-963150.html",
+   "tarih": "2026-11-13T06:33:00.000Z",
+   "ozet": "Gram altın güne yükselişle başlamasının ardından 6 bin 310 liradan işlem görüyor. Çeyrek altın 10 bin 422 liradan, cumhuriyet altını 41 bin 537 liradan satılıyor.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Bakan Şimşek: Yeşil dönüşüm ekonomi programımızın merkezinde yer alıyor",
    "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-yesil-donusum-ekonomi-programimizin-merkezinde-yer-aliyor-963104.html",
@@ -150,69 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-uluslararasi-finans-kuruluslarinin-ust-duzey-yoneticileriyle-gorustu-963001.html",
    "tarih": "2026-11-12T05:44:00.000Z",
    "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, COP31 kapsamında Dünya Bankası, EBRD ve UNDP başkanlarıyla bir araya gelerek Türkiye'nin iklim eylemini hızlandırmayı amaçlayan İklim…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Merkez Bankası kredi büyüme sınırlarını yükseltti",
-   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-kredi-buyume-sinirlarini-yukseltti-962975.html",
-   "tarih": "2026-11-11T20:02:00.000Z",
-   "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB), bankaların ve finansman şirketlerinin 1 yıldan uzun vadeli Türk lirası ve yabancı para cinsinden mevduat dışı yükümlülükleri için tesis…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Mesleki Yeterlilik Kurumu, 5 uzman yardımcısı alacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/mesleki-yeterlilik-kurumu-5-uzman-yardimcisi-alacak-962956.html",
-   "tarih": "2026-11-11T14:24:00.000Z",
-   "ozet": "Mesleki Yeterlilik Kurumu (MYK), 5 uzman yardımcısı istihdam edecek.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın günü düşüşle kapattı",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-962954.html",
-   "tarih": "2026-11-11T13:49:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 525 bin liraya geriledi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Tren biletleriyle 12 milyondan fazla fidan toprakla buluşacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/tren-biletleriyle-12-milyondan-fazla-fidan-toprakla-bulusacak-962933.html",
-   "tarih": "2026-11-11T10:10:00.000Z",
-   "ozet": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, Tarım ve Orman Bakanlığı ile hayata geçirdikleri \"Her Bilet Bir Fidan Sevdamız Yeşil Vatan Kampanyası\" kapsamında 12 milyondan…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İşitme engelli kişinin üyeliğini yenilemeyen araç kiralama şirketine ceza",
-   "link": "https://www.trthaber.com/haber/ekonomi/isitme-engelli-kisinin-uyeligini-yenilemeyen-arac-kiralama-sirketine-ceza-962924.html",
-   "tarih": "2026-11-11T09:09:00.000Z",
-   "ozet": "TİHEK, işitme engelli bir kişinin sürücü belgesinde engel durumu nedeniyle yer alan kişiselleştirilmiş kısıt kodunu gerekçe göstererek araç kiralama uygulamasındaki üyelik…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İhracat ve ticaretin geliştirilmesine 82 milyar lira ayrılacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/ihracat-ve-ticaretin-gelistirilmesine-82-milyar-lira-ayrilacak-962920.html",
-   "tarih": "2026-11-11T08:41:00.000Z",
-   "ozet": "Türkiye'de ihracatın desteklenmesi ve ticaretin geliştirilmesi amacıyla yürütülen program kapsamında, 2027 yılı bütçesinden 82 milyar 63 milyon 821 bin lira ödenek ayrılması…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye'de bankaların çalışan sayısı 211 bini aştı",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiyede-bankalarin-calisan-sayisi-211-bini-asti-962912.html",
-   "tarih": "2026-11-11T08:19:00.000Z",
-   "ozet": "Türkiye'de faaliyet gösteren 67 bankanın toplam şube sayısı 10 bin 589'a, ATM sayısı ise 57 bin 103'e ulaştı. Bankacılık sektöründe çalışan sayısı 211 bin 176 olarak kayıtlara…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "BDDK Başkanı Kavcıoğlu görevinden affını istedi",
-   "link": "https://www.trthaber.com/haber/ekonomi/bddk-baskani-kavcioglu-gorevinden-affini-istedi-962904.html",
-   "tarih": "2026-11-11T07:53:00.000Z",
-   "ozet": "Bankacılık Düzenleme ve Denetleme Kurumu Başkanı Şahap Kavcıoğlu, \"BDDK ve şahsımla ilgili son günlerdeki iddialar üzerine, Kurumumuzun daha fazla yıpranmaması için Sayın…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Zorunlu kış lastiği uygulaması pazar günü başlıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/zorunlu-kis-lastigi-uygulamasi-pazar-gunu-basliyor-962902.html",
-   "tarih": "2026-11-11T07:28:00.000Z",
-   "ozet": "Ulaştırma ve Altyapı Bakanlığı tarafından yapılan düzenlemeler kapsamında 15 Kasım ile 15 Nisan arasında tüm ticari araçlarda kış lastiği kullanımı zorunluluğu bulunuyor. Özel…",
    "kaynak": "TRT Haber"
   }
  ]
