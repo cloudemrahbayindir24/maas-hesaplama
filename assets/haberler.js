@@ -1,10 +1,24 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-13T12:18:27.532Z",
+ "guncellendi": "2026-11-13T20:30:32.321Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Türkiye Sigorta fon kazancını TMSF'ye iade etti",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-sigorta-fon-kazancini-tmsfye-iade-etti-963223.html",
+   "tarih": "2026-11-13T19:11:00.000Z",
+   "ozet": "Türkiye Sigorta AŞ, 1 milyar 599 milyon 887 bin 908 TL'nin iade edilecek kazanç olarak belirlendiğini ve iade tutarının bugün Tasarruf Mevduatı Sigorta Fonu (TMSF) hesabına…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın bugünü de düşüşle kapattı",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-bugunu-de-dususle-kapatti-963200.html",
+   "tarih": "2026-11-13T14:17:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 321 bin liraya geriledi.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Süreç başladı: eimzalar AB ile karşılıklı tanınacak",
    "link": "https://www.trthaber.com/haber/ekonomi/surec-basladi-e-imzalar-ab-ile-karsilikli-taninacak-963193.html",
@@ -199,20 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-nvidia-soku-963011.html",
    "tarih": "2026-11-12T06:24:00.000Z",
    "ozet": "Küresel piyasalar, ABD'li çip üreticisi Nvidia'nın Üst Yöneticisi (CEO) Jensen Huang'ın görevden alınabileceği iddialarının yapay zeka hisselerinde satış baskısını artırmasıyla…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatlarında geri çekilme sürüyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-geri-cekilme-suruyor-963005.html",
-   "tarih": "2026-11-12T06:17:00.000Z",
-   "ozet": "Güçlenen dolar ve Fed üyelerinin şahin açıklamaları altın üzerindeki baskıyı artırdı. Gram altın güne düşüşle başlamasının ardından 6 bin 428 liradan işlem görüyor. Çeyrek altın…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Şimşek, uluslararası finans kuruluşlarının üst düzey yöneticileriyle görüştü",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-uluslararasi-finans-kuruluslarinin-ust-duzey-yoneticileriyle-gorustu-963001.html",
-   "tarih": "2026-11-12T05:44:00.000Z",
-   "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, COP31 kapsamında Dünya Bankası, EBRD ve UNDP başkanlarıyla bir araya gelerek Türkiye'nin iklim eylemini hızlandırmayı amaçlayan İklim…",
    "kaynak": "TRT Haber"
   }
  ]
