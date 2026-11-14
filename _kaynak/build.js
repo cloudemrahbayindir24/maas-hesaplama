@@ -59,7 +59,7 @@ const NAV = [
 ];
 
 // İletişim: ayrı iletişim e-postası açılınca buraya yazın; boşken İletişim sayfası üretilmez.
-const ILETISIM_EPOSTA = '';
+const ILETISIM_EPOSTA = 'iletisim.maashesaplama@gmail.com';
 const EDITOR = 'maas-hesaplama.com Editörü';
 
 // ===================== PARÇALAR =====================
