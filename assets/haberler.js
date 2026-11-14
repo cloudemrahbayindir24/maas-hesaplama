@@ -1,10 +1,31 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-14T11:33:43.252Z",
+ "guncellendi": "2026-11-14T18:45:27.809Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "COP31'de 2 bin 700 gönüllü görev alıyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/cop31de-2-bin-700-gonullu-gorev-aliyor-963283.html",
+   "tarih": "2026-11-14T13:06:00.000Z",
+   "ozet": "Türkiye'nin ilk kez ev sahipliği yaptığı, iklim değişikliği ile mücadelede dünyanın en önemli organizasyonu olan Birleşmiş Milletler (BM) İklim Değişikliği Çerçeve Sözleşmesi 31…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Rüzgardan elektrik üretiminde tüm zamanların rekoru",
+   "link": "https://www.trthaber.com/haber/ekonomi/ruzgardan-elektrik-uretiminde-tum-zamanlarin-rekoru-963280.html",
+   "tarih": "2026-11-14T12:55:00.000Z",
+   "ozet": "Türkiye'de dün rüzgardan elektrik üretiminde günlük bazda 276 bin 794 megavatsaatle tüm zamanların rekoru kırıldı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Diyabet hastaları için 7 ayda 39,3 milyar lira finansman sağlandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/diyabet-hastalari-icin-7-ayda-393-milyar-lira-finansman-saglandi-963276.html",
+   "tarih": "2026-11-14T11:50:00.000Z",
+   "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, \"Diyabetle mücadele eden vatandaşlarımızın her zaman yanındayız. Bu yılın Ocak-Temmuz döneminde toplam 39,3 milyar lira tedavi…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Ayran, kefir ve yoğurt üretimi 9 ayda rekor seviyeye ulaştı",
    "link": "https://www.trthaber.com/haber/ekonomi/ayran-kefir-ve-yogurt-uretimi-9-ayda-rekor-seviyeye-ulasti-963266.html",
@@ -192,27 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-kalkinma-bankalarini-katalizor-olarak-goruyorum-963051.html",
    "tarih": "2026-11-12T09:50:00.000Z",
    "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, kalkınma bankalarının ülkelerin gelişimine sağladığı katkılara dikkati çekerek, \"Kalkınma bankalarımızı yalnızca birer aracı kurum olarak…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Dış ticarette Türk lirasıyla işlem hacmi 1,3 trilyon lirayı geçti",
-   "link": "https://www.trthaber.com/haber/ekonomi/dis-ticarette-turk-lirasiyla-islem-hacmi-13-trilyon-lirayi-gecti-963035.html",
-   "tarih": "2026-11-12T08:43:00.000Z",
-   "ozet": "Türk lirasıyla dış ticaret hacmi, ocak-ekim döneminde geçen yılın aynı dönemine kıyasla yüzde 13,1 artarak, 1 trilyon 353 milyar 973 milyon liraya ulaştı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Merkez Bankası yıl sonu enflasyon tahminini açıkladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-yil-sonu-enflasyon-tahminini-acikladi-963028.html",
-   "tarih": "2026-11-12T07:38:00.000Z",
-   "ozet": "TCMB Başkanı Fatih Karahan, \"2026 yıl sonu enflasyon tahminimizi yüzde 29,5 olarak yukarı yönlü güncelledik. Enflasyonun; 2027 yıl sonunda ara hedeflerimiz olan yüzde 21'e, 2028…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Eylül ayı dış ticaret endeksleri açıklandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/eylul-ayi-dis-ticaret-endeksleri-aciklandi-963025.html",
-   "tarih": "2026-11-12T07:26:00.000Z",
-   "ozet": "İhracat birim değer endeksi, eylülde geçen yılın aynı ayına göre yüzde 7, ithalat birim değer endeksi yüzde 12,7 arttı.",
    "kaynak": "TRT Haber"
   }
  ]
