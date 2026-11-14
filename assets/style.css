@@ -69,3 +69,14 @@ summary { cursor: pointer; font-weight: bold; color: #28a745; }
 .haberler p { margin: 5px 0 0; font-size: 13px; color: #555; }
 .haber-kutu { background: #f8faf9; border: 1px solid #e3ece6; border-radius: 6px; padding: 5px 15px 10px; margin-top: 20px; }
 .haber-kutu h2 { margin-top: 12px; }
+.rehber-liste { padding-left: 18px; }
+.rehber-liste li { margin: 6px 0; }
+.rehber-kart { border: 1px solid #e3ece6; border-radius: 6px; padding: 4px 16px 8px; margin: 14px 0; background: #fbfdfc; }
+.rehber-kart h2 { font-size: 17px; margin-top: 12px; }
+.rehber-kart h2 a { text-decoration: none; color: #1e7e34; }
+.rehber-kart h2 a:hover { text-decoration: underline; }
+.makale { font-size: 15px; line-height: 1.75; color: #3a3a3a; }
+.makale h2 { font-size: 19px; margin-top: 32px; }
+.makale ul { padding-left: 20px; }
+.makale li { margin: 6px 0; }
+.makale table { font-size: 13px; }

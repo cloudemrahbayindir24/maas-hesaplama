@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaş Zammı Hesaplama 2026: Brüt Zam Netime Ne Kadar Yansır? | maas-hesaplama.com</title>
+    <meta name="description" content="Maaş zammı hesaplama: brüt maaşa yapılan zammın net maaşınıza kaç TL ve yüzde kaç yansıdığını, işverene maliyetini ve enflasyona göre reel değişimi hesaplayın.">
+    <link rel="canonical" href="https://maas-hesaplama.com/zam-hesaplama/">
+    <meta property="og:title" content="Maaş Zammı Hesaplama 2026: Brüt Zam Netime Ne Kadar Yansır? | maas-hesaplama.com">
+    <meta property="og:description" content="Maaş zammı hesaplama: brüt maaşa yapılan zammın net maaşınıza kaç TL ve yüzde kaç yansıdığını, işverene maliyetini ve enflasyona göre reel değişimi hesaplayın.">
+    <meta property="og:url" content="https://maas-hesaplama.com/zam-hesaplama/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="maas-hesaplama.com">
+    <meta name="google-site-verification" content="ia2PrtWkyUlxTagzUlvlxqIn86mNVCnmy7R5dMFhnpw" />
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <!-- Google AdSense Doğrulama Kodu -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7621668742531802"
+     crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://maas-hesaplama.com/"},{"@type":"ListItem","position":2,"name":"Zam Hesaplama","item":"https://maas-hesaplama.com/zam-hesaplama/"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Brüt maaşa yapılan zam nete aynı oranda yansır mı?","acceptedAnswer":{"@type":"Answer","text":"Hayır. Asgari ücret istisnasının sabit tutarda olması ve artan oranlı gelir vergisi nedeniyle net artış oranı genellikle brüt zam oranından biraz düşük olur."}},{"@type":"Question","name":"Reel zam nedir?","acceptedAnswer":{"@type":"Answer","text":"Reel zam, maaş artışının enflasyondan arındırılmış halidir. Net maaş artışı enflasyonun altında kalırsa, maaş TL olarak artsa da alım gücü azalır."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="/">maas-<span>hesaplama</span>.com</a>
+    <nav class="nav"><a href="/">Brütten Nete</a><a href="/netten-brute-maas-hesaplama/">Netten Brüte</a><a href="/kidem-tazminati-hesaplama/">Kıdem Tazminatı</a><a href="/ihbar-tazminati-hesaplama/">İhbar Tazminatı</a><a href="/fazla-mesai-hesaplama/">Fazla Mesai</a><a href="/yillik-izin-hesaplama/">Yıllık İzin</a><a href="/zam-hesaplama/" class="active">Zam Hesaplama</a><a href="/isveren-maliyeti-hesaplama/">İşveren Maliyeti</a><a href="/doviz-kurlari/">Döviz Kurları</a><a href="/rehber/">Rehberler</a></nav>
+</header>
+
+<main class="container">
+    <nav class="breadcrumb"><a href="/">Ana Sayfa</a> › Zam Hesaplama</nav>
+    <h1>Maaş Zammı Hesaplama 2026</h1>
+    <p class="subtitle">2026 parametreleri · Son güncelleme: 14 Kasım 2026</p>
+
+
+<p class="lead">Brüt maaşınıza yapılan zam, netinize aynı oranda yansımaz. Mevcut brüt maaşınızı ve zam oranını girin; yeni netinizi, net artışın gerçek oranını ve isterseniz enflasyona göre alım gücünüzün nasıl değiştiğini görün.</p>
+<div class="grid-2">
+    <div>
+        <label for="zmBrut">Mevcut Brüt Maaş (TL):</label>
+        <input type="number" id="zmBrut" placeholder="Örn: 45000" min="0" step="0.01" inputmode="decimal">
+    </div>
+    <div>
+        <label for="zmOran">Brüt Zam Oranı (%):</label>
+        <input type="number" id="zmOran" placeholder="Örn: 25" step="0.1" inputmode="decimal">
+    </div>
+    <div>
+        <label for="zmAy">Karşılaştırılacak Ay:</label>
+        <select id="zmAy"></select>
+    </div>
+    <div>
+        <label for="zmEnf">Yıllık Enflasyon (%, isteğe bağlı):</label>
+        <input type="number" id="zmEnf" placeholder="Reel değişim için" step="0.1" inputmode="decimal">
+    </div>
+</div>
+<button class="btn" id="btnZam">Zammı Hesapla</button>
+<div class="error" id="hataZm"></div>
+<div class="result-box" id="zmSonuc" style="display:none;">
+    <div class="result-item"><span>Yeni brüt maaş:</span><strong id="zmYeniBrut"></strong></div>
+    <div class="result-item sub"><span id="zmAyEtiket1">Eski net:</span><span id="zmEskiNet"></span></div>
+    <div class="result-item"><span id="zmAyEtiket2">Yeni net:</span><strong id="zmYeniNet"></strong></div>
+    <div class="result-item total"><span>Net artış:</span><strong id="zmNetArtis"></strong></div>
+    <div class="result-item" id="zmReelSatir" style="display:none;"><span>Reel (enflasyondan arındırılmış) değişim:</span><strong id="zmReel"></strong></div>
+    <div class="result-item cost"><span>İşverene maliyet:</span><strong id="zmMaliyet"></strong></div>
+</div>
+
+<section class="info">
+    <h2>Brüt Zam Neden Nete Aynı Oranda Yansımaz?</h2>
+    <p>Asgari ücret istisnası her çalışana aynı TL tutarında uygulanır. Brüt maaş arttıkça bu sabit indirimin maaşa oranı küçülür; ayrıca artan matrah üst vergi dilimine daha erken geçer. Sonuç olarak brüt zammın nete yansıma oranı, zam oranından genellikle biraz düşük olur.</p>
+    <p><strong>Örnek:</strong> 45.000 TL brüt maaşa %25 zam yapıldığında yeni brüt 56.250,00 TL olur. Ocak ayında net 36.632,98 TL'den 44.675,71 TL'ye çıkar; yani net artış %22,0 olur.</p>
+    <h2>Reel Zam Nasıl Hesaplanır?</h2>
+    <p>Zammın alım gücünüze etkisini görmek için net artışı enflasyonla karşılaştırmak gerekir: <strong>Reel değişim = (1 + net artış oranı) ÷ (1 + enflasyon) − 1</strong>. Örneğin net maaşınız %30 artarken yıllık enflasyon %35 ise, reel olarak yaklaşık %3,7 kayıp yaşarsınız. Enflasyon oranını TÜİK'in açıkladığı yıllık TÜFE değerinden alabilirsiniz.</p>
+    <h2>Zam Görüşmesinde Nelere Dikkat Edilmeli?</h2>
+    <p>Zam oranının brüt mü net mi olduğunu netleştirin. Net üzerinden konuşuluyorsa, yıl içindeki vergi dilimi değişimleri nedeniyle hangi ayın netinin esas alınacağını sorun. Ayrıntılı öneriler için <a href="/rehber/is-teklifinde-net-brut-maas-pazarligi/">net-brüt maaş pazarlığı rehberine</a> bakabilirsiniz.</p>
+    <h2>İlgili Rehberler</h2>
+<ul class="rehber-liste"><li><a href="/rehber/is-teklifinde-net-brut-maas-pazarligi/">İş teklifinde net mi brüt mü konuşmalı? Maaş pazarlığı rehberi</a></li><li><a href="/rehber/asgari-ucret-istisnasi-nedir/">Asgari ücret istisnası nedir, net maaşınıza etkisi nasıl hesaplanır?</a></li></ul>
+    <p class="warn">Bu sitedeki hesaplamalar bilgilendirme amaçlıdır. Bordronuzdaki tutarlar teşvikler, yan haklar, engellilik indirimi, emekli (SGDP) statüsü gibi nedenlerle farklılık gösterebilir. Kesin tutarlar için işvereninizin muhasebe/İK birimine veya bir mali müşavire danışınız.</p>
+</section>
+<section class="info">
+<h2>Sık Sorulan Sorular</h2>
+<h3>Brüt maaşa yapılan zam nete aynı oranda yansır mı?</h3>
+<p>Hayır. Asgari ücret istisnasının sabit tutarda olması ve artan oranlı gelir vergisi nedeniyle net artış oranı genellikle brüt zam oranından biraz düşük olur.</p>
+<h3>Reel zam nedir?</h3>
+<p>Reel zam, maaş artışının enflasyondan arındırılmış halidir. Net maaş artışı enflasyonun altında kalırsa, maaş TL olarak artsa da alım gücü azalır.</p>
+</section>
+    <footer class="footer-links">
+        <p>
+            <a href="/brut-net-maas-tablosu-2026/">Brüt–Net Maaş Tablosu</a> ·
+            <a href="/gelir-vergisi-dilimleri-2026/">2026 Vergi Dilimleri</a> ·
+            <a href="/asgari-ucret-2026/">2026 Asgari Ücret</a> ·
+            <a href="/ekonomi-haberleri/">Ekonomi Haberleri</a>
+        </p>
+        <p>
+            <a href="/hakkimizda/">Hakkımızda ve Editoryal İlkeler</a> ·
+            
+            <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
+        </p>
+        <p>© 2026 maas-hesaplama.com · Hesaplamalar bilgilendirme amaçlıdır.</p>
+    </footer>
+</main>
+
+<script src="/assets/kurlar.js"></script>
+<script src="/assets/motor.js"></script>
+<script src="/assets/arayuz.js"></script>
+</body>
+</html>

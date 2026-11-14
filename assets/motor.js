@@ -6,7 +6,7 @@
 (function (kok) {
     const P = {
         yil: 2026,
-        sonGuncelleme: '1 Kasım 2026',
+        sonGuncelleme: '14 Kasım 2026',
         asgariUcret: 33030.00,
         sgkTavan: 297270.00,          // Aylık prime esas kazanç üst sınırı
         sgkIsci: 0.14,
@@ -61,13 +61,14 @@
     const AU_GV_ISTISNA = Array.from({ length: 12 }, (_, i) => r2(aylikVergi(AU_MATRAH * i, AU_MATRAH)));
     const AU_DV_ISTISNA = r2(P.asgariUcret * P.damga);
 
-    // Sabit brüt maaşla 12 aylık bordro
-    function bordro12(brut, tesvikli) {
+    // Aydan aya değişebilen brüt tutarlarla bordro (ör. bir aya fazla mesai veya izin ücreti eklenmesi)
+    function bordroDizi(brutlar, tesvikli) {
         const satirlar = [];
         let kumulatif = 0;
-        const pek = Math.min(brut, P.sgkTavan);
         const isverenOrani = tesvikli ? P.sgkIsverenTesvikli : P.sgkIsveren;
-        for (let ay = 0; ay < 12; ay++) {
+        for (let ay = 0; ay < brutlar.length; ay++) {
+            const brut = brutlar[ay];
+            const pek = Math.min(brut, P.sgkTavan);
             const sgk = r2(pek * P.sgkIsci);
             const issizlik = r2(pek * P.issizlikIsci);
             const matrah = r2(brut - sgk - issizlik);
@@ -85,6 +86,31 @@
             satirlar.push({ ay, brut, sgk, issizlik, matrah, kumulatif, hesGV, istGV, gv, hesDV, istDV, dv, net, isverenSgk, isverenIssizlik, maliyet });
         }
         return satirlar;
+    }
+
+    // Sabit brüt maaşla 12 aylık bordro
+    const bordro12 = (brut, tesvikli) => bordroDizi(Array(12).fill(brut), tesvikli);
+
+    // Belirli bir ayda, normal maaşa ek tek seferlik brüt ödemenin net etkisi
+    function ekOdemeNeti(brut, ek, ay, tesvikli) {
+        const normal = bordro12(brut, tesvikli);
+        const dizi = Array(12).fill(brut);
+        dizi[ay] = brut + ek;
+        const ekli = bordroDizi(dizi, tesvikli);
+        const a = normal[ay], b = ekli[ay];
+        return {
+            normal: a, ekli: b,
+            sgk: r2(b.sgk + b.issizlik - a.sgk - a.issizlik),
+            gv: r2(b.gv - a.gv), dv: r2(b.dv - a.dv),
+            net: r2(b.net - a.net)
+        };
+    }
+
+    // Yıllık izin hakkı (4857 s. Kanun md. 53): her tamamlanan hizmet yılı için
+    function izinGunu(hizmetYili, yasIstisnasi) {
+        let gun = hizmetYili <= 5 ? 14 : hizmetYili < 15 ? 20 : 26;
+        if (yasIstisnasi) gun = Math.max(gun, 20);
+        return gun;
     }
 
     // Belirli bir ayda hedef neti veren sabit brüt (ikili arama)
@@ -129,7 +155,7 @@
         return 8;
     }
 
-    const Motor = { P, AYLAR, r2, tl, tarifeVergisi, aylikVergi, dilimOrani, AU_MATRAH, AU_GV_ISTISNA, AU_DV_ISTISNA, bordro12, nettenBrut, sureHesapla, kidemTavani, ihbarHaftasi };
+    const Motor = { P, AYLAR, r2, tl, tarifeVergisi, aylikVergi, dilimOrani, AU_MATRAH, AU_GV_ISTISNA, AU_DV_ISTISNA, bordroDizi, bordro12, ekOdemeNeti, izinGunu, nettenBrut, sureHesapla, kidemTavani, ihbarHaftasi };
 
     if (typeof module !== 'undefined' && module.exports) module.exports = Motor;
     else kok.Motor = Motor;

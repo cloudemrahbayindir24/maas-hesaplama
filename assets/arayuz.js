@@ -1,6 +1,6 @@
 /* Sayfadaki hesaplama araçlarını hesap motoruna bağlar. Yalnızca sayfada bulunan araçlar etkinleşir. */
 (function () {
-    const { P, AYLAR, r2, tl, aylikVergi, dilimOrani, bordro12, nettenBrut, sureHesapla, kidemTavani, ihbarHaftasi } = window.Motor;
+    const { P, AYLAR, r2, tl, aylikVergi, dilimOrani, bordro12, ekOdemeNeti, izinGunu, nettenBrut, sureHesapla, kidemTavani, ihbarHaftasi } = window.Motor;
     const $ = id => document.getElementById(id);
 
     function hata(id, mesaj) {
@@ -170,6 +170,121 @@
         if (v) { $('netMaasInput').value = v; hesaplaNettenBrute(); }
     }
     bagla('btnTaz', ['tazBrutMaas', 'kumMatrah'], hesaplaTazminat);
+
+    // Fazla mesai
+    function hesaplaFazlaMesai() {
+        const brut = parseFloat($('fmBrut').value);
+        const s50 = parseFloat($('fmSaat50').value) || 0;
+        const s25 = parseFloat($('fmSaat25').value) || 0;
+        const ubgt = parseFloat($('fmUbgt').value) || 0;
+        if (isNaN(brut) || brut <= 0) { hata('hataFm', 'Lütfen geçerli bir brüt maaş girin.'); $('fmSonuc').style.display = 'none'; return; }
+        if (s50 < 0 || s25 < 0 || ubgt < 0 || (s50 + s25 + ubgt) === 0) { hata('hataFm', 'Lütfen en az bir fazla çalışma saati veya tatil günü girin.'); $('fmSonuc').style.display = 'none'; return; }
+        hata('hataFm', '');
+        const ay = parseInt($('fmAy').value, 10);
+        const saatlik = brut / 225, gunluk = brut / 30;
+        const t50 = r2(saatlik * 1.5 * s50), t25 = r2(saatlik * 1.25 * s25), tU = r2(gunluk * ubgt);
+        const ek = r2(t50 + t25 + tU);
+        const e = ekOdemeNeti(brut, ek, ay, true);
+        $('fmSaatlik').textContent = tl(r2(saatlik));
+        $('fmT50').textContent = tl(t50);
+        $('fmT25').textContent = tl(t25);
+        $('fmTU').textContent = tl(tU);
+        $('fmEk').textContent = tl(ek);
+        $('fmSgk').textContent = tl(e.sgk);
+        $('fmGV').textContent = tl(e.gv);
+        $('fmDV').textContent = tl(e.dv);
+        $('fmNet').textContent = tl(e.net);
+        $('fmToplamNet').textContent = tl(e.ekli.net);
+        $('fmAyEtiket').textContent = `${AYLAR[ay]} ayı toplam net maaş (maaş + fazla mesai):`;
+        const uyari = [];
+        if (s50 > 270) uyari.push('Yıllık fazla çalışma süresi 270 saati aşamaz (İş Kanunu md. 41). Aşan çalışmaların ücreti yine de ödenmelidir.');
+        if (brut < P.asgariUcret) uyari.push('Girilen brüt maaş asgari ücretin altında.');
+        $('fmUyari').innerHTML = uyari.map(u => `<div class="warn">${u}</div>`).join('');
+        $('fmSonuc').style.display = 'block';
+    }
+
+    // Yıllık izin
+    function hesaplaIzin() {
+        const sonuc = $('izSonuc');
+        const brut = parseFloat($('izBrut').value);
+        const girisStr = $('izGiris').value, cikisStr = $('izCikis').value;
+        const kullanilan = parseFloat($('izKullanilan').value) || 0;
+        if (!girisStr || !cikisStr) { hata('hataIz', 'Lütfen işe giriş ve hesap (çıkış) tarihini girin.'); sonuc.style.display = 'none'; return; }
+        const giris = new Date(girisStr + 'T00:00:00'), cikis = new Date(cikisStr + 'T00:00:00');
+        if (cikis < giris) { hata('hataIz', 'Hesap tarihi işe giriş tarihinden önce olamaz.'); sonuc.style.display = 'none'; return; }
+        hata('hataIz', '');
+        const sure = sureHesapla(giris, cikis);
+        const yas = $('izYas').checked;
+        const satirlar = [];
+        let toplam = 0;
+        for (let k = 1; k <= sure.yil; k++) {
+            const g = izinGunu(k, yas);
+            toplam += g;
+            const yd = new Date(giris); yd.setFullYear(giris.getFullYear() + k);
+            satirlar.push(`<tr><td>${k}. yıl</td><td>${yd.toLocaleDateString('tr-TR')}</td><td>${g} gün</td></tr>`);
+        }
+        const kalan = Math.max(0, toplam - kullanilan);
+        $('izSure').textContent = `${sure.yil} yıl ${sure.ay} ay ${sure.gun} gün`;
+        $('izBuYil').textContent = sure.yil >= 1 ? `${izinGunu(sure.yil, yas)} gün` : 'Henüz hak kazanılmadı (1 yıl dolmadı)';
+        $('izSonraki').textContent = `${izinGunu(sure.yil + 1, yas)} gün`;
+        $('izToplam').textContent = `${toplam} gün`;
+        $('izKalan').textContent = `${kalan} gün`;
+        $('izTablo').innerHTML = satirlar.join('') || '<tr><td colspan="3">Henüz tamamlanmış hizmet yılı yok.</td></tr>';
+        const ucretKutu = $('izUcretBlok');
+        if (!isNaN(brut) && brut > 0 && kalan > 0) {
+            const gunluk = brut / 30, ek = r2(gunluk * kalan);
+            const ay = cikis.getFullYear() === P.yil ? cikis.getMonth() : 0;
+            const e = ekOdemeNeti(brut, ek, ay, true);
+            $('izGunluk').textContent = tl(r2(gunluk));
+            $('izBrutUcret').textContent = tl(ek);
+            $('izSgk').textContent = tl(e.sgk);
+            $('izGV').textContent = tl(e.gv);
+            $('izDV').textContent = tl(e.dv);
+            $('izNet').textContent = tl(e.net);
+            $('izNot').textContent = cikis.getFullYear() === P.yil
+                ? `Kesintiler, ödemenin ${AYLAR[ay]} ${P.yil} bordrosunda o ayın maaşıyla birlikte yapıldığı varsayımıyla hesaplandı.`
+                : `Kesintiler ${P.yil} parametreleriyle, ödemenin Ocak ayında yapıldığı varsayımıyla hesaplandı.`;
+            ucretKutu.style.display = 'block';
+        } else {
+            ucretKutu.style.display = 'none';
+        }
+        sonuc.style.display = 'block';
+    }
+
+    // Zam
+    function hesaplaZam() {
+        const brut = parseFloat($('zmBrut').value);
+        const oran = parseFloat($('zmOran').value);
+        const enf = parseFloat($('zmEnf').value);
+        if (isNaN(brut) || brut <= 0 || isNaN(oran)) { hata('hataZm', 'Lütfen mevcut brüt maaşı ve zam oranını girin.'); $('zmSonuc').style.display = 'none'; return; }
+        hata('hataZm', '');
+        const ay = parseInt($('zmAy').value, 10);
+        const yeniBrut = r2(brut * (1 + oran / 100));
+        const eski = bordro12(brut, true)[ay], yeni = bordro12(yeniBrut, true)[ay];
+        const netArtis = r2(yeni.net - eski.net), netOran = netArtis / eski.net * 100;
+        const bicimYuzde = x => '%' + x.toLocaleString('tr-TR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+        $('zmYeniBrut').textContent = tl(yeniBrut);
+        $('zmEskiNet').textContent = tl(eski.net);
+        $('zmYeniNet').textContent = tl(yeni.net);
+        $('zmNetArtis').textContent = `${tl(netArtis)} (${bicimYuzde(netOran)})`;
+        $('zmMaliyet').textContent = `${tl(eski.maliyet)} → ${tl(yeni.maliyet)}`;
+        $('zmAyEtiket1').textContent = `Eski net (${AYLAR[ay]}):`;
+        $('zmAyEtiket2').textContent = `Yeni net (${AYLAR[ay]}):`;
+        const reel = $('zmReelSatir');
+        if (!isNaN(enf)) {
+            const r = ((1 + netOran / 100) / (1 + enf / 100) - 1) * 100;
+            $('zmReel').textContent = `${bicimYuzde(r)} ${r >= 0 ? '(alım gücü arttı)' : '(alım gücü azaldı)'}`;
+            reel.style.display = 'flex';
+        } else reel.style.display = 'none';
+        $('zmSonuc').style.display = 'block';
+    }
+
+    if (bagla('btnFm', ['fmBrut', 'fmSaat50', 'fmSaat25', 'fmUbgt'], hesaplaFazlaMesai)) ayListesiDoldur('fmAy', gecerliAy);
+    if (bagla('btnIzin', ['izBrut', 'izKullanilan'], hesaplaIzin)) {
+        const bugun = new Date();
+        $('izCikis').value = `${bugun.getFullYear()}-${String(bugun.getMonth() + 1).padStart(2, '0')}-${String(bugun.getDate()).padStart(2, '0')}`;
+    }
+    if (bagla('btnZam', ['zmBrut', 'zmOran', 'zmEnf'], hesaplaZam)) ayListesiDoldur('zmAy', gecerliAy);
 
     // Döviz çevirici
     const dvKaynak = $('dvKaynak');
