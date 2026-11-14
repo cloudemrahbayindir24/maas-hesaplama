@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazla Mesai Ücreti Hesaplama 2026 (Net ve Brüt) | maas-hesaplama.com</title>
+    <meta name="description" content="2026 fazla mesai hesaplama: %50 zamlı fazla çalışma, %25 zamlı fazla sürelerle çalışma ve resmî tatil çalışması ücretini brüt ve net olarak, o ayın vergi dilimine göre hesaplayın.">
+    <link rel="canonical" href="https://maas-hesaplama.com/fazla-mesai-hesaplama/">
+    <meta property="og:title" content="Fazla Mesai Ücreti Hesaplama 2026 (Net ve Brüt) | maas-hesaplama.com">
+    <meta property="og:description" content="2026 fazla mesai hesaplama: %50 zamlı fazla çalışma, %25 zamlı fazla sürelerle çalışma ve resmî tatil çalışması ücretini brüt ve net olarak, o ayın vergi dilimine göre hesaplayın.">
+    <meta property="og:url" content="https://maas-hesaplama.com/fazla-mesai-hesaplama/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="maas-hesaplama.com">
+    <meta name="google-site-verification" content="ia2PrtWkyUlxTagzUlvlxqIn86mNVCnmy7R5dMFhnpw" />
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <!-- Google AdSense Doğrulama Kodu -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7621668742531802"
+     crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://maas-hesaplama.com/"},{"@type":"ListItem","position":2,"name":"Fazla Mesai","item":"https://maas-hesaplama.com/fazla-mesai-hesaplama/"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Fazla mesai ücreti nasıl hesaplanır?","acceptedAnswer":{"@type":"Answer","text":"Aylık brüt maaş 225'e bölünerek saatlik ücret bulunur. Haftalık 45 saati aşan her saat için saatlik ücretin 1,5 katı ödenir."}},{"@type":"Question","name":"Fazla mesaiden vergi kesilir mi?","acceptedAnswer":{"@type":"Answer","text":"Evet. Fazla mesai ücreti normal ücret gibi SGK primi, işsizlik sigortası, gelir vergisi ve damga vergisine tabidir. Gelir vergisi, o ayki kümülatif matrahınızın bulunduğu dilimden hesaplanır."}},{"@type":"Question","name":"Yılda en fazla kaç saat fazla mesai yapılabilir?","acceptedAnswer":{"@type":"Answer","text":"İş Kanunu'na göre yıllık fazla çalışma süresi 270 saati aşamaz."}},{"@type":"Question","name":"Fazla mesai yerine izin kullanılabilir mi?","acceptedAnswer":{"@type":"Answer","text":"Evet. Çalışan isterse fazla çalıştığı her saat için 1 saat 30 dakika, fazla sürelerle çalıştığı her saat için 1 saat 15 dakika serbest zaman kullanabilir."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="/">maas-<span>hesaplama</span>.com</a>
+    <nav class="nav"><a href="/">Brütten Nete</a><a href="/netten-brute-maas-hesaplama/">Netten Brüte</a><a href="/kidem-tazminati-hesaplama/">Kıdem Tazminatı</a><a href="/ihbar-tazminati-hesaplama/">İhbar Tazminatı</a><a href="/fazla-mesai-hesaplama/" class="active">Fazla Mesai</a><a href="/yillik-izin-hesaplama/">Yıllık İzin</a><a href="/zam-hesaplama/">Zam Hesaplama</a><a href="/isveren-maliyeti-hesaplama/">İşveren Maliyeti</a><a href="/doviz-kurlari/">Döviz Kurları</a><a href="/rehber/">Rehberler</a></nav>
+</header>
+
+<main class="container">
+    <nav class="breadcrumb"><a href="/">Ana Sayfa</a> › Fazla Mesai</nav>
+    <h1>Fazla Mesai Ücreti Hesaplama 2026</h1>
+    <p class="subtitle">2026 parametreleri · Son güncelleme: 14 Kasım 2026</p>
+
+
+<p class="lead">Fazla mesai ücretinin brütünü hesaplamak kolaydır; asıl merak edilen ise elinize ne kadar geçeceğidir. Bu araç, fazla mesai ücretini o ayın maaşına ekleyip kümülatif vergi matrahınıza göre gerçek net etkisini hesaplar.</p>
+<div class="grid-2">
+    <div>
+        <label for="fmBrut">Aylık Brüt Maaş (TL):</label>
+        <input type="number" id="fmBrut" placeholder="Örn: 40000" min="0" step="0.01" inputmode="decimal">
+    </div>
+    <div>
+        <label for="fmAy">Fazla Mesainin Ödendiği Ay:</label>
+        <select id="fmAy"></select>
+    </div>
+</div>
+<div class="grid-2">
+    <div>
+        <label for="fmSaat50">Fazla çalışma (saat, %50 zamlı):</label>
+        <input type="number" id="fmSaat50" placeholder="Haftalık 45 saati aşan" min="0" step="0.5" inputmode="decimal">
+    </div>
+    <div>
+        <label for="fmSaat25">Fazla sürelerle çalışma (saat, %25 zamlı):</label>
+        <input type="number" id="fmSaat25" placeholder="Sözleşme süresi ile 45 saat arası" min="0" step="0.5" inputmode="decimal">
+    </div>
+    <div>
+        <label for="fmUbgt">Resmî tatilde çalışılan gün:</label>
+        <input type="number" id="fmUbgt" placeholder="Ulusal bayram / genel tatil" min="0" step="0.5" inputmode="decimal">
+    </div>
+</div>
+<button class="btn" id="btnFm">Fazla Mesaiyi Hesapla</button>
+<div class="error" id="hataFm"></div>
+<div class="result-box" id="fmSonuc" style="display:none;">
+    <div class="result-item sub"><span>Saatlik brüt ücret (brüt ÷ 225):</span><span id="fmSaatlik"></span></div>
+    <div class="result-item"><span>Fazla çalışma ücreti (×1,5):</span><strong id="fmT50"></strong></div>
+    <div class="result-item"><span>Fazla sürelerle çalışma ücreti (×1,25):</span><strong id="fmT25"></strong></div>
+    <div class="result-item"><span>Resmî tatil çalışma ücreti (ek günlük ücret):</span><strong id="fmTU"></strong></div>
+    <div class="result-item"><span>Toplam brüt ek ödeme:</span><strong id="fmEk"></strong></div>
+    <hr>
+    <div class="result-item sub"><span>SGK + işsizlik kesintisi:</span><span id="fmSgk"></span></div>
+    <div class="result-item sub"><span>Gelir vergisi:</span><span id="fmGV"></span></div>
+    <div class="result-item sub"><span>Damga vergisi:</span><span id="fmDV"></span></div>
+    <div class="result-item total"><span>Fazla mesaiden ele geçen net:</span><strong id="fmNet"></strong></div>
+    <div class="result-item cost"><span id="fmAyEtiket">Toplam net maaş:</span><strong id="fmToplamNet"></strong></div>
+    <div id="fmUyari"></div>
+</div>
+
+<section class="info">
+    <h2>Fazla Mesai Ücreti Nasıl Hesaplanır?</h2>
+    <p>İş Kanunu'na göre haftalık çalışma süresi en fazla 45 saattir. Bu süreyi aşan her saat <strong>fazla çalışma</strong> sayılır ve saatlik ücretin %50 fazlasıyla ödenir. Sözleşmede haftalık süre 45 saatin altında belirlenmişse (ör. 40 saat), sözleşme süresi ile 45 saat arasındaki çalışmalar <strong>fazla sürelerle çalışma</strong> sayılır ve %25 zamlı ödenir.</p>
+    <div class="table-wrap"><table>
+        <tr><th>Çalışma türü</th><th>Hesap</th></tr>
+        <tr><td>Saatlik brüt ücret</td><td>Aylık brüt ÷ 225</td></tr>
+        <tr><td>Fazla çalışma (45 saati aşan)</td><td>Saatlik ücret × 1,5 × saat</td></tr>
+        <tr><td>Fazla sürelerle çalışma</td><td>Saatlik ücret × 1,25 × saat</td></tr>
+        <tr><td>Ulusal bayram / genel tatilde çalışma</td><td>Günlük ücret (brüt ÷ 30) × gün, maaşa ek olarak</td></tr>
+    </table></div>
+    <h2>Örnek: 40.000 TL Brüt Maaşla 10 Saat Fazla Mesai</h2>
+    <p>Saatlik brüt ücret 177,78 TL, %50 zamlı saat ücreti 266,67 TL olur. 10 saatlik fazla mesainin brütü 2.666,67 TL'dir. Bu tutar Ocak maaşına eklendiğinde 400,00 TL SGK ve işsizlik payı, 340,00 TL gelir vergisi ve 20,24 TL damga vergisi kesilir; ele geçen net <strong>1.906,43 TL</strong> olur. Aynı fazla mesai yılın sonlarında, kümülatif matrah daha yüksek dilimdeyken ödenirse net tutar daha düşük çıkar.</p>
+    <h2>Bilinmesi Gerekenler</h2>
+    <p>Yıllık fazla çalışma süresi 270 saati aşamaz ve fazla çalışma için çalışanın onayı gerekir. Çalışan isterse fazla çalıştığı her saat için ücret yerine 1 saat 30 dakika serbest zaman kullanabilir. Hafta tatili (genellikle Pazar) çalışmalarının ücretlendirilmesi işyeri uygulaması ve yargı kararlarına göre farklılık gösterebileceği için bu araçta ayrıca hesaplanmamıştır.</p>
+    <h2>İlgili Rehberler</h2>
+<ul class="rehber-liste"><li><a href="/rehber/fazla-mesai-ucreti-nasil-hesaplanir/">Fazla mesai ücreti nasıl hesaplanır? %50, %25 ve tatil çalışması</a></li><li><a href="/rehber/bordro-nasil-okunur/">Bordro nasıl okunur? Maaş bordrosundaki her satırın anlamı</a></li></ul>
+    <p class="warn">Bu sitedeki hesaplamalar bilgilendirme amaçlıdır. Bordronuzdaki tutarlar teşvikler, yan haklar, engellilik indirimi, emekli (SGDP) statüsü gibi nedenlerle farklılık gösterebilir. Kesin tutarlar için işvereninizin muhasebe/İK birimine veya bir mali müşavire danışınız.</p>
+</section>
+<section class="info">
+<h2>Sık Sorulan Sorular</h2>
+<h3>Fazla mesai ücreti nasıl hesaplanır?</h3>
+<p>Aylık brüt maaş 225'e bölünerek saatlik ücret bulunur. Haftalık 45 saati aşan her saat için saatlik ücretin 1,5 katı ödenir.</p>
+<h3>Fazla mesaiden vergi kesilir mi?</h3>
+<p>Evet. Fazla mesai ücreti normal ücret gibi SGK primi, işsizlik sigortası, gelir vergisi ve damga vergisine tabidir. Gelir vergisi, o ayki kümülatif matrahınızın bulunduğu dilimden hesaplanır.</p>
+<h3>Yılda en fazla kaç saat fazla mesai yapılabilir?</h3>
+<p>İş Kanunu'na göre yıllık fazla çalışma süresi 270 saati aşamaz.</p>
+<h3>Fazla mesai yerine izin kullanılabilir mi?</h3>
+<p>Evet. Çalışan isterse fazla çalıştığı her saat için 1 saat 30 dakika, fazla sürelerle çalıştığı her saat için 1 saat 15 dakika serbest zaman kullanabilir.</p>
+</section>
+    <footer class="footer-links">
+        <p>
+            <a href="/brut-net-maas-tablosu-2026/">Brüt–Net Maaş Tablosu</a> ·
+            <a href="/gelir-vergisi-dilimleri-2026/">2026 Vergi Dilimleri</a> ·
+            <a href="/asgari-ucret-2026/">2026 Asgari Ücret</a> ·
+            <a href="/ekonomi-haberleri/">Ekonomi Haberleri</a>
+        </p>
+        <p>
+            <a href="/hakkimizda/">Hakkımızda ve Editoryal İlkeler</a> ·
+            <a href="/iletisim/">İletişim</a> ·
+            <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
+        </p>
+        <p>© 2026 maas-hesaplama.com · Hesaplamalar bilgilendirme amaçlıdır.</p>
+    </footer>
+</main>
+
+<script src="/assets/kurlar.js"></script>
+<script src="/assets/motor.js"></script>
+<script src="/assets/arayuz.js"></script>
+</body>
+</html>

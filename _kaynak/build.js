@@ -7,11 +7,11 @@
 const fs = require('fs');
 const path = require('path');
 const M = require('../assets/motor.js');
-const { P, AYLAR, tl, r2, bordro12, nettenBrut, AU_GV_ISTISNA, AU_DV_ISTISNA, dilimOrani } = M;
+const { P, AYLAR, tl, r2, bordro12, nettenBrut, AU_GV_ISTISNA, AU_DV_ISTISNA, AU_MATRAH, dilimOrani, ekOdemeNeti, izinGunu } = M;
 
 const KOK = path.join(__dirname, '..');
 const SITE = 'https://maas-hesaplama.com';
-const BUGUN = '2026-11-01';
+const BUGUN = '2026-11-14';
 
 // Döviz kurları (kur-guncelle.js tarafından assets/kurlar.js içine yazılır)
 const KURLAR = (() => {
@@ -50,12 +50,17 @@ const NAV = [
     ['/netten-brute-maas-hesaplama/', 'Netten Brüte'],
     ['/kidem-tazminati-hesaplama/', 'Kıdem Tazminatı'],
     ['/ihbar-tazminati-hesaplama/', 'İhbar Tazminatı'],
+    ['/fazla-mesai-hesaplama/', 'Fazla Mesai'],
+    ['/yillik-izin-hesaplama/', 'Yıllık İzin'],
+    ['/zam-hesaplama/', 'Zam Hesaplama'],
     ['/isveren-maliyeti-hesaplama/', 'İşveren Maliyeti'],
-    ['/gelir-vergisi-dilimleri-2026/', 'Vergi Dilimleri'],
-    ['/asgari-ucret-2026/', 'Asgari Ücret'],
     ['/doviz-kurlari/', 'Döviz Kurları'],
-    ['/ekonomi-haberleri/', 'Ekonomi Haberleri']
+    ['/rehber/', 'Rehberler']
 ];
+
+// İletişim: ayrı iletişim e-postası açılınca buraya yazın; boşken İletişim sayfası üretilmez.
+const ILETISIM_EPOSTA = 'iletisim.maashesaplama@gmail.com';
+const EDITOR = 'maas-hesaplama.com Editörü';
 
 // ===================== PARÇALAR =====================
 // Reklam alanları: AdSense otomatik reklamlar kullanıldığı için boş. Manuel reklam birimi eklenecekse kod buraya yazılır.
@@ -204,6 +209,21 @@ const nasilHesaplanir = () => `
 
 const uyariMetni = `<p class="warn">Bu sitedeki hesaplamalar bilgilendirme amaçlıdır. Bordronuzdaki tutarlar teşvikler, yan haklar, engellilik indirimi, emekli (SGDP) statüsü gibi nedenlerle farklılık gösterebilir. Kesin tutarlar için işvereninizin muhasebe/İK birimine veya bir mali müşavire danışınız.</p>`;
 
+const tabloLinki = `<h2>Hazır Hesaplanmış Tablo</h2>
+<p>Farklı brüt ve net maaşların ay ay karşılıklarını tek sayfada görmek için <a href="/brut-net-maas-tablosu-2026/">${YIL} Brüt–Net Maaş Tablosu</a>'na bakabilirsiniz.</p>`;
+
+// Rehber yazıları kayıt defteri (yol -> başlık); ilgiliRehberler bunu kullanır, rehberler aşağıda eklenir.
+const REHBERLER = [];
+const ilgiliRehberler = yollar => `<h2>İlgili Rehberler</h2>
+<ul class="rehber-liste">${yollar.map(y => `<li><a href="${y}">${(REHBER_BASLIK[y] || y)}</a></li>`).join('')}</ul>`;
+const REHBER_BASLIK = {
+    '/rehber/bordro-nasil-okunur/': 'Bordro nasıl okunur? Maaş bordrosundaki her satırın anlamı',
+    '/rehber/asgari-ucret-istisnasi-nedir/': 'Asgari ücret istisnası nedir, net maaşınıza etkisi nasıl hesaplanır?',
+    '/rehber/kidem-tazminati-kimlere-odenir/': 'Kıdem tazminatı kimlere ödenir? Şartlar, tavan ve örnekler',
+    '/rehber/is-teklifinde-net-brut-maas-pazarligi/': 'İş teklifinde net mi brüt mü konuşmalı? Maaş pazarlığı rehberi',
+    '/rehber/fazla-mesai-ucreti-nasil-hesaplanir/': 'Fazla mesai ücreti nasıl hesaplanır? %50, %25 ve tatil çalışması'
+};
+
 const sssHtml = sss => sss.length ? `<h2>Sık Sorulan Sorular</h2>\n` + sss.map(([s, c]) => `<h3>${s}</h3>\n<p>${c}</p>`).join('\n') : '';
 
 const ilgiliLinkler = (baslik, liste, aktif) => `
@@ -275,9 +295,17 @@ ${ldSss ? `    <script type="application/ld+json">${JSON.stringify(ldSss)}</scri
 ${icerik}
 ${sssHtml(sss) ? `<section class="info">\n${sssHtml(sss)}\n</section>` : ''}
     <footer class="footer-links">
-        <a href="/hakkimizda/">Hakkımızda</a> |
-        <a href="/gizlilik-politikasi/">Gizlilik Politikası</a> |
-        <a href="/gelir-vergisi-dilimleri-2026/">${YIL} Vergi Dilimleri</a>
+        <p>
+            <a href="/brut-net-maas-tablosu-2026/">Brüt–Net Maaş Tablosu</a> ·
+            <a href="/gelir-vergisi-dilimleri-2026/">${YIL} Vergi Dilimleri</a> ·
+            <a href="/asgari-ucret-2026/">${YIL} Asgari Ücret</a> ·
+            <a href="/ekonomi-haberleri/">Ekonomi Haberleri</a>
+        </p>
+        <p>
+            <a href="/hakkimizda/">Hakkımızda ve Editoryal İlkeler</a> ·
+            ${ILETISIM_EPOSTA ? '<a href="/iletisim/">İletişim</a> ·' : ''}
+            <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
+        </p>
         <p>© ${YIL} maas-hesaplama.com · Hesaplamalar bilgilendirme amaçlıdır.</p>
     </footer>
 </main>
@@ -306,19 +334,14 @@ ${reklamUst}
 ${brutFormu()}
 ${maasSonucu()}
 ${reklamAlt}
-${HABERLER && HABERLER.haberler.length ? `<section class="info haber-kutu">
-    <h2>Ekonomi Gündemi</h2>
-    ${haberListesi(HABERLER.haberler.slice(0, 5), false)}
-    <p><a href="/ekonomi-haberleri/">Tüm ekonomi haberleri →</a></p>
-</section>` : ''}
 <section class="info">
     <h2>${YIL} Bordro Parametreleri</h2>
     ${parametreTablosu()}
     <h2>${YIL} Ücret Gelirleri İçin Gelir Vergisi Dilimleri</h2>
     ${dilimTablosu()}
     ${nasilHesaplanir()}
-    ${brutOrnekLinkleri()}
-    ${netOrnekLinkleri()}
+    ${tabloLinki}
+    ${ilgiliRehberler(['/rehber/bordro-nasil-okunur/', '/rehber/asgari-ucret-istisnasi-nedir/', '/rehber/is-teklifinde-net-brut-maas-pazarligi/'])}
     ${uyariMetni}
 </section>`,
     sss: [SSS_ORTAK.asgari, SSS_ORTAK.istisna, SSS_ORTAK.dusus,
@@ -343,7 +366,8 @@ ${reklamAlt}
     <h2>Netten Brüte Hesap Nasıl Yapılır?</h2>
     <p>Net maaştan brüte geçişin basit bir çarpanı yoktur; çünkü gelir vergisi kümülatif matraha göre artan oranlıdır ve asgari ücret istisnası sabit bir tutar olarak düşülür. Bu araç, seçtiğiniz ayda hedef neti tam olarak veren brüt tutarı deneme yoluyla (ikili arama) kuruş hassasiyetinde bulur.</p>
     <p>Yıl içinde aynı neti korumak için brütün aydan aya artması gerekir. Sabit brütle anlaştıysanız, yılın son aylarında netinizin düşeceğini hesaba katın. Sonuçtaki 12 aylık tabloda bu etkiyi görebilirsiniz.</p>
-    ${netOrnekLinkleri()}
+    ${tabloLinki}
+    ${ilgiliRehberler(['/rehber/is-teklifinde-net-brut-maas-pazarligi/', '/rehber/bordro-nasil-okunur/'])}
     ${uyariMetni}
 </section>`,
     sss: [['Net maaş pazarlığı mı, brüt maaş pazarlığı mı yapmalıyım?', 'Sözleşmede yazan brüt tutardır; net tutar yıl içinde vergi dilimine göre değişir. Net üzerinden anlaştıysanız, işverenin yılın tamamında bu neti garanti edip etmeyeceğini yazılı olarak netleştirmeniz önerilir.'],
@@ -527,7 +551,8 @@ ${reklamAlt}
     </table></div>
     <h2>Asgari Ücret Vergi İstisnası</h2>
     <p>2022'den bu yana tüm ücretlilerin maaşının asgari ücrete isabet eden kısmı gelir vergisi ve damga vergisinden muaftır. Asgari ücretin üzerinde maaş alan çalışanlar da her ay asgari ücretin vergisi kadar indirimden yararlanır. ${YIL} yılında aylık damga vergisi istisnası ${tl(AU_DV_ISTISNA)}, gelir vergisi istisnası Ocak–Haziran ${tl(AU_GV_ISTISNA[0])}, Ağustos–Aralık ${tl(AU_GV_ISTISNA[11])}'dir.</p>
-    ${brutOrnekLinkleri()}
+    ${tabloLinki}
+    ${ilgiliRehberler(['/rehber/asgari-ucret-istisnasi-nedir/', '/rehber/bordro-nasil-okunur/'])}
     ${uyariMetni}
 </section>`,
     sss: [SSS_ORTAK.asgari, SSS_ORTAK.istisna,
@@ -564,8 +589,9 @@ BRUT_ORNEKLER.forEach(b => {
         baslik: `${sayi(b)} TL Brüt Maaş Net Kaç TL? (${YIL}) | maas-hesaplama.com`,
         aciklama: `${YIL}'da ${sayi(b)} TL brüt maaş Ocak'ta ${tl(s[0].net)} net, Aralık'ta ${tl(s[11].net)} net. 12 aylık bordro, kesintiler ve işverene maliyet.`,
         h1: `${sayi(b)} TL Brüt Maaş Net Kaç TL? (${YIL})`,
-        kirinti: [['/', 'Brütten Nete'], [yol, `${sayi(b)} TL brüt`]],
+        kirinti: [['/brut-net-maas-tablosu-2026/', 'Brüt–Net Tablosu'], [yol, `${sayi(b)} TL brüt`]],
         arac: false,
+        robots: 'noindex, follow',
         icerik: `
 ${reklamUst}
 <div class="kpi">
@@ -611,8 +637,9 @@ NET_ORNEKLER.forEach(n => {
         baslik: `${sayi(n)} TL Net Maaş Brüt Kaç TL? (${YIL}) | maas-hesaplama.com`,
         aciklama: `${YIL}'da ${sayi(n)} TL net maaş için Ocak'ta ${tl(brutOcak)} brüt gerekir. Aylara göre gereken brüt, kesintiler ve işverene maliyet.`,
         h1: `${sayi(n)} TL Net Maaş Brüt Kaç TL? (${YIL})`,
-        kirinti: [['/netten-brute-maas-hesaplama/', 'Netten Brüte'], [yol, `${sayi(n)} TL net`]],
+        kirinti: [['/brut-net-maas-tablosu-2026/', 'Brüt–Net Tablosu'], [yol, `${sayi(n)} TL net`]],
         arac: false,
+        robots: 'noindex, follow',
         icerik: `
 ${reklamUst}
 <div class="kpi">
@@ -729,25 +756,81 @@ ${reklamUst}
 </section>`
 });
 
+// --- Araçlar, brüt-net tablosu ve rehberler (ayrı dosyada)
+require('./yeni-sayfalar.js')({
+    P, AYLAR, tl, r2, bordro12, ekOdemeNeti, nettenBrut, izinGunu, AU_GV_ISTISNA, AU_DV_ISTISNA, AU_MATRAH,
+    YIL, sayi, reklamUst, reklamAlt, uyariMetni, ilgiliRehberler, EDITOR, SITE, REHBER_BASLIK
+}).forEach(ekle);
+
 // --- Hakkımızda ve gizlilik
 ekle({
     yol: '/hakkimizda/',
-    baslik: 'Hakkımızda | maas-hesaplama.com',
-    aciklama: 'maas-hesaplama.com hakkında: ücretsiz maaş, kıdem ve ihbar tazminatı hesaplama araçları.',
-    h1: 'Hakkımızda',
+    baslik: 'Hakkımızda ve Editoryal İlkeler | maas-hesaplama.com',
+    aciklama: 'maas-hesaplama.com hakkında: hesaplamaların dayandığı mevzuat, parametrelerin güncellenme süreci, editoryal ilkeler ve hata bildirimi.',
+    h1: 'Hakkımızda ve Editoryal İlkeler',
     kirinti: [['/hakkimizda/', 'Hakkımızda']],
     arac: false,
     icerik: `
 <section class="info">
-    <p><strong>maas-hesaplama.com</strong>, çalışanların ve işverenlerin güncel vergi dilimleri, SGK primleri ve yasal kesintiler doğrultusunda maaşlarını ve kıdem/ihbar tazminatlarını en hızlı ve doğru şekilde hesaplayabilmesi amacıyla kurulmuş ücretsiz bir dijital finansal hesaplama platformudur.</p>
-    <p>Amacımız, karmaşık vergi ve bordro hesaplamalarını herkes için anlaşılır kılmak ve pratik araçlar sunmaktır.</p>
-    <h2>Hesaplamalarımız Neye Dayanıyor?</h2>
-    <p>Hesaplamalar Gelir Vergisi Kanunu, 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu, 4447 sayılı İşsizlik Sigortası Kanunu, 4857 sayılı İş Kanunu ve 1475 sayılı İş Kanunu'nun 14. maddesi ile Hazine ve Maliye Bakanlığı'nın ilan ettiği güncel parametrelere dayanır. Parametreler her dönem başında güncellenir; son güncelleme: ${P.sonGuncelleme}.</p>
+    <p class="lead"><strong>maas-hesaplama.com</strong>, Türkiye'de ücretle çalışanların ve işverenlerin maaş, tazminat ve izin haklarını güncel mevzuata göre doğru ve anlaşılır biçimde hesaplayabilmesi için hazırlanmış ücretsiz bir hesaplama ve bilgi sitesidir.</p>
+
+    <h2>Ne Sunuyoruz?</h2>
+    <ul>
+        <li><strong>Hesaplayıcılar:</strong> <a href="/">brütten nete</a>, <a href="/netten-brute-maas-hesaplama/">netten brüte</a>, <a href="/kidem-tazminati-hesaplama/">kıdem</a> ve <a href="/ihbar-tazminati-hesaplama/">ihbar tazminatı</a>, <a href="/fazla-mesai-hesaplama/">fazla mesai</a>, <a href="/yillik-izin-hesaplama/">yıllık izin</a>, <a href="/zam-hesaplama/">zam</a> ve <a href="/isveren-maliyeti-hesaplama/">işveren maliyeti</a>.</li>
+        <li><strong>Rehberler:</strong> Bordrodaki rakamların nereden geldiğini örnek hesaplarla anlatan <a href="/rehber/">açıklayıcı yazılar</a>.</li>
+        <li><strong>Referans tablolar:</strong> <a href="/brut-net-maas-tablosu-2026/">brüt–net maaş tablosu</a>, <a href="/gelir-vergisi-dilimleri-2026/">vergi dilimleri</a>, <a href="/asgari-ucret-2026/">asgari ücret</a> ve TCMB verisiyle <a href="/doviz-kurlari/">döviz kurları</a>.</li>
+    </ul>
+
+    <h2>Hesaplamalar Neye Dayanıyor?</h2>
+    <p>Hesaplamalar 193 sayılı Gelir Vergisi Kanunu, 488 sayılı Damga Vergisi Kanunu, 5510 sayılı Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu, 4447 sayılı İşsizlik Sigortası Kanunu, 4857 sayılı İş Kanunu ve 1475 sayılı İş Kanunu'nun 14. maddesi ile Resmî Gazete'de yayımlanan ve Hazine ve Maliye Bakanlığı, SGK ve Çalışma ve Sosyal Güvenlik Bakanlığı tarafından ilan edilen güncel parametrelere dayanır.</p>
+    <p>Bordro hesabı her ay için ayrı yapılır: kümülatif gelir vergisi matrahı, asgari ücret gelir ve damga vergisi istisnası ve SGK prime esas kazanç tavanı ay ay uygulanır. Hesaplar tarayıcınızda çalışır; girdiğiniz tutarlar hiçbir sunucuya gönderilmez.</p>
+
+    <h2>Editoryal İlkelerimiz</h2>
+    <ul>
+        <li><strong>Tek hesap motoru:</strong> Hesaplayıcılar, tablolar ve rehber yazılardaki örnek rakamlar aynı hesap motorundan üretilir. Bir parametre değiştiğinde tüm sayfalar birlikte güncellenir; yazılardaki rakamlarla araç sonuçları arasında çelişki oluşmaz.</li>
+        <li><strong>Güncellik:</strong> Asgari ücret, vergi tarifesi, SGK tavanı ve kıdem tazminatı tavanı resmî olarak ilan edildikten sonra güncellenir. Her sayfada kullanılan parametre yılı ve son güncelleme tarihi belirtilir.</li>
+        <li><strong>Kaynak gösterme:</strong> Yasal kurallar ilgili kanun maddesiyle birlikte anlatılır. Uygulamada tartışmalı veya kişisel duruma göre değişen konularda kesin hüküm vermek yerine bunu açıkça belirtir ve uzmana danışılmasını öneririz.</li>
+        <li><strong>Bağımsızlık:</strong> Sitede yer alabilecek reklamlar içerikten ayrıdır; reklam verenler hesaplamaları veya yazıları etkilemez.</li>
+        <li><strong>Dış içerik:</strong> Döviz kurları TCMB'nin yayımladığı verilerden, ekonomi haber başlıkları ise yayıncıların RSS akışlarından otomatik alınır ve kaynağı belirtilir.</li>
+    </ul>
+
+    <h2>Hata Bildirimi ve Düzeltmeler</h2>
+    <p>Bir hesaplamada veya yazıda hata fark ederseniz ${ILETISIM_EPOSTA ? '<a href="/iletisim/">iletişim sayfasından</a>' : 'bize'} bildirebilirsiniz. Doğrulanan hatalar en kısa sürede düzeltilir ve ilgili sayfadaki güncelleme tarihi yenilenir.</p>
+
     <h2>${YIL} Parametreleri</h2>
     ${parametreTablosu()}
+    <p class="hint">Son güncelleme: ${P.sonGuncelleme}. İçerikler ${EDITOR} tarafından hazırlanır.</p>
     ${uyariMetni}
 </section>`
 });
+
+// --- İletişim (yalnızca e-posta tanımlıysa)
+if (ILETISIM_EPOSTA) {
+    const [kullanici, alan] = ILETISIM_EPOSTA.split('@');
+    ekle({
+        yol: '/iletisim/',
+        baslik: 'İletişim | maas-hesaplama.com',
+        aciklama: 'maas-hesaplama.com iletişim: hata bildirimi, öneri ve sorularınız için bize ulaşın.',
+        h1: 'İletişim',
+        kirinti: [['/iletisim/', 'İletişim']],
+        arac: false,
+        icerik: `
+<section class="info">
+    <p class="lead">Hesaplamalarla ilgili hata bildirimleriniz, yeni araç önerileriniz ve sorularınız için bize e-postayla ulaşabilirsiniz.</p>
+    <p><strong>E-posta:</strong> <a id="eposta" href="#" data-k="${kullanici}" data-a="${alan}">adresi görmek için tıklayın</a></p>
+    <p>Hata bildirirken hangi sayfayı kullandığınızı, girdiğiniz değerleri ve beklediğiniz sonucu yazarsanız inceleme daha hızlı olur. Kişisel bordro veya hukuki danışmanlık hizmeti vermediğimizi hatırlatırız; kişiye özel durumlarda bir mali müşavire veya avukata danışmanızı öneririz.</p>
+</section>
+<script>
+(function () {
+    var a = document.getElementById('eposta');
+    a.addEventListener('click', function (e) {
+        var adres = a.dataset.k + '@' + a.dataset.a;
+        if (a.getAttribute('href') === '#') { e.preventDefault(); a.textContent = adres; a.setAttribute('href', 'mailto:' + adres); }
+    });
+})();
+</script>`
+    });
+}
 
 ekle({
     yol: '/gizlilik-politikasi/',

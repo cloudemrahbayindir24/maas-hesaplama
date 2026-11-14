@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yıllık İzin Hesaplama 2026: İzin Günü ve Kullanılmayan İzin Ücreti | maas-hesaplama.com</title>
+    <meta name="description" content="Yıllık izin hesaplama: işe giriş tarihinize göre her hizmet yılında hak ettiğiniz izin günü, kalan izniniz ve işten ayrılışta ödenecek kullanılmayan izin ücretinin brüt ve neti.">
+    <link rel="canonical" href="https://maas-hesaplama.com/yillik-izin-hesaplama/">
+    <meta property="og:title" content="Yıllık İzin Hesaplama 2026: İzin Günü ve Kullanılmayan İzin Ücreti | maas-hesaplama.com">
+    <meta property="og:description" content="Yıllık izin hesaplama: işe giriş tarihinize göre her hizmet yılında hak ettiğiniz izin günü, kalan izniniz ve işten ayrılışta ödenecek kullanılmayan izin ücretinin brüt ve neti.">
+    <meta property="og:url" content="https://maas-hesaplama.com/yillik-izin-hesaplama/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="tr_TR">
+    <meta property="og:site_name" content="maas-hesaplama.com">
+    <meta name="google-site-verification" content="ia2PrtWkyUlxTagzUlvlxqIn86mNVCnmy7R5dMFhnpw" />
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <!-- Google AdSense Doğrulama Kodu -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7621668742531802"
+     crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Ana Sayfa","item":"https://maas-hesaplama.com/"},{"@type":"ListItem","position":2,"name":"Yıllık İzin","item":"https://maas-hesaplama.com/yillik-izin-hesaplama/"}]}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Yıllık izin kaç gün?","acceptedAnswer":{"@type":"Answer","text":"1–5 yıl (5 yıl dahil) hizmette 14 gün, 5–15 yıl arasında 20 gün, 15 yıl ve üzerinde 26 gündür. 18 yaşından küçük ve 50 yaşından büyük çalışanlar en az 20 gün izin alır."}},{"@type":"Question","name":"Kullanılmayan yıllık izin ücretinden kesinti yapılır mı?","acceptedAnswer":{"@type":"Answer","text":"Evet. Kullanılmayan izin ücreti ücret niteliğinde olduğundan SGK ve işsizlik primi, gelir vergisi ve damga vergisi kesilir."}},{"@type":"Question","name":"İstifa eden kullanılmayan izin ücretini alabilir mi?","acceptedAnswer":{"@type":"Answer","text":"Evet. İş sözleşmesi hangi nedenle sona ererse ersin, kullanılmamış yıllık izin günlerinin ücreti ödenir."}}]}</script>
+</head>
+<body>
+
+<header class="site-header">
+    <a class="logo" href="/">maas-<span>hesaplama</span>.com</a>
+    <nav class="nav"><a href="/">Brütten Nete</a><a href="/netten-brute-maas-hesaplama/">Netten Brüte</a><a href="/kidem-tazminati-hesaplama/">Kıdem Tazminatı</a><a href="/ihbar-tazminati-hesaplama/">İhbar Tazminatı</a><a href="/fazla-mesai-hesaplama/">Fazla Mesai</a><a href="/yillik-izin-hesaplama/" class="active">Yıllık İzin</a><a href="/zam-hesaplama/">Zam Hesaplama</a><a href="/isveren-maliyeti-hesaplama/">İşveren Maliyeti</a><a href="/doviz-kurlari/">Döviz Kurları</a><a href="/rehber/">Rehberler</a></nav>
+</header>
+
+<main class="container">
+    <nav class="breadcrumb"><a href="/">Ana Sayfa</a> › Yıllık İzin</nav>
+    <h1>Yıllık İzin Hesaplama 2026</h1>
+    <p class="subtitle">2026 parametreleri · Son güncelleme: 14 Kasım 2026</p>
+
+
+<p class="lead">İşe giriş tarihinizi girin; her hizmet yılı için hak ettiğiniz izin gününü, toplam ve kalan izninizi görün. Brüt maaşınızı da girerseniz, işten ayrılırken ödenecek kullanılmayan izin ücretinin brütünü ve netini hesaplar.</p>
+<div class="grid-2">
+    <div>
+        <label for="izGiris">İşe Giriş Tarihi:</label>
+        <input type="date" id="izGiris">
+    </div>
+    <div>
+        <label for="izCikis">Hesap / İşten Çıkış Tarihi:</label>
+        <input type="date" id="izCikis">
+    </div>
+</div>
+<div class="grid-2">
+    <div>
+        <label for="izKullanilan">Bugüne Kadar Kullanılan İzin (gün):</label>
+        <input type="number" id="izKullanilan" placeholder="Örn: 20" min="0" step="1" inputmode="numeric">
+    </div>
+    <div>
+        <label for="izBrut">Aylık Brüt Maaş (TL, isteğe bağlı):</label>
+        <input type="number" id="izBrut" placeholder="İzin ücreti için" min="0" step="0.01" inputmode="decimal">
+    </div>
+</div>
+<label class="check"><input type="checkbox" id="izYas"> 18 yaşından küçüğüm veya 50 yaşından büyüğüm (en az 20 gün)</label>
+<button class="btn" id="btnIzin">İzni Hesapla</button>
+<div class="error" id="hataIz"></div>
+<div class="result-box" id="izSonuc" style="display:none;">
+    <div class="result-item sub"><span>Hizmet süresi:</span><span id="izSure"></span></div>
+    <div class="result-item"><span>Son tamamlanan yıl için izin hakkı:</span><strong id="izBuYil"></strong></div>
+    <div class="result-item sub"><span>Bir sonraki yıl dolduğunda:</span><span id="izSonraki"></span></div>
+    <div class="result-item"><span>Toplam hak edilen izin:</span><strong id="izToplam"></strong></div>
+    <div class="result-item total"><span>Kalan izin:</span><strong id="izKalan"></strong></div>
+    <div id="izUcretBlok" style="display:none;">
+        <hr>
+        <div class="result-item sub"><span>Günlük brüt ücret (brüt ÷ 30):</span><span id="izGunluk"></span></div>
+        <div class="result-item"><span>Kullanılmayan izin ücreti (brüt):</span><strong id="izBrutUcret"></strong></div>
+        <div class="result-item sub"><span>SGK + işsizlik kesintisi:</span><span id="izSgk"></span></div>
+        <div class="result-item sub"><span>Gelir vergisi:</span><span id="izGV"></span></div>
+        <div class="result-item sub"><span>Damga vergisi:</span><span id="izDV"></span></div>
+        <div class="result-item cost"><span>Kullanılmayan izin ücreti (yaklaşık net):</span><strong id="izNet"></strong></div>
+        <p class="hint" id="izNot"></p>
+    </div>
+    <details>
+        <summary>Yıl yıl hak edilen izinler</summary>
+        <div class="table-wrap"><table>
+            <thead><tr><th>Hizmet yılı</th><th>Hak kazanma tarihi</th><th>İzin</th></tr></thead>
+            <tbody id="izTablo"></tbody>
+        </table></div>
+    </details>
+</div>
+
+<section class="info">
+    <h2>Kıdeme Göre Yıllık İzin Süreleri</h2>
+    <div class="table-wrap"><table>
+        <tr><th>Hizmet süresi</th><th>En az izin</th></tr>
+        <tr><td>1 yıldan 5 yıla kadar (5 yıl dahil)</td><td>14 gün</td></tr>
+        <tr><td>5 yıldan fazla, 15 yıldan az</td><td>20 gün</td></tr>
+        <tr><td>15 yıl (dahil) ve üzeri</td><td>26 gün</td></tr>
+        <tr><td>18 yaşından küçük veya 50 yaşından büyük</td><td>En az 20 gün</td></tr>
+    </table></div>
+    <p>Yıllık izne hak kazanmak için deneme süresi dahil en az 1 yıl çalışmış olmak gerekir. Bu süreler kanunun öngördüğü en az sürelerdir; iş sözleşmesi veya toplu iş sözleşmesiyle artırılabilir, azaltılamaz. İzin süresine denk gelen hafta tatili, ulusal bayram ve genel tatil günleri izinden sayılmaz. Yer altı işlerinde süreler dörder gün artırılır.</p>
+    <h2>Kullanılmayan İzin Ücreti Nasıl Hesaplanır?</h2>
+    <p>Çalışırken yıllık izin paraya çevrilemez. İş sözleşmesi herhangi bir nedenle sona erdiğinde ise kullanılmamış izin günlerinin ücreti, son brüt ücret üzerinden ödenir: <strong>(Aylık brüt ÷ 30) × kullanılmayan gün</strong>. Bu ödeme ücret niteliğinde olduğu için SGK ve işsizlik primi, gelir vergisi ve damga vergisine tabidir. Gelir vergisi, ödemenin yapıldığı ayki kümülatif matrahınıza göre hesaplanır.</p>
+    <p>Kullanılmayan izin ücreti alacağı, iş sözleşmesinin sona erdiği tarihten itibaren 5 yıllık zamanaşımına tabidir.</p>
+    <h2>İlgili Rehberler</h2>
+<ul class="rehber-liste"><li><a href="/rehber/kidem-tazminati-kimlere-odenir/">Kıdem tazminatı kimlere ödenir? Şartlar, tavan ve örnekler</a></li><li><a href="/rehber/bordro-nasil-okunur/">Bordro nasıl okunur? Maaş bordrosundaki her satırın anlamı</a></li></ul>
+    <p class="warn">Bu sitedeki hesaplamalar bilgilendirme amaçlıdır. Bordronuzdaki tutarlar teşvikler, yan haklar, engellilik indirimi, emekli (SGDP) statüsü gibi nedenlerle farklılık gösterebilir. Kesin tutarlar için işvereninizin muhasebe/İK birimine veya bir mali müşavire danışınız.</p>
+</section>
+<section class="info">
+<h2>Sık Sorulan Sorular</h2>
+<h3>Yıllık izin kaç gün?</h3>
+<p>1–5 yıl (5 yıl dahil) hizmette 14 gün, 5–15 yıl arasında 20 gün, 15 yıl ve üzerinde 26 gündür. 18 yaşından küçük ve 50 yaşından büyük çalışanlar en az 20 gün izin alır.</p>
+<h3>Kullanılmayan yıllık izin ücretinden kesinti yapılır mı?</h3>
+<p>Evet. Kullanılmayan izin ücreti ücret niteliğinde olduğundan SGK ve işsizlik primi, gelir vergisi ve damga vergisi kesilir.</p>
+<h3>İstifa eden kullanılmayan izin ücretini alabilir mi?</h3>
+<p>Evet. İş sözleşmesi hangi nedenle sona ererse ersin, kullanılmamış yıllık izin günlerinin ücreti ödenir.</p>
+</section>
+    <footer class="footer-links">
+        <p>
+            <a href="/brut-net-maas-tablosu-2026/">Brüt–Net Maaş Tablosu</a> ·
+            <a href="/gelir-vergisi-dilimleri-2026/">2026 Vergi Dilimleri</a> ·
+            <a href="/asgari-ucret-2026/">2026 Asgari Ücret</a> ·
+            <a href="/ekonomi-haberleri/">Ekonomi Haberleri</a>
+        </p>
+        <p>
+            <a href="/hakkimizda/">Hakkımızda ve Editoryal İlkeler</a> ·
+            <a href="/iletisim/">İletişim</a> ·
+            <a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
+        </p>
+        <p>© 2026 maas-hesaplama.com · Hesaplamalar bilgilendirme amaçlıdır.</p>
+    </footer>
+</main>
+
+<script src="/assets/kurlar.js"></script>
+<script src="/assets/motor.js"></script>
+<script src="/assets/arayuz.js"></script>
+</body>
+</html>
