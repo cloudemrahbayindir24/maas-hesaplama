@@ -1,10 +1,52 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-13T20:30:32.321Z",
+ "guncellendi": "2026-11-14T11:33:43.252Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Ayran, kefir ve yoğurt üretimi 9 ayda rekor seviyeye ulaştı",
+   "link": "https://www.trthaber.com/haber/ekonomi/ayran-kefir-ve-yogurt-uretimi-9-ayda-rekor-seviyeye-ulasti-963266.html",
+   "tarih": "2026-11-14T10:14:00.000Z",
+   "ozet": "Türkiye'de ayran ve kefir üretimi ocak-eylül döneminde 834 bin 27 ton, yoğurt üretimi de 1 milyon 126 bin 83 tonla rekor seviyeye ulaştı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye ile Singapur arasında JETCO Protokolü imzalandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-ile-singapur-arasinda-jetco-protokolu-imzalandi-963262.html",
+   "tarih": "2026-11-14T09:28:00.000Z",
+   "ozet": "Ticaret Bakanı Ömer Bolat ve Singapurlu mevkidaşı Grace Fu tarafından imzalanan JETCO Protokolü ile iki ülkenin birbirini tamamlayıcı özelliklerinden yararlanılarak ticaret…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "ÇAYKUR bu yıl 740 bin tonu aşkın yaş çay aldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/caykur-bu-yil-740-bin-tonu-askin-yas-cay-aldi-963258.html",
+   "tarih": "2026-11-14T08:57:00.000Z",
+   "ozet": "ÇAYKUR Genel Müdürü Yusuf Ziya Alim, bu yıl aldıkları 740 bin tonu aşkın yaş çayın bedeli olarak üreticilere yaklaşık 26 milyar lira ödeme yaptıklarını söyledi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalarda alış ağırlıklı seyrin ardından gözler yeni haftaya çevrildi",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-alis-agirlikli-seyrin-ardindan-gozler-yeni-haftaya-cevrildi-963250.html",
+   "tarih": "2026-11-14T08:25:00.000Z",
+   "ozet": "Küresel piyasalar, ABD'li çip üreticisi Nvidia'nın üst yöneticisi (CEO) Jensen Huang'ın istifasına karşın şirket kaynaklı endişelerin küresel yapay zeka sektörüne etkilerinin…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel tarım destekleri rekor seviyeye ulaştı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-tarim-destekleri-rekor-seviyeye-ulasti-963249.html",
+   "tarih": "2026-11-14T08:22:00.000Z",
+   "ozet": "Küresel tarım sektörü artan jeopolitik riskler, ekonomik belirsizlikler ve aşırı hava olaylarının etkisiyle giderek daha fazla baskı altında kalırken, hükümetlerin sektöre…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Zorunlu kış lastiği uygulaması yarın başlıyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/zorunlu-kis-lastigi-uygulamasi-yarin-basliyor-963238.html",
+   "tarih": "2026-11-14T06:05:00.000Z",
+   "ozet": "Ticari araçlarda zorunlu kış lastiği uygulaması yarın başlıyor. Özel otomobiller için ise yasal zorunluluk olmasa da kış lastiği kullanımı öneriliyor.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Türkiye Sigorta fon kazancını TMSF'ye iade etti",
    "link": "https://www.trthaber.com/haber/ekonomi/turkiye-sigorta-fon-kazancini-tmsfye-iade-etti-963223.html",
@@ -171,48 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/eylul-ayi-dis-ticaret-endeksleri-aciklandi-963025.html",
    "tarih": "2026-11-12T07:26:00.000Z",
    "ozet": "İhracat birim değer endeksi, eylülde geçen yılın aynı ayına göre yüzde 7, ithalat birim değer endeksi yüzde 12,7 arttı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Tavuk eti üretimi eylülde arttı",
-   "link": "https://www.trthaber.com/haber/ekonomi/tavuk-eti-uretimi-eylulde-artti-963024.html",
-   "tarih": "2026-11-12T07:19:00.000Z",
-   "ozet": "Türkiye genelinde tavuk eti üretimi eylülde geçen yılın aynı ayına göre yüzde 5,2 artarak 240 bin 723 tona, tavuk yumurtası üretimi yüzde 20,4 yükselişle 2 milyar 76 milyon 674…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye ile Kanada arasında nükleer santral için işbirliği anlaşması",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-ile-kanada-arasinda-nukleer-santral-icin-isbirligi-anlasmasi-963021.html",
-   "tarih": "2026-11-12T07:07:00.000Z",
-   "ozet": "Türkiye Nükleer Enerji AŞ ile Kanada merkezli AtkinsRealis, CANDU reaktör teknolojisiyle kurulabilecek nükleer santral için fizibilite ve ön tasarım mühendisliği anlaşması…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "BIST 100 endeksi 11.675,26 puandan başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/bist-100-endeksi-1167526-puandan-basladi-963018.html",
-   "tarih": "2026-11-12T07:03:00.000Z",
-   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,08 yükselişle 11.675,26 puandan başladı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel elektrikli araç satışları yeniden yükselişte",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-elektrikli-arac-satislari-yeniden-yukseliste-963015.html",
-   "tarih": "2026-11-12T06:53:00.000Z",
-   "ozet": "Dünyada elektrikli araç satışları, ekim ayında geçen yılın aynı dönemine göre yüzde 8 artarak 2,09 milyona ulaştı. Avrupa’daki güçlü talep ve Kuzey Amerika’da bu yıl görülen ilk…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Şimşek: 4 dünya bankası ile 5,1 milyar dolarlık anlaşma",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-4-dunya-bankasi-ile-51-milyar-dolarlik-anlasma-963013.html",
-   "tarih": "2026-11-12T06:48:00.000Z",
-   "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, \"Asya Kalkınma Bankası, Asya Altyapı Yatırım Bankası, Dünya Bankası ve İslam Kalkınma Bankası ile 5,1 milyar dolar değerinde 10 anlaşmaya…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalarda Nvidia şoku",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-nvidia-soku-963011.html",
-   "tarih": "2026-11-12T06:24:00.000Z",
-   "ozet": "Küresel piyasalar, ABD'li çip üreticisi Nvidia'nın Üst Yöneticisi (CEO) Jensen Huang'ın görevden alınabileceği iddialarının yapay zeka hisselerinde satış baskısını artırmasıyla…",
    "kaynak": "TRT Haber"
   }
  ]
