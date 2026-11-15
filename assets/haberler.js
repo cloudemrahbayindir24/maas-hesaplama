@@ -1,10 +1,24 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-14T18:45:27.809Z",
+ "guncellendi": "2026-11-15T11:59:24.965Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Evde Bakım Yardımı kapsamında 7,8 milyar liralık ödeme başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/evde-bakim-yardimi-kapsaminda-78-milyar-liralik-odeme-basladi-963323.html",
+   "tarih": "2026-11-15T07:36:00.000Z",
+   "ozet": "Evlerinde bakılan tam bağımlı vatandaşlar ve aileleri için bu ay toplam 7,8 milyar lira Evde Bakım Yardımı hesaplara yatırılmaya başlandı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "VakıfBank ile Dünya Bankası arasında 250 milyon dolarlık finansman anlaşması",
+   "link": "https://www.trthaber.com/haber/ekonomi/vakifbank-ile-dunya-bankasi-arasinda-250-milyon-dolarlik-finansman-anlasmasi-963321.html",
+   "tarih": "2026-11-15T06:58:00.000Z",
+   "ozet": "VakıfBank, \"Sanayinin Teknolojiyle Dönüşümü Projesi\" kapsamında Dünya Bankası ile 250 milyon dolar tutarında finansman anlaşması yaptı.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "COP31'de 2 bin 700 gönüllü görev alıyor",
    "link": "https://www.trthaber.com/haber/ekonomi/cop31de-2-bin-700-gonullu-gorev-aliyor-963283.html",
@@ -199,20 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/turkiye-ile-cin-arasinda-15-milyar-dolarlik-yatirim-anlasmasi-963057.html",
    "tarih": "2026-11-12T11:04:00.000Z",
    "ozet": "COP31 marjında, Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar’ın refakatinde, Enerji ve Tabii Kaynaklar Bakanlığı ile Çin Halk Cumhuriyeti Ulusal Enerji İdaresi arasında…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Yumaklı: 600 milyon fidan ve tohum hedefine ulaştık",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-yumakli-600-milyon-fidan-ve-tohum-hedefine-ulastik-963052.html",
-   "tarih": "2026-11-12T10:09:00.000Z",
-   "ozet": "Tarım ve Orman Bakanı İbrahim Yumaklı, Cumhurbaşkanı Recep Tayyip Erdoğan tarafından belirlenen \"1 yılda 600 milyon fidan ve tohum\" hedefine ulaşıldığını bildirdi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Şimşek: Kalkınma bankalarını katalizör olarak görüyorum",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-simsek-kalkinma-bankalarini-katalizor-olarak-goruyorum-963051.html",
-   "tarih": "2026-11-12T09:50:00.000Z",
-   "ozet": "Hazine ve Maliye Bakanı Mehmet Şimşek, kalkınma bankalarının ülkelerin gelişimine sağladığı katkılara dikkati çekerek, \"Kalkınma bankalarımızı yalnızca birer aracı kurum olarak…",
    "kaynak": "TRT Haber"
   }
  ]
