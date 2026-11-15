@@ -1,10 +1,24 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-15T11:59:24.965Z",
+ "guncellendi": "2026-11-15T19:23:44.883Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "SPK'den olağanüstü tasfiyede halka açık ortaklıkların geri aldığı paylarla ilgili açıklama",
+   "link": "https://www.trthaber.com/haber/ekonomi/spkden-olaganustu-tasfiyede-halka-acik-ortakliklarin-geri-aldigi-paylarla-ilgili-aciklama-963356.html",
+   "tarih": "2026-11-15T16:42:00.000Z",
+   "ozet": "SPK, tasfiye kapsamındaki fonların portföylerinde bulunan payların, borsada oluşan son işlem günü kapanış fiyatı esas alınarak ilgili ortaklıklara satılmasına imkan tanınarak…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kasım ayı SED ödemeleri hesaplara yatırıldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kasim-ayi-sed-odemeleri-hesaplara-yatirildi-963345.html",
+   "tarih": "2026-11-15T12:40:00.000Z",
+   "ozet": "Aile ve Sosyal Hizmetler Bakanı Mahinur Özdemir Göktaş, kasım ayına ait Sosyal ve Ekonomik Destek (SED) ödemelerinin hesaplara yatırıldığını duyurdu.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Evde Bakım Yardımı kapsamında 7,8 milyar liralık ödeme başladı",
    "link": "https://www.trthaber.com/haber/ekonomi/evde-bakim-yardimi-kapsaminda-78-milyar-liralik-odeme-basladi-963323.html",
@@ -199,20 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/enerjide-atilan-adimlar-ticareti-de-olumlu-etkileyecek-963063.html",
    "tarih": "2026-11-12T11:36:00.000Z",
    "ozet": "Nükleerden yenilenebilir enerjiye, modüler santrallerden yeni rezervler bulunmasına kadar birçok adım atan Türkiye, karbon ayak izini de gittikçe düşürüyor. AB ülkelerinin…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İstanbul Kuzey Demir Yolu Geçişi Projesi için 25 teklif verildi",
-   "link": "https://www.trthaber.com/haber/ekonomi/istanbul-kuzey-demir-yolu-gecisi-projesi-icin-25-teklif-verildi-963059.html",
-   "tarih": "2026-11-12T11:31:00.000Z",
-   "ozet": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, İstanbul Kuzey Demir Yolu Geçişi Projesi'nin ihalesine ilişkin ilk tekliflerin dün alındığını belirterek, Türkiye'den firmaların…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye ile Çin arasında 15 milyar dolarlık yatırım anlaşması",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-ile-cin-arasinda-15-milyar-dolarlik-yatirim-anlasmasi-963057.html",
-   "tarih": "2026-11-12T11:04:00.000Z",
-   "ozet": "COP31 marjında, Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar’ın refakatinde, Enerji ve Tabii Kaynaklar Bakanlığı ile Çin Halk Cumhuriyeti Ulusal Enerji İdaresi arasında…",
    "kaynak": "TRT Haber"
   }
  ]
