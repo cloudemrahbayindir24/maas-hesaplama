@@ -1,123 +1,123 @@
 /* Otomatik üretilir: node _kaynak/kur-guncelle.js — elle düzenlemeyin. */
 window.KURLAR = {
  "kaynak": "TCMB",
- "tarih": "13.11.2026",
- "bultenNo": "2026/214",
+ "tarih": "16.11.2026",
+ "bultenNo": "2026/215",
  "kurlar": [
   {
    "kod": "USD",
    "isim": "ABD DOLARI",
    "birim": 1,
-   "dovizAlis": 50.1926,
-   "dovizSatis": 50.283,
-   "efektifAlis": 50.1574,
-   "efektifSatis": 50.3584
+   "dovizAlis": 50.3036,
+   "dovizSatis": 50.3942,
+   "efektifAlis": 50.2684,
+   "efektifSatis": 50.4698
   },
   {
    "kod": "AUD",
    "isim": "AVUSTRALYA DOLARI",
    "birim": 1,
-   "dovizAlis": 34.0202,
-   "dovizSatis": 34.242,
-   "efektifAlis": 33.8637,
-   "efektifSatis": 34.4475
+   "dovizAlis": 33.9018,
+   "dovizSatis": 34.1229,
+   "efektifAlis": 33.7459,
+   "efektifSatis": 34.3277
   },
   {
    "kod": "DKK",
    "isim": "DANİMARKA KRONU",
    "birim": 1,
-   "dovizAlis": 7.4131,
-   "dovizSatis": 7.4495,
-   "efektifAlis": 7.4079,
-   "efektifSatis": 7.4667
+   "dovizAlis": 7.399,
+   "dovizSatis": 7.4354,
+   "efektifAlis": 7.3938,
+   "efektifSatis": 7.4525
   },
   {
    "kod": "EUR",
    "isim": "EURO",
    "birim": 1,
-   "dovizAlis": 55.5033,
-   "dovizSatis": 55.6033,
-   "efektifAlis": 55.4645,
-   "efektifSatis": 55.6867
+   "dovizAlis": 55.3981,
+   "dovizSatis": 55.4979,
+   "efektifAlis": 55.3593,
+   "efektifSatis": 55.5812
   },
   {
    "kod": "GBP",
    "isim": "İNGİLİZ STERLİNİ",
    "birim": 1,
-   "dovizAlis": 66.3009,
-   "dovizSatis": 66.6466,
-   "efektifAlis": 66.2545,
-   "efektifSatis": 66.7466
+   "dovizAlis": 66.2803,
+   "dovizSatis": 66.6258,
+   "efektifAlis": 66.2339,
+   "efektifSatis": 66.7258
   },
   {
    "kod": "CHF",
    "isim": "İSVİÇRE FRANGI",
    "birim": 1,
-   "dovizAlis": 59.8602,
-   "dovizSatis": 60.2445,
-   "efektifAlis": 59.7704,
-   "efektifSatis": 60.3349
+   "dovizAlis": 59.7551,
+   "dovizSatis": 60.1388,
+   "efektifAlis": 59.6655,
+   "efektifSatis": 60.229
   },
   {
    "kod": "SEK",
    "isim": "İSVEÇ KRONU",
    "birim": 1,
-   "dovizAlis": 4.9812,
-   "dovizSatis": 5.0328,
-   "efektifAlis": 4.9777,
-   "efektifSatis": 5.0443
+   "dovizAlis": 4.9696,
+   "dovizSatis": 5.021,
+   "efektifAlis": 4.9661,
+   "efektifSatis": 5.0326
   },
   {
    "kod": "CAD",
    "isim": "KANADA DOLARI",
    "birim": 1,
-   "dovizAlis": 35.1522,
-   "dovizSatis": 35.3108,
-   "efektifAlis": 35.0222,
-   "efektifSatis": 35.445
+   "dovizAlis": 35.1727,
+   "dovizSatis": 35.3313,
+   "efektifAlis": 35.0425,
+   "efektifSatis": 35.4656
   },
   {
    "kod": "KWD",
    "isim": "KUVEYT DİNARI",
    "birim": 1,
-   "dovizAlis": 161.7344,
-   "dovizSatis": 163.8507,
-   "efektifAlis": 159.3083,
-   "efektifSatis": 166.3084
+   "dovizAlis": 161.9872,
+   "dovizSatis": 164.1069,
+   "efektifAlis": 159.5574,
+   "efektifSatis": 166.5685
   },
   {
    "kod": "NOK",
    "isim": "NORVEÇ KRONU",
    "birim": 1,
-   "dovizAlis": 5.2411,
-   "dovizSatis": 5.2763,
-   "efektifAlis": 5.2374,
-   "efektifSatis": 5.2885
+   "dovizAlis": 5.2325,
+   "dovizSatis": 5.2676,
+   "efektifAlis": 5.2288,
+   "efektifSatis": 5.2798
   },
   {
    "kod": "SAR",
    "isim": "SUUDİ ARABİSTAN RİYALİ",
    "birim": 1,
-   "dovizAlis": 13.374,
-   "dovizSatis": 13.3981,
-   "efektifAlis": 13.2737,
-   "efektifSatis": 13.4986
+   "dovizAlis": 13.4037,
+   "dovizSatis": 13.4279,
+   "efektifAlis": 13.3032,
+   "efektifSatis": 13.5286
   },
   {
    "kod": "JPY",
    "isim": "JAPON YENİ",
    "birim": 100,
-   "dovizAlis": 31.3183,
-   "dovizSatis": 31.5257,
-   "efektifAlis": 31.2024,
-   "efektifSatis": 31.6455
+   "dovizAlis": 31.4534,
+   "dovizSatis": 31.6616,
+   "efektifAlis": 31.337,
+   "efektifSatis": 31.7819
   },
   {
    "kod": "RON",
    "isim": "RUMEN LEYİ",
    "birim": 1,
-   "dovizAlis": 10.3181,
-   "dovizSatis": 10.4531,
+   "dovizAlis": 10.2968,
+   "dovizSatis": 10.4316,
    "efektifAlis": null,
    "efektifSatis": null
   },
@@ -125,8 +125,8 @@ window.KURLAR = {
    "kod": "RUB",
    "isim": "RUS RUBLESİ",
    "birim": 1,
-   "dovizAlis": 0.60685,
-   "dovizSatis": 0.61479,
+   "dovizAlis": 0.60679,
+   "dovizSatis": 0.61473,
    "efektifAlis": null,
    "efektifSatis": null
   },
@@ -134,8 +134,8 @@ window.KURLAR = {
    "kod": "CNY",
    "isim": "ÇİN YUANI",
    "birim": 1,
-   "dovizAlis": 7.4818,
-   "dovizSatis": 7.5797,
+   "dovizAlis": 7.502,
+   "dovizSatis": 7.6002,
    "efektifAlis": null,
    "efektifSatis": null
   },
@@ -143,8 +143,8 @@ window.KURLAR = {
    "kod": "PKR",
    "isim": "PAKİSTAN RUPİSİ",
    "birim": 1,
-   "dovizAlis": 0.18049,
-   "dovizSatis": 0.18285,
+   "dovizAlis": 0.18091,
+   "dovizSatis": 0.18328,
    "efektifAlis": null,
    "efektifSatis": null
   },
@@ -152,8 +152,8 @@ window.KURLAR = {
    "kod": "QAR",
    "isim": "KATAR RİYALİ",
    "birim": 1,
-   "dovizAlis": 13.6931,
-   "dovizSatis": 13.8722,
+   "dovizAlis": 13.7234,
+   "dovizSatis": 13.9029,
    "efektifAlis": null,
    "efektifSatis": null
   },
@@ -161,8 +161,8 @@ window.KURLAR = {
    "kod": "KRW",
    "isim": "GÜNEY KORE WONU",
    "birim": 1,
-   "dovizAlis": 0.03734,
-   "dovizSatis": 0.03783,
+   "dovizAlis": 0.03748,
+   "dovizSatis": 0.03797,
    "efektifAlis": null,
    "efektifSatis": null
   },
@@ -170,8 +170,8 @@ window.KURLAR = {
    "kod": "AZN",
    "isim": "AZERBAYCAN YENİ MANATI",
    "birim": 1,
-   "dovizAlis": 29.3595,
-   "dovizSatis": 29.7437,
+   "dovizAlis": 29.4245,
+   "dovizSatis": 29.8095,
    "efektifAlis": null,
    "efektifSatis": null
   },
@@ -179,8 +179,8 @@ window.KURLAR = {
    "kod": "AED",
    "isim": "BİRLEŞİK ARAP EMİRLİKLERİ DİRHEMİ",
    "birim": 1,
-   "dovizAlis": 13.5895,
-   "dovizSatis": 13.7673,
+   "dovizAlis": 13.6194,
+   "dovizSatis": 13.7976,
    "efektifAlis": null,
    "efektifSatis": null
   },
@@ -188,17 +188,17 @@ window.KURLAR = {
    "kod": "KZT",
    "isim": "KAZAKİSTAN TENGESİ",
    "birim": 1,
-   "dovizAlis": 0.11221,
-   "dovizSatis": 0.11368,
+   "dovizAlis": 0.11248,
+   "dovizSatis": 0.11396,
    "efektifAlis": null,
    "efektifSatis": null
   }
  ],
  "altin": {
-  "onsTL": 196538.8,
-  "gramTL": 6318.87,
-  "tarih": "2026-11-13",
+  "onsTL": 193986.46,
+  "gramTL": 6236.81,
+  "tarih": "2026-11-16",
   "kaynak": "Uluslararası ons fiyatı (fawazahmed0/currency-api)"
  },
- "guncellendi": "2026-11-13T20:06:01.827Z"
+ "guncellendi": "2026-11-16T22:34:30.104Z"
 };
