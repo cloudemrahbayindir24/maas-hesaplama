@@ -1,10 +1,17 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-16T12:50:11.788Z",
+ "guncellendi": "2026-11-16T22:55:16.990Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Altın fiyatlarında son durum",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963439.html",
+   "tarih": "2026-11-16T13:41:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 313 bin liraya geriledi.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Rekabet Kurulu'ndan Siemens'e soruşturma",
    "link": "https://www.trthaber.com/haber/ekonomi/rekabet-kurulundan-siemense-sorusturma-963428.html",
@@ -206,13 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/surec-basladi-e-imzalar-ab-ile-karsilikli-taninacak-963193.html",
    "tarih": "2026-11-13T12:10:00.000Z",
    "ozet": "Türkiye ile Avrupa Birliği (AB) arasında elektronik imzaların (e-imza) karşılıklı tanınmasına yönelik süreç başladı. Sürecin tamamlanmasıyla Türkiye'de kullanılan nitelikli…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Bolat: Cari işlemler dengesinde 4 ay art arda fazla verilmesi öngörülüyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-bolat-cari-islemler-dengesinde-4-ay-art-arda-fazla-verilmesi-ongoruluyor-963185.html",
-   "tarih": "2026-11-13T10:59:00.000Z",
-   "ozet": "Ticaret Bakanı Ömer Bolat, temmuz, ağustos ve eylül aylarının ardından ekimde de cari işlemler hesabında fazla verilmesinin beklendiğine işaret ederek, \"Böylece cari işlemler…",
    "kaynak": "TRT Haber"
   }
  ]
