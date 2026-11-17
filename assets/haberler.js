@@ -1,10 +1,38 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-17T13:31:35.380Z",
+ "guncellendi": "2026-11-17T23:32:24.948Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Yeşil dönüşüm için verilecek 3 milyar liralık destek paketinde son başvuru tarihi belli oldu",
+   "link": "https://www.trthaber.com/haber/ekonomi/yesil-donusum-icin-verilecek-3-milyar-liralik-destek-paketinde-son-basvuru-tarihi-belli-oldu-963605.html",
+   "tarih": "2026-11-17T19:42:00.000Z",
+   "ozet": "Sanayi ve Teknoloji Bakanı Mehmet Kacır, Yeşil Sanayi Programı kapsamında KOBİ'lere sağlanacak 3 milyar liralık yeni desteğe yönelik son başvuru tarihinin 31 Ocak 2027 olduğunu…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Dünya Bankası, COP31'de iklim yatırımlarının merkezine istihdamı koydu",
+   "link": "https://www.trthaber.com/haber/ekonomi/dunya-bankasi-cop31de-iklim-yatirimlarinin-merkezine-istihdami-koydu-963603.html",
+   "tarih": "2026-11-17T18:42:00.000Z",
+   "ozet": "Dünya Bankası, Antalya'da gerçekleştirilen Birleşmiş Milletler (BM) İklim Değişikliği Çerçeve Sözleşmesi'nin 31. Taraflar Konferansı (COP31) kapsamında, kalkınma önceliklerini…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "İstanbul'un havalimanları yolcu sayısı ve büyümede Avrupa zirvesinde",
+   "link": "https://www.trthaber.com/haber/ekonomi/istanbulun-havalimanlari-yolcu-sayisi-ve-buyumede-avrupa-zirvesinde-963585.html",
+   "tarih": "2026-11-17T14:17:00.000Z",
+   "ozet": "İstanbul Havalimanı eylül ayında yolcu sayısında, Sabiha Gökçen Havalimanı ise yıllık 40 milyonun üzerinde yolcuya hizmet veren havalimanları kategorisinde büyüme oranında…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın fiyatlarında son durum",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963580.html",
+   "tarih": "2026-11-17T13:42:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 314 bin lira oldu.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Enerji Dedektifleri kitap serisi ile enerji tasarrufu çocuklara COP31'de anlatıldı",
    "link": "https://www.trthaber.com/haber/ekonomi/enerji-dedektifleri-kitap-serisi-ile-enerji-tasarrufu-cocuklara-cop31de-anlatildi-963570.html",
@@ -87,13 +115,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/yuzde-80-indirim-kampanyasinda-tarih-detayi-cezayla-sonuclandi-963476.html",
    "tarih": "2026-11-17T03:27:00.000Z",
    "ozet": "Ticaret Bakanlığı Reklam Kurulu, ‘yüzde 80 indirim’ başlığıyla yapılan tanıtımlarda kampanyanın başlangıç ve bitiş tarihlerinin belirtilmemesi nedeniyle ilgili işletmeye idari…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963439.html",
-   "tarih": "2026-11-16T13:41:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 313 bin liraya geriledi.",
    "kaynak": "TRT Haber"
   },
   {
@@ -192,27 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/spkden-olaganustu-tasfiyede-halka-acik-ortakliklarin-geri-aldigi-paylarla-ilgili-aciklama-963356.html",
    "tarih": "2026-11-15T16:42:00.000Z",
    "ozet": "SPK, tasfiye kapsamındaki fonların portföylerinde bulunan payların, borsada oluşan son işlem günü kapanış fiyatı esas alınarak ilgili ortaklıklara satılmasına imkan tanınarak…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Kasım ayı SED ödemeleri hesaplara yatırıldı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kasim-ayi-sed-odemeleri-hesaplara-yatirildi-963345.html",
-   "tarih": "2026-11-15T12:40:00.000Z",
-   "ozet": "Aile ve Sosyal Hizmetler Bakanı Mahinur Özdemir Göktaş, kasım ayına ait Sosyal ve Ekonomik Destek (SED) ödemelerinin hesaplara yatırıldığını duyurdu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Evde Bakım Yardımı kapsamında 7,8 milyar liralık ödeme başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/evde-bakim-yardimi-kapsaminda-78-milyar-liralik-odeme-basladi-963323.html",
-   "tarih": "2026-11-15T07:36:00.000Z",
-   "ozet": "Evlerinde bakılan tam bağımlı vatandaşlar ve aileleri için bu ay toplam 7,8 milyar lira Evde Bakım Yardımı hesaplara yatırılmaya başlandı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "VakıfBank ile Dünya Bankası arasında 250 milyon dolarlık finansman anlaşması",
-   "link": "https://www.trthaber.com/haber/ekonomi/vakifbank-ile-dunya-bankasi-arasinda-250-milyon-dolarlik-finansman-anlasmasi-963321.html",
-   "tarih": "2026-11-15T06:58:00.000Z",
-   "ozet": "VakıfBank, \"Sanayinin Teknolojiyle Dönüşümü Projesi\" kapsamında Dünya Bankası ile 250 milyon dolar tutarında finansman anlaşması yaptı.",
    "kaynak": "TRT Haber"
   }
  ]
