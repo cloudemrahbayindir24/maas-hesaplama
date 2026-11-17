@@ -1,10 +1,94 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-16T22:55:16.990Z",
+ "guncellendi": "2026-11-17T13:31:35.380Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Enerji Dedektifleri kitap serisi ile enerji tasarrufu çocuklara COP31'de anlatıldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/enerji-dedektifleri-kitap-serisi-ile-enerji-tasarrufu-cocuklara-cop31de-anlatildi-963570.html",
+   "tarih": "2026-11-17T12:51:00.000Z",
+   "ozet": "Enerji ve Tabii Kaynaklar Bakanlığı'nın \"Enerjine Verim Kat\" projesi kapsamında hazırlanan, çocuklarda enerji verimliliği bilinci oluşturmayı amaçlayan \"Enerji Dedektifleri\" kitap…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Tüketiciyi yanıltan reklam ve kampanyalara 35,9 milyon lira ceza",
+   "link": "https://www.trthaber.com/haber/ekonomi/tuketiciyi-yaniltan-reklam-ve-kampanyalara-359-milyon-lira-ceza-963538.html",
+   "tarih": "2026-11-17T08:52:00.000Z",
+   "ozet": "Ticaret Bakanlığı Reklam Kurulu, 12 Kasım'daki toplantısında tüketicileri yanıltıcı reklamlar ve haksız ticari uygulamalar nedeniyle 35,9 milyon lira idari para cezası…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ulaştırma ve depolama sektöründe istihdam 1,4 milyonla rekor kırdı",
+   "link": "https://www.trthaber.com/haber/ekonomi/ulastirma-ve-depolama-sektorunde-istihdam-14-milyonla-rekor-kirdi-963534.html",
+   "tarih": "2026-11-17T08:37:00.000Z",
+   "ozet": "Türkiye'de ulaştırma ve depolama sektörlerinde ücretli çalışan sayısı, eylülde yıllık bazda artışını 67'nci aya taşıyarak ilk kez 1 milyon 400 bini aştı. Sektördeki çalışan sayısı…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Atıl tarım arazileri ve su yüzeyleri enerji üretiminde kullanılacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/atil-tarim-arazileri-ve-su-yuzeyleri-enerji-uretiminde-kullanilacak-963528.html",
+   "tarih": "2026-11-17T08:05:00.000Z",
+   "ozet": "Türkiye'nin yeni Yeşil Mutabakat Eylem Planı kapsamında, atıl tarım arazileri ve su yüzeyleri yenilenebilir enerji üretiminde değerlendirilecek, su yüzeylerinde yüzer güneş enerji…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Konut Fiyat Endeksi ekimde arttı",
+   "link": "https://www.trthaber.com/haber/ekonomi/konut-fiyat-endeksi-ekimde-artti-963526.html",
+   "tarih": "2026-11-17T07:43:00.000Z",
+   "ozet": "Konut Fiyat Endeksi (KFE), ekimde aylık bazda yüzde 0,7, yıllık bazda ise yüzde 21,1 arttı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Geçici vergi beyanı ve ödemesinde süre bugün doluyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/gecici-vergi-beyani-ve-odemesinde-sure-bugun-doluyor-963525.html",
+   "tarih": "2026-11-17T07:41:00.000Z",
+   "ozet": "2026 yılının üçüncü geçici vergi dönemine ilişkin beyan ve ödeme sürecinde sona gelindi. Temmuz, ağustos ve eylül aylarını kapsayan geçici vergi beyannameleri için bugün son…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ekim ayı konut satış istatistikleri açıklandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/ekim-ayi-konut-satis-istatistikleri-aciklandi-963520.html",
+   "tarih": "2026-11-17T07:24:00.000Z",
+   "ozet": "Türkiye genelinde ekimde 131 bin 72 konut satıldı. Konut satışları geçen yılın aynı ayına göre yüzde 23,3 azalırken, ocak-ekim döneminde toplam satış sayısı 1 milyon 223 bin 991…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kırsal kalkınmaya 485 milyon liralık destek",
+   "link": "https://www.trthaber.com/haber/ekonomi/kirsal-kalkinmaya-485-milyon-liralik-destek-963517.html",
+   "tarih": "2026-11-17T07:06:00.000Z",
+   "ozet": "IPARD-III Programı kapsamında tarım, balıkçılık, kırsal kalkınma ve çiftlik faaliyetlerinin çeşitlendirilmesine yönelik yatırımlar için üretici ve yatırımcıların hesaplarına 485…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "TMSF, Form Sünger'i satışa çıkardı",
+   "link": "https://www.trthaber.com/haber/ekonomi/tmsf-form-sungeri-satisa-cikardi-963516.html",
+   "tarih": "2026-11-17T07:02:00.000Z",
+   "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), Hazine mülkiyetinde bulunan yüzde 100 oranındaki Form Sünger ve Yatak Sanayi Ticaret Anonim Şirketi (Form Sünger) paylarını, kapalı teklif…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın fiyatlarında son durum: Güne yükselişle başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-gune-yukselisle-basladi-963513.html",
+   "tarih": "2026-11-17T06:33:00.000Z",
+   "ozet": "Gram altın güne yükselişle başlamasının ardından 6 bin 280 liradan işlem görüyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalarda gözler Nvidia'da",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-gozler-nvidiada-963508.html",
+   "tarih": "2026-11-17T06:14:00.000Z",
+   "ozet": "Küresel piyasalarda teknoloji hisselerinde süregelen satış baskısı nedeniyle negatif bir seyir izlenirken, gözler Nvidia'nın açıklayacağı finansal sonuçlara çevrildi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "'Yüzde 80 indirim kampanyasında tarih detayı cezayla sonuçlandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/yuzde-80-indirim-kampanyasinda-tarih-detayi-cezayla-sonuclandi-963476.html",
+   "tarih": "2026-11-17T03:27:00.000Z",
+   "ozet": "Ticaret Bakanlığı Reklam Kurulu, ‘yüzde 80 indirim’ başlığıyla yapılan tanıtımlarda kampanyanın başlangıç ve bitiş tarihlerinin belirtilmemesi nedeniyle ilgili işletmeye idari…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Altın fiyatlarında son durum",
    "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963439.html",
@@ -129,90 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/vakifbank-ile-dunya-bankasi-arasinda-250-milyon-dolarlik-finansman-anlasmasi-963321.html",
    "tarih": "2026-11-15T06:58:00.000Z",
    "ozet": "VakıfBank, \"Sanayinin Teknolojiyle Dönüşümü Projesi\" kapsamında Dünya Bankası ile 250 milyon dolar tutarında finansman anlaşması yaptı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "COP31'de 2 bin 700 gönüllü görev alıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/cop31de-2-bin-700-gonullu-gorev-aliyor-963283.html",
-   "tarih": "2026-11-14T13:06:00.000Z",
-   "ozet": "Türkiye'nin ilk kez ev sahipliği yaptığı, iklim değişikliği ile mücadelede dünyanın en önemli organizasyonu olan Birleşmiş Milletler (BM) İklim Değişikliği Çerçeve Sözleşmesi 31…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Rüzgardan elektrik üretiminde tüm zamanların rekoru",
-   "link": "https://www.trthaber.com/haber/ekonomi/ruzgardan-elektrik-uretiminde-tum-zamanlarin-rekoru-963280.html",
-   "tarih": "2026-11-14T12:55:00.000Z",
-   "ozet": "Türkiye'de dün rüzgardan elektrik üretiminde günlük bazda 276 bin 794 megavatsaatle tüm zamanların rekoru kırıldı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Diyabet hastaları için 7 ayda 39,3 milyar lira finansman sağlandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/diyabet-hastalari-icin-7-ayda-393-milyar-lira-finansman-saglandi-963276.html",
-   "tarih": "2026-11-14T11:50:00.000Z",
-   "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, \"Diyabetle mücadele eden vatandaşlarımızın her zaman yanındayız. Bu yılın Ocak-Temmuz döneminde toplam 39,3 milyar lira tedavi…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ayran, kefir ve yoğurt üretimi 9 ayda rekor seviyeye ulaştı",
-   "link": "https://www.trthaber.com/haber/ekonomi/ayran-kefir-ve-yogurt-uretimi-9-ayda-rekor-seviyeye-ulasti-963266.html",
-   "tarih": "2026-11-14T10:14:00.000Z",
-   "ozet": "Türkiye'de ayran ve kefir üretimi ocak-eylül döneminde 834 bin 27 ton, yoğurt üretimi de 1 milyon 126 bin 83 tonla rekor seviyeye ulaştı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye ile Singapur arasında JETCO Protokolü imzalandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-ile-singapur-arasinda-jetco-protokolu-imzalandi-963262.html",
-   "tarih": "2026-11-14T09:28:00.000Z",
-   "ozet": "Ticaret Bakanı Ömer Bolat ve Singapurlu mevkidaşı Grace Fu tarafından imzalanan JETCO Protokolü ile iki ülkenin birbirini tamamlayıcı özelliklerinden yararlanılarak ticaret…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "ÇAYKUR bu yıl 740 bin tonu aşkın yaş çay aldı",
-   "link": "https://www.trthaber.com/haber/ekonomi/caykur-bu-yil-740-bin-tonu-askin-yas-cay-aldi-963258.html",
-   "tarih": "2026-11-14T08:57:00.000Z",
-   "ozet": "ÇAYKUR Genel Müdürü Yusuf Ziya Alim, bu yıl aldıkları 740 bin tonu aşkın yaş çayın bedeli olarak üreticilere yaklaşık 26 milyar lira ödeme yaptıklarını söyledi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalarda alış ağırlıklı seyrin ardından gözler yeni haftaya çevrildi",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-alis-agirlikli-seyrin-ardindan-gozler-yeni-haftaya-cevrildi-963250.html",
-   "tarih": "2026-11-14T08:25:00.000Z",
-   "ozet": "Küresel piyasalar, ABD'li çip üreticisi Nvidia'nın üst yöneticisi (CEO) Jensen Huang'ın istifasına karşın şirket kaynaklı endişelerin küresel yapay zeka sektörüne etkilerinin…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel tarım destekleri rekor seviyeye ulaştı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-tarim-destekleri-rekor-seviyeye-ulasti-963249.html",
-   "tarih": "2026-11-14T08:22:00.000Z",
-   "ozet": "Küresel tarım sektörü artan jeopolitik riskler, ekonomik belirsizlikler ve aşırı hava olaylarının etkisiyle giderek daha fazla baskı altında kalırken, hükümetlerin sektöre…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Zorunlu kış lastiği uygulaması yarın başlıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/zorunlu-kis-lastigi-uygulamasi-yarin-basliyor-963238.html",
-   "tarih": "2026-11-14T06:05:00.000Z",
-   "ozet": "Ticari araçlarda zorunlu kış lastiği uygulaması yarın başlıyor. Özel otomobiller için ise yasal zorunluluk olmasa da kış lastiği kullanımı öneriliyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye Sigorta fon kazancını TMSF'ye iade etti",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-sigorta-fon-kazancini-tmsfye-iade-etti-963223.html",
-   "tarih": "2026-11-13T19:11:00.000Z",
-   "ozet": "Türkiye Sigorta AŞ, 1 milyar 599 milyon 887 bin 908 TL'nin iade edilecek kazanç olarak belirlendiğini ve iade tutarının bugün Tasarruf Mevduatı Sigorta Fonu (TMSF) hesabına…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın bugünü de düşüşle kapattı",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-bugunu-de-dususle-kapatti-963200.html",
-   "tarih": "2026-11-13T14:17:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 321 bin liraya geriledi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Süreç başladı: eimzalar AB ile karşılıklı tanınacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/surec-basladi-e-imzalar-ab-ile-karsilikli-taninacak-963193.html",
-   "tarih": "2026-11-13T12:10:00.000Z",
-   "ozet": "Türkiye ile Avrupa Birliği (AB) arasında elektronik imzaların (e-imza) karşılıklı tanınmasına yönelik süreç başladı. Sürecin tamamlanmasıyla Türkiye'de kullanılan nitelikli…",
    "kaynak": "TRT Haber"
   }
  ]
