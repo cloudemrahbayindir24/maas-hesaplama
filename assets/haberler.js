@@ -1,10 +1,87 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-17T23:32:24.948Z",
+ "guncellendi": "2026-11-18T13:08:35.070Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Euro Bölgesi'nde enflasyon ekimde yüzde 4'e yükseldi",
+   "link": "https://www.trthaber.com/haber/ekonomi/euro-bolgesinde-enflasyon-ekimde-yuzde-4e-yukseldi-963697.html",
+   "tarih": "2026-11-18T12:28:00.000Z",
+   "ozet": "Euro Bölgesi'nde yıllık enflasyon, ekimde enerji fiyatlarındaki yükselişin etkisiyle yüzde 4'e çıktı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Akkuyu NGS'de yakıt yükleme öncesi son aşama",
+   "link": "https://www.trthaber.com/haber/ekonomi/akkuyu-ngsde-yakit-yukleme-oncesi-son-asama-963688.html",
+   "tarih": "2026-11-18T11:30:00.000Z",
+   "ozet": "Rusya Devlet Nükleer Enerji Kuruluşu Rosatom tarafından inşa edilen Akkuyu Nükleer Güç Santrali'nin (NGS) 1. güç ünitesinde başlatma, ayarlama ve çalıştırma işlerinden önceki son…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Rekabet Kurulundan Sony hakkında PlayStation soruşturması",
+   "link": "https://www.trthaber.com/haber/ekonomi/rekabet-kurulundan-sony-hakkinda-playstation-sorusturmasi-963686.html",
+   "tarih": "2026-11-18T11:11:00.000Z",
+   "ozet": "Rekabet Kurulu, Sony hakkında, PlayStation'daki oyun içerikleri pazarına ilişkin soruşturma açılmasını kararlaştırdı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Otomotiv sektörünün AB'ye ilişkin beklentileri Almanya'da gündeme gelecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/otomotiv-sektorunun-abye-iliskin-beklentileri-almanyada-gundeme-gelecek-963682.html",
+   "tarih": "2026-11-18T10:10:00.000Z",
+   "ozet": "Ticaret Bakanı Ömer Bolat'ın Almanya'ya yapacağı ziyarette, Avrupa Birliği'nin (AB) \"Made in EU\" girişimi doğrultusunda, otomotiv sektöründeki düzenlemelere ilişkin Türkiye'nin…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Sanayiye dev destek: 532 milyar liralık 85 projenin önü açıldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/sanayiye-dev-destek-532-milyar-liralik-85-projenin-onu-acildi-963675.html",
+   "tarih": "2026-11-18T09:22:00.000Z",
+   "ozet": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, Yatırım Taahhütlü Avans Kredisi Programı ile teknoloji ve kritik ham madde alanındaki 1 milyar liranın üzerindeki yatırımlara 10 yıl…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Brent petrolün varili 91,71 dolardan işlem görüyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/brent-petrolun-varili-9171-dolardan-islem-goruyor-963654.html",
+   "tarih": "2026-11-18T07:12:00.000Z",
+   "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 91,71 dolardan işlem görüyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Üçüncü çeyrek işsizlik rakamları açıklandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/ucuncu-ceyrek-issizlik-rakamlari-aciklandi-963653.html",
+   "tarih": "2026-11-18T07:07:00.000Z",
+   "ozet": "Türkiye'de işsizlik oranı, yılın üçüncü çeyreğinde ikinci çeyreğe göre 0,1 puan artışla yüzde 8,1 oldu. Söz konusu dönemde işsiz sayısı 2 milyon 870 bin kişiye yükseldi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Borsa güne 11.656,67 puandan başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gune-1165667-puandan-basladi-963651.html",
+   "tarih": "2026-11-18T07:03:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,04 düşüşle 11.656,67 puandan başladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kesik elyaf ipliğinde damping önlemi devam ediyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/kesik-elyaf-ipliginde-damping-onlemi-devam-ediyor-963643.html",
+   "tarih": "2026-11-18T06:37:00.000Z",
+   "ozet": "Çin, Endonezya, Hindistan, Malezya, Pakistan, Tayland ve Vietnam menşeli sentetik veya suni devamsız liflerden ipliklerin (kesik elyaf ipliği) ithalatına yönelik yürütülen…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Gram altın güne nasıl başladı?",
+   "link": "https://www.trthaber.com/haber/ekonomi/gram-altin-gune-nasil-basladi-963644.html",
+   "tarih": "2026-11-18T06:35:00.000Z",
+   "ozet": "Gram altın güne düşüşle başlamasının ardından 6 bin 126 liradan işlem görüyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalar Fed'e odaklandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-fede-odaklandi-963639.html",
+   "tarih": "2026-11-18T06:21:00.000Z",
+   "ozet": "Küresel piyasalar, ABD'li çip devi Nvidia'nın beklentileri aşan finansal sonuçları ve gelecek döneme ilişkin iyimser öngörülerinin desteğiyle toparlanma eğilimine girerken, ABD…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Yeşil dönüşüm için verilecek 3 milyar liralık destek paketinde son başvuru tarihi belli oldu",
    "link": "https://www.trthaber.com/haber/ekonomi/yesil-donusum-icin-verilecek-3-milyar-liralik-destek-paketinde-son-basvuru-tarihi-belli-oldu-963605.html",
@@ -136,83 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/altinin-ons-fiyati-ekim-2025ten-bu-yana-en-dusuk-seviyesinde-963409.html",
    "tarih": "2026-11-16T08:49:00.000Z",
    "ozet": "Küresel piyasalarda altının ons fiyatı, artan enflasyon ve önde gelen merkez bankalarının faiz oranlarını yükselteceği beklentisinin yarattığı baskıyla Ekim 2025'ten bu yana en…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "ASELSAN ve ROKETSAN'dan 1,28 milyar euroluk dev anlaşma",
-   "link": "https://www.trthaber.com/haber/ekonomi/aselsan-ve-roketsandan-128-milyar-euroluk-dev-anlasma-963408.html",
-   "tarih": "2026-11-16T08:44:00.000Z",
-   "ozet": "ASELSAN ile ROKETSAN arasında Füze Veri Bağı ve Arayıcı Başlık Sistemlerinin tedariki kapsamında toplam tutarı 1,28 milyar euro olan sözleşmeler imzalandı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İstanbul Boğazı'ndan 9 ayda 27 bin 211 gemi geçti",
-   "link": "https://www.trthaber.com/haber/ekonomi/istanbul-bogazindan-9-ayda-27-bin-211-gemi-gecti-963402.html",
-   "tarih": "2026-11-16T08:14:00.000Z",
-   "ozet": "İstanbul Boğazı'ndan bu yılın ocak-eylül döneminde 27 bin 211 gemi geçti.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye'nin ulaşımda yeşil dönüşümü için yol haritası çizildi",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-ulasimda-yesil-donusumu-icin-yol-haritasi-cizildi-963400.html",
-   "tarih": "2026-11-16T08:11:00.000Z",
-   "ozet": "Türkiye'de ulaştırma sektörünün karbonsuzlaştırılması için alternatif yakıt kullanım imkanlarını araştıracak, bu kapsamdaki ağır tonajlı araçlara yönelik yüksek kapasiteli şarj…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Trafiğe kayıtlı araç sayısı ekim sonu itibarıyla 35,2 milyon oldu",
-   "link": "https://www.trthaber.com/haber/ekonomi/trafige-kayitli-arac-sayisi-ekim-sonu-itibariyla-352-milyon-oldu-963397.html",
-   "tarih": "2026-11-16T07:46:00.000Z",
-   "ozet": "Trafiğe ekimde 130 bin 697 taşıtın kaydı yapılırken 5 bin 975'inin kaydı silindi, böylece trafikteki toplam araç sayısı 124 bin 722 arttı. Trafiğe kayıtlı araç sayısı, geçen yılın…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ücretli çalışan sayısı eylülde arttı",
-   "link": "https://www.trthaber.com/haber/ekonomi/ucretli-calisan-sayisi-eylulde-artti-963393.html",
-   "tarih": "2026-11-16T07:15:00.000Z",
-   "ozet": "Sanayi, inşaat ve ticaret-hizmet sektörleri toplamında ücretli çalışan sayısı, eylülde geçen yılın aynı ayına göre yüzde 1,7 artarak 16 milyon 448 bin 397 oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Koruyucu ailelere yönelik ödemeler hesaplara yatırıldı",
-   "link": "https://www.trthaber.com/haber/ekonomi/koruyucu-ailelere-yonelik-odemeler-hesaplara-yatirildi-963392.html",
-   "tarih": "2026-11-16T07:05:00.000Z",
-   "ozet": "Aile ve Sosyal Hizmetler Bakanı Mahinur Özdemir Göktaş, koruyucu aile hizmeti kapsamında bu ay toplam 228 milyon 334 bin lira ödeme yapıldığını açıkladı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "53 ilin ihracat rakamları arttı",
-   "link": "https://www.trthaber.com/haber/ekonomi/53-ilin-ihracat-rakamlari-artti-963391.html",
-   "tarih": "2026-11-16T06:47:00.000Z",
-   "ozet": "Ticaret Bakanlığı, ocak-ekim döneminde 30 ilin ihracatının 1 milyar doların üzerine çıktığını ve 53 ilde ihracatın artış gösterdiğini belirtti.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın haftaya nasıl başladı?",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-haftaya-nasil-basladi-963388.html",
-   "tarih": "2026-11-16T06:38:00.000Z",
-   "ozet": "Gram altın haftanın ilk işlem gününe düşüşle başlamasının ardından 6 bin 240 liradan işlem görüyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalar haftaya temkinli başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-haftaya-temkinli-basladi-963383.html",
-   "tarih": "2026-11-16T06:07:00.000Z",
-   "ozet": "Küresel piyasalar, ABD'li çip devi Nvidia'daki yönetim çalkantıları ile yapay zeka ve teknoloji alanındaki gelişmelerin ekseninde yoğun gündemli haftaya karışık başlarken, gözler…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Dijital Konaklama Platformları düzenlemesi Meclis Genel Kurulu'nda",
-   "link": "https://www.trthaber.com/haber/ekonomi/dijital-konaklama-platformlari-duzenlemesi-meclis-genel-kurulunda-963369.html",
-   "tarih": "2026-11-16T03:41:00.000Z",
-   "ozet": "Yabancı dijital konaklama platformlarının Türkiye'deki elektronik ticaret faaliyetlerine ilişkin usul ve esasları belirleyen kanun teklifi, bu hafta TBMM Genel Kurulu'nda…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "SPK'den olağanüstü tasfiyede halka açık ortaklıkların geri aldığı paylarla ilgili açıklama",
-   "link": "https://www.trthaber.com/haber/ekonomi/spkden-olaganustu-tasfiyede-halka-acik-ortakliklarin-geri-aldigi-paylarla-ilgili-aciklama-963356.html",
-   "tarih": "2026-11-15T16:42:00.000Z",
-   "ozet": "SPK, tasfiye kapsamındaki fonların portföylerinde bulunan payların, borsada oluşan son işlem günü kapanış fiyatı esas alınarak ilgili ortaklıklara satılmasına imkan tanınarak…",
    "kaynak": "TRT Haber"
   }
  ]
