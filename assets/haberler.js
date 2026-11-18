@@ -1,10 +1,24 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-18T13:08:35.070Z",
+ "guncellendi": "2026-11-18T21:27:23.486Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Bakan Kurum: Antalya'da güçlü bir mutabakat ortaya koymakta kararlıyız",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-kurum-antalyada-guclu-bir-mutabakat-ortaya-koymakta-kararliyiz-963730.html",
+   "tarih": "2026-11-18T20:26:00.000Z",
+   "ozet": "COP31 Başkanı ve Çevre, Şehircilik ve İklim Değişikliği Bakanı Murat Kurum, \"Biz, süreci izleyen değil, yön veren, uzlaşıyı bekleyen değil, uzlaşının zeminini inşa eden bir…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Borsa günü düşüşle kapattı",
+   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gunu-dususle-kapatti-963717.html",
+   "tarih": "2026-11-18T15:23:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 1,57 değer kaybederek 11.477,41 puandan tamamladı.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Euro Bölgesi'nde enflasyon ekimde yüzde 4'e yükseldi",
    "link": "https://www.trthaber.com/haber/ekonomi/euro-bolgesinde-enflasyon-ekimde-yuzde-4e-yukseldi-963697.html",
@@ -199,20 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/rekabet-kurulundan-siemense-sorusturma-963428.html",
    "tarih": "2026-11-16T11:59:00.000Z",
    "ozet": "Rekabet Kurulu, Siemens Aktiengesellschaft, Siemens Beteiligungen Europa GmbH ve Siemens Industry Software Yazılım Hizmetleri AŞ'den oluşan ekonomik bütünlük, Siemens'in…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bütçe uygulama sonuçları açıklandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/butce-uygulama-sonuclari-aciklandi-963412.html",
-   "tarih": "2026-11-16T09:03:00.000Z",
-   "ozet": "Türkiye'nin merkezi yönetim bütçe gelirleri ekimde 1 trilyon 298,3 milyar lira, giderleri 1 trilyon 779,4 milyar lira olarak belirlendi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altının ons fiyatı Ekim 2025'ten bu yana en düşük seviyesinde",
-   "link": "https://www.trthaber.com/haber/ekonomi/altinin-ons-fiyati-ekim-2025ten-bu-yana-en-dusuk-seviyesinde-963409.html",
-   "tarih": "2026-11-16T08:49:00.000Z",
-   "ozet": "Küresel piyasalarda altının ons fiyatı, artan enflasyon ve önde gelen merkez bankalarının faiz oranlarını yükselteceği beklentisinin yarattığı baskıyla Ekim 2025'ten bu yana en…",
    "kaynak": "TRT Haber"
   }
  ]
