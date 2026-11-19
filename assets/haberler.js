@@ -1,10 +1,24 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-19T13:20:09.115Z",
+ "guncellendi": "2026-11-19T21:39:45.376Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Altın fiyatlarında son durum",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963842.html",
+   "tarih": "2026-11-19T13:45:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 120 bin lira oldu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "TMSF, Dünya Varlık Yönetim AŞ'ye kayyum olarak atandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/tmsf-dunya-varlik-yonetim-asye-kayyum-olarak-atandi-963841.html",
+   "tarih": "2026-11-19T13:34:00.000Z",
+   "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), Dünya Varlık Yönetim AŞ'ye kayyum olarak atandı.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Deniz ve hava ulaştırmasında gümrük muafiyeti uygulamaları yeniden düzenlendi",
    "link": "https://www.trthaber.com/haber/ekonomi/deniz-ve-hava-ulastirmasinda-gumruk-muafiyeti-uygulamalari-yeniden-duzenlendi-963834.html",
@@ -181,13 +195,6 @@ window.HABERLER = {
    "kaynak": "TRT Haber"
   },
   {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963580.html",
-   "tarih": "2026-11-17T13:42:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 314 bin lira oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
    "baslik": "Enerji Dedektifleri kitap serisi ile enerji tasarrufu çocuklara COP31'de anlatıldı",
    "link": "https://www.trthaber.com/haber/ekonomi/enerji-dedektifleri-kitap-serisi-ile-enerji-tasarrufu-cocuklara-cop31de-anlatildi-963570.html",
    "tarih": "2026-11-17T12:51:00.000Z",
@@ -206,13 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/ulastirma-ve-depolama-sektorunde-istihdam-14-milyonla-rekor-kirdi-963534.html",
    "tarih": "2026-11-17T08:37:00.000Z",
    "ozet": "Türkiye'de ulaştırma ve depolama sektörlerinde ücretli çalışan sayısı, eylülde yıllık bazda artışını 67'nci aya taşıyarak ilk kez 1 milyon 400 bini aştı. Sektördeki çalışan sayısı…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Atıl tarım arazileri ve su yüzeyleri enerji üretiminde kullanılacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/atil-tarim-arazileri-ve-su-yuzeyleri-enerji-uretiminde-kullanilacak-963528.html",
-   "tarih": "2026-11-17T08:05:00.000Z",
-   "ozet": "Türkiye'nin yeni Yeşil Mutabakat Eylem Planı kapsamında, atıl tarım arazileri ve su yüzeyleri yenilenebilir enerji üretiminde değerlendirilecek, su yüzeylerinde yüzer güneş enerji…",
    "kaynak": "TRT Haber"
   }
  ]
