@@ -1,10 +1,73 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-18T21:27:23.486Z",
+ "guncellendi": "2026-11-19T13:20:09.115Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Deniz ve hava ulaştırmasında gümrük muafiyeti uygulamaları yeniden düzenlendi",
+   "link": "https://www.trthaber.com/haber/ekonomi/deniz-ve-hava-ulastirmasinda-gumruk-muafiyeti-uygulamalari-yeniden-duzenlendi-963834.html",
+   "tarih": "2026-11-19T12:52:00.000Z",
+   "ozet": "Havacılık ve denizcilik sektörlerindeki gümrük işlemlerinde kullanılacak muafiyet kodları, sektör, eşya ve yetkilendirilmiş yararlanıcı kriterleri dikkate alınarak yeniden…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "KİT'lerin brüt satışları 2025'te yüzde 36,1 arttı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kitlerin-brut-satislari-2025te-yuzde-361-artti-963828.html",
+   "tarih": "2026-11-19T12:11:00.000Z",
+   "ozet": "Kamu iktisadi teşebbüslerinin (KİT) brüt satışları, 2025'te bir önceki yıla göre yüzde 36,1 artarak 2,44 trilyon liraya çıktı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Oruç Reis gemisi Pakistan'da göreve başlıyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/oruc-reis-gemisi-pakistanda-goreve-basliyor-963816.html",
+   "tarih": "2026-11-19T10:49:00.000Z",
+   "ozet": "Türkiye'nin sismik araştırma gemisi Oruç Reis, Somali'de gerçekleştirdiği ilk kıtalar arası görevin ardından yeni görevi için Pakistan'a ulaştı. İki ayrı noktada çalışacak Oruç…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Deniz ve hava ulaştırmasında gümrük muafiyeti uygulamasına düzenleme",
+   "link": "https://www.trthaber.com/haber/ekonomi/deniz-ve-hava-ulastirmasinda-gumruk-muafiyeti-uygulamasina-duzenleme-963814.html",
+   "tarih": "2026-11-19T10:33:00.000Z",
+   "ozet": "Ticaret Bakanlığı tarafından, Ulaştırma ve Altyapı Bakanlığı ile müştereken yürütülen çalışmalar neticesinde, deniz ve hava ulaştırmacılığı sektörlerinde kullanılan eşyanın gümrük…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Konut fiyatlarındaki yıllık artış 77 ayın en düşük seviyesinde",
+   "link": "https://www.trthaber.com/haber/ekonomi/konut-fiyatlarindaki-yillik-artis-77-ayin-en-dusuk-seviyesinde-963794.html",
+   "tarih": "2026-11-19T08:52:00.000Z",
+   "ozet": "Konut fiyatlarındaki artış ekimde yıllık bazda yüzde 21,1 olarak gerçekleşirken, bu rakam son 77 ayın en düşüğü olarak kayıtlara geçti.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Borsa güne yükselişle başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gune-yukselisle-basladi-963774.html",
+   "tarih": "2026-11-19T07:02:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,32 yükselişle 11.513,90 puandan başladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın güne nasıl başladı? İşte fiyatlar...",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-gune-nasil-basladi-iste-fiyatlar-963772.html",
+   "tarih": "2026-11-19T06:54:00.000Z",
+   "ozet": "Gram altın, güne yükselişle başlamasının ardından 6 bin 62 liradan işlem görüyor. Çeyrek altın 10 bin 115 liradan, Cumhuriyet altını 41 bin 295 liradan satılıyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalar yön arayışında",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-yon-arayisinda-963765.html",
+   "tarih": "2026-11-19T06:12:00.000Z",
+   "ozet": "Küresel piyasalar, ABD Merkez Bankasının (Fed) toplantı tutanaklarından alınan ilave faiz artışı sinyalleri ve yapay zeka yatırımlarına ilişkin soru işaretlerinin varlığını…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "İSKİ'nin hizmet bedellerine zam yapıldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/iskinin-hizmet-bedellerine-zam-yapildi-963752.html",
+   "tarih": "2026-11-19T03:51:00.000Z",
+   "ozet": "İstanbul Su ve Kanalizasyon İdaresi Hizmet Bedellerine zam yapıldı. Su açma kapama bedeli 507 liradan yüzde 19,72 zamla 607 liraya yükseltildi.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Bakan Kurum: Antalya'da güçlü bir mutabakat ortaya koymakta kararlıyız",
    "link": "https://www.trthaber.com/haber/ekonomi/bakan-kurum-antalyada-guclu-bir-mutabakat-ortaya-koymakta-kararliyiz-963730.html",
@@ -150,69 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/atil-tarim-arazileri-ve-su-yuzeyleri-enerji-uretiminde-kullanilacak-963528.html",
    "tarih": "2026-11-17T08:05:00.000Z",
    "ozet": "Türkiye'nin yeni Yeşil Mutabakat Eylem Planı kapsamında, atıl tarım arazileri ve su yüzeyleri yenilenebilir enerji üretiminde değerlendirilecek, su yüzeylerinde yüzer güneş enerji…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Konut Fiyat Endeksi ekimde arttı",
-   "link": "https://www.trthaber.com/haber/ekonomi/konut-fiyat-endeksi-ekimde-artti-963526.html",
-   "tarih": "2026-11-17T07:43:00.000Z",
-   "ozet": "Konut Fiyat Endeksi (KFE), ekimde aylık bazda yüzde 0,7, yıllık bazda ise yüzde 21,1 arttı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Geçici vergi beyanı ve ödemesinde süre bugün doluyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/gecici-vergi-beyani-ve-odemesinde-sure-bugun-doluyor-963525.html",
-   "tarih": "2026-11-17T07:41:00.000Z",
-   "ozet": "2026 yılının üçüncü geçici vergi dönemine ilişkin beyan ve ödeme sürecinde sona gelindi. Temmuz, ağustos ve eylül aylarını kapsayan geçici vergi beyannameleri için bugün son…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ekim ayı konut satış istatistikleri açıklandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/ekim-ayi-konut-satis-istatistikleri-aciklandi-963520.html",
-   "tarih": "2026-11-17T07:24:00.000Z",
-   "ozet": "Türkiye genelinde ekimde 131 bin 72 konut satıldı. Konut satışları geçen yılın aynı ayına göre yüzde 23,3 azalırken, ocak-ekim döneminde toplam satış sayısı 1 milyon 223 bin 991…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Kırsal kalkınmaya 485 milyon liralık destek",
-   "link": "https://www.trthaber.com/haber/ekonomi/kirsal-kalkinmaya-485-milyon-liralik-destek-963517.html",
-   "tarih": "2026-11-17T07:06:00.000Z",
-   "ozet": "IPARD-III Programı kapsamında tarım, balıkçılık, kırsal kalkınma ve çiftlik faaliyetlerinin çeşitlendirilmesine yönelik yatırımlar için üretici ve yatırımcıların hesaplarına 485…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "TMSF, Form Sünger'i satışa çıkardı",
-   "link": "https://www.trthaber.com/haber/ekonomi/tmsf-form-sungeri-satisa-cikardi-963516.html",
-   "tarih": "2026-11-17T07:02:00.000Z",
-   "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), Hazine mülkiyetinde bulunan yüzde 100 oranındaki Form Sünger ve Yatak Sanayi Ticaret Anonim Şirketi (Form Sünger) paylarını, kapalı teklif…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatlarında son durum: Güne yükselişle başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-gune-yukselisle-basladi-963513.html",
-   "tarih": "2026-11-17T06:33:00.000Z",
-   "ozet": "Gram altın güne yükselişle başlamasının ardından 6 bin 280 liradan işlem görüyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalarda gözler Nvidia'da",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-gozler-nvidiada-963508.html",
-   "tarih": "2026-11-17T06:14:00.000Z",
-   "ozet": "Küresel piyasalarda teknoloji hisselerinde süregelen satış baskısı nedeniyle negatif bir seyir izlenirken, gözler Nvidia'nın açıklayacağı finansal sonuçlara çevrildi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "'Yüzde 80 indirim kampanyasında tarih detayı cezayla sonuçlandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/yuzde-80-indirim-kampanyasinda-tarih-detayi-cezayla-sonuclandi-963476.html",
-   "tarih": "2026-11-17T03:27:00.000Z",
-   "ozet": "Ticaret Bakanlığı Reklam Kurulu, ‘yüzde 80 indirim’ başlığıyla yapılan tanıtımlarda kampanyanın başlangıç ve bitiş tarihlerinin belirtilmemesi nedeniyle ilgili işletmeye idari…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Rekabet Kurulu'ndan Siemens'e soruşturma",
-   "link": "https://www.trthaber.com/haber/ekonomi/rekabet-kurulundan-siemense-sorusturma-963428.html",
-   "tarih": "2026-11-16T11:59:00.000Z",
-   "ozet": "Rekabet Kurulu, Siemens Aktiengesellschaft, Siemens Beteiligungen Europa GmbH ve Siemens Industry Software Yazılım Hizmetleri AŞ'den oluşan ekonomik bütünlük, Siemens'in…",
    "kaynak": "TRT Haber"
   }
  ]
