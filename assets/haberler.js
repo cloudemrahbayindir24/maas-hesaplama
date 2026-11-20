@@ -1,15 +1,71 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-20T13:00:34.253Z",
+ "guncellendi": "2026-11-20T21:12:07.038Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
   {
-   "baslik": "Kredi kartı asgari ödeme oranlarına düzenleme",
-   "link": "https://www.trthaber.com/haber/ekonomi/kredi-karti-asgari-odeme-oranlarina-duzenleme-963976.html",
+   "baslik": "OYAK'tan sosyal medyada yer alan iddialara ilişkin açıklama",
+   "link": "https://www.trthaber.com/haber/ekonomi/oyaktan-sosyal-medyada-yer-alan-iddialara-iliskin-aciklama-964014.html",
+   "tarih": "2026-11-20T20:46:00.000Z",
+   "ozet": "OYAK, sosyal medyada gündeme gelen, fonlara para aktarılarak kurumun içinin boşaltıldığı ve bankacılık sektörünü ayakta tutmak amacıyla kurumun finansal kaynaklarının sektöre…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "'Fiyat hatası' gerekçesiyle iptal edilen siparişe 1 milyon TL ceza",
+   "link": "https://www.trthaber.com/haber/ekonomi/fiyat-hatasi-gerekcesiyle-iptal-edilen-siparise-1-milyon-tl-ceza-964004.html",
+   "tarih": "2026-11-20T18:37:00.000Z",
+   "ozet": "Ticaret Bakanlığı Reklam Kurulu, bir e-ticaret platformu üzerinden verilen siparişleri \"fiyat hatası\" gerekçesiyle iptal eden şirkete 1 milyon 83 bin 706 lira idari para cezası…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "PTT'den emekli ve çalışan öğretmenlere yüzde 25 indirim",
+   "link": "https://www.trthaber.com/haber/ekonomi/pttden-emekli-ve-calisan-ogretmenlere-yuzde-25-indirim-964003.html",
+   "tarih": "2026-11-20T17:50:00.000Z",
+   "ozet": "Posta ve Telgraf Teşkilatı Anonim Şirketi (PTT AŞ), emekli ve çalışan öğretmenlere yönelik \"Öğretmenlere Özel Kargo/Kurye İndirim Kampanyası\" kapsamında yurt içi kargo ve kurye…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bakan Bolat, hakkındaki iddiaları yalanladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-bolat-hakkindaki-iddialari-yalanladi-963998.html",
+   "tarih": "2026-11-20T16:52:00.000Z",
+   "ozet": "Ticaret Bakanı Ömer Bolat, Yeni Parti İzmir Milletvekili Ümit Özlale'nin kendisine yönelik iddialarına ilişkin, \"Şahsıma ait kira sertifikası işleminin, somut ve hukuken geçerli…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'de ekoturizm alanlarından ekonomiye 2,5 milyon lira katkı",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyede-ekoturizm-alanlarindan-ekonomiye-25-milyon-lira-katki-963993.html",
+   "tarih": "2026-11-20T15:43:00.000Z",
+   "ozet": "Tarım ve Orman Bakanlığına bağlı Orman Genel Müdürlüğü (OGM) tarafından hizmete alınan ekoturizm alanlarının sayısı 155'e yükselirken, bu alanlar kırsal kalkınmaya ve ülke…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "GSB Süper Lig kulüplerini denetleyecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/gsb-super-lig-kuluplerini-denetleyecek-963989.html",
+   "tarih": "2026-11-20T15:15:00.000Z",
+   "ozet": "Gençlik ve Spor Bakanlığı (GSB) Rehberlik ve Teftiş Başkanlığı tarafından görevlendirilen müfettişler, Süper Lig'de yer alan futbol kulüpleri ile spor anonim şirketlerini…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "THY, APEX 5 Yıldızlı Global Havayolu ödülünü yedinci kez kazandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/thy-apex-5-yildizli-global-havayolu-odulunu-yedinci-kez-kazandi-963986.html",
+   "tarih": "2026-11-20T15:01:00.000Z",
+   "ozet": "Türk Hava Yolları (THY), Havayolu Yolcu Deneyimi Derneği (APEX) tarafından \"APEX 5 Yıldızlı Global Havayolu\" ödülünü yedinci kez kazanırken, \"Dünyanın En İyi Yiyecek ve İçecek…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "HGS icraları durduruldu",
+   "link": "https://www.trthaber.com/haber/ekonomi/hgs-icralari-durduruldu-963982.html",
+   "tarih": "2026-11-20T14:03:00.000Z",
+   "ozet": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, özel otoyol şirketlerinin süreyi aşan tahsilatları kapsamında yürüttüğü avukatlık ve icra uygulamalarının derhal durdurulacağını…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kredi kartı asgari ödeme oranlarına ve konut kredilerine düzenleme",
+   "link": "https://www.trthaber.com/haber/ekonomi/kredi-karti-asgari-odeme-oranlarina-ve-konut-kredilerine-duzenleme-963976.html",
    "tarih": "2026-11-20T12:48:00.000Z",
-   "ozet": "BDDK kararıyla limiti 100 ila 200 bin lira olan kredi kartlarının asgari ödeme oranı yüzde 30'a indirildi. Limiti 200 bin liranın üzerinde olan kartlarda ise oran yüzde 40 olarak…",
+   "ozet": "Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) kararıyla limiti 100 ila 200 bin lira olan kredi kartlarının asgari ödeme oranı yüzde 30'a indirildi. Limiti 200 bin liranın…",
    "kaynak": "TRT Haber"
   },
   {
@@ -157,62 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/borsa-gune-yukselisle-basladi-963774.html",
    "tarih": "2026-11-19T07:02:00.000Z",
    "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,32 yükselişle 11.513,90 puandan başladı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın güne nasıl başladı? İşte fiyatlar...",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-gune-nasil-basladi-iste-fiyatlar-963772.html",
-   "tarih": "2026-11-19T06:54:00.000Z",
-   "ozet": "Gram altın, güne yükselişle başlamasının ardından 6 bin 62 liradan işlem görüyor. Çeyrek altın 10 bin 115 liradan, Cumhuriyet altını 41 bin 295 liradan satılıyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalar yön arayışında",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-yon-arayisinda-963765.html",
-   "tarih": "2026-11-19T06:12:00.000Z",
-   "ozet": "Küresel piyasalar, ABD Merkez Bankasının (Fed) toplantı tutanaklarından alınan ilave faiz artışı sinyalleri ve yapay zeka yatırımlarına ilişkin soru işaretlerinin varlığını…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İSKİ'nin hizmet bedellerine zam yapıldı",
-   "link": "https://www.trthaber.com/haber/ekonomi/iskinin-hizmet-bedellerine-zam-yapildi-963752.html",
-   "tarih": "2026-11-19T03:51:00.000Z",
-   "ozet": "İstanbul Su ve Kanalizasyon İdaresi Hizmet Bedellerine zam yapıldı. Su açma kapama bedeli 507 liradan yüzde 19,72 zamla 607 liraya yükseltildi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Kurum: Antalya'da güçlü bir mutabakat ortaya koymakta kararlıyız",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-kurum-antalyada-guclu-bir-mutabakat-ortaya-koymakta-kararliyiz-963730.html",
-   "tarih": "2026-11-18T20:26:00.000Z",
-   "ozet": "COP31 Başkanı ve Çevre, Şehircilik ve İklim Değişikliği Bakanı Murat Kurum, \"Biz, süreci izleyen değil, yön veren, uzlaşıyı bekleyen değil, uzlaşının zeminini inşa eden bir…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Borsa günü düşüşle kapattı",
-   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gunu-dususle-kapatti-963717.html",
-   "tarih": "2026-11-18T15:23:00.000Z",
-   "ozet": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 1,57 değer kaybederek 11.477,41 puandan tamamladı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Euro Bölgesi'nde enflasyon ekimde yüzde 4'e yükseldi",
-   "link": "https://www.trthaber.com/haber/ekonomi/euro-bolgesinde-enflasyon-ekimde-yuzde-4e-yukseldi-963697.html",
-   "tarih": "2026-11-18T12:28:00.000Z",
-   "ozet": "Euro Bölgesi'nde yıllık enflasyon, ekimde enerji fiyatlarındaki yükselişin etkisiyle yüzde 4'e çıktı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Akkuyu NGS'de yakıt yükleme öncesi son aşama",
-   "link": "https://www.trthaber.com/haber/ekonomi/akkuyu-ngsde-yakit-yukleme-oncesi-son-asama-963688.html",
-   "tarih": "2026-11-18T11:30:00.000Z",
-   "ozet": "Rusya Devlet Nükleer Enerji Kuruluşu Rosatom tarafından inşa edilen Akkuyu Nükleer Güç Santrali'nin (NGS) 1. güç ünitesinde başlatma, ayarlama ve çalıştırma işlerinden önceki son…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Rekabet Kurulundan Sony hakkında PlayStation soruşturması",
-   "link": "https://www.trthaber.com/haber/ekonomi/rekabet-kurulundan-sony-hakkinda-playstation-sorusturmasi-963686.html",
-   "tarih": "2026-11-18T11:11:00.000Z",
-   "ozet": "Rekabet Kurulu, Sony hakkında, PlayStation'daki oyun içerikleri pazarına ilişkin soruşturma açılmasını kararlaştırdı.",
    "kaynak": "TRT Haber"
   }
  ]
