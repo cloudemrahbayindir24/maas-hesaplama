@@ -1,10 +1,66 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-20T21:12:07.038Z",
+ "guncellendi": "2026-11-21T12:43:31.748Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Bakan Bolat: İhracatta son 6 ay tüm aylık rekorları kırdık",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-bolat-ihracatta-son-6-ay-tum-aylik-rekorlari-kirdik-964063.html",
+   "tarih": "2026-11-21T11:12:00.000Z",
+   "ozet": "Ticaret Bakanı Ömer Bolat, kasım ayında ihracat rekoru açıklayacaklarını belirterek, \"Rakamlar iyi geliyor. Bu anlamda son 6 ay tüm aylık rekorları kırdık. Bu kadar yoğun aylık…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın ve gümüşte sert düşüş",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-ve-gumuste-sert-dusus-964060.html",
+   "tarih": "2026-11-21T10:55:00.000Z",
+   "ozet": "Değerli metaller, ABD Merkez Bankasının (Fed) para politikalarında sıkılaşmayı hızlandırabileceği endişeleri, hisse senedi piyasalarındaki satışlardan dolayı oluşan likidite…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kayıtlı istihdama 301,3 milyar liralık dev destek",
+   "link": "https://www.trthaber.com/haber/ekonomi/kayitli-istihdama-3013-milyar-liralik-dev-destek-964050.html",
+   "tarih": "2026-11-21T09:24:00.000Z",
+   "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, 15 farklı sigorta primi teşviki, destek ve indirimleriyle kayıtlı istihdamı güçlendirdiklerini belirterek, bu yılın ocak-ağustos…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Konut kredilerinde yeni dönem: İkinci konut alımı kolaylaşacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/konut-kredilerinde-yeni-donem-ikinci-konut-alimi-kolaylasacak-964044.html",
+   "tarih": "2026-11-21T08:39:00.000Z",
+   "ozet": "Bankacılık Düzenleme ve Denetleme Kurumunun (BDDK) ikinci konut alımlarına yönelik kredi sınırlamasını değiştiren ve finansmana erişimi kolaylaştıran yeni düzenlemesinin konut…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel borsalarda bir haftada 6 trilyon dolarlılık kayıp",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-borsalarda-bir-haftada-6-trilyon-dolarlilik-kayip-964042.html",
+   "tarih": "2026-11-21T08:28:00.000Z",
+   "ozet": "Piyasalarda \"korku endeksi\" olarak bilinen VIX Endeksi ise 35,89'a yükselerek Nisan 2025'ten bu yana en yüksek seviyesine ulaştı. Mevcut risklerin küresel piyasalara yayılmasıyla…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'nin makine ihracatı 23,7 milyar dolara ulaştı",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-makine-ihracati-237-milyar-dolara-ulasti-964040.html",
+   "tarih": "2026-11-21T08:08:00.000Z",
+   "ozet": "Türkiye'nin makine ihracatı, yılın 10 ayında 2025'in aynı dönemine göre yüzde 0,8 artışla 23,7 milyar dolara ulaşarak rekor kırdı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Aile ve Gençlik Fonu'ndan gençlere 24 milyar liralık destek",
+   "link": "https://www.trthaber.com/haber/ekonomi/aile-ve-genclik-fonundan-genclere-24-milyar-liralik-destek-964037.html",
+   "tarih": "2026-11-21T07:05:00.000Z",
+   "ozet": "Aile ve Gençlik Fonu kapsamında bugüne kadar 249 bin 686 gence 24 milyar 83 milyon lira sıfır faizli kredi desteği sağlanırken, destekten yararlanan çiftlerin 26 bin 993 çocuğu…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ticaret Bakanı Bolat: Kadın kooperatiflerine yeni pazar imkanları açıyoruz",
+   "link": "https://www.trthaber.com/haber/ekonomi/ticaret-bakani-bolat-kadin-kooperatiflerine-yeni-pazar-imkanlari-aciyoruz-964023.html",
+   "tarih": "2026-11-20T23:56:00.000Z",
+   "ozet": "Ticaret Bakanı Ömer Bolat, \"Kadın kooperatiflerinin en ciddi sıkıntılarından biri olan pazarlama ve yeni satış mecraları bulma konusunda da gerek e-ticaret firmaları gerekse…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "OYAK'tan sosyal medyada yer alan iddialara ilişkin açıklama",
    "link": "https://www.trthaber.com/haber/ekonomi/oyaktan-sosyal-medyada-yer-alan-iddialara-iliskin-aciklama-964014.html",
@@ -157,62 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-negatif-hava-hakim-963920.html",
    "tarih": "2026-11-20T06:11:00.000Z",
    "ozet": "Küresel piyasalar, ABD Merkez Bankasının (Fed) para politikasında sıkılaşma sürecini hızlandırabileceği endişeleri ve yapay zeka büyümesine ilişkin sorgulamaların dünya geneline…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-963842.html",
-   "tarih": "2026-11-19T13:45:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 120 bin lira oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "TMSF, Dünya Varlık Yönetim AŞ'ye kayyum olarak atandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/tmsf-dunya-varlik-yonetim-asye-kayyum-olarak-atandi-963841.html",
-   "tarih": "2026-11-19T13:34:00.000Z",
-   "ozet": "Tasarruf Mevduatı Sigorta Fonu (TMSF), Dünya Varlık Yönetim AŞ'ye kayyum olarak atandı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Deniz ve hava ulaştırmasında gümrük muafiyeti uygulamaları yeniden düzenlendi",
-   "link": "https://www.trthaber.com/haber/ekonomi/deniz-ve-hava-ulastirmasinda-gumruk-muafiyeti-uygulamalari-yeniden-duzenlendi-963834.html",
-   "tarih": "2026-11-19T12:52:00.000Z",
-   "ozet": "Havacılık ve denizcilik sektörlerindeki gümrük işlemlerinde kullanılacak muafiyet kodları, sektör, eşya ve yetkilendirilmiş yararlanıcı kriterleri dikkate alınarak yeniden…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "KİT'lerin brüt satışları 2025'te yüzde 36,1 arttı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kitlerin-brut-satislari-2025te-yuzde-361-artti-963828.html",
-   "tarih": "2026-11-19T12:11:00.000Z",
-   "ozet": "Kamu iktisadi teşebbüslerinin (KİT) brüt satışları, 2025'te bir önceki yıla göre yüzde 36,1 artarak 2,44 trilyon liraya çıktı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Oruç Reis gemisi Pakistan'da göreve başlıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/oruc-reis-gemisi-pakistanda-goreve-basliyor-963816.html",
-   "tarih": "2026-11-19T10:49:00.000Z",
-   "ozet": "Türkiye'nin sismik araştırma gemisi Oruç Reis, Somali'de gerçekleştirdiği ilk kıtalar arası görevin ardından yeni görevi için Pakistan'a ulaştı. İki ayrı noktada çalışacak Oruç…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Deniz ve hava ulaştırmasında gümrük muafiyeti uygulamasına düzenleme",
-   "link": "https://www.trthaber.com/haber/ekonomi/deniz-ve-hava-ulastirmasinda-gumruk-muafiyeti-uygulamasina-duzenleme-963814.html",
-   "tarih": "2026-11-19T10:33:00.000Z",
-   "ozet": "Ticaret Bakanlığı tarafından, Ulaştırma ve Altyapı Bakanlığı ile müştereken yürütülen çalışmalar neticesinde, deniz ve hava ulaştırmacılığı sektörlerinde kullanılan eşyanın gümrük…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Konut fiyatlarındaki yıllık artış 77 ayın en düşük seviyesinde",
-   "link": "https://www.trthaber.com/haber/ekonomi/konut-fiyatlarindaki-yillik-artis-77-ayin-en-dusuk-seviyesinde-963794.html",
-   "tarih": "2026-11-19T08:52:00.000Z",
-   "ozet": "Konut fiyatlarındaki artış ekimde yıllık bazda yüzde 21,1 olarak gerçekleşirken, bu rakam son 77 ayın en düşüğü olarak kayıtlara geçti.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Borsa güne yükselişle başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gune-yukselisle-basladi-963774.html",
-   "tarih": "2026-11-19T07:02:00.000Z",
-   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,32 yükselişle 11.513,90 puandan başladı.",
    "kaynak": "TRT Haber"
   }
  ]
