@@ -1,10 +1,17 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-21T12:43:31.748Z",
+ "guncellendi": "2026-11-21T20:08:19.565Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "'Hep Ucuz' reklamı yapan zincir markete 1 milyon lira ceza",
+   "link": "https://www.trthaber.com/haber/ekonomi/hep-ucuz-reklami-yapan-zincir-markete-1-milyon-lira-ceza-964093.html",
+   "tarih": "2026-11-21T19:02:00.000Z",
+   "ozet": "Ticaret Bakanlığı Reklam Kurulu, \"Hep Ucuz\" sloganıyla yayımlanan reklamların yanıltıcı ve tüketicinin fiyat algısını bozucu nitelikte olduğu gerekçesiyle bir zincir markete 1…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Bakan Bolat: İhracatta son 6 ay tüm aylık rekorları kırdık",
    "link": "https://www.trthaber.com/haber/ekonomi/bakan-bolat-ihracatta-son-6-ay-tum-aylik-rekorlari-kirdik-964063.html",
@@ -206,13 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/altinda-dusus-suruyor-gram-altin-5-bin-775-liradan-islem-goruyor-963923.html",
    "tarih": "2026-11-20T06:46:00.000Z",
    "ozet": "Gram altın, güne düşüşle başlamasının ardından 5 bin 775 liradan işlem görüyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalarda negatif hava hakim",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalarda-negatif-hava-hakim-963920.html",
-   "tarih": "2026-11-20T06:11:00.000Z",
-   "ozet": "Küresel piyasalar, ABD Merkez Bankasının (Fed) para politikasında sıkılaşma sürecini hızlandırabileceği endişeleri ve yapay zeka büyümesine ilişkin sorgulamaların dünya geneline…",
    "kaynak": "TRT Haber"
   }
  ]
