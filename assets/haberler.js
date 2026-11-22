@@ -1,10 +1,17 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-22T12:38:59.866Z",
+ "guncellendi": "2026-11-22T20:23:27.639Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Yusufeli Barajı'ndan ekonomiye 16 milyar lirayı aşan katkı",
+   "link": "https://www.trthaber.com/haber/ekonomi/yusufeli-barajindan-ekonomiye-16-milyar-lirayi-asan-katki-964140.html",
+   "tarih": "2026-11-22T12:45:00.000Z",
+   "ozet": "Bakan Yumaklı, Yusufeli Barajı ve Hidroelektrik Santrali'nin (HES) 4 yaşında olduğunu belirterek, \"Yusufeli, 275 metre gövde yüksekliği, ürettiği 5,6 milyar kilovatsaat elektrik…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Oruç Reis 50 kişilik ekibiyle Pakistan açıklarında görevde",
    "link": "https://www.trthaber.com/haber/ekonomi/oruc-reis-50-kisilik-ekibiyle-pakistan-aciklarinda-gorevde-964138.html",
@@ -206,13 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/reel-kesim-guven-endeksi-kasimda-yukseldi-963937.html",
    "tarih": "2026-11-20T08:05:00.000Z",
    "ozet": "Mevsimsellikten arındırılmış Reel Kesim Güven Endeksi (RKGE), kasımda 0,2 puan artarak 101,3 seviyesine çıktı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Üçüncü çeyreğe ilişkin uluslararası yatırım pozisyonu verileri açıklandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/ucuncu-ceyrege-iliskin-uluslararasi-yatirim-pozisyonu-verileri-aciklandi-963935.html",
-   "tarih": "2026-11-20T07:39:00.000Z",
-   "ozet": "Türkiye'nin net Uluslararası Yatırım Pozisyonu (UYP), üçüncü çeyrek itibarıyla eksi 320,4 milyar dolar oldu.",
    "kaynak": "TRT Haber"
   }
  ]
