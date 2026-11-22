@@ -1,10 +1,31 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-21T20:08:19.565Z",
+ "guncellendi": "2026-11-22T12:38:59.866Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Oruç Reis 50 kişilik ekibiyle Pakistan açıklarında görevde",
+   "link": "https://www.trthaber.com/haber/ekonomi/oruc-reis-50-kisilik-ekibiyle-pakistan-aciklarinda-gorevde-964138.html",
+   "tarih": "2026-11-22T11:58:00.000Z",
+   "ozet": "Oruç Reis Sismik Araştırma Gemisi, Somali'deki ilk kıtalararası görevinde de yer alan 50 kişilik mürettebatıyla ikinci yurt dışı görevi kapsamında Pakistan açıklarında sismik…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Tarımda dijitalleşmenin yol haritası belli oldu",
+   "link": "https://www.trthaber.com/haber/ekonomi/tarimda-dijitallesmenin-yol-haritasi-belli-oldu-964120.html",
+   "tarih": "2026-11-22T08:50:00.000Z",
+   "ozet": "Yeşil Mutabakat Eylem Planı kapsamında sulama, kuraklık ve verim tahmininde \"Dijital Sulama Yönetimi Sistemi\" kullanılacak, akıllı tarım uygulamalarında yapay zeka etkin rol…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "HÜRKUŞ Görev Planlama Yazılımı kabul süreci tamamlandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/hurkus-gorev-planlama-yazilimi-kabul-sureci-tamamlandi-964112.html",
+   "tarih": "2026-11-22T07:23:00.000Z",
+   "ozet": "HAVELSAN, Türk Havacılık ve Uzay Sanayii (TUSAŞ) tarafından geliştirilen HÜRKUŞ eğitim ve hafif taarruz uçağı için kritik öneme sahip Görev Planlama Yazılımı’nın HÜRKUŞ Projesi…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "'Hep Ucuz' reklamı yapan zincir markete 1 milyon lira ceza",
    "link": "https://www.trthaber.com/haber/ekonomi/hep-ucuz-reklami-yapan-zincir-markete-1-milyon-lira-ceza-964093.html",
@@ -192,27 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/ucuncu-ceyrege-iliskin-uluslararasi-yatirim-pozisyonu-verileri-aciklandi-963935.html",
    "tarih": "2026-11-20T07:39:00.000Z",
    "ozet": "Türkiye'nin net Uluslararası Yatırım Pozisyonu (UYP), üçüncü çeyrek itibarıyla eksi 320,4 milyar dolar oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Tüketici güven endeksi kasımda arttı",
-   "link": "https://www.trthaber.com/haber/ekonomi/tuketici-guven-endeksi-kasimda-artti-963932.html",
-   "tarih": "2026-11-20T07:20:00.000Z",
-   "ozet": "Tüketici güven endeksi, kasımda aylık bazda yüzde 2,4 yükselerek 86,8'e çıktı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Benzin yoğunluğu hesaplamasında esas alınan değer düşürüldü",
-   "link": "https://www.trthaber.com/haber/ekonomi/benzin-yogunlugu-hesaplamasinda-esas-alinan-deger-dusuruldu-963924.html",
-   "tarih": "2026-11-20T06:51:00.000Z",
-   "ozet": "Enerji Piyasası Düzenleme Kurumu (EPDK), rafineriden alınan benzinin litre bazındaki fiyatının hesaplanmasında kullanılan yoğunluk değerinde değişikliğe gitti.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altında düşüş sürüyor: Gram altın 5 bin 775 liradan işlem görüyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/altinda-dusus-suruyor-gram-altin-5-bin-775-liradan-islem-goruyor-963923.html",
-   "tarih": "2026-11-20T06:46:00.000Z",
-   "ozet": "Gram altın, güne düşüşle başlamasının ardından 5 bin 775 liradan işlem görüyor.",
    "kaynak": "TRT Haber"
   }
  ]
