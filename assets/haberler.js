@@ -1,10 +1,73 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-22T20:23:27.639Z",
+ "guncellendi": "2026-11-23T14:46:41.508Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Gazprom: Avrupa'nın doğal gaz stokları 70 milyar metreküpün altında",
+   "link": "https://www.trthaber.com/haber/ekonomi/gazprom-avrupanin-dogal-gaz-stoklari-70-milyar-metrekupun-altinda-964215.html",
+   "tarih": "2026-11-23T12:53:00.000Z",
+   "ozet": "Rus enerji şirketi Gazprom, Avrupa'daki yer altı doğal gaz depolarında bulunan gaz miktarının 70 milyar metreküpün altına gerilediğini bildirdi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Merkez Bankası Başkanı Karahan: Amacımız finansal istikrarı güçlendirmek",
+   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-baskani-karahan-amacimiz-finansal-istikrari-guclendirmek-964204.html",
+   "tarih": "2026-11-23T10:04:00.000Z",
+   "ozet": "Merkez Bankası Başkanı Fatih Karahan, \"Tüm adımlarımızın amacı, fiyat istikrarını desteklemek ve finansal istikrarı güçlendirmek\" dedi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "OECD açıkladı: Türkiye'de tarım politikaları kapsamlı reform",
+   "link": "https://www.trthaber.com/haber/ekonomi/oecd-acikladi-turkiyede-tarim-politikalari-kapsamli-reform-964191.html",
+   "tarih": "2026-11-23T08:21:00.000Z",
+   "ozet": "Ekonomik İşbirliği ve Kalkınma Örgütü (OECD), 2026 Tarım Politikalarının İzlenmesi ve Değerlendirilmesi Raporu'nda, Türkiye'nin 2024’ten itibaren tarımsal üretimde planlama…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kartlı ödemeler ekimde 2,9 trilyon liraya ulaştı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kartli-odemeler-ekimde-29-trilyon-liraya-ulasti-964188.html",
+   "tarih": "2026-11-23T08:11:00.000Z",
+   "ozet": "Kredi kartları, banka kartları ve ön ödemeli kartlarla ekim ayında yapılan ödemelerin toplam tutarı, geçen yılın aynı ayına göre yüzde 32 artarak 2 trilyon 920,9 milyar liraya…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Trafiğe kayıtlı motorlu kara taşıtları 2025'te 395 milyar 264 milyon kilometre yol katetti",
+   "link": "https://www.trthaber.com/haber/ekonomi/trafige-kayitli-motorlu-kara-tasitlari-2025te-395-milyar-264-milyon-kilometre-yol-katetti-964183.html",
+   "tarih": "2026-11-23T07:39:00.000Z",
+   "ozet": "Türkiye'de trafiğe kayıtlı motorlu kara taşıtları tarafından 2025'te katedilen yol 395 milyar 264 milyon kilometre oldu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Brent petrolün varili 89,96 dolardan işlem görüyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/brent-petrolun-varili-8996-dolardan-islem-goruyor-964180.html",
+   "tarih": "2026-11-23T06:46:00.000Z",
+   "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 89,96 dolardan işlem görüyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın haftaya nasıl başladı?",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-haftaya-nasil-basladi-964179.html",
+   "tarih": "2026-11-23T06:39:00.000Z",
+   "ozet": "Gram altın haftanın ilk işlem gününe yükselişle başlamasının ardından 5 bin 881 liradan işlem görüyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalar yeni haftada yön arayışında",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-yeni-haftada-yon-arayisinda-964177.html",
+   "tarih": "2026-11-23T06:12:00.000Z",
+   "ozet": "Küresel piyasalarda, Asya'da teknoloji hisseleri öncülüğünde devam eden satış baskısına karşın ABD'de endeks vadeli kontratların pozitif seyretmesiyle yeni haftada yön arayışı öne…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ticaret Bakanlığından 10 ayda 401 bin firma ve 47,7 milyon ürüne denetim",
+   "link": "https://www.trthaber.com/haber/ekonomi/ticaret-bakanligindan-10-ayda-401-bin-firma-ve-477-milyon-urune-denetim-964176.html",
+   "tarih": "2026-11-23T06:04:00.000Z",
+   "ozet": "Ticaret Bakanlığı, yılın ilk 10 ayında 401 bin 500 firma ile 47 milyon 767 bin 405 ürünü denetleyerek toplam 2 milyar 991 milyon 337 bin 643,63 lira idari para cezası kesti.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Yusufeli Barajı'ndan ekonomiye 16 milyar lirayı aşan katkı",
    "link": "https://www.trthaber.com/haber/ekonomi/yusufeli-barajindan-ekonomiye-16-milyar-lirayi-asan-katki-964140.html",
@@ -150,69 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/hgs-icralari-durduruldu-963982.html",
    "tarih": "2026-11-20T14:03:00.000Z",
    "ozet": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, özel otoyol şirketlerinin süreyi aşan tahsilatları kapsamında yürüttüğü avukatlık ve icra uygulamalarının derhal durdurulacağını…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Kredi kartı asgari ödeme oranlarına ve konut kredilerine düzenleme",
-   "link": "https://www.trthaber.com/haber/ekonomi/kredi-karti-asgari-odeme-oranlarina-ve-konut-kredilerine-duzenleme-963976.html",
-   "tarih": "2026-11-20T12:48:00.000Z",
-   "ozet": "Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) kararıyla limiti 100 ila 200 bin lira olan kredi kartlarının asgari ödeme oranı yüzde 30'a indirildi. Limiti 200 bin liranın…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "KİT yatırımları 422 milyar lirayı aştı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kit-yatirimlari-422-milyar-lirayi-asti-963959.html",
-   "tarih": "2026-11-20T10:03:00.000Z",
-   "ozet": "Kamu iktisadi teşebbüslerinin (KİT) geçen yıl sonu itibarıyla yatırım tutarları bir önceki seneye göre yüzde 62 artarak 422,6 milyar liraya yükseldi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İnşaat sektöründe istihdam rekoru: Eylülde 2 milyon 68 bini aştı",
-   "link": "https://www.trthaber.com/haber/ekonomi/insaat-sektorunde-istihdam-rekoru-eylulde-2-milyon-68-bini-asti-963958.html",
-   "tarih": "2026-11-20T09:53:00.000Z",
-   "ozet": "Türkiye İstatistik Kurumu (TÜİK) verilerine göre, inşaat sektöründe ücretli çalışan sayısı eylül ayında yıllık bazda yüzde 2 artışla 2 milyon 68 bin 357'ye ulaşarak tüm zamanların…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "TürkiyePakistan enerji ortaklığında yeni dönem: Oruç Reis göreve başlıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiye-pakistan-enerji-ortakliginda-yeni-donem-oruc-reis-goreve-basliyor-963950.html",
-   "tarih": "2026-11-20T08:50:00.000Z",
-   "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, Karaçi Limanı'nda düzenlenen törende Oruç Reis Sismik Araştırma Gemisi'nin Pakistan'da 670 kilometrekarelik alanda iki ay…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Üniversitelilerden İŞKUR Gençlik Programı'na yoğun talep: 700 bine dayandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/universitelilerden-iskur-genclik-programina-yogun-talep-700-bine-dayandi-963948.html",
-   "tarih": "2026-11-20T08:34:00.000Z",
-   "ozet": "81 ildeki 127 kamu üniversitesinde hayata geçirilen İŞKUR Gençlik Programı'na 2026-2027 döneminde 698 bin 566 öğrenci başvurdu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "SPK'dan Peker Gayrimenkul Yatırım Ortaklığı paylarına ilişkin karar",
-   "link": "https://www.trthaber.com/haber/ekonomi/spkdan-peker-gayrimenkul-yatirim-ortakligi-paylarina-iliskin-karar-963947.html",
-   "tarih": "2026-11-20T08:33:00.000Z",
-   "ozet": "Sermaye Piyasası Kurulu (SPK), Tera Portföy Algoritmik Stratejiler Serbest Fon ile Tera Yatırım Menkul Değerler AŞ'nin sahip olduğu Peker Gayrimenkul Yatırım Ortaklığı…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İmalat sanayisinde kapasite kullanım oranı kasımda 74,4 oldu",
-   "link": "https://www.trthaber.com/haber/ekonomi/imalat-sanayisinde-kapasite-kullanim-orani-kasimda-744-oldu-963942.html",
-   "tarih": "2026-11-20T08:20:00.000Z",
-   "ozet": "İmalat sanayisi genelinde mevsimsel etkilerden arındırılmamış kapasite kullanım oranı, kasımda geçen aya göre 0,1 puan azalışla yüzde 74,4 oldu",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Yatırım Eğilimi İstatistikleri yayımlandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/yatirim-egilimi-istatistikleri-yayimlandi-963940.html",
-   "tarih": "2026-11-20T08:12:00.000Z",
-   "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB) Yatırım Eğilimi İstatistikleri'ne göre, imalat geneli ve üretimde çalışan sayısı esas alınarak belirlenen büyüklük gruplarında, 2026…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Reel Kesim Güven Endeksi kasımda yükseldi",
-   "link": "https://www.trthaber.com/haber/ekonomi/reel-kesim-guven-endeksi-kasimda-yukseldi-963937.html",
-   "tarih": "2026-11-20T08:05:00.000Z",
-   "ozet": "Mevsimsellikten arındırılmış Reel Kesim Güven Endeksi (RKGE), kasımda 0,2 puan artarak 101,3 seviyesine çıktı.",
    "kaynak": "TRT Haber"
   }
  ]
