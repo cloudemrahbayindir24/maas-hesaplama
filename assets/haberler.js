@@ -1,10 +1,17 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-23T14:46:41.508Z",
+ "guncellendi": "2026-11-24T02:55:55.554Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "2026 yılı yeniden değerleme oranı belli oldu",
+   "link": "https://www.trthaber.com/haber/ekonomi/2026-yili-yeniden-degerleme-orani-belli-oldu-964240.html",
+   "tarih": "2026-11-23T21:18:00.000Z",
+   "ozet": "Yeniden değerleme oranı 2026 yılı için yüzde 27,83 olarak tespit edildi. TÜİK verileri doğrultusunda hesaplanan bu oran, 2026'ya ait son geçici vergi döneminde de geçerli olacak.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Gazprom: Avrupa'nın doğal gaz stokları 70 milyar metreküpün altında",
    "link": "https://www.trthaber.com/haber/ekonomi/gazprom-avrupanin-dogal-gaz-stoklari-70-milyar-metrekupun-altinda-964215.html",
@@ -206,13 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/thy-apex-5-yildizli-global-havayolu-odulunu-yedinci-kez-kazandi-963986.html",
    "tarih": "2026-11-20T15:01:00.000Z",
    "ozet": "Türk Hava Yolları (THY), Havayolu Yolcu Deneyimi Derneği (APEX) tarafından \"APEX 5 Yıldızlı Global Havayolu\" ödülünü yedinci kez kazanırken, \"Dünyanın En İyi Yiyecek ve İçecek…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "HGS icraları durduruldu",
-   "link": "https://www.trthaber.com/haber/ekonomi/hgs-icralari-durduruldu-963982.html",
-   "tarih": "2026-11-20T14:03:00.000Z",
-   "ozet": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, özel otoyol şirketlerinin süreyi aşan tahsilatları kapsamında yürüttüğü avukatlık ve icra uygulamalarının derhal durdurulacağını…",
    "kaynak": "TRT Haber"
   }
  ]
