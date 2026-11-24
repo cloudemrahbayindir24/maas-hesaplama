@@ -1,10 +1,108 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-24T02:55:55.554Z",
+ "guncellendi": "2026-11-24T14:56:14.765Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Altın, gün sonunda 6 milyon 140 bin liraya çıktı",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-gun-sonunda-6-milyon-140-bin-liraya-cikti-964341.html",
+   "tarih": "2026-11-24T14:24:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 140 bin liraya yükseldi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel ham çelik üretimi azaldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-ham-celik-uretimi-azaldi-964339.html",
+   "tarih": "2026-11-24T13:49:00.000Z",
+   "ozet": "Küresel ham çelik üretimi ekimde geçen yılın aynı ayına göre yüzde 1,1 azalarak 142,4 milyon ton oldu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "İran'da ABD yaptırımları sonrası dolar serbest piyasada tarihinin en yüksek seviyesine çıktı",
+   "link": "https://www.trthaber.com/haber/ekonomi/iranda-abd-yaptirimlari-sonrasi-dolar-serbest-piyasada-tarihinin-en-yuksek-seviyesine-cikti-964331.html",
+   "tarih": "2026-11-24T12:46:00.000Z",
+   "ozet": "İran'da doların serbest piyasadaki satış kuru, ABD yaptırımları sonrası tarihinin en yüksek seviyesine çıkarak 284 bin tümen sınırını gördü.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'nin ilk yüzer güneş enerji santralinde geri sayım başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-ilk-yuzer-gunes-enerji-santralinde-geri-sayim-basladi-964312.html",
+   "tarih": "2026-11-24T10:31:00.000Z",
+   "ozet": "Manisa'nın Salihli ilçesindeki Demirköprü Barajı'nda kurulan Türkiye'nin YEKA kapsamındaki ilk yüzer güneş enerjisi santralinde elektrik üretimine 2027'de başlanacak. Yaklaşık 41…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Sabiha Gökçen'de ara tatil yoğunluğu yaşandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/sabiha-gokcende-ara-tatil-yogunlugu-yasandi-964306.html",
+   "tarih": "2026-11-24T09:19:00.000Z",
+   "ozet": "Sabiha Gökçen Uluslararası Havalimanı'nda 9 günlük ara tatilde, geçen yılın aynı dönemine göre yolcu sayısı yüzde 7,83 artarak 1 milyon 368 bin 127'ye, uçuş sayısı ise yüzde 5,73…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kredi kartı ve KMH azami faiz oranları düşürüldü",
+   "link": "https://www.trthaber.com/haber/ekonomi/kredi-karti-ve-kmh-azami-faiz-oranlari-dusuruldu-964301.html",
+   "tarih": "2026-11-24T09:00:00.000Z",
+   "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB), 1 Aralık 2026'dan itibaren geçerli olmak üzere kredi kartı ve kredili mevduat hesabı işlemlerinde uygulanacak azami akdi ve gecikme faiz…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel ekonomi yapay zeka yatırımlarıyla büyüyecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-ekonomi-yapay-zeka-yatirimlariyla-buyuyecek-964293.html",
+   "tarih": "2026-11-24T08:18:00.000Z",
+   "ozet": "Küresel finans kuruluşlarının 2027 yılına ilişkin yayımladığı strateji raporlarına göre, dünya ekonomisinin yeni yılda trilyon dolarlık yapay zeka yatırımlarının desteğiyle…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "100 bin liralık destekle başladığı işte kadınlara istihdam sağlıyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/100-bin-liralik-destekle-basladigi-iste-kadinlara-istihdam-sagliyor-964291.html",
+   "tarih": "2026-11-24T08:14:00.000Z",
+   "ozet": "Kayseri'de uzun yıllar tekstil işçisi olarak çalışan 45 yaşındaki Sibel Akar, Küçük ve Orta Ölçekli İşletmeleri Geliştirme ve Destekleme İdaresi Başkanlığından (KOSGEB) aldığı 100…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Güven endeksi kasımda hizmet ve perakende ticarette arttı",
+   "link": "https://www.trthaber.com/haber/ekonomi/guven-endeksi-kasimda-hizmet-ve-perakende-ticarette-artti-964279.html",
+   "tarih": "2026-11-24T07:19:00.000Z",
+   "ozet": "Güven endeksi, kasımda geçen aya kıyasla inşaat sektöründe yüzde 3,8 azalırken perakende ticaret sektöründe yüzde 0,9 ve hizmet sektöründe yüzde 0,6 artış gösterdi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Alışverişlerde yazar kasalardan elektronik belge oluşturulabilecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/alisverislerde-yazar-kasalardan-elektronik-belge-olusturulabilecek-964277.html",
+   "tarih": "2026-11-24T07:12:00.000Z",
+   "ozet": "Alışverişlerde \"bilgi fişi\" uygulamasına son verildi, yazar kasalardan doğrudan elektronik belge oluşturulabilecek.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın fiyatlarında son durum",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-964275.html",
+   "tarih": "2026-11-24T07:07:00.000Z",
+   "ozet": "Gram altın güne düşüşle başlamasının ardından 5 bin 898 liradan işlem görüyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "BIST 100 güne yükselişle başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/bist-100-gune-yukselisle-basladi-964272.html",
+   "tarih": "2026-11-24T07:02:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,06 yükselişle 11.111,42 puandan başladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Piyasalarda sert yükselişler yaşandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/piyasalarda-sert-yukselisler-yasandi-964255.html",
+   "tarih": "2026-11-24T06:18:00.000Z",
+   "ozet": "Küresel piyasalar, ABD merkezli çip üreticisi Nvidia'nın Jensen Huang'ı şirketin başkanlığına ve üst yöneticilik (CEO) görevine yeniden getirmesinin etkisiyle pozitif seyrediyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Jensen Huang'ın Nvidia'ya dönüşü piyasalara nefes aldırdı",
+   "link": "https://www.trthaber.com/haber/ekonomi/jensen-huangin-nvidiaya-donusu-piyasalara-nefes-aldirdi-964253.html",
+   "tarih": "2026-11-24T06:04:00.000Z",
+   "ozet": "Çip üreticisi Nvidia'nın kurucusu Jensen Huang'ın Üst Yönetici (CEO) olarak görevine geri dönmesi, geçen hafta sert satışların yaşandığı küresel piyasalarda baskıyı hafifletti…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "2026 yılı yeniden değerleme oranı belli oldu",
    "link": "https://www.trthaber.com/haber/ekonomi/2026-yili-yeniden-degerleme-orani-belli-oldu-964240.html",
@@ -115,104 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/bakan-bolat-ihracatta-son-6-ay-tum-aylik-rekorlari-kirdik-964063.html",
    "tarih": "2026-11-21T11:12:00.000Z",
    "ozet": "Ticaret Bakanı Ömer Bolat, kasım ayında ihracat rekoru açıklayacaklarını belirterek, \"Rakamlar iyi geliyor. Bu anlamda son 6 ay tüm aylık rekorları kırdık. Bu kadar yoğun aylık…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın ve gümüşte sert düşüş",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-ve-gumuste-sert-dusus-964060.html",
-   "tarih": "2026-11-21T10:55:00.000Z",
-   "ozet": "Değerli metaller, ABD Merkez Bankasının (Fed) para politikalarında sıkılaşmayı hızlandırabileceği endişeleri, hisse senedi piyasalarındaki satışlardan dolayı oluşan likidite…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Kayıtlı istihdama 301,3 milyar liralık dev destek",
-   "link": "https://www.trthaber.com/haber/ekonomi/kayitli-istihdama-3013-milyar-liralik-dev-destek-964050.html",
-   "tarih": "2026-11-21T09:24:00.000Z",
-   "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, 15 farklı sigorta primi teşviki, destek ve indirimleriyle kayıtlı istihdamı güçlendirdiklerini belirterek, bu yılın ocak-ağustos…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Konut kredilerinde yeni dönem: İkinci konut alımı kolaylaşacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/konut-kredilerinde-yeni-donem-ikinci-konut-alimi-kolaylasacak-964044.html",
-   "tarih": "2026-11-21T08:39:00.000Z",
-   "ozet": "Bankacılık Düzenleme ve Denetleme Kurumunun (BDDK) ikinci konut alımlarına yönelik kredi sınırlamasını değiştiren ve finansmana erişimi kolaylaştıran yeni düzenlemesinin konut…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel borsalarda bir haftada 6 trilyon dolarlılık kayıp",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-borsalarda-bir-haftada-6-trilyon-dolarlilik-kayip-964042.html",
-   "tarih": "2026-11-21T08:28:00.000Z",
-   "ozet": "Piyasalarda \"korku endeksi\" olarak bilinen VIX Endeksi ise 35,89'a yükselerek Nisan 2025'ten bu yana en yüksek seviyesine ulaştı. Mevcut risklerin küresel piyasalara yayılmasıyla…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye'nin makine ihracatı 23,7 milyar dolara ulaştı",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-makine-ihracati-237-milyar-dolara-ulasti-964040.html",
-   "tarih": "2026-11-21T08:08:00.000Z",
-   "ozet": "Türkiye'nin makine ihracatı, yılın 10 ayında 2025'in aynı dönemine göre yüzde 0,8 artışla 23,7 milyar dolara ulaşarak rekor kırdı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Aile ve Gençlik Fonu'ndan gençlere 24 milyar liralık destek",
-   "link": "https://www.trthaber.com/haber/ekonomi/aile-ve-genclik-fonundan-genclere-24-milyar-liralik-destek-964037.html",
-   "tarih": "2026-11-21T07:05:00.000Z",
-   "ozet": "Aile ve Gençlik Fonu kapsamında bugüne kadar 249 bin 686 gence 24 milyar 83 milyon lira sıfır faizli kredi desteği sağlanırken, destekten yararlanan çiftlerin 26 bin 993 çocuğu…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ticaret Bakanı Bolat: Kadın kooperatiflerine yeni pazar imkanları açıyoruz",
-   "link": "https://www.trthaber.com/haber/ekonomi/ticaret-bakani-bolat-kadin-kooperatiflerine-yeni-pazar-imkanlari-aciyoruz-964023.html",
-   "tarih": "2026-11-20T23:56:00.000Z",
-   "ozet": "Ticaret Bakanı Ömer Bolat, \"Kadın kooperatiflerinin en ciddi sıkıntılarından biri olan pazarlama ve yeni satış mecraları bulma konusunda da gerek e-ticaret firmaları gerekse…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "OYAK'tan sosyal medyada yer alan iddialara ilişkin açıklama",
-   "link": "https://www.trthaber.com/haber/ekonomi/oyaktan-sosyal-medyada-yer-alan-iddialara-iliskin-aciklama-964014.html",
-   "tarih": "2026-11-20T20:46:00.000Z",
-   "ozet": "OYAK, sosyal medyada gündeme gelen, fonlara para aktarılarak kurumun içinin boşaltıldığı ve bankacılık sektörünü ayakta tutmak amacıyla kurumun finansal kaynaklarının sektöre…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "'Fiyat hatası' gerekçesiyle iptal edilen siparişe 1 milyon TL ceza",
-   "link": "https://www.trthaber.com/haber/ekonomi/fiyat-hatasi-gerekcesiyle-iptal-edilen-siparise-1-milyon-tl-ceza-964004.html",
-   "tarih": "2026-11-20T18:37:00.000Z",
-   "ozet": "Ticaret Bakanlığı Reklam Kurulu, bir e-ticaret platformu üzerinden verilen siparişleri \"fiyat hatası\" gerekçesiyle iptal eden şirkete 1 milyon 83 bin 706 lira idari para cezası…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "PTT'den emekli ve çalışan öğretmenlere yüzde 25 indirim",
-   "link": "https://www.trthaber.com/haber/ekonomi/pttden-emekli-ve-calisan-ogretmenlere-yuzde-25-indirim-964003.html",
-   "tarih": "2026-11-20T17:50:00.000Z",
-   "ozet": "Posta ve Telgraf Teşkilatı Anonim Şirketi (PTT AŞ), emekli ve çalışan öğretmenlere yönelik \"Öğretmenlere Özel Kargo/Kurye İndirim Kampanyası\" kapsamında yurt içi kargo ve kurye…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Bolat, hakkındaki iddiaları yalanladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-bolat-hakkindaki-iddialari-yalanladi-963998.html",
-   "tarih": "2026-11-20T16:52:00.000Z",
-   "ozet": "Ticaret Bakanı Ömer Bolat, Yeni Parti İzmir Milletvekili Ümit Özlale'nin kendisine yönelik iddialarına ilişkin, \"Şahsıma ait kira sertifikası işleminin, somut ve hukuken geçerli…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye'de ekoturizm alanlarından ekonomiye 2,5 milyon lira katkı",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiyede-ekoturizm-alanlarindan-ekonomiye-25-milyon-lira-katki-963993.html",
-   "tarih": "2026-11-20T15:43:00.000Z",
-   "ozet": "Tarım ve Orman Bakanlığına bağlı Orman Genel Müdürlüğü (OGM) tarafından hizmete alınan ekoturizm alanlarının sayısı 155'e yükselirken, bu alanlar kırsal kalkınmaya ve ülke…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "GSB Süper Lig kulüplerini denetleyecek",
-   "link": "https://www.trthaber.com/haber/ekonomi/gsb-super-lig-kuluplerini-denetleyecek-963989.html",
-   "tarih": "2026-11-20T15:15:00.000Z",
-   "ozet": "Gençlik ve Spor Bakanlığı (GSB) Rehberlik ve Teftiş Başkanlığı tarafından görevlendirilen müfettişler, Süper Lig'de yer alan futbol kulüpleri ile spor anonim şirketlerini…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "THY, APEX 5 Yıldızlı Global Havayolu ödülünü yedinci kez kazandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/thy-apex-5-yildizli-global-havayolu-odulunu-yedinci-kez-kazandi-963986.html",
-   "tarih": "2026-11-20T15:01:00.000Z",
-   "ozet": "Türk Hava Yolları (THY), Havayolu Yolcu Deneyimi Derneği (APEX) tarafından \"APEX 5 Yıldızlı Global Havayolu\" ödülünü yedinci kez kazanırken, \"Dünyanın En İyi Yiyecek ve İçecek…",
    "kaynak": "TRT Haber"
   }
  ]
