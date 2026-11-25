@@ -1,10 +1,38 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-24T14:56:14.765Z",
+ "guncellendi": "2026-11-25T00:49:29.710Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "THY'den öğretmenlere iç hat uçuşlarında yüzde 20 indirim",
+   "link": "https://www.trthaber.com/haber/ekonomi/thyden-ogretmenlere-ic-hat-ucuslarinda-yuzde-20-indirim-964367.html",
+   "tarih": "2026-11-24T20:02:00.000Z",
+   "ozet": "Türk Hava Yolları (THY), öğretmen ve ailelerine yönelik iç hat uçuşlarında yüzde 20 indirimli biletleri satışa sundu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Uraloğlu'ndan HGS açıklaması: Usulüne uygun yapılmamış ödemeler iade edilecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/uraloglundan-hgs-aciklamasi-usulune-uygun-yapilmamis-odemeler-iade-edilecek-964366.html",
+   "tarih": "2026-11-24T19:57:00.000Z",
+   "ozet": "Ulaştırma ve Altyapı bakanı Abdulkadir Uraloğlu, HGS ödemelerinde yasal takibi durdurduklarını belirterek, usulüne uygun yapılmamış bütün ödemeleri iade ettireceklerini duyurdu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Yatırım fonlarındaki ara ödemelerin son kısmı 27 Kasım'da tamamlanacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/yatirim-fonlarindaki-ara-odemelerin-son-kismi-27-kasimda-tamamlanacak-964360.html",
+   "tarih": "2026-11-24T19:08:00.000Z",
+   "ozet": "İletişim Başkanlığı, tasfiyesine karar verilen bazı yatırım fonlarına ilişkin 1 milyon liraya kadar ara ödeme süreçlerinin son kısım ödemelerinin 27 Kasım Cuma günü…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ticaret Bakanlığı'ndan Şişli'deki otomotiv servisine cezai işlem",
+   "link": "https://www.trthaber.com/haber/ekonomi/ticaret-bakanligindan-sislideki-otomotiv-servisine-cezai-islem-964345.html",
+   "tarih": "2026-11-24T15:35:00.000Z",
+   "ozet": "Ticaret Bakanlığı, şikayet üzerine İstanbul'un Şişli ilçesinde denetlenen otomotiv servisine, tespit edilen aykırılıklar nedeniyle cezai işlem uygulandığını ve konunun incelenmek…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Altın, gün sonunda 6 milyon 140 bin liraya çıktı",
    "link": "https://www.trthaber.com/haber/ekonomi/altin-gun-sonunda-6-milyon-140-bin-liraya-cikti-964341.html",
@@ -185,34 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/oruc-reis-50-kisilik-ekibiyle-pakistan-aciklarinda-gorevde-964138.html",
    "tarih": "2026-11-22T11:58:00.000Z",
    "ozet": "Oruç Reis Sismik Araştırma Gemisi, Somali'deki ilk kıtalararası görevinde de yer alan 50 kişilik mürettebatıyla ikinci yurt dışı görevi kapsamında Pakistan açıklarında sismik…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Tarımda dijitalleşmenin yol haritası belli oldu",
-   "link": "https://www.trthaber.com/haber/ekonomi/tarimda-dijitallesmenin-yol-haritasi-belli-oldu-964120.html",
-   "tarih": "2026-11-22T08:50:00.000Z",
-   "ozet": "Yeşil Mutabakat Eylem Planı kapsamında sulama, kuraklık ve verim tahmininde \"Dijital Sulama Yönetimi Sistemi\" kullanılacak, akıllı tarım uygulamalarında yapay zeka etkin rol…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "HÜRKUŞ Görev Planlama Yazılımı kabul süreci tamamlandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/hurkus-gorev-planlama-yazilimi-kabul-sureci-tamamlandi-964112.html",
-   "tarih": "2026-11-22T07:23:00.000Z",
-   "ozet": "HAVELSAN, Türk Havacılık ve Uzay Sanayii (TUSAŞ) tarafından geliştirilen HÜRKUŞ eğitim ve hafif taarruz uçağı için kritik öneme sahip Görev Planlama Yazılımı’nın HÜRKUŞ Projesi…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "'Hep Ucuz' reklamı yapan zincir markete 1 milyon lira ceza",
-   "link": "https://www.trthaber.com/haber/ekonomi/hep-ucuz-reklami-yapan-zincir-markete-1-milyon-lira-ceza-964093.html",
-   "tarih": "2026-11-21T19:02:00.000Z",
-   "ozet": "Ticaret Bakanlığı Reklam Kurulu, \"Hep Ucuz\" sloganıyla yayımlanan reklamların yanıltıcı ve tüketicinin fiyat algısını bozucu nitelikte olduğu gerekçesiyle bir zincir markete 1…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Bolat: İhracatta son 6 ay tüm aylık rekorları kırdık",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-bolat-ihracatta-son-6-ay-tum-aylik-rekorlari-kirdik-964063.html",
-   "tarih": "2026-11-21T11:12:00.000Z",
-   "ozet": "Ticaret Bakanı Ömer Bolat, kasım ayında ihracat rekoru açıklayacaklarını belirterek, \"Rakamlar iyi geliyor. Bu anlamda son 6 ay tüm aylık rekorları kırdık. Bu kadar yoğun aylık…",
    "kaynak": "TRT Haber"
   }
  ]
