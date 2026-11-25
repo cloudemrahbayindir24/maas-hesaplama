@@ -1,10 +1,73 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-25T00:49:29.710Z",
+ "guncellendi": "2026-11-25T14:29:45.133Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Altın fiyatlarında son durum",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-964456.html",
+   "tarih": "2026-11-25T14:21:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 10 bin liraya geriledi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Rusya'da rafinerilerdeki onarımlar nedeniyle akaryakıt piyasasında sıkıntı yaşanıyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/rusyada-rafinerilerdeki-onarimlar-nedeniyle-akaryakit-piyasasinda-sikinti-yasaniyor-964452.html",
+   "tarih": "2026-11-25T13:51:00.000Z",
+   "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, petrol rafinerilerindeki onarım çalışmaları nedeniyle ülkenin akaryakıt piyasasında sıkıntı yaşandığını söyledi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "İstanbul Havalimanı Avrupa'nın en yoğun havalimanı",
+   "link": "https://www.trthaber.com/haber/ekonomi/istanbul-havalimani-avrupanin-en-yogun-havalimani-964449.html",
+   "tarih": "2026-11-25T13:30:00.000Z",
+   "ozet": "İstanbul Havalimanı günlük 1379 uçuş ortalamasıyla Avrupa'nın en yoğun havalimanı oldu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "DAP'tan 15 ile 18,6 milyar liralık yatırım desteği",
+   "link": "https://www.trthaber.com/haber/ekonomi/daptan-15-ile-186-milyar-liralik-yatirim-destegi-964432.html",
+   "tarih": "2026-11-25T10:20:00.000Z",
+   "ozet": "Doğu Anadolu Projesi (DAP) Bölge Kalkınma İdaresi, 15 ilde tarımdan kalkınmaya kadar farklı sektörlerde yürütülen 2 bin 130 projeye 2013'ten bu yana 18,6 milyar liralık kaynak…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bakan Uraloğlu: Kalkınma Yolu Projesi'ne geç kalmadan başlayarak hayata geçireceğiz",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-uraloglu-kalkinma-yolu-projesine-gec-kalmadan-baslayarak-hayata-gecirecegiz-964422.html",
+   "tarih": "2026-11-25T08:47:00.000Z",
+   "ozet": "Bakan Uraloğlu, Kalkınma Yolu Projesi'nin geç kalmadan hayata geçirileceğini söyleyerek, \"Türkiye, Orta Doğu'daki ulaştırma bağlantılarının güçlendirilmesini ekonomik bir…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Yeni tarım sezonuna bereketli başlangıç",
+   "link": "https://www.trthaber.com/haber/ekonomi/yeni-tarim-sezonuna-bereketli-baslangic-964416.html",
+   "tarih": "2026-11-25T08:26:00.000Z",
+   "ozet": "Türkiye'de üreticiler yeni sezona odaklanırken Tarım ve Orman Bakanlığının tespitleri, yağışlardaki belirgin artışın tarımsal üretim koşullarına olumlu yansıdığını ve ülke…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Petrol fiyatlarında geri çekilme sürüyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/petrol-fiyatlarinda-geri-cekilme-suruyor-964401.html",
+   "tarih": "2026-11-25T07:17:00.000Z",
+   "ozet": "Brent petrolün varili, ABD stoklarındaki artış ve küresel petrol arzının talebi aşacağına yönelik beklentilerin etkisiyle 87,88 dolara geriledi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın fiyatları düşmeye devam ediyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlari-dusmeye-devam-ediyor-964400.html",
+   "tarih": "2026-11-25T07:05:00.000Z",
+   "ozet": "Gram altın güne düşüşle başlamasının ardından 5 bin 744 liradan işlem görüyor. Çeyrek altın 10 bin 45 liradan, cumhuriyet altını 39 bin 700 liradan satılıyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalar veri gündemine odaklandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-veri-gundemine-odaklandi-964394.html",
+   "tarih": "2026-11-25T06:23:00.000Z",
+   "ozet": "Küresel piyasalar, yapay zeka odaklı yatırımların sürdürülebilirliğine ilişkin şüphelerin teknoloji hisselerinde satış baskısına neden olmasıyla satış ağırlıklı seyrederken…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "THY'den öğretmenlere iç hat uçuşlarında yüzde 20 indirim",
    "link": "https://www.trthaber.com/haber/ekonomi/thyden-ogretmenlere-ic-hat-ucuslarinda-yuzde-20-indirim-964367.html",
@@ -104,13 +167,6 @@ window.HABERLER = {
    "kaynak": "TRT Haber"
   },
   {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-964275.html",
-   "tarih": "2026-11-24T07:07:00.000Z",
-   "ozet": "Gram altın güne düşüşle başlamasının ardından 5 bin 898 liradan işlem görüyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
    "baslik": "BIST 100 güne yükselişle başladı",
    "link": "https://www.trthaber.com/haber/ekonomi/bist-100-gune-yukselisle-basladi-964272.html",
    "tarih": "2026-11-24T07:02:00.000Z",
@@ -157,62 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/oecd-acikladi-turkiyede-tarim-politikalari-kapsamli-reform-964191.html",
    "tarih": "2026-11-23T08:21:00.000Z",
    "ozet": "Ekonomik İşbirliği ve Kalkınma Örgütü (OECD), 2026 Tarım Politikalarının İzlenmesi ve Değerlendirilmesi Raporu'nda, Türkiye'nin 2024’ten itibaren tarımsal üretimde planlama…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Kartlı ödemeler ekimde 2,9 trilyon liraya ulaştı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kartli-odemeler-ekimde-29-trilyon-liraya-ulasti-964188.html",
-   "tarih": "2026-11-23T08:11:00.000Z",
-   "ozet": "Kredi kartları, banka kartları ve ön ödemeli kartlarla ekim ayında yapılan ödemelerin toplam tutarı, geçen yılın aynı ayına göre yüzde 32 artarak 2 trilyon 920,9 milyar liraya…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Trafiğe kayıtlı motorlu kara taşıtları 2025'te 395 milyar 264 milyon kilometre yol katetti",
-   "link": "https://www.trthaber.com/haber/ekonomi/trafige-kayitli-motorlu-kara-tasitlari-2025te-395-milyar-264-milyon-kilometre-yol-katetti-964183.html",
-   "tarih": "2026-11-23T07:39:00.000Z",
-   "ozet": "Türkiye'de trafiğe kayıtlı motorlu kara taşıtları tarafından 2025'te katedilen yol 395 milyar 264 milyon kilometre oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Brent petrolün varili 89,96 dolardan işlem görüyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/brent-petrolun-varili-8996-dolardan-islem-goruyor-964180.html",
-   "tarih": "2026-11-23T06:46:00.000Z",
-   "ozet": "Brent petrolün varili, uluslararası vadeli piyasalarda 89,96 dolardan işlem görüyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın haftaya nasıl başladı?",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-haftaya-nasil-basladi-964179.html",
-   "tarih": "2026-11-23T06:39:00.000Z",
-   "ozet": "Gram altın haftanın ilk işlem gününe yükselişle başlamasının ardından 5 bin 881 liradan işlem görüyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalar yeni haftada yön arayışında",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-yeni-haftada-yon-arayisinda-964177.html",
-   "tarih": "2026-11-23T06:12:00.000Z",
-   "ozet": "Küresel piyasalarda, Asya'da teknoloji hisseleri öncülüğünde devam eden satış baskısına karşın ABD'de endeks vadeli kontratların pozitif seyretmesiyle yeni haftada yön arayışı öne…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ticaret Bakanlığından 10 ayda 401 bin firma ve 47,7 milyon ürüne denetim",
-   "link": "https://www.trthaber.com/haber/ekonomi/ticaret-bakanligindan-10-ayda-401-bin-firma-ve-477-milyon-urune-denetim-964176.html",
-   "tarih": "2026-11-23T06:04:00.000Z",
-   "ozet": "Ticaret Bakanlığı, yılın ilk 10 ayında 401 bin 500 firma ile 47 milyon 767 bin 405 ürünü denetleyerek toplam 2 milyar 991 milyon 337 bin 643,63 lira idari para cezası kesti.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Yusufeli Barajı'ndan ekonomiye 16 milyar lirayı aşan katkı",
-   "link": "https://www.trthaber.com/haber/ekonomi/yusufeli-barajindan-ekonomiye-16-milyar-lirayi-asan-katki-964140.html",
-   "tarih": "2026-11-22T12:45:00.000Z",
-   "ozet": "Bakan Yumaklı, Yusufeli Barajı ve Hidroelektrik Santrali'nin (HES) 4 yaşında olduğunu belirterek, \"Yusufeli, 275 metre gövde yüksekliği, ürettiği 5,6 milyar kilovatsaat elektrik…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Oruç Reis 50 kişilik ekibiyle Pakistan açıklarında görevde",
-   "link": "https://www.trthaber.com/haber/ekonomi/oruc-reis-50-kisilik-ekibiyle-pakistan-aciklarinda-gorevde-964138.html",
-   "tarih": "2026-11-22T11:58:00.000Z",
-   "ozet": "Oruç Reis Sismik Araştırma Gemisi, Somali'deki ilk kıtalararası görevinde de yer alan 50 kişilik mürettebatıyla ikinci yurt dışı görevi kapsamında Pakistan açıklarında sismik…",
    "kaynak": "TRT Haber"
   }
  ]
