@@ -195,10 +195,10 @@ window.KURLAR = {
   }
  ],
  "altin": {
-  "onsTL": 180934.22,
-  "gramTL": 5817.17,
-  "tarih": "2026-11-26",
+  "onsTL": 178609.45,
+  "gramTL": 5742.43,
+  "tarih": "2026-11-25",
   "kaynak": "Uluslararası ons fiyatı (fawazahmed0/currency-api)"
  },
- "guncellendi": "2026-11-26T21:58:19.692Z"
+ "guncellendi": "2026-11-26T22:57:48.205Z"
 };
