@@ -1,10 +1,87 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-25T14:29:45.133Z",
+ "guncellendi": "2026-11-26T13:57:40.209Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Bulgaristan ve Türkiye iş dünyası Sofya'da buluştu",
+   "link": "https://www.trthaber.com/haber/ekonomi/bulgaristan-ve-turkiye-is-dunyasi-sofyada-bulustu-964551.html",
+   "tarih": "2026-11-26T12:53:00.000Z",
+   "ozet": "Bulgar-Türk Ticaret ve Sanayi Odası (BULTİŞAD) ile Dış Ekonomik İlişkiler Kurulunun (DEİK) işbirliğinde Sofya'da gerçekleştirilen forumda, iki ülke arasındaki ekonomik ilişkilerin…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "TPAO'dan iki ülkeyle 5 yıllık mutabakat zaptı",
+   "link": "https://www.trthaber.com/haber/ekonomi/tpaodan-iki-ulkeyle-5-yillik-mutabakat-zapti-964550.html",
+   "tarih": "2026-11-26T12:47:00.000Z",
+   "ozet": "Bakan Alparslan Bayraktar, TPAO, Avusturya merkezli OMV ve Romanya merkezli OMV Petrom arasında 5 yıllık Mutabakat Zaptı imzalandığını açıkladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Merkez Bankası rezervleri 142 milyar dolar oldu",
+   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-rezervleri-142-milyar-dolar-oldu-964549.html",
+   "tarih": "2026-11-26T12:17:00.000Z",
+   "ozet": "Türkiye Cumhuriyet Merkez Bankasının (TCMB) toplam rezervleri, 20 Kasım haftasında bir önceki haftaya göre 16 milyar 978 milyon dolar azalarak 141 milyar 972 milyon dolara…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Batarya depolama kapasitesinde hedef 1 gigavatsaat",
+   "link": "https://www.trthaber.com/haber/ekonomi/batarya-depolama-kapasitesinde-hedef-1-gigavatsaat-964533.html",
+   "tarih": "2026-11-26T10:12:00.000Z",
+   "ozet": "Enerji Depolama Endüstrileri Derneği (EDEDER) Başkanı Doğa Can Bayram, Türkiye'de yıl sonuna kadar hizmete girmesi planlanan depolama kapasitesinin 1 gigavatsaate ulaşacağını…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'den 120'den fazla ülkeye tohum ihracatı",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyeden-120den-fazla-ulkeye-tohum-ihracati-964530.html",
+   "tarih": "2026-11-26T09:48:00.000Z",
+   "ozet": "Ekonomik İşbirliği Ülkeleri Tohumcular Birliği (ECOSA) Başkanı Yıldıray Gençer, Türkiye'nin son 25 yılda tohumculukta önemli gelişme kaydettiğini ve 120'den fazla ülkeye ihracat…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'nin güneş enerjisi kurulu gücünün yüzde 10'u Konya'da",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-gunes-enerjisi-kurulu-gucunun-yuzde-10u-konyada-964514.html",
+   "tarih": "2026-11-26T08:06:00.000Z",
+   "ozet": "Geniş arazi yapısı ve güneşlenme potansiyeliyle dikkati çeken Konya, güneş enerjisi yatırımlarıyla Türkiye'nin enerji üretiminde önemli bir merkez haline geldi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Emlak Konuttan yüzde 5 peşinat ve 120 ay vadeyle ev sahibi olma fırsatı",
+   "link": "https://www.trthaber.com/haber/ekonomi/emlak-konuttan-yuzde-5-pesinat-ve-120-ay-vadeyle-ev-sahibi-olma-firsati-964506.html",
+   "tarih": "2026-11-26T07:13:00.000Z",
+   "ozet": "Emlak Konut GYO, İstanbul’daki dört projeyi kapsayan yeni kampanyasında yüzde 5 peşinat, 120 aya kadar vade ve 55 bin TL’den başlayan taksit imkânı sunuyor. İlk taksitler Ocak…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın düşüşünü sürdürüyor: İşte fiyatlar...",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-dususunu-surduruyor-iste-fiyatlar-964504.html",
+   "tarih": "2026-11-26T07:05:00.000Z",
+   "ozet": "Gram altın, güne düşüşle başlamasının ardından 5 bin 818 liradan işlem görüyor. Çeyrek altın 10 bin 223 liradan, cumhuriyet altını 40 bin 522 liradan satılıyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Borsa güne yükselişle başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gune-yukselisle-basladi-964503.html",
+   "tarih": "2026-11-26T07:02:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 1,10 yükselişle 10.772,46 puandan başladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'nin doğal gaz şebekesi 250 bin kilometreyi aşacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-dogal-gaz-sebekesi-250-bin-kilometreyi-asacak-964498.html",
+   "tarih": "2026-11-26T06:42:00.000Z",
+   "ozet": "Türkiye'nin 2025 sonunda 235 bin kilometre olan doğal gaz dağıtım şebekesi uzunluğunun yıl sonunda 250 bin kilometreyi aşması bekleniyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalar sert dalgalanmalarla karışık seyrediyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-sert-dalgalanmalarla-karisik-seyrediyor-964496.html",
+   "tarih": "2026-11-26T06:28:00.000Z",
+   "ozet": "Küresel piyasalar, teknoloji şirketlerinin hisselerindeki sert dalgalanmalar, ABD'de açıklanan verilerin enflasyonun hızlandığına işaret etmesi ve küresel ticarete ilişkin…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Altın fiyatlarında son durum",
    "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-964456.html",
@@ -136,83 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/kredi-karti-ve-kmh-azami-faiz-oranlari-dusuruldu-964301.html",
    "tarih": "2026-11-24T09:00:00.000Z",
    "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB), 1 Aralık 2026'dan itibaren geçerli olmak üzere kredi kartı ve kredili mevduat hesabı işlemlerinde uygulanacak azami akdi ve gecikme faiz…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel ekonomi yapay zeka yatırımlarıyla büyüyecek",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-ekonomi-yapay-zeka-yatirimlariyla-buyuyecek-964293.html",
-   "tarih": "2026-11-24T08:18:00.000Z",
-   "ozet": "Küresel finans kuruluşlarının 2027 yılına ilişkin yayımladığı strateji raporlarına göre, dünya ekonomisinin yeni yılda trilyon dolarlık yapay zeka yatırımlarının desteğiyle…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "100 bin liralık destekle başladığı işte kadınlara istihdam sağlıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/100-bin-liralik-destekle-basladigi-iste-kadinlara-istihdam-sagliyor-964291.html",
-   "tarih": "2026-11-24T08:14:00.000Z",
-   "ozet": "Kayseri'de uzun yıllar tekstil işçisi olarak çalışan 45 yaşındaki Sibel Akar, Küçük ve Orta Ölçekli İşletmeleri Geliştirme ve Destekleme İdaresi Başkanlığından (KOSGEB) aldığı 100…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Güven endeksi kasımda hizmet ve perakende ticarette arttı",
-   "link": "https://www.trthaber.com/haber/ekonomi/guven-endeksi-kasimda-hizmet-ve-perakende-ticarette-artti-964279.html",
-   "tarih": "2026-11-24T07:19:00.000Z",
-   "ozet": "Güven endeksi, kasımda geçen aya kıyasla inşaat sektöründe yüzde 3,8 azalırken perakende ticaret sektöründe yüzde 0,9 ve hizmet sektöründe yüzde 0,6 artış gösterdi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Alışverişlerde yazar kasalardan elektronik belge oluşturulabilecek",
-   "link": "https://www.trthaber.com/haber/ekonomi/alisverislerde-yazar-kasalardan-elektronik-belge-olusturulabilecek-964277.html",
-   "tarih": "2026-11-24T07:12:00.000Z",
-   "ozet": "Alışverişlerde \"bilgi fişi\" uygulamasına son verildi, yazar kasalardan doğrudan elektronik belge oluşturulabilecek.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "BIST 100 güne yükselişle başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/bist-100-gune-yukselisle-basladi-964272.html",
-   "tarih": "2026-11-24T07:02:00.000Z",
-   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 0,06 yükselişle 11.111,42 puandan başladı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Piyasalarda sert yükselişler yaşandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/piyasalarda-sert-yukselisler-yasandi-964255.html",
-   "tarih": "2026-11-24T06:18:00.000Z",
-   "ozet": "Küresel piyasalar, ABD merkezli çip üreticisi Nvidia'nın Jensen Huang'ı şirketin başkanlığına ve üst yöneticilik (CEO) görevine yeniden getirmesinin etkisiyle pozitif seyrediyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Jensen Huang'ın Nvidia'ya dönüşü piyasalara nefes aldırdı",
-   "link": "https://www.trthaber.com/haber/ekonomi/jensen-huangin-nvidiaya-donusu-piyasalara-nefes-aldirdi-964253.html",
-   "tarih": "2026-11-24T06:04:00.000Z",
-   "ozet": "Çip üreticisi Nvidia'nın kurucusu Jensen Huang'ın Üst Yönetici (CEO) olarak görevine geri dönmesi, geçen hafta sert satışların yaşandığı küresel piyasalarda baskıyı hafifletti…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "2026 yılı yeniden değerleme oranı belli oldu",
-   "link": "https://www.trthaber.com/haber/ekonomi/2026-yili-yeniden-degerleme-orani-belli-oldu-964240.html",
-   "tarih": "2026-11-23T21:18:00.000Z",
-   "ozet": "Yeniden değerleme oranı 2026 yılı için yüzde 27,83 olarak tespit edildi. TÜİK verileri doğrultusunda hesaplanan bu oran, 2026'ya ait son geçici vergi döneminde de geçerli olacak.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Gazprom: Avrupa'nın doğal gaz stokları 70 milyar metreküpün altında",
-   "link": "https://www.trthaber.com/haber/ekonomi/gazprom-avrupanin-dogal-gaz-stoklari-70-milyar-metrekupun-altinda-964215.html",
-   "tarih": "2026-11-23T12:53:00.000Z",
-   "ozet": "Rus enerji şirketi Gazprom, Avrupa'daki yer altı doğal gaz depolarında bulunan gaz miktarının 70 milyar metreküpün altına gerilediğini bildirdi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Merkez Bankası Başkanı Karahan: Amacımız finansal istikrarı güçlendirmek",
-   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-baskani-karahan-amacimiz-finansal-istikrari-guclendirmek-964204.html",
-   "tarih": "2026-11-23T10:04:00.000Z",
-   "ozet": "Merkez Bankası Başkanı Fatih Karahan, \"Tüm adımlarımızın amacı, fiyat istikrarını desteklemek ve finansal istikrarı güçlendirmek\" dedi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "OECD açıkladı: Türkiye'de tarım politikaları kapsamlı reform",
-   "link": "https://www.trthaber.com/haber/ekonomi/oecd-acikladi-turkiyede-tarim-politikalari-kapsamli-reform-964191.html",
-   "tarih": "2026-11-23T08:21:00.000Z",
-   "ozet": "Ekonomik İşbirliği ve Kalkınma Örgütü (OECD), 2026 Tarım Politikalarının İzlenmesi ve Değerlendirilmesi Raporu'nda, Türkiye'nin 2024’ten itibaren tarımsal üretimde planlama…",
    "kaynak": "TRT Haber"
   }
  ]
