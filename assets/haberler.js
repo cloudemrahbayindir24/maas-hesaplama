@@ -1,10 +1,38 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-26T13:57:40.209Z",
+ "guncellendi": "2026-11-27T00:38:07.940Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "BDDK Başkanlığı'na Yusuf Kenan Bağır atandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/bddk-baskanligina-yusuf-kenan-bagir-atandi-964601.html",
+   "tarih": "2026-11-26T22:49:00.000Z",
+   "ozet": "Bankacılık Düzenleme ve Denetleme Kurulu Başkanlığına Yusuf Kenan Bağır atandı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Borsa günü yükselişle tamamladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gunu-yukselisle-tamamladi-964574.html",
+   "tarih": "2026-11-26T16:04:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 0,82 değer kazanarak 10.743,11 puandan tamamladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bolat: Türkiye, dünyada en fazla hizmet ticareti fazlası veren 6. ülke",
+   "link": "https://www.trthaber.com/haber/ekonomi/bolat-turkiye-dunyada-en-fazla-hizmet-ticareti-fazlasi-veren-6-ulke-964563.html",
+   "tarih": "2026-11-26T14:21:00.000Z",
+   "ozet": "Ticaret Bakanı Ömer Bolat, Türkiye'nin dünya toplam hizmet ihracatındaki payının geçen yıl yüzde 1,29 olduğunu kaydederek, \"Dünyada en fazla hizmet ticaret fazlası veren 6. ülke…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın günü düşüşle kapattı",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-gunu-dususle-kapatti-964559.html",
+   "tarih": "2026-11-26T14:01:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon liraya geriledi.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Bulgaristan ve Türkiye iş dünyası Sofya'da buluştu",
    "link": "https://www.trthaber.com/haber/ekonomi/bulgaristan-ve-turkiye-is-dunyasi-sofyada-bulustu-964551.html",
@@ -13,8 +41,8 @@ window.HABERLER = {
    "kaynak": "TRT Haber"
   },
   {
-   "baslik": "TPAO'dan iki ülkeyle 5 yıllık mutabakat zaptı",
-   "link": "https://www.trthaber.com/haber/ekonomi/tpaodan-iki-ulkeyle-5-yillik-mutabakat-zapti-964550.html",
+   "baslik": "TPAO, OMV ve OMV Petrom arasında 5 yıllık mutabakat zaptı",
+   "link": "https://www.trthaber.com/haber/ekonomi/tpao-omv-ve-omv-petrom-arasinda-5-yillik-mutabakat-zapti-964550.html",
    "tarih": "2026-11-26T12:47:00.000Z",
    "ozet": "Bakan Alparslan Bayraktar, TPAO, Avusturya merkezli OMV ve Romanya merkezli OMV Petrom arasında 5 yıllık Mutabakat Zaptı imzalandığını açıkladı.",
    "kaynak": "TRT Haber"
@@ -185,34 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/kuresel-ham-celik-uretimi-azaldi-964339.html",
    "tarih": "2026-11-24T13:49:00.000Z",
    "ozet": "Küresel ham çelik üretimi ekimde geçen yılın aynı ayına göre yüzde 1,1 azalarak 142,4 milyon ton oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İran'da ABD yaptırımları sonrası dolar serbest piyasada tarihinin en yüksek seviyesine çıktı",
-   "link": "https://www.trthaber.com/haber/ekonomi/iranda-abd-yaptirimlari-sonrasi-dolar-serbest-piyasada-tarihinin-en-yuksek-seviyesine-cikti-964331.html",
-   "tarih": "2026-11-24T12:46:00.000Z",
-   "ozet": "İran'da doların serbest piyasadaki satış kuru, ABD yaptırımları sonrası tarihinin en yüksek seviyesine çıkarak 284 bin tümen sınırını gördü.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye'nin ilk yüzer güneş enerji santralinde geri sayım başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-ilk-yuzer-gunes-enerji-santralinde-geri-sayim-basladi-964312.html",
-   "tarih": "2026-11-24T10:31:00.000Z",
-   "ozet": "Manisa'nın Salihli ilçesindeki Demirköprü Barajı'nda kurulan Türkiye'nin YEKA kapsamındaki ilk yüzer güneş enerjisi santralinde elektrik üretimine 2027'de başlanacak. Yaklaşık 41…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Sabiha Gökçen'de ara tatil yoğunluğu yaşandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/sabiha-gokcende-ara-tatil-yogunlugu-yasandi-964306.html",
-   "tarih": "2026-11-24T09:19:00.000Z",
-   "ozet": "Sabiha Gökçen Uluslararası Havalimanı'nda 9 günlük ara tatilde, geçen yılın aynı dönemine göre yolcu sayısı yüzde 7,83 artarak 1 milyon 368 bin 127'ye, uçuş sayısı ise yüzde 5,73…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Kredi kartı ve KMH azami faiz oranları düşürüldü",
-   "link": "https://www.trthaber.com/haber/ekonomi/kredi-karti-ve-kmh-azami-faiz-oranlari-dusuruldu-964301.html",
-   "tarih": "2026-11-24T09:00:00.000Z",
-   "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB), 1 Aralık 2026'dan itibaren geçerli olmak üzere kredi kartı ve kredili mevduat hesabı işlemlerinde uygulanacak azami akdi ve gecikme faiz…",
    "kaynak": "TRT Haber"
   }
  ]
