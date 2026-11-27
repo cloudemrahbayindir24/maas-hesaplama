@@ -1,10 +1,94 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-27T00:38:07.940Z",
+ "guncellendi": "2026-11-27T13:56:19.753Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Merkez Bankası Finansal İstikrar Raporu yayımlandı",
+   "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-finansal-istikrar-raporu-yayimlandi-964665.html",
+   "tarih": "2026-11-27T12:40:00.000Z",
+   "ozet": "Türkiye Cumhuriyet Merkez Bankası (TCMB) Finansal İstikrar Raporu'nda, \"Son dönemde yatırım fonlarında yaşanan çıkışlar ağırlıklı olarak TL yatırım araçlarına yönelmiştir. Eylül…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "IrakTürkiye petrol boru hattı yeniden faaliyete geçecek",
+   "link": "https://www.trthaber.com/haber/ekonomi/irak-turkiye-petrol-boru-hatti-yeniden-faaliyete-gececek-964663.html",
+   "tarih": "2026-11-27T12:38:00.000Z",
+   "ozet": "Irak, 12 yıldır kapalı olan eski Irak-Türkiye petrol boru hattını yeniden faaliyete geçirmek için çalışmalara başlarken, hattın ilk aşamada günlük 300 bin daha sonra ise 500 bin…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bakan Yumaklı: Tarımsal hasılada 90 milyar dolar tavanına yaklaştık",
+   "link": "https://www.trthaber.com/haber/ekonomi/bakan-yumakli-tarimsal-hasilada-90-milyar-dolar-tavanina-yaklastik-964651.html",
+   "tarih": "2026-11-27T11:05:00.000Z",
+   "ozet": "Tarım ve Orman Bakanı İbrahim Yumaklı, \"İhracatımız 30 milyar doların üzerine çıktı. Bu yıl geçtiğimiz yılın aksine, ki geçtiğimiz yıl kuraklık ve zirai donu birlikte yaşadık…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Emlak Katılım, Katılımevim, Birevim ve İktisat Katılım Bankasını bünyesine dahil etti",
+   "link": "https://www.trthaber.com/haber/ekonomi/emlak-katilim-katilimevim-birevim-ve-iktisat-katilim-bankasini-bunyesine-dahil-etti-964650.html",
+   "tarih": "2026-11-27T10:10:00.000Z",
+   "ozet": "Türkiye Emlak Katılım Bankası AŞ, Katılımevim Tasarruf Finansman AŞ, Birevim Tasarruf Finansman AŞ ve İktisat Katılım Bankası AŞ'yi bünyesine kattığını duyurdu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "DSİ, bütçesini toprak ve su kaynaklarının yönetimi için kullanacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/dsi-butcesini-toprak-ve-su-kaynaklarinin-yonetimi-icin-kullanacak-964640.html",
+   "tarih": "2026-11-27T09:08:00.000Z",
+   "ozet": "Devlet Su İşleri (DSİ) Genel Müdürlüğü, gelecek yıl için kuruma ayrılacak 324 milyar lira ödeneğin yaklaşık yüzde 96'sını, su kaynaklarının araştırılması, tarımsal sulama, taşkın…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Doğum yardımı ödemeleri hesaplara yatırıldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/dogum-yardimi-odemeleri-hesaplara-yatirildi-964633.html",
+   "tarih": "2026-11-27T08:04:00.000Z",
+   "ozet": "Aile ve Sosyal Hizmetler Bakanı Mahinur Özdemir Göktaş, Kasım ayı doğum yardımı ödemelerinin bugün itibarıyla annelerin hesaplarına yatırıldığını açıkladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Yılın ilk 9 ayında 15,2 milyar liradan fazla analık ödeneği verildi",
+   "link": "https://www.trthaber.com/haber/ekonomi/yilin-ilk-9-ayinda-152-milyar-liradan-fazla-analik-odenegi-verildi-964629.html",
+   "tarih": "2026-11-27T07:59:00.000Z",
+   "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, bu yılın ocak-eylül döneminde 15 milyar 258 milyon 686 bin 681 lira analık ödeneği ve 454 milyon 241 bin 140 lira emzirme ödeneği…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Milli Teknoloji Uzmanlık Programları için son başvuru tarihi 20 Aralık",
+   "link": "https://www.trthaber.com/haber/ekonomi/milli-teknoloji-uzmanlik-programlari-icin-son-basvuru-tarihi-20-aralik-964625.html",
+   "tarih": "2026-11-27T07:44:00.000Z",
+   "ozet": "Sanayi ve Teknoloji Bakanı Mehmet Fatih Kacır, otonom sürüş teknolojileri ve çip tasarımı alanlarında Milli Teknoloji Uzmanlık Programları için son başvuru tarihinin 20 Aralık…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Ekonomik güven endeksi kasımda aylık yüzde 1,1 arttı",
+   "link": "https://www.trthaber.com/haber/ekonomi/ekonomik-guven-endeksi-kasimda-aylik-yuzde-11-artti-964618.html",
+   "tarih": "2026-11-27T07:22:00.000Z",
+   "ozet": "Ekonomik güven endeksi, kasımda aylık bazda yüzde 1,1 artarak 98,4'e yükseldi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Küresel piyasalar pozitif seyrediyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-pozitif-seyrediyor-964612.html",
+   "tarih": "2026-11-27T06:33:00.000Z",
+   "ozet": "Küresel piyasalar, teknoloji hisselerindeki satış baskısının hafiflemesiyle pozitif bir seyir izliyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Gram altın güne artışla başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/gram-altin-gune-artisla-basladi-964613.html",
+   "tarih": "2026-11-27T06:09:00.000Z",
+   "ozet": "Gram altın, güne yükselişle başlamasının ardından 5 bin 958 liradan işlem görüyor. Çeyrek altın 10 bin 260 liradan, cumhuriyet altını 40 bin 656 liradan satılıyor.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Kamu alacakları için gecikme zammı oranı düşürüldü",
+   "link": "https://www.trthaber.com/haber/ekonomi/kamu-alacaklari-icin-gecikme-zammi-orani-dusuruldu-964606.html",
+   "tarih": "2026-11-27T05:51:00.000Z",
+   "ozet": "Kamu alacakları için uygulanan gecikme zammı oranı yüzde 3,7'den yüzde 3,2'ye, tecil faiz oranı ise yıllık yüzde 39'dan yüzde 29'a indirildi.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "BDDK Başkanlığı'na Yusuf Kenan Bağır atandı",
    "link": "https://www.trthaber.com/haber/ekonomi/bddk-baskanligina-yusuf-kenan-bagir-atandi-964601.html",
@@ -129,90 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/istanbul-havalimani-avrupanin-en-yogun-havalimani-964449.html",
    "tarih": "2026-11-25T13:30:00.000Z",
    "ozet": "İstanbul Havalimanı günlük 1379 uçuş ortalamasıyla Avrupa'nın en yoğun havalimanı oldu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "DAP'tan 15 ile 18,6 milyar liralık yatırım desteği",
-   "link": "https://www.trthaber.com/haber/ekonomi/daptan-15-ile-186-milyar-liralik-yatirim-destegi-964432.html",
-   "tarih": "2026-11-25T10:20:00.000Z",
-   "ozet": "Doğu Anadolu Projesi (DAP) Bölge Kalkınma İdaresi, 15 ilde tarımdan kalkınmaya kadar farklı sektörlerde yürütülen 2 bin 130 projeye 2013'ten bu yana 18,6 milyar liralık kaynak…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Bakan Uraloğlu: Kalkınma Yolu Projesi'ne geç kalmadan başlayarak hayata geçireceğiz",
-   "link": "https://www.trthaber.com/haber/ekonomi/bakan-uraloglu-kalkinma-yolu-projesine-gec-kalmadan-baslayarak-hayata-gecirecegiz-964422.html",
-   "tarih": "2026-11-25T08:47:00.000Z",
-   "ozet": "Bakan Uraloğlu, Kalkınma Yolu Projesi'nin geç kalmadan hayata geçirileceğini söyleyerek, \"Türkiye, Orta Doğu'daki ulaştırma bağlantılarının güçlendirilmesini ekonomik bir…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Yeni tarım sezonuna bereketli başlangıç",
-   "link": "https://www.trthaber.com/haber/ekonomi/yeni-tarim-sezonuna-bereketli-baslangic-964416.html",
-   "tarih": "2026-11-25T08:26:00.000Z",
-   "ozet": "Türkiye'de üreticiler yeni sezona odaklanırken Tarım ve Orman Bakanlığının tespitleri, yağışlardaki belirgin artışın tarımsal üretim koşullarına olumlu yansıdığını ve ülke…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Petrol fiyatlarında geri çekilme sürüyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/petrol-fiyatlarinda-geri-cekilme-suruyor-964401.html",
-   "tarih": "2026-11-25T07:17:00.000Z",
-   "ozet": "Brent petrolün varili, ABD stoklarındaki artış ve küresel petrol arzının talebi aşacağına yönelik beklentilerin etkisiyle 87,88 dolara geriledi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatları düşmeye devam ediyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlari-dusmeye-devam-ediyor-964400.html",
-   "tarih": "2026-11-25T07:05:00.000Z",
-   "ozet": "Gram altın güne düşüşle başlamasının ardından 5 bin 744 liradan işlem görüyor. Çeyrek altın 10 bin 45 liradan, cumhuriyet altını 39 bin 700 liradan satılıyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalar veri gündemine odaklandı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-veri-gundemine-odaklandi-964394.html",
-   "tarih": "2026-11-25T06:23:00.000Z",
-   "ozet": "Küresel piyasalar, yapay zeka odaklı yatırımların sürdürülebilirliğine ilişkin şüphelerin teknoloji hisselerinde satış baskısına neden olmasıyla satış ağırlıklı seyrederken…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "THY'den öğretmenlere iç hat uçuşlarında yüzde 20 indirim",
-   "link": "https://www.trthaber.com/haber/ekonomi/thyden-ogretmenlere-ic-hat-ucuslarinda-yuzde-20-indirim-964367.html",
-   "tarih": "2026-11-24T20:02:00.000Z",
-   "ozet": "Türk Hava Yolları (THY), öğretmen ve ailelerine yönelik iç hat uçuşlarında yüzde 20 indirimli biletleri satışa sundu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Uraloğlu'ndan HGS açıklaması: Usulüne uygun yapılmamış ödemeler iade edilecek",
-   "link": "https://www.trthaber.com/haber/ekonomi/uraloglundan-hgs-aciklamasi-usulune-uygun-yapilmamis-odemeler-iade-edilecek-964366.html",
-   "tarih": "2026-11-24T19:57:00.000Z",
-   "ozet": "Ulaştırma ve Altyapı bakanı Abdulkadir Uraloğlu, HGS ödemelerinde yasal takibi durdurduklarını belirterek, usulüne uygun yapılmamış bütün ödemeleri iade ettireceklerini duyurdu.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Yatırım fonlarındaki ara ödemelerin son kısmı 27 Kasım'da tamamlanacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/yatirim-fonlarindaki-ara-odemelerin-son-kismi-27-kasimda-tamamlanacak-964360.html",
-   "tarih": "2026-11-24T19:08:00.000Z",
-   "ozet": "İletişim Başkanlığı, tasfiyesine karar verilen bazı yatırım fonlarına ilişkin 1 milyon liraya kadar ara ödeme süreçlerinin son kısım ödemelerinin 27 Kasım Cuma günü…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Ticaret Bakanlığı'ndan Şişli'deki otomotiv servisine cezai işlem",
-   "link": "https://www.trthaber.com/haber/ekonomi/ticaret-bakanligindan-sislideki-otomotiv-servisine-cezai-islem-964345.html",
-   "tarih": "2026-11-24T15:35:00.000Z",
-   "ozet": "Ticaret Bakanlığı, şikayet üzerine İstanbul'un Şişli ilçesinde denetlenen otomotiv servisine, tespit edilen aykırılıklar nedeniyle cezai işlem uygulandığını ve konunun incelenmek…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın, gün sonunda 6 milyon 140 bin liraya çıktı",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-gun-sonunda-6-milyon-140-bin-liraya-cikti-964341.html",
-   "tarih": "2026-11-24T14:24:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 140 bin liraya yükseldi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel ham çelik üretimi azaldı",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-ham-celik-uretimi-azaldi-964339.html",
-   "tarih": "2026-11-24T13:49:00.000Z",
-   "ozet": "Küresel ham çelik üretimi ekimde geçen yılın aynı ayına göre yüzde 1,1 azalarak 142,4 milyon ton oldu.",
    "kaynak": "TRT Haber"
   }
  ]
