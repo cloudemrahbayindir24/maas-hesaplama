@@ -1,10 +1,52 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-27T13:56:19.753Z",
+ "guncellendi": "2026-11-28T00:04:35.173Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "SPK'den 55,3 milyon liralık idari para cezası",
+   "link": "https://www.trthaber.com/haber/ekonomi/spkden-553-milyon-liralik-idari-para-cezasi-964705.html",
+   "tarih": "2026-11-27T21:59:00.000Z",
+   "ozet": "Sermaye Piyasası Kurulu (SPK), 3 gerçek ve 7 tüzel kişiye toplam 55 milyon 345 bin 53 lira idari para cezası uygulanmasına karar verdi.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Yanıltıcı reklam yapan firmaya 1 milyon lirayı aşan ceza",
+   "link": "https://www.trthaber.com/haber/ekonomi/yaniltici-reklam-yapan-firmaya-1-milyon-lirayi-asan-ceza-964681.html",
+   "tarih": "2026-11-27T16:36:00.000Z",
+   "ozet": "Ticaret Bakanlığı, tüketiciyi yanıltan reklamlara göz açtırmıyor. Son olarak, 'ömür boyu garanti', 'orijinal yedek parça' iddialarını kanıtlayamayan firmaya 1 milyon lirayı aşkın…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Borsa günü yükselişle tamamladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gunu-yukselisle-tamamladi-964679.html",
+   "tarih": "2026-11-27T16:00:00.000Z",
+   "ozet": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 2,18 değer kazanarak 10.977,01 puandan tamamladı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Altın günü artışla kapattı",
+   "link": "https://www.trthaber.com/haber/ekonomi/altin-gunu-artisla-kapatti-964674.html",
+   "tarih": "2026-11-27T14:24:00.000Z",
+   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 85 bin liraya çıktı.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Helal pazarı günlük hayatın her alanına yayılıyor",
+   "link": "https://www.trthaber.com/haber/ekonomi/helal-pazari-gunluk-hayatin-her-alanina-yayiliyor-964673.html",
+   "tarih": "2026-11-27T13:54:00.000Z",
+   "ozet": "12. Dünya Helal Zirvesi ve Helal Expo 2026, İstanbul Fuar Merkezi’nde uluslararası katılımla devam ediyor. SMIIC Genel Sekreteri İhsan Övüt, helal ekonomisinin gıda dışındaki…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "DEİK, Helal Expo 2026da TürkiyeYemen İş Forumu düzenledi",
+   "link": "https://www.trthaber.com/haber/ekonomi/deik-helal-expo-2026da-turkiye-yemen-is-forumu-duzenledi-964672.html",
+   "tarih": "2026-11-27T13:50:00.000Z",
+   "ozet": "Türkiye ile Yemen arasındaki ticari ve ekonomik ilişkilerin geliştirilmesi, karşılıklı yatırımların artırılması ve yeni iş birliklerinin kurulması amacıyla 12. Dünya Helal Zirvesi…",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "Merkez Bankası Finansal İstikrar Raporu yayımlandı",
    "link": "https://www.trthaber.com/haber/ekonomi/merkez-bankasi-finansal-istikrar-raporu-yayimlandi-964665.html",
@@ -97,13 +139,6 @@ window.HABERLER = {
    "kaynak": "TRT Haber"
   },
   {
-   "baslik": "Borsa günü yükselişle tamamladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gunu-yukselisle-tamamladi-964574.html",
-   "tarih": "2026-11-26T16:04:00.000Z",
-   "ozet": "Borsa İstanbul'da BIST 100 endeksi, günü yüzde 0,82 değer kazanarak 10.743,11 puandan tamamladı.",
-   "kaynak": "TRT Haber"
-  },
-  {
    "baslik": "Bolat: Türkiye, dünyada en fazla hizmet ticareti fazlası veren 6. ülke",
    "link": "https://www.trthaber.com/haber/ekonomi/bolat-turkiye-dunyada-en-fazla-hizmet-ticareti-fazlasi-veren-6-ulke-964563.html",
    "tarih": "2026-11-26T14:21:00.000Z",
@@ -178,41 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/borsa-gune-yukselisle-basladi-964503.html",
    "tarih": "2026-11-26T07:02:00.000Z",
    "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 1,10 yükselişle 10.772,46 puandan başladı.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye'nin doğal gaz şebekesi 250 bin kilometreyi aşacak",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-dogal-gaz-sebekesi-250-bin-kilometreyi-asacak-964498.html",
-   "tarih": "2026-11-26T06:42:00.000Z",
-   "ozet": "Türkiye'nin 2025 sonunda 235 bin kilometre olan doğal gaz dağıtım şebekesi uzunluğunun yıl sonunda 250 bin kilometreyi aşması bekleniyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Küresel piyasalar sert dalgalanmalarla karışık seyrediyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/kuresel-piyasalar-sert-dalgalanmalarla-karisik-seyrediyor-964496.html",
-   "tarih": "2026-11-26T06:28:00.000Z",
-   "ozet": "Küresel piyasalar, teknoloji şirketlerinin hisselerindeki sert dalgalanmalar, ABD'de açıklanan verilerin enflasyonun hızlandığına işaret etmesi ve küresel ticarete ilişkin…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın fiyatlarında son durum",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-fiyatlarinda-son-durum-964456.html",
-   "tarih": "2026-11-25T14:21:00.000Z",
-   "ozet": "Borsa İstanbul Kıymetli Madenler ve Kıymetli Taşlar Piyasası'nda (KMKTP) standart altının kilogram fiyatı, günün sonunda 6 milyon 10 bin liraya geriledi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Rusya'da rafinerilerdeki onarımlar nedeniyle akaryakıt piyasasında sıkıntı yaşanıyor",
-   "link": "https://www.trthaber.com/haber/ekonomi/rusyada-rafinerilerdeki-onarimlar-nedeniyle-akaryakit-piyasasinda-sikinti-yasaniyor-964452.html",
-   "tarih": "2026-11-25T13:51:00.000Z",
-   "ozet": "Rusya Başbakan Yardımcısı Aleksandr Novak, petrol rafinerilerindeki onarım çalışmaları nedeniyle ülkenin akaryakıt piyasasında sıkıntı yaşandığını söyledi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "İstanbul Havalimanı Avrupa'nın en yoğun havalimanı",
-   "link": "https://www.trthaber.com/haber/ekonomi/istanbul-havalimani-avrupanin-en-yogun-havalimani-964449.html",
-   "tarih": "2026-11-25T13:30:00.000Z",
-   "ozet": "İstanbul Havalimanı günlük 1379 uçuş ortalamasıyla Avrupa'nın en yoğun havalimanı oldu.",
    "kaynak": "TRT Haber"
   }
  ]
