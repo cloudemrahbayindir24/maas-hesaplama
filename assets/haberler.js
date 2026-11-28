@@ -1,10 +1,45 @@
 /* Otomatik üretilir: node _kaynak/haber-guncelle.js — elle düzenlemeyin. */
 window.HABERLER = {
- "guncellendi": "2026-11-28T00:04:35.173Z",
+ "guncellendi": "2026-11-28T13:07:40.680Z",
  "kaynaklar": [
   "TRT Haber"
  ],
  "haberler": [
+  {
+   "baslik": "Işıkhan: Önümüzdeki yıl çalışma hayatımız açısından yoğun bir yıl olacak",
+   "link": "https://www.trthaber.com/haber/ekonomi/isikhan-onumuzdeki-yil-calisma-hayatimiz-acisindan-yogun-bir-yil-olacak-964747.html",
+   "tarih": "2026-11-28T12:13:00.000Z",
+   "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Işıkhan, \"Önümüzdeki yıl çalışma hayatımız açısından yoğun bir yıl olacak. 2027 yılında hem kamu işçilerimizi ilgilendiren 'Kamu Toplu İş…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Türkiye'nin yumurta üretimi yüzde 20 arttı",
+   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-yumurta-uretimi-yuzde-20-artti-964734.html",
+   "tarih": "2026-11-28T09:20:00.000Z",
+   "ozet": "Tarım ve Orman Bakan Yardımcısı Ahmet Gümen, Türkiye'nin yumurta üretiminde dünyada 9'uncu, Avrupa'da ise 2'nci sırada yer aldığını belirterek, üretimin geçen yıla göre yüzde 20…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Turistik ErzurumKars Bölgesel Treni için bilet satışları başladı",
+   "link": "https://www.trthaber.com/haber/ekonomi/turistik-erzurum-kars-bolgesel-treni-icin-bilet-satislari-basladi-964733.html",
+   "tarih": "2026-11-28T09:16:00.000Z",
+   "ozet": "Turistik Erzurum-Kars Bölgesel Treni'nin yeni sezon biletleri TCDD Taşımacılık e-bilet sistemi üzerinden satışa sunuldu.",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Bütçe görüşmelerinde sıra Genel Kurul'da",
+   "link": "https://www.trthaber.com/haber/ekonomi/butce-gorusmelerinde-sira-genel-kurulda-964723.html",
+   "tarih": "2026-11-28T07:46:00.000Z",
+   "ozet": "Türkiye Büyük Millet Meclisi'nde 2027 yılı bütçe görüşmelerinin komisyon aşaması tamamlandı. Yaklaşık bir ay süren görüşmelerin ardından bütçe maratonu, 7 Aralık'ta Genel Kurul'da…",
+   "kaynak": "TRT Haber"
+  },
+  {
+   "baslik": "Konaklama vergisinde yüzde 1 uygulaması uzatıldı",
+   "link": "https://www.trthaber.com/haber/ekonomi/konaklama-vergisinde-yuzde-1-uygulamasi-uzatildi-964713.html",
+   "tarih": "2026-11-28T05:53:00.000Z",
+   "ozet": "Konaklama vergisi 2027 sonuna kadar yüzde 1 olarak uygulanacak.",
+   "kaynak": "TRT Haber"
+  },
   {
    "baslik": "SPK'den 55,3 milyon liralık idari para cezası",
    "link": "https://www.trthaber.com/haber/ekonomi/spkden-553-milyon-liralik-idari-para-cezasi-964705.html",
@@ -178,41 +213,6 @@ window.HABERLER = {
    "link": "https://www.trthaber.com/haber/ekonomi/batarya-depolama-kapasitesinde-hedef-1-gigavatsaat-964533.html",
    "tarih": "2026-11-26T10:12:00.000Z",
    "ozet": "Enerji Depolama Endüstrileri Derneği (EDEDER) Başkanı Doğa Can Bayram, Türkiye'de yıl sonuna kadar hizmete girmesi planlanan depolama kapasitesinin 1 gigavatsaate ulaşacağını…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye'den 120'den fazla ülkeye tohum ihracatı",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiyeden-120den-fazla-ulkeye-tohum-ihracati-964530.html",
-   "tarih": "2026-11-26T09:48:00.000Z",
-   "ozet": "Ekonomik İşbirliği Ülkeleri Tohumcular Birliği (ECOSA) Başkanı Yıldıray Gençer, Türkiye'nin son 25 yılda tohumculukta önemli gelişme kaydettiğini ve 120'den fazla ülkeye ihracat…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Türkiye'nin güneş enerjisi kurulu gücünün yüzde 10'u Konya'da",
-   "link": "https://www.trthaber.com/haber/ekonomi/turkiyenin-gunes-enerjisi-kurulu-gucunun-yuzde-10u-konyada-964514.html",
-   "tarih": "2026-11-26T08:06:00.000Z",
-   "ozet": "Geniş arazi yapısı ve güneşlenme potansiyeliyle dikkati çeken Konya, güneş enerjisi yatırımlarıyla Türkiye'nin enerji üretiminde önemli bir merkez haline geldi.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Emlak Konuttan yüzde 5 peşinat ve 120 ay vadeyle ev sahibi olma fırsatı",
-   "link": "https://www.trthaber.com/haber/ekonomi/emlak-konuttan-yuzde-5-pesinat-ve-120-ay-vadeyle-ev-sahibi-olma-firsati-964506.html",
-   "tarih": "2026-11-26T07:13:00.000Z",
-   "ozet": "Emlak Konut GYO, İstanbul’daki dört projeyi kapsayan yeni kampanyasında yüzde 5 peşinat, 120 aya kadar vade ve 55 bin TL’den başlayan taksit imkânı sunuyor. İlk taksitler Ocak…",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Altın düşüşünü sürdürüyor: İşte fiyatlar...",
-   "link": "https://www.trthaber.com/haber/ekonomi/altin-dususunu-surduruyor-iste-fiyatlar-964504.html",
-   "tarih": "2026-11-26T07:05:00.000Z",
-   "ozet": "Gram altın, güne düşüşle başlamasının ardından 5 bin 818 liradan işlem görüyor. Çeyrek altın 10 bin 223 liradan, cumhuriyet altını 40 bin 522 liradan satılıyor.",
-   "kaynak": "TRT Haber"
-  },
-  {
-   "baslik": "Borsa güne yükselişle başladı",
-   "link": "https://www.trthaber.com/haber/ekonomi/borsa-gune-yukselisle-basladi-964503.html",
-   "tarih": "2026-11-26T07:02:00.000Z",
-   "ozet": "Borsa İstanbul'da BIST 100 endeksi, güne yüzde 1,10 yükselişle 10.772,46 puandan başladı.",
    "kaynak": "TRT Haber"
   }
  ]
